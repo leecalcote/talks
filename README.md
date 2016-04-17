@@ -8,4 +8,4 @@ Running a few containers? No problem. Running hundreds or thousands? Enter the c
 * Mesos/Marathon
 
 ##Container Orchestrator Spectrum##
-[[https://github.com/leecalcote/ccco/blob/gh-pages/img/Characterizing%20and%20Contrasting%20Container%20Orchestrators.png]]
+![Container Orchestrator Spectrum](/img/Characterizing%20and%20Contrasting%20Container%20Orchestrators.png?raw=true "Container Orchestrator Spectrum")
