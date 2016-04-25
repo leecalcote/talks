@@ -469,30 +469,59 @@ Elements</h2>
 <div class="sl-block" data-block-type="text" data-block-id="04873b064ff0f172505e0d90a7a8918b" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 160px; top: 79px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
 <p><span style="font-size:1.2em"><span style="color:rgb(255, 255, 255); text-align:start">Scaling swarm to 1,000 AWS</span><span style="color:rgb(255, 255, 255); text-align:start"> nodes and 50,000 containers</span></span></p>
 </div></div></section><section data-id="777ec646b893161499020d74a2c95b25" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2510419/pro_con_list-exp.jpg" data-background-size="contain"><div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 227.23555555555555px; height: 224px; left: 755px; top: -51px;" data-block-id="8ee15cc9fb23154b105e1ac295c4a617"><div class="sl-block-content" style="z-index: 10;"><img data-natural-width="913" data-natural-height="900" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2509562/docker-swarm-hero2.png"></div></div>
-<div class="sl-block" data-block-type="text" data-block-id="7bc16b0f597c0a34347509f504d3b606" style="height: auto; min-width: 30px; min-height: 30px; width: 595px; left: 480px; top: 0px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<div class="sl-block" data-block-type="text" data-block-id="7bc16b0f597c0a34347509f504d3b606" style="height: auto; min-width: 30px; min-height: 30px; width: 595px; left: 470px; top: 157px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; background-color: rgba(102, 0, 0, 0.247059);" dir="ui">
 <ul>
-<li><p>Suitable for orchestrating a combination of infrastructure containers</p></li>
-<li><ul><li><p>Less built-in functionality for application containers</p></li></ul></li>
-<li><p>Swarm is a young project and lacks advanced features (e.g. auto-scaling, load-balancing).</p></li>
-<li><ul>
-<li><p>Rescheduling is simple. No Rebalancing.</p></li>
-<li><p>Swarm is not distributed or highly available by default. Master replication out of experimental in 1.11.0</p></li>
-</ul></li>
-<li><ul><li><p>Swarm needs to be used with third-party software. </p></li></ul></li>
-</ul>
-<ul><li><p>Can use Flux from Weave as a container service load-balancer</p></li></ul>
-<ul>
-<li><p>Only schedules Docker containers, not containers using other specifications.</p></li>
-<li>
-<p>While dependency and affinity filters are available, Swarm does not provide the ability to enforce scheduling of two containers onto the same host or not at all.</p>
-<ul><li>Current filters do not facilitate sidecar pattern. No “pod” concept.</li></ul>
-</li>
+	<li>
+	<p><span style="font-size:0.5em">Suitable for orchestrating a combination of infrastructure containers</span></p>
+	</li>
+	<li>
+	<ul>
+		<li>
+		<p><span style="font-size:0.5em">Less built-in functionality for application containers</span></p>
+		</li>
+	</ul>
+	</li>
+	<li>
+	<p><span style="font-size:0.5em">Swarm is a young project and lacks advanced features. </span></p>
+	</li>
+	<li>
+	<p><span style="font-size:0.5em">These are out of experimental as of latest release (1.11.0):</span></p>
+	</li>
+	<li>
+	<ul>
+		<li>
+		<p><span style="font-size:0.5em">Rescheduling (no Rebalancing, yet)</span></p>
+		</li>
+		<li>
+		<p><span style="font-size:0.5em"> High Availability / Master replication</span></p>
+		</li>
+		<li>
+		<p><span style="font-size:0.5em">Load-balancing? Swarm needs to be used with third-party software. </span></p>
+		</li>
+	</ul>
+	</li>
+	<li>
+	<p><span style="font-size:0.5em">Only schedules Docker containers, not containers using other specifications.</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:0.5em">While dependency and affinity filters are available, Swarm does not provide the ability to enforce scheduling of two containers onto the same host or not at all.</span></p>
+
+	<ul>
+		<li><span style="font-size:0.5em">Current filters do not facilitate sidecar pattern. No “pod” concept.</span></li>
+	</ul>
+	</li>
 </ul>
 </div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 532px; left: -52px; top: 0px;" data-block-id="f285240ff401741b323754a26b0117d5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 532px; left: -62px; top: 94px;" data-block-id="f285240ff401741b323754a26b0117d5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; background-color: rgba(39, 78, 19, 0.247059);">
 <ul>
 	<li>
 	<p><span style="font-size:0.7em">Swarm works. Swarm is simple and easy to deploy.</span></p>
+
+	<ul>
+		<li>
+		<p><span style="font-size:0.7em">​If you already know </span><span style="font-size:21px">Docker CLI, using Swarm is straight-forward</span></p>
+		</li>
+	</ul>
 	</li>
 	<li>
 	<p><span style="font-size:0.7em">Suitable for orchestrating a combination of infrastructure containers</span></p>
@@ -507,7 +536,16 @@ Elements</h2>
 	<p><span style="font-size:0.7em">Swarm is easy to extend, if can already know Docker APIs, you can customize Swarm</span></p>
 	</li>
 	<li>
-	<p><span style="font-size:0.7em">Pluggable scheduler and K/V store for both node and multi-host networking</span></p>
+	<p><span style="font-size:0.7em">Highly modular:</span></p>
+
+	<ul>
+		<li>
+		<p><span style="font-size:0.7em">Pluggable scheduler </span></p>
+		</li>
+		<li>
+		<p><span style="font-size:0.7em">Pluggable K/V store for both node and multi-host networking</span></p>
+		</li>
+	</ul>
 	</li>
 </ul>
 </div></div></section></section><section class="stack" data-id="6aef7ae22b4c2e8cbb44650a8e6e912a"><section data-id="ebf342f8e27e464250ea1376ec365cd7" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2509557/kubernetes-logo.png"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 270px; height: auto;" data-block-id="6500ab422432cf4c133ded4da55fed82"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
