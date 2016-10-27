@@ -375,6 +375,12 @@ Elements</h2>
 <ul>
 	<li>
 	<p>Gossip protocol - Serf is used</p>
+
+	<ul>
+		<li>
+		<p><span style="font-size:0.7em">Docker multi-host networking and Swarmkit use Serf, too</span></p>
+		</li>
+	</ul>
 	</li>
 	<li>
 	<p>Servers advertise full set of Nomad servers to clients via heartbeats every 30 seconds</p>
@@ -407,6 +413,8 @@ Elements</h2>
 </div></div>
 <div class="sl-block" data-block-type="text" style="width: 864px; left: 53px; top: 179px; height: auto;" data-block-id="767de91e3b1906ff167a006e4c4dc24a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
 <ul>
+	<li>two distinct phases, feasibility checking and ranking.<br>
+	 </li>
 	<li style="color:rgb(255, 255, 255)">
 	<p>optimistically concurrent</p>
 
@@ -425,13 +433,9 @@ Elements</h2>
 		<p><span style="font-size:0.9em">service, batch and system</span></p>
 		</li>
 		<li style="color:rgb(255, 255, 255)">
-		<p><span style="font-size:0.9em"><span style="font-size:0.9em"> nomad plan point-in-time-view of what </span><span style="font-size:27px">Nomad will do</span></span><br>
-		 </p>
+		<p><span style="font-size:0.9em"><span style="font-size:0.9em"> nomad plan point-in-time-view of what </span><span style="font-size:27px">Nomad will do</span></span></p>
 		</li>
 	</ul>
-	</li>
-	<li style="color:rgb(255, 255, 255)">
-	<p style="color:rgb(255, 255, 255)">​two distinct phases, feasibility checking and ranking.</p>
 	</li>
 </ul>
 </div></div>
@@ -774,14 +778,16 @@ Elements</h2>
 	<p><span style="font-size:0.9em">used in the formation of clusters by the Manager to discover for Nodes (hosts).</span></p>
 	</li>
 	<li>
-	<p><span style="font-size:0.9em"><span style="color:rgb(255, 255, 0)">Like Nomad, uses Hashicorp's </span><a href="https://github.com/hashicorp/go-memdb" target="_blank"><span style="color:rgb(255, 255, 0)">MemDB</span></a><span style="color:rgb(255, 255, 0)"> for storing cluster state</span></span></p>
+	<p><span style="font-size:0.9em"><span style="color:rgb(255, 255, 0)">Like Nomad, uses Hashicorp's go</span><a href="https://github.com/hashicorp/go-memdb" target="_blank"><span style="color:rgb(255, 255, 0)">MemDB</span></a><span style="color:rgb(255, 255, 0)"> for storing cluster state</span></span></p>
 	</li>
 	<li>
 	<p><span style="font-size:0.9em"><span style="color:rgb(255, 255, 0)">Pull model - where worker checks-in with the Manager</span></span></p>
-
-	<p style="color:rgb(255, 255, 255)"><span style="font-size:0.9em"><span style="color:rgb(255, 255, 0)">Rate Control of checks-in with Manager may be controlled at Manager - adds jitter</span></span></p>
-
-	<p style="color:rgb(255, 255, 255)"><span style="font-size:0.9em"><span style="color:rgb(255, 255, 0)">Workers don't need to know which Manager is active; Follower Managers will redirect Workers to Leader</span></span></p>
+	</li>
+	<li>
+	<p><span style="font-size:0.9em"><span style="color:rgb(255, 255, 0)">Rate Control - of checks-in with Manager may be controlled at Manager - add jitter</span></span></p>
+	</li>
+	<li>
+	<p><span style="font-size:0.9em"><span style="color:rgb(255, 255, 0)">Workers don't need to know which Manager is active; Follower Managers will redirect Workers to Leader</span></span></p>
 	</li>
 </ul>
 
@@ -865,7 +871,7 @@ Elements</h2>
 
 <ul>
 	<li>
-	<p>Pluggable scheduler</p>
+	<p><s><span style="color:#FFFF00">Pluggable scheduler</span></s></p>
 	</li>
 	<li>
 	<p>Pluggable network driver</p>
@@ -1040,6 +1046,10 @@ Elements</h2>
 <div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 32px; height: 32px; left: 806px; top: 670px;" data-block-id="79be483242ce847776a572cdcb0aac2e"><a class="sl-block-content" style="z-index: 12;" href="http://twitter.com/lcalcote" target="_blank"><img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png"></a></div>
 <div class="sl-block" data-block-type="text" data-block-id="614e97c7a5ae8e6bf6a06b452e32488c" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 331px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
 <p><em>Not yet</em></p>
+
+<p> </p>
+
+<p><em>tracking toward 1.13</em></p>
 </div></div>
 <div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 227.23555555555555px; height: 224px; left: 754px; top: -23px;" data-block-id="cd2ec4a0059a736ad82fb6c7aa34410e"><div class="sl-block-content" style="z-index: 15;"><img data-natural-width="913" data-natural-height="900" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2509562/docker-swarm-hero2.png"></div></div></section><section data-id="7f277a339ccd8a76a8432a49c4e864f8" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2510235/containers-scale-exp.jpg"><div class="sl-block" data-block-type="text" style="width: 800px; left: -11px; top: 49px; height: auto;" data-block-id="0858c0f26f7d53b8d51ad8bcd45c0a38"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
 <h2>High Availability &amp; Scale</h2>
@@ -1086,23 +1096,8 @@ Elements</h2>
 <div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 960px; height: 700px; left: 0px; top: 0px;" data-block-id="d8674693e903338b62fb1fa31c5c5f1c"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0.2)" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 960 700"><rect width="960" height="700" class="shape-element" fill="rgba(0, 0, 0, 0.2)"></rect></svg></div></div>
 
 
-<div class="sl-block" data-block-type="text" data-block-id="0fa463ab99c57f86751af751549f8f87" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: -200px; top: -76px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
-<p><span style="color:#FFFF00">Manager - Worker Heartbeats.</span></p>
 
-<p><span style="color:#FFFF00">When Leader fails, Workers are put into an Unknown state</span></p>
-</div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: -300px; top: 156px;" data-block-id="72525ab198b234e7b1c5df7d345ccbfb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
-<p><font color="#ffff00">Multi-valued Indices</font></p>
 
-<p><font color="#ffff00">Which networks are attached to a service?</font></p>
-
-<p><font color="#ffff00">Expose Watch API to external users and tools. Give users a Go channel for changes to watch for changes.</font></p>
-
-<p><font color="#ffff00">Building version control </font></p>
-
-<p><font color="#ffff00">present historical perspective into cluster state; What did the previous state look like?</font></p>
-</div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 389px; top: -98px;" data-block-id="b2935a9c002c4d643ec55b72aea9a35a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;" dir="ui"><p><font color="#ffff00">TCP</font></p></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 844px; top: 669px;" data-block-id="ab098804f52486aca5b34cce8ccc16f0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18; text-align: left; font-size: 80%;">
 <p><a href="http://twitter.com/lcalcote" target="_blank"><span style="color:#D3D3D3">@lcalcote</span></a></p>
 </div></div>
@@ -1116,7 +1111,7 @@ Elements</h2>
 <p><a href="http://twitter.com/lcalcote" target="_blank"><span style="color:#D3D3D3">@lcalcote</span></a></p>
 </div></div>
 <div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 32px; height: 32px; left: 806px; top: 669px;" data-block-id="7380dd2bc9698ca0197a6e1b3c96d3d0"><a class="sl-block-content" style="z-index: 15;" href="http://twitter.com/lcalcote" target="_blank"><img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png"></a></div></section><section data-id="777ec646b893161499020d74a2c95b25" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2510419/pro_con_list-exp.jpg" data-background-size="contain"><div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 227.23555555555555px; height: 224px; left: 818px; top: -181px;" data-block-id="8ee15cc9fb23154b105e1ac295c4a617"><div class="sl-block-content" style="z-index: 10;"><img data-natural-width="913" data-natural-height="900" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2509562/docker-swarm-hero2.png"></div></div>
-<div class="sl-block" data-block-type="text" data-block-id="7bc16b0f597c0a34347509f504d3b606" style="height: auto; min-width: 30px; min-height: 30px; width: 595px; left: 470px; top: 140px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; background-color: rgba(102, 0, 0, 0.247059);" dir="ui">
+<div class="sl-block" data-block-type="text" data-block-id="7bc16b0f597c0a34347509f504d3b606" style="height: auto; min-width: 30px; min-height: 30px; width: 595px; left: 470px; top: 64px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; background-color: rgba(102, 0, 0, 0.247059);" dir="ui">
 <ul>
 	<li>
 	<p><span style="font-size:0.5em">Suitable for orchestrating a combination of infrastructure containers</span></p>
@@ -1189,16 +1184,10 @@ Elements</h2>
 	<p><span style="font-size:0.7em">Swarm is easy to extend, if can already know Docker APIs, you can customize Swarm</span></p>
 	</li>
 	<li>
-	<p><span style="font-size:0.7em">Highly modular:</span></p>
-
-	<ul>
-		<li>
-		<p><span style="font-size:0.7em">Pluggable scheduler </span></p>
-		</li>
-		<li>
-		<p><span style="font-size:0.7em">Pluggable K/V store for both node and multi-host networking</span></p>
-		</li>
-	</ul>
+	<p><span style="font-size:0.7em">Still modular, but has stepped back here.</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:0.7em">Moving very fast; eliminating gaps quickly.</span></p>
 	</li>
 </ul>
 </div></div></section></section><section class="stack" data-id="6aef7ae22b4c2e8cbb44650a8e6e912a"><section data-id="ebf342f8e27e464250ea1376ec365cd7" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2509557/kubernetes-logo.png"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 270px; height: auto;" data-block-id="6500ab422432cf4c133ded4da55fed82"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
@@ -1559,16 +1548,30 @@ Elements</h2>
 
 
 
-<div class="sl-block" data-block-type="text" data-block-id="a87496ebe2d309b206d1e1591e564790" style="height: auto; min-width: 30px; min-height: 30px; width: 856px; left: 51px; top: 210px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<div class="sl-block" data-block-type="text" data-block-id="a87496ebe2d309b206d1e1591e564790" style="height: auto; min-width: 30px; min-height: 30px; width: 856px; left: 51px; top: 167px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
 <ul>
 	<li>
-	<p style="text-align:start"><span style="text-align:start">Secrets can be mounted as data volumes or be exposed as environment variables to be used by a container in a pod.</span></p>
+	<p style="text-align:start"><span style="color:rgb(255, 255, 255); text-align:start">Secrets are used by container in a pod either:</span></p>
+
+	<p style="text-align:start"> </p>
+
+	<ol>
+		<li>
+		<p style="text-align:start"><span style="text-align:start">mounted as data volumes</span></p>
+		</li>
+		<li>
+		<p style="text-align:start"><span style="text-align:start">exposed as environment variables</span><br>
+		 </p>
+		</li>
+	</ol>
 	</li>
 	<li>
-	<p style="text-align:start">None of the pod’s containers will start until all the pod’s volumes are mounted.</p>
-	<span style="text-align:start">Individual secrets are limited to 1MB in size.</span>
-</li>
-	<li><span style="text-align:start">Secrets are created and accessible within a given namespace, not cross-namespace.</span></li>
+	<p style="text-align:start"><span style="font-size:0.9em">None of the pod’s containers will start until all the pod’s volumes are mounted.</span></p>
+	</li>
+	<li>
+	<p style="text-align:start"><span style="font-size:0.9em">Individual secrets are limited to 1MB in size.</span></p>
+	</li>
+	<li><span style="font-size:0.9em"><span style="text-align:start">Secrets are created and accessible within a given namespace, not cross-namespace.</span></span></li>
 </ul>
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 844px; top: 669px;" data-block-id="d22f7684bc07ba44c1b598c9eec0b45e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left; font-size: 80%;">
@@ -1584,34 +1587,33 @@ Elements</h2>
 
 	<ul>
 		<li>
-		<p><span style="font-size:0.9em">​Active/Standby configuration</span><br>
-		 </p>
+		<p><span style="font-size:0.9em">​Active/Standby configuration</span></p>
 		</li>
 	</ul>
 	</li>
 	<li>
-	<p>​In terms of scale, v1.2 brings support for 1,000 node clusters and a step toward fully-federated clusters (Ubernetes)</p>
+	<p><span style="font-size:27px">Federated clusters / multi-region deployments</span></p>
+	</li>
+</ul>
+
+<p style="text-align: left;"><span style="font-size:0.9em">​​</span><strong>Scale</strong></p>
+
+<ul>
+	<li>
+	<p><span style="font-size:0.9em">v1.2 support for 1,000 node clusters</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:0.9em">v1.3 supports 2,000 node clusters</span><br>
+	 </p>
+	</li>
+	<li>
+	<p><span style="font-size:0.9em"><span style="color:rgb(255, 255, 255); text-align:left"><span style="text-align:start">Horizontal Pod Autoscaling</span>​ (via Replication Controllers​).</span></span></p>
 
 	<ul>
-		<li>
-		<p>1.3 supports 2,000 nodes</p>
-		</li>
 	</ul>
 	</li>
 	<li>
-	<p>Application-level auto-scaling is supported within Kubernetes via Replication Controllers​</p>
-
-	<ul>
-		<li>
-		<p><span style="font-size:0.7em"><span style="text-align:start">Horizontal Pod Autoscaling</span></span></p>
-		</li>
-		<li>
-		<p><span style="font-size:0.7em"><span style="text-align:start">Cluster Autoscaling (if you're running on GCE with AWS support is coming soon).</span></span></p>
-		</li>
-	</ul>
-	</li>
-	<li>
-	<p> </p>
+	<p><span style="font-size:0.9em"><span style="text-align:start"><span style="text-align:start">Cluster Autoscaling (if you're running on GCE with AWS support is coming soon).</span></span></span></p>
 	</li>
 </ul>
 </div></div>
@@ -1625,7 +1627,7 @@ Elements</h2>
         <img data-natural-width="928" data-natural-height="900" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2509555/kubernetes-logo.png">
     </div>
 </div>
-<div class="sl-block" data-block-type="text" data-block-id="ff2063750c24f1799c2b19e3723ee528" style="height: auto; min-width: 30px; min-height: 30px; width: 557px; left: 444px; top: 179px;">
+<div class="sl-block" data-block-type="text" data-block-id="ff2063750c24f1799c2b19e3723ee528" style="height: auto; min-width: 30px; min-height: 30px; width: 557px; left: 443px; top: 179px;">
     <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; background-color: rgba(102, 0, 0, 0.247059);">
 <ul>
 	<li>
@@ -1653,24 +1655,49 @@ Elements</h2>
 <p> </p>
 </div>
 </div>
-<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 503px; left: -59px; top: 79px;" data-block-id="419f875635d98a71070a3ddd39dbaf86">
-    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; background-color: rgba(39, 78, 19, 0.247059);" dir="ui">
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 502px; left: -59px; top: 1px;" data-block-id="419f875635d98a71070a3ddd39dbaf86">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; background-color: rgba(39, 78, 19, 0.247059);">
 <ul>
-<li><p><span style="font-size:0.7em">Kubernetes can schedule docker or rkt containers</span></p></li>
-<li><p><span style="font-size:0.7em">Inherently opinionated with functionality built-in.</span></p></li>
-<li><ul>
-<li><p><span style="font-size:0.5em">relatively easy to change its opinion</span></p></li>
-<li><p><span style="font-size:0.5em">little to no third-party software needed</span></p></li>
-<li><p><span style="font-size:0.5em">builds in many application-level concepts and services (secrets, petsets, jobsets, daemonsets, rolling updates, etc.)</span></p></li>
-<li><p><span style="font-size:0.5em">advanced storage/volume management</span></p></li>
-</ul></li>
-<li><p><span style="font-size:0.7em">arguably has most momentum</span></p></li>
-<li><p><span style="font-size:0.7em">arguably is most extensible</span></p></li>
-<li><p><span style="font-size:0.7em">thorough project documentation </span></p></li>
-<li style="color:rgb(255, 255, 255)"><p><span style="font-size:0.7em">Supports multi-tenancy</span></p></li>
-<li><p><span style="font-size:0.7em">Multi-master, cross-cluster federation, robust logging &amp; metrics aggregation</span></p></li>
+	<li>
+	<p><span style="font-size:0.7em">Kubernetes can schedule docker or rkt containers</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:0.7em">Inherently opinionated w/functionality built-in.</span></p>
+	</li>
+	<li>
+	<ul>
+		<li>
+		<p><span style="font-size:0.5em">relatively easy to change its opinion</span></p>
+		</li>
+		<li>
+		<p><span style="font-size:0.5em">little to no third-party software needed</span></p>
+		</li>
+		<li>
+		<p><span style="font-size:0.5em">builds in many application-level concepts and services (petsets, jobsets, daemonsets, application packages / charts, etc.)</span></p>
+		</li>
+		<li>
+		<p><span style="font-size:0.5em">advanced storage/volume management</span></p>
+		</li>
+	</ul>
+	</li>
+	<li>
+	<p><span style="font-size:0.7em">project has most momentum</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:0.7em">project is arguably most extensible</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:0.7em">thorough project documentation </span></p>
+	</li>
+	<li style="color:rgb(255, 255, 255)">
+	<p><span style="font-size:0.7em">Supports multi-tenancy</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:0.7em">Multi-master, cross-cluster federation, robust logging &amp; metrics aggregation</span></p>
+	</li>
 </ul>
-<p><br></p>
+
+<p> </p>
 </div>
 </div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 844px; top: 669px;" data-block-id="7653d020708f3f24ca007d3a78b1297b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; text-align: left; font-size: 80%;">
@@ -2188,7 +2215,7 @@ Elements</h2>
 
 		
 <script>
-	var SLConfig = {"current_user":{"id":398879,"username":"leecalcote","name":"Lee Calcote","description":"Clouds, containers, infrastructure, applications and their management.","thumbnail_url":"https://www.gravatar.com/avatar/7f693327ef8998ebc0198321594840b0?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"team_id":null,"settings":{"id":236391,"present_controls":true,"present_upsizing":true,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":true,"speaker_layout":null},"email":"leecalcote@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":787876,"slug":"ato16-characterizing-and-contrasting-kuhn-tey-ner-awr-kuh-streyt-ors","title":"ATO 2016: Characterizing and Contrasting Kuhn-tey-ner Awr-kuh-streyt-ors","description":"Presented at All Things Open 2016. Includes Nomad, Swarm, Kubernetes and Mesos+Marathon.","visibility":"all","published_at":"2016-09-01T18:15:54.377Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/901ba2b2e31ab682e4edefb2ad455f88/thumb.jpg","view_count":20,"user":{"id":398879,"username":"leecalcote","name":"Lee Calcote","description":"Clouds, containers, infrastructure, applications and their management.","thumbnail_url":"https://www.gravatar.com/avatar/7f693327ef8998ebc0198321594840b0?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"team_id":null,"settings":{"id":236391,"present_controls":true,"present_upsizing":true,"present_notes":true}},"background_transition":"slide","transition":"default","theme_id":null,"theme_font":"opensans","theme_color":"grey-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":false,"rtl":false,"version":2,"collaborative":false,"deck_user_editor_limit":1,"data_updated_at":1477571317426,"font_typekit":null,"font_google":null,"access_token":"wDKbc2SpAo44xzhbN91AmbZTk84r","notes":{"fa273ee3de83b747088a6f51be9529a3":"clustering - making multiple nodes appear as a single resource\n\nwhereas Compose is responsible for describing the images and the relationships between those images in comprising a distributed app","4ddc2b1207180c795525818543552c5e":"Given these capabilities, container orchestrators perform many duties while managing a containership fleet. As admiral of a fleet (cluster of hosts), they load (schedule) container ships (hosts) as efficiently as possible (utilizing load-balancing strategies) and ensuring proper formation (using constraints to ensure containers composing the same service are scheduled to the same host).","9fb301624bc60893168edae8f4a6abfa":"My intention is to characterize and contrast (not necessarily compare out-right or negatively) each container orchestrator to the next, understanding that each were built upon similar, but different assumptions, use cases, frameworks, etc. \n\nI recognize that the laymen doesn’t comprehend (or care to) these nuances and are likely to view these container orchestrators purely competitively. I don’t hold that view and consider that different tools are needed both for different use cases and for organizations (levels of engineering/IT expertise and maturity vary greatly between organizations).","f898303d8cd25eddaf23cd83a5f4423d":"Cluster add-on is an optional pod and service, considered an inherent service to the Kubernetes system.","428a4ff9576085dde21400fb031e274a":"kube-scheduler attempts to find the most suitable node for a pod, and if no host is suitable, the pod remains unscheduled until a host matching the scheduling criteria becomes available\n\nties in node selection are broken by random selection (like Swarm)","20bd3b3338178290b9f3a8bd76b20a35":"(add-on objects are created in the “kube-system” namespace).","de091d7ad7ee7c7e6cfaf277894741c8":"shell script is offered as a rudimentary tool currently. ","1a4fa2fbad938daa16f8e7077dab27ea":"While the API Server is stateless, Controller Manager and Scheduler are not, so - only 1 instance of the scheduler and controller-manager are active at-a-time with other master instances in standby waiting for failover.","43b2865ad93c46867542ee40237dccef":"The distributed database used by the discovery service (for tracking host and cluster state) may be leveraged for service discovery (container application services) or other third-party tools may be used like wagl, a DNS-based service discovery tool for Swarm.","7f277a339ccd8a76a8432a49c4e864f8":"meaning only the active manager makes scheduling decisions, while the replicas standby in the case of failure.\n\nAlways maintain an odd number of managers","75c3b887435e394961884b43857fc9de":"1. Mesos slave reports available resources to mesos master.\n2. Based on allocation policy module mesos master decides which framework to allocate these resources to. It allocated to Framework 1 in this example.\n3.Framework1 is free to accept/deny offered resources. In this case it accepts the offer\n4.Master sends the tasks to the slave and Framework1 executor takes over. Mesos master may allocate any unused resource to other frameworks.","777ec646b893161499020d74a2c95b25":"Swarm’s approach facilitates earlier stages of adoption by organizations viewing containers as faster VMs.\n\nSwarm allows you to scale containers, but doesn’t give an integrated way to load-balancing across them as a service without leveraging third-party tools.","89852596233b63f7d556ff0e13648f10":"Orchestration logic is hidden deep in the Kubernetes\nIf what it does is sophisticated enough for what you want, this is for you. \n","edb6788dbb7057cf5ef9006e28f9fa32":"Each host runs an Agent and one or more hosts runs a Manager\n\non small clusters the Manager host may also run an Agent\n\nBy default manager nodes are also worker nodes","588bb86bbba2bc87855bde38e7ac960c":"Node pause is different than container pause (freeze)\n\nNodes now have labels, too. Just like docker daemon does.","59ce8bb68f03e90b37db4afdd7b87fb5":"Easy for developers\nOperationally simple\nBuilt for scale","21b5b5ca3219584f0e454064682a8e36":"Serf - gossip protocol\nScheduler - borg","f890bb4f3cbec8836769b6dcf2afcbc8":"Ties are broken randomly."}}};
+	var SLConfig = {"current_user":{"id":398879,"username":"leecalcote","name":"Lee Calcote","description":"Clouds, containers, infrastructure, applications and their management.","thumbnail_url":"https://www.gravatar.com/avatar/7f693327ef8998ebc0198321594840b0?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"team_id":null,"settings":{"id":236391,"present_controls":true,"present_upsizing":true,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":true,"speaker_layout":null},"email":"leecalcote@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":787876,"slug":"ato16-characterizing-and-contrasting-kuhn-tey-ner-awr-kuh-streyt-ors","title":"ATO 2016: Characterizing and Contrasting Kuhn-tey-ner Awr-kuh-streyt-ors","description":"Presented at All Things Open 2016. Includes Nomad, Swarm, Kubernetes and Mesos+Marathon.","visibility":"all","published_at":"2016-09-01T18:15:54.377Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/901ba2b2e31ab682e4edefb2ad455f88/thumb.jpg","view_count":20,"user":{"id":398879,"username":"leecalcote","name":"Lee Calcote","description":"Clouds, containers, infrastructure, applications and their management.","thumbnail_url":"https://www.gravatar.com/avatar/7f693327ef8998ebc0198321594840b0?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"team_id":null,"settings":{"id":236391,"present_controls":true,"present_upsizing":true,"present_notes":true}},"background_transition":"slide","transition":"default","theme_id":null,"theme_font":"opensans","theme_color":"grey-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":false,"rtl":false,"version":2,"collaborative":false,"deck_user_editor_limit":1,"data_updated_at":1477574047472,"font_typekit":null,"font_google":null,"access_token":"wDKbc2SpAo44xzhbN91AmbZTk84r","notes":{"fa273ee3de83b747088a6f51be9529a3":"clustering - making multiple nodes appear as a single resource\n\nwhereas Compose is responsible for describing the images and the relationships between those images in comprising a distributed app","4ddc2b1207180c795525818543552c5e":"Given these capabilities, container orchestrators perform many duties while managing a containership fleet. As admiral of a fleet (cluster of hosts), they load (schedule) container ships (hosts) as efficiently as possible (utilizing load-balancing strategies) and ensuring proper formation (using constraints to ensure containers composing the same service are scheduled to the same host).","9fb301624bc60893168edae8f4a6abfa":"My intention is to characterize and contrast (not necessarily compare out-right or negatively) each container orchestrator to the next, understanding that each were built upon similar, but different assumptions, use cases, frameworks, etc. \n\nI recognize that the laymen doesn’t comprehend (or care to) these nuances and are likely to view these container orchestrators purely competitively. I don’t hold that view and consider that different tools are needed both for different use cases and for organizations (levels of engineering/IT expertise and maturity vary greatly between organizations).","f898303d8cd25eddaf23cd83a5f4423d":"Cluster add-on is an optional pod and service, considered an inherent service to the Kubernetes system.","428a4ff9576085dde21400fb031e274a":"kube-scheduler attempts to find the most suitable node for a pod, and if no host is suitable, the pod remains unscheduled until a host matching the scheduling criteria becomes available\n\nties in node selection are broken by random selection (like Swarm)","20bd3b3338178290b9f3a8bd76b20a35":"(add-on objects are created in the “kube-system” namespace).","de091d7ad7ee7c7e6cfaf277894741c8":"shell script is offered as a rudimentary tool currently. ","1a4fa2fbad938daa16f8e7077dab27ea":"While the API Server is stateless, Controller Manager and Scheduler are not, so - only 1 instance of the scheduler and controller-manager are active at-a-time with other master instances in standby waiting for failover.","43b2865ad93c46867542ee40237dccef":"The distributed database used by the discovery service (for tracking host and cluster state) may be leveraged for service discovery (container application services) or other third-party tools may be used like wagl, a DNS-based service discovery tool for Swarm.","7f277a339ccd8a76a8432a49c4e864f8":"meaning only the active manager makes scheduling decisions, while the replicas standby in the case of failure.\n\nAlways maintain an odd number of managers","75c3b887435e394961884b43857fc9de":"1. Mesos slave reports available resources to mesos master.\n2. Based on allocation policy module mesos master decides which framework to allocate these resources to. It allocated to Framework 1 in this example.\n3.Framework1 is free to accept/deny offered resources. In this case it accepts the offer\n4.Master sends the tasks to the slave and Framework1 executor takes over. Mesos master may allocate any unused resource to other frameworks.","777ec646b893161499020d74a2c95b25":"Swarm’s approach facilitates earlier stages of adoption by organizations viewing containers as faster VMs.\n\nSwarm allows you to scale containers, but doesn’t give an integrated way to load-balancing across them as a service without leveraging third-party tools.","89852596233b63f7d556ff0e13648f10":"Orchestration logic is hidden deep in the Kubernetes\nIf what it does is sophisticated enough for what you want, this is for you. \n","edb6788dbb7057cf5ef9006e28f9fa32":"Each host runs an Agent and one or more hosts runs a Manager\n\non small clusters the Manager host may also run an Agent\n\nBy default manager nodes are also worker nodes","588bb86bbba2bc87855bde38e7ac960c":"Node pause is different than container pause (freeze)\n\nNodes now have labels, too. Just like docker daemon does.","59ce8bb68f03e90b37db4afdd7b87fb5":"Easy for developers\nOperationally simple\nBuilt for scale","21b5b5ca3219584f0e454064682a8e36":"Serf - gossip protocol\nScheduler - borg","f890bb4f3cbec8836769b6dcf2afcbc8":"Ties are broken randomly."}}};
 </script>
 
 		<script>
