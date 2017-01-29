@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talks>
+	<talk>
+		<event_name></event_name
+		<event_link></event_link>
+		<date></date>
+		<talk_deck></talk_deck>
+		<talk_video></talk_video>
+	</talk>
+	<talk>
+		<event_name></event_name>
+		<event_link></event_link>
+		<date></date>
+		<talk_deck></talk_deck>
+		<talk_video></talk_video>
+	</talk>
+</talks>
+
