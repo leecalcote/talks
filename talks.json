@@ -1,0 +1,135 @@
+{
+   "upcomingTalk": [
+       {
+           "eventName": "Velocity 2017",
+           "eventURL": "https://conferences.oreilly.com/velocity/vl-ca",
+           "deckURL": "#",
+           "date": 20
+       },
+       {
+           "eventName": "CloudNativeCon + KubeCon EU 2017 (1)",
+           "eventURL": "http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-europe",
+           "deckURL": "#",
+           "date": 30
+       },
+       {
+           "eventName": "CloudNativeCon + KubeCon EU 2017 (2)",
+           "eventURL": "http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-europe",
+           "deckURL": "#",
+           "date": 30
+       },
+       {
+           "eventName": "Container World 2017",
+           "eventURL": "https://tmt.knect365.com/container-world",
+           "deckURL": "#",
+           "date": 40
+       },
+       {
+           "eventName": "SCALE 15x",
+           "eventURL": "http://www.socallinuxexpo.org/scale/15x/",
+           "deckURL": "#",
+           "date": 50
+       },
+       {
+           "eventName": "O'Reilly Webcast - Load-balancers",
+           "eventURL": "#",
+           "deckURL": "#",
+           "date": 60
+       },
+       {
+           "eventName": "Tech Field Day 13",
+           "eventURL": "http://techfieldday.com/event/tfd13/",
+           "deckURL": "#",
+           "date": 70
+       }
+   ],
+      "previousTalk": [
+       {
+           "eventName": "SolarWinds Tech Summit 2017 (1)",
+           "eventURL": "http://calcotestudios.com/techsummit-feto",
+           "deckURL": "#",
+           "date": 50
+       },
+       {
+           "eventName": "SolarWinds Tech Summit 2017 (2)",
+           "eventURL": "http://calcotestudios.com/techsummit-over-under",
+           "deckURL": "#",
+           "date": 60
+       },
+       {
+           "eventName": "SolarWinds Tech Summit 2017 (3)",
+           "eventURL": "http://calcotestudios.com/techsummit-ccco",
+           "deckURL": "#",
+           "date": 70
+       },
+       {
+           "eventName": "All Day DevOps 2016",
+           "eventURL": "http://calcotestudios.com/alldaydevops2016",
+           "deckURL": "#",
+           "date": 60
+       },
+       {
+           "eventName": "KubeCon + CloudNativeCon + PrometheusDay 2016",
+           "eventURL": "http://calcotestudios.com/kubecon-bof",
+           "deckURL": "#",
+           "date": 60
+       },
+       {
+           "eventName": "All Things Open 2016",
+           "eventURL": "http://calcotestudios.com/ato2016",
+           "deckURL": "#"
+       },
+       {
+           "eventName": "Container Days Austin 2016",
+           "eventURL": "http://blog.gingergeek.com/speaking/#containerdaysaustin2016"
+       },
+       {
+           "eventName": "ContainerizeThis 2016",
+           "eventURL": "http://calcotestudios.com/feto"
+       },
+       {
+           "eventName": "Nginx Conf 2016",
+           "eventURL": "http://calcotestudios.com/nginx16"
+       },
+       {
+           "eventName": "LinuxCon + ContainerCon + CloudNativeDay 2016",
+           "eventURL": "http://calcotestudios.com/ccka"
+       },
+       {
+           "eventName": "Rackspace Tech Talk 2016",
+           "eventURL": "http://calcotestudios.com/over-under"
+       },
+       {
+           "eventName": "Container Summit Austin 2016",
+           "eventURL": "http://blog.gingergeek.com/speaking/#containersummitaustin2016"
+        },
+       {
+           "eventName": "DockerCon 2016 Recap",
+           "eventURL": "http://calcotestudios.com/dockercon-2016-recap"
+        },
+       {
+           "eventName": "DevOps Days Austin 2016",
+           "eventURL": "http://calcotestudios.com/scol"
+        },
+        {
+           "eventName": "OpenStack Summit 2016",
+           "eventURL": "http://calcotestudios.com/ccco"
+        },
+        {
+           "eventName": "Microservices and Containers Austin",
+           "eventURL": "http://usergroup.tv/videos/contrasting-container-orchestrators"
+        },
+        {
+           "eventName": "Container Summit Austin 2016",
+           "eventURL": "http://blog.gingergeek.com/speaking/#containersummitaustin2016"
+        },
+        {
+           "eventName": "DockerCon EU 2015 Recap",
+           "eventURL": "http://calcotestudios.com/dockercon-recap"
+        },
+        {
+           "eventName": "Docker@Cisco - Introduction to Docker",
+           "eventURL": "http://blog.gingergeek.com/speaking/#DockeratCisco"
+        }
+     ]
+}
