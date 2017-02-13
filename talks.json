@@ -31,8 +31,8 @@
            "date": 50
        },
        {
-           "eventName": "O'Reilly Webcast - Load-balancers",
-           "eventURL": "#",
+           "eventName": "Load-Balancing in the Cloud using NGINX & Kubernetes",
+           "eventURL": "http://www.oreilly.com/pub/e/3864",
            "deckURL": "#",
            "date": 60
        },
