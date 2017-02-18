@@ -3,19 +3,19 @@
        {
            "eventName": "Velocity 2017",
            "eventURL": "https://conferences.oreilly.com/velocity/vl-ca",
-           "deckURL": "#",
+           "deckURL": "",
            "date": 20
        },
        {
            "eventName": "CloudNativeCon + KubeCon EU 2017 (1)",
            "eventURL": "http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-europe",
-           "deckURL": "#",
+           "deckURL": "",
            "date": 30
        },
        {
            "eventName": "CloudNativeCon + KubeCon EU 2017 (2)",
            "eventURL": "http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-europe",
-           "deckURL": "#",
+           "deckURL": "",
            "date": 30
        },
        {
@@ -27,39 +27,40 @@
        {
            "eventName": "SCALE 15x",
            "eventURL": "http://www.socallinuxexpo.org/scale/15x/",
-           "deckURL": "#",
+           "deckURL": "",
            "date": 50
        },
        {
            "eventName": "Load-Balancing in the Cloud using NGINX & Kubernetes",
            "eventURL": "http://www.oreilly.com/pub/e/3864",
-           "deckURL": "#",
+           "deckURL": "",
            "date": 60
        },
        {
            "eventName": "Tech Field Day 13",
            "eventURL": "http://techfieldday.com/event/tfd13/",
-           "deckURL": "https://www.youtube.com/watch?v=fUHfcVhTle0",
+           "deckURL": "",
+           "videoURL": "https://www.youtube.com/watch?v=fUHfcVhTle0",
            "date": 70
        }
    ],
       "previousTalk": [
        {
            "eventName": "SolarWinds Tech Summit 2017 (1)",
-           "eventURL": "http://calcotestudios.com/techsummit-feto",
-           "deckURL": "#",
+           "eventURL": "https://www.solarwindsmeetup.com/event/techsummit-conference-2016/",
+           "deckURL": "http://calcotestudios.com/techsummit-feto",
            "date": 50
        },
        {
            "eventName": "SolarWinds Tech Summit 2017 (2)",
-           "eventURL": "http://calcotestudios.com/techsummit-over-under",
-           "deckURL": "#",
+           "eventURL": "https://www.solarwindsmeetup.com/event/techsummit-conference-2016/",
+           "deckURL": "http://calcotestudios.com/techsummit-over-under",
            "date": 60
        },
        {
            "eventName": "SolarWinds Tech Summit 2017 (3)",
-           "eventURL": "http://calcotestudios.com/techsummit-ccco",
-           "deckURL": "#",
+           "eventURL": "https://www.solarwindsmeetup.com/event/techsummit-conference-2016/",
+           "deckURL": "http://calcotestudios.com/techsummit-ccco",
            "date": 70
        },
        {
@@ -85,19 +86,23 @@
        },
        {
            "eventName": "ContainerizeThis 2016",
-           "eventURL": "http://calcotestudios.com/feto"
+           "eventURL": "http://calcotestudios.com/feto",
+           "eventURL": "https://containerizethis2016a.sched.org/event/8G9N/presentation-from-engines-to-orchestrators"
        },
        {
            "eventName": "Nginx Conf 2016",
-           "eventURL": "http://calcotestudios.com/nginx16"
+           "eventURL": "https://www.nginx.com/nginxconf/speakers/list/#572b5ef476280471db0000c0",
+           "deckURL": "http://calcotestudios.com/nginx16",
+           "videoURL": "https://youtu.be/RCTLqO8kAPg"
        },
        {
            "eventName": "LinuxCon + ContainerCon + CloudNativeDay 2016",
-           "eventURL": "http://calcotestudios.com/ccka"
+           "eventURL": "https://lcccna2016.sched.org/speaker/leecalcote?iframe=yes&w=&sidebar=yes&bg=no",
+           "deckURL": "http://calcotestudios.com/ccka"
        },
        {
            "eventName": "Rackspace Tech Talk 2016",
-           "eventURL": "http://calcotestudios.com/over-under"
+           "deckURL": "http://calcotestudios.com/over-under"
        },
        {
            "eventName": "Container Summit Austin 2016",
@@ -105,7 +110,9 @@
         },
        {
            "eventName": "DockerCon 2016 Recap",
-           "eventURL": "http://calcotestudios.com/dockercon-2016-recap"
+           "eventURL": "https://www.meetup.com/Docker-Austin/events/231029121/",
+           "deckURL": "http://calcotestudios.com/dockercon-2016-recap",
+           "videoURL": "https://www.youtube.com/watch?v=-x-YfwTRZ98"
         },
        {
            "eventName": "DevOps Days Austin 2016",
@@ -125,7 +132,9 @@
         },
         {
            "eventName": "DockerCon EU 2015 Recap",
-           "eventURL": "http://calcotestudios.com/dockercon-recap"
+           "eventURL": "https://www.meetup.com/Docker-Austin/events/226656862/",
+           "deckURL": "http://calcotestudios.com/dockercon-recap",
+           "videoURL": ""
         },
         {
            "eventName": "Docker@Cisco - Introduction to Docker",
