@@ -21,7 +21,7 @@
        {
            "eventName": "Container World 2017",
            "eventURL": "https://tmt.knect365.com/container-world",
-           "deckURL": "#",
+           "deckURL": "",
            "date": 40
        },
        {
@@ -65,20 +65,21 @@
        },
        {
            "eventName": "All Day DevOps 2016",
-           "eventURL": "http://calcotestudios.com/alldaydevops2016",
-           "deckURL": "#",
+           "deckURL": "http://calcotestudios.com/alldaydevops2016",
+           "videoURL": "https://www.youtube.com/embed/wae7TR2aJmQ",
+           "eventURL": "http://www.alldaydevops.com/speakers/lee-calcote/",
            "date": 60
        },
        {
            "eventName": "KubeCon + CloudNativeCon + PrometheusDay 2016",
            "eventURL": "http://calcotestudios.com/kubecon-bof",
-           "deckURL": "#",
+           "deckURL": "",
            "date": 60
        },
        {
            "eventName": "All Things Open 2016",
            "eventURL": "http://calcotestudios.com/ato2016",
-           "deckURL": "#"
+           "deckURL": ""
        },
        {
            "eventName": "Container Days Austin 2016",
@@ -120,15 +121,20 @@
         },
         {
            "eventName": "OpenStack Summit 2016",
-           "eventURL": "http://calcotestudios.com/ccco"
+           "eventURL": "http://blog.rackspace.com/container-day-rackspace-cantina-openstack-summit/",
+           "deckURL": "http://calcotestudios.com/ccco",
+           "videoURL": "https://youtu.be/ygEjpvnimm8"
         },
         {
            "eventName": "Microservices and Containers Austin",
-           "eventURL": "http://usergroup.tv/videos/contrasting-container-orchestrators"
+           "eventURL": "https://www.meetup.com/Microservices-and-Containers-Austin/events/230391578/",
+           "videoURL": "http://usergroup.tv/videos/contrasting-container-orchestrators"
         },
         {
            "eventName": "Container Summit Austin 2016",
-           "eventURL": "http://blog.gingergeek.com/speaking/#containersummitaustin2016"
+           "eventURL": "http://containersummit.io/city-series/2016/austin",
+           "videoURL": "https://player.vimeo.com/video/176685044?api=1&amp;player_id=176685044",
+           "deckURL": "http://blog.gingergeek.com/speaking/#containersummitaustin2016"
         },
         {
            "eventName": "DockerCon EU 2015 Recap",
