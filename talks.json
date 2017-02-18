@@ -20,8 +20,8 @@
        },
        {
            "eventName": "Container World 2017",
-           "eventURL": "https://tmt.knect365.com/container-world",
-           "deckURL": "",
+           "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
+           "deckURL": "http://calcotestudios.com/cw2017",
            "date": 40
        },
        {
@@ -35,16 +35,17 @@
            "eventURL": "http://www.oreilly.com/pub/e/3864",
            "deckURL": "",
            "date": 60
-       },
-       {
+       }
+ 
+   ],
+      "previousTalk": [
+        {
            "eventName": "Tech Field Day 13",
            "eventURL": "http://techfieldday.com/event/tfd13/",
            "deckURL": "",
            "videoURL": "https://www.youtube.com/watch?v=fUHfcVhTle0",
            "date": 70
-       }
-   ],
-      "previousTalk": [
+       },
        {
            "eventName": "SolarWinds Tech Summit 2017 (1)",
            "eventURL": "https://www.solarwindsmeetup.com/event/techsummit-conference-2016/",
@@ -61,6 +62,7 @@
            "eventName": "SolarWinds Tech Summit 2017 (3)",
            "eventURL": "https://www.solarwindsmeetup.com/event/techsummit-conference-2016/",
            "deckURL": "http://calcotestudios.com/techsummit-ccco",
+           "videoURL": "https://www.youtube.com/watch?v=y81hEEkXOsE",
            "date": 70
        },
        {
@@ -72,22 +74,23 @@
        },
        {
            "eventName": "KubeCon + CloudNativeCon + PrometheusDay 2016",
-           "eventURL": "http://calcotestudios.com/kubecon-bof",
-           "deckURL": "",
+           "deckURL": "http://calcotestudios.com/kubecon-bof",
+           "eventURL": "https://cnkc16.sched.com/event/8akw/bof-growing-a-community-leveraging-meetups-to-educate-grow-and-facilitate-conversation-lee-calcote-twistlock?iframe=yes&w=100%&sidebar=yes&bg=no#",
            "date": 60
        },
        {
            "eventName": "All Things Open 2016",
-           "eventURL": "http://calcotestudios.com/ato2016",
-           "deckURL": ""
+           "deckURL": "http://calcotestudios.com/ato2016",
+           "eventURL": "https://allthingsopen.org/speakers/lee-calcote/"
        },
        {
            "eventName": "Container Days Austin 2016",
-           "eventURL": "http://blog.gingergeek.com/speaking/#containerdaysaustin2016"
+           "eventURL": "https://containerdaysaustin2016.sched.org/event/e0a54bd9e2499f7cff74ed126c643b22?iframe=no&w=i:100;&sidebar=yes&bg=no",
+           "videoURL": "https://youtu.be/m5g_LI7P3f4"
        },
        {
            "eventName": "ContainerizeThis 2016",
-           "eventURL": "http://calcotestudios.com/feto",
+           "deckURL": "http://calcotestudios.com/feto",
            "eventURL": "https://containerizethis2016a.sched.org/event/8G9N/presentation-from-engines-to-orchestrators"
        },
        {
@@ -103,11 +106,14 @@
        },
        {
            "eventName": "Rackspace Tech Talk 2016",
+           "eventURL": "#",
            "deckURL": "http://calcotestudios.com/over-under"
        },
-       {
+        {
            "eventName": "Container Summit Austin 2016",
-           "eventURL": "http://blog.gingergeek.com/speaking/#containersummitaustin2016"
+           "eventURL": "http://containersummit.io/city-series/2016/austin",
+           "videoURL": "https://player.vimeo.com/video/176685044?api=1&amp;player_id=176685044",
+           "deckURL": "http://blog.gingergeek.com/speaking/#containersummitaustin2016"
         },
        {
            "eventName": "DockerCon 2016 Recap",
@@ -117,7 +123,8 @@
         },
        {
            "eventName": "DevOps Days Austin 2016",
-           "eventURL": "http://calcotestudios.com/scol"
+           "deckURL": "http://calcotestudios.com/scol",
+           "eventURL": "https://devopsdaysaustin2016.sched.com/event/6lSm"
         },
         {
            "eventName": "OpenStack Summit 2016",
@@ -131,12 +138,6 @@
            "videoURL": "http://usergroup.tv/videos/contrasting-container-orchestrators"
         },
         {
-           "eventName": "Container Summit Austin 2016",
-           "eventURL": "http://containersummit.io/city-series/2016/austin",
-           "videoURL": "https://player.vimeo.com/video/176685044?api=1&amp;player_id=176685044",
-           "deckURL": "http://blog.gingergeek.com/speaking/#containersummitaustin2016"
-        },
-        {
            "eventName": "DockerCon EU 2015 Recap",
            "eventURL": "https://www.meetup.com/Docker-Austin/events/226656862/",
            "deckURL": "http://calcotestudios.com/dockercon-recap",
@@ -144,7 +145,8 @@
         },
         {
            "eventName": "Docker@Cisco - Introduction to Docker",
-           "eventURL": "http://blog.gingergeek.com/speaking/#DockeratCisco"
+           "eventURL": "http://blog.gingergeek.com/speaking/#DockeratCisco",
+           "videoURL": "https://drive.google.com/open?id=0BwKKA_Ml1VXuQ05WUkJIWXlWc2s"
         }
      ]
 }
