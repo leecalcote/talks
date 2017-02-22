@@ -8,21 +8,15 @@
        },
        {
            "eventName": "CloudNativeCon + KubeCon EU 2017 (1)",
-           "eventURL": "http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-europe",
+           "eventURL": "https://cloudnativeeu2017.sched.com/event/9Td7?iframe=no",
            "deckURL": "",
            "date": 30
        },
        {
            "eventName": "CloudNativeCon + KubeCon EU 2017 (2)",
-           "eventURL": "http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-europe",
+           "eventURL": "https://cloudnativeeu2017.sched.com/event/9Tc3?iframe=no",
            "deckURL": "",
            "date": 30
-       },
-       {
-           "eventName": "Container World 2017",
-           "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
-           "deckURL": "http://calcotestudios.com/cw2017",
-           "date": 40
        },
        {
            "eventName": "SCALE 15x",
@@ -35,7 +29,13 @@
            "eventURL": "http://www.oreilly.com/pub/e/3864",
            "deckURL": "",
            "date": 60
-       }
+       },
+       {
+           "eventName": "Container World 2017",
+           "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
+           "deckURL": "http://calcotestudios.com/cw2017",
+           "date": 40
+       },
  
    ],
       "previousTalk": [
