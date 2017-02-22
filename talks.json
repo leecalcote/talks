@@ -19,8 +19,14 @@
            "date": 30
        },
        {
-           "eventName": "SCALE 15x",
-           "eventURL": "http://www.socallinuxexpo.org/scale/15x/",
+           "eventName": "SCALE 15x (1)",
+           "eventURL": "http://www.socallinuxexpo.org/scale/15x/presentations/over-under-container-networking",
+           "deckURL": "",
+           "date": 50
+       },
+       {	
+           "eventName": "SCALE 15x (2)",
+           "eventURL": "http://www.socallinuxexpo.org/scale/15x/presentations/unik-unikernel-compiler-and-runtime",
            "deckURL": "",
            "date": 50
        },
