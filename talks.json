@@ -33,18 +33,15 @@
        {
            "eventName": "Load-Balancing in the Cloud using NGINX & Kubernetes",
            "eventURL": "http://www.oreilly.com/pub/e/3864",
-           "deckURL": "",
-           "date": 60
-       },
-       {
-           "eventName": "Container World 2017",
-           "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
-           "deckURL": "http://calcotestudios.com/cw2017",
-           "date": 40
-       }
- 
+           "deckURL": ""
+       } 
    ],
       "previousTalk": [
+        {
+           "eventName": "Container World 2017",
+           "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
+           "deckURL": "http://calcotestudios.com/cw2017"
+       },
         {
            "eventName": "Tech Field Day 13",
            "eventURL": "http://techfieldday.com/event/tfd13/",
