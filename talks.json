@@ -9,31 +9,28 @@
        {
            "eventName": "CloudNativeCon + KubeCon EU 2017 (1)",
            "eventURL": "https://cloudnativeeu2017.sched.com/event/9Td7?iframe=no",
-           "deckURL": "",
-           "date": 30
+           "deckURL": ""
        },
        {
            "eventName": "CloudNativeCon + KubeCon EU 2017 (2)",
            "eventURL": "https://cloudnativeeu2017.sched.com/event/9Tc3?iframe=no",
-           "deckURL": "",
-           "date": 30
+           "deckURL": ""
        },
        {
            "eventName": "SCALE 15x (1)",
            "eventURL": "http://www.socallinuxexpo.org/scale/15x/presentations/over-under-container-networking",
-           "deckURL": "",
-           "date": 50
+           "deckURL": ""
        },
        {	
            "eventName": "SCALE 15x (2)",
            "eventURL": "http://www.socallinuxexpo.org/scale/15x/presentations/unik-unikernel-compiler-and-runtime",
-           "deckURL": "",
-           "date": 50
+           "deckURL": ""
        },
        {
            "eventName": "Load-Balancing in the Cloud using NGINX & Kubernetes",
            "eventURL": "http://www.oreilly.com/pub/e/3864",
-           "deckURL": ""
+           "deckURL": "",
+           "linkURL": ["https://twitter.com/CloudEntTech/status/834527944236290052"]
        } 
    ],
       "previousTalk": [
@@ -53,7 +50,7 @@
            "eventName": "SolarWinds Tech Summit 2017 (1)",
            "eventURL": "https://www.solarwindsmeetup.com/event/techsummit-conference-2016/",
            "deckURL": "http://calcotestudios.com/techsummit-feto",
-           "linkURL": "http://www.eprofil.cz/2017/02/03/klicova-temata-brnenske-konference-techsummit-spolecnosti-solarwinds/"
+           "linkURL": ["http://www.eprofil.cz/2017/02/03/klicova-temata-brnenske-konference-techsummit-spolecnosti-solarwinds/"]
        },
        {
            "eventName": "SolarWinds Tech Summit 2017 (2)",
