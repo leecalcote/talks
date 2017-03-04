@@ -24,7 +24,8 @@
        {	
            "eventName": "SCALE 15x (2)",
            "eventURL": "http://www.socallinuxexpo.org/scale/15x/presentations/unik-unikernel-compiler-and-runtime",
-           "deckURL": "http://calcotestudios.com/scale15-unikernels"
+           "deckURL": "http://calcotestudios.com/scale15-unikernels",
+	   "videoURL": "https://www.youtube.com/watch?v=l8KN6SUAqKY&feature=youtu.be&t=5h17m8s"
        },
        {
            "eventName": "Load-Balancing in the Cloud using NGINX & Kubernetes",
