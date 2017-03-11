@@ -37,7 +37,6 @@
             margin: auto;
             padding: 15px;
             padding-right: 25px;
-            
           }
           li.cisco {  list-style-image: url('http://www.cisco.com/favicon.ico'); }
           li.tns {    list-style-image: url('http://thenewstack.io/favicon.ico'); }
