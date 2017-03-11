@@ -10,7 +10,7 @@
             font-family: sans-serif;
         	}
         	ul {
-            color: black;
+            color: black;            
           }
         	h3 {
             color: black;
@@ -37,6 +37,8 @@
             margin: auto;
             padding: 15px;
             padding-right: 25px;
+            width: 25%;
+            word-wrap: break-word;
           }
           li.cisco {  list-style-image: url('http://www.cisco.com/favicon.ico'); }
           li.tns {    list-style-image: url('http://thenewstack.io/favicon.ico'); }
