@@ -38,6 +38,7 @@
             padding: 15px;
             padding-right: 25px;
           }
+          li.oreilly { list-style-image: url('http://blog.gingergeek.com/wp-content/uploads/2009/02/oreilly.ico?resize=16%2C16'); }
           li.cisco {  list-style-image: url('http://www.cisco.com/favicon.ico'); }
           li.tns {    list-style-image: url('http://thenewstack.io/favicon.ico'); }
           li.gg {     list-style-image: url('http://blog.gingergeek.com/favicon.ico'); }
