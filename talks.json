@@ -20,7 +20,7 @@
            "eventName": "O'Reilly: Load-Balancing in the Cloud using Nginx & Kubernetes",
            "eventURL": "http://www.oreilly.com/pub/e/3864",
            "deckURL": "http://calcotestudios.com/oreilly-nginx",
-           "linkURL": ["https://www.oreilly.com/learning/developer-defined-application-delivery"]
+           "linkURL": ["https://www.oreilly.com/learning/developer-defined-application-delivery","http://www.linuxinsider.com/story/84376.html"]
        } 
    ],
       "previousTalk": [
@@ -28,7 +28,7 @@
            "eventName": "SCALE 15x (1)",
            "eventURL": "http://www.socallinuxexpo.org/scale/15x/presentations/over-under-container-networking",
            "deckURL": "http://calcotestudios.com/scale15-over-under",
-           "videoURL": "https://www.youtube.com/watch?v=l8KN6SUAqKY&t=5h17m8s"
+           "videoURL": "https://www.youtube.com/watch?v=l9KN6SUAqKY&t=5h17m8s"
        },
        {  
            "eventName": "SCALE 15x (2)",
