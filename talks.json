@@ -19,7 +19,7 @@
        {
            "eventName": "O'Reilly: Load-Balancing in the Cloud using Nginx & Kubernetes",
            "eventURL": "http://www.oreilly.com/pub/e/3864",
-           "deckURL": "http://calcotestudios.com/oreilly-nginx",,
+           "deckURL": "http://calcotestudios.com/oreilly-nginx",
            "videoURL": "http://event.on24.com/wcc/r/1365124/9B42DB5C2199DE63215D138E7255CC85",
            "linkURL": ["https://www.oreilly.com/learning/developer-defined-application-delivery","http://www.linuxinsider.com/story/84376.html"]
        } 
