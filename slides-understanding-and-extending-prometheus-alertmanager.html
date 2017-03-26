@@ -21,7 +21,7 @@
 
 
 		<meta content="authenticity_token" name="csrf-param" />
-<meta content="PHjKINpR+/pzfm3JTQkNq/QFZ7cg7EHZEJ+rqFQoSyQ=" name="csrf-token" />
+<meta content="skk4FaHRgP+Dh4pS5bZ+pNHT1fjwDx4rkUhTTlguNjw=" name="csrf-token" />
 		<style id="user-css-output" type="text/css"></style>
 	</head>
 	<body>
@@ -30,10 +30,10 @@
 				<section class="stack" data-id="f0f6c464d9bb8a1fc973094aded99c47"><section data-id="7c5d92b880f0d29dd8dd55668c698971" data-background-size="cover" data-background-color="rgb(61,97,130)" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3608836/Slide1.jpg">
 
 <div class="sl-block" data-block-type="text" data-block-id="550250f2ec76a4dcae9157db9cf248a7" style="height: auto; min-width: 30px; min-height: 30px; width: 1280px; left: 0px; top: 216px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: center; color: rgb(255, 255, 255);" dir="ui"><h1>Understanding and Extending Prometheus AlertManager</h1></div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 308px; left: 406px; top: 454px;" data-block-id="cbe07be4bebbd0d9cd49df5d1f16e968"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: center; font-size: 130%;">
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 308px; left: 486px; top: 453px;" data-block-id="cbe07be4bebbd0d9cd49df5d1f16e968"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: center; font-size: 130%;">
 <p><span style="font-size:1.4em">Lee Calcote</span></p>
 </div></div>
-<div class="sl-block" data-block-type="text" data-block-id="87fba5e8be053cec51095ef08364af6d" style="height: auto; min-width: 30px; min-height: 30px; width: 492px; left: 314px; top: 541px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 69%;">
+<div class="sl-block" data-block-type="text" data-block-id="87fba5e8be053cec51095ef08364af6d" style="height: auto; min-width: 30px; min-height: 30px; width: 492px; left: 394px; top: 533px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 69%;">
 <h3><a href="http://calcotestudios.com/talks" target="_blank">http://calcotestudios.com/talks</a></h3>
 </div></div>
 
@@ -205,7 +205,7 @@
 <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 340px; top: 263px;" data-block-id="5ef6dd773ed6b5f8bc35cda0109a81cb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
 <h1>Prometheus</h1>
 </div></div></section><section data-id="4b76364fbeca58e12bf11b92dc883e40" data-background-size="cover">
-<div class="sl-block" data-block-type="text" data-block-id="cc2983addbc7412e104cdac6cb9cc387" style="height: auto; min-width: 30px; min-height: 30px; width: 1280px; left: 0px; top: 177px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<div class="sl-block" data-block-type="text" data-block-id="cc2983addbc7412e104cdac6cb9cc387" style="height: auto; min-width: 30px; min-height: 30px; width: 1280px; left: 0px; top: 177px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
 <p>The <a href="https://prometheus.io/docs/alerting/overview/" target="_blank">Alertmanager</a> takes in alerts, aggregates them into groups, de-duplicates, applies silences, throttles, and then sends out notifications to email, Pagerduty, Slack etc.</p>
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="6d0af92b846c19d30586cea755ddf33e">
@@ -224,23 +224,31 @@
 </div>
 <div class="sl-block" data-block-type="text" data-block-id="778829de5077e31d2a6a92481415e154" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 340px; top: 24px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
 <h1>Purpose</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 1280px; left: 0px; top: 426px;" data-block-id="87aac8602953c2eb91e2360348d3b862"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p>White box monitoring</p>
+
+<p> </p>
+
+<p>Monitoring on the Four Golden Signals</p>
 </div></div></section><section data-id="b7359377240b89220bdc6dd8c50b720d"><div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 841px; left: 217px; top: 224px;" data-block-id="f315ba0c73d82b5f1a5725131a60e2eb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
 <ul>
 	<li style="text-align:start">
-<a href="https://kubernetes.io/docs/concepts/abstractions/pod/" target="_blank">S</a>ilences - <span style="color:rgb(255, 255, 255)">prevents alerts with labels matching the silence from being included in notifications.</span>
+<a href="https://prometheus.io/docs/alerting/alertmanager/#silences" target="_blank">Silences</a> - <span style="color:rgb(255, 255, 255)">prevents alerts with labels matching the silence from being included in notifications.</span>
 </li>
 </ul>
 
 <p style="text-align:start"> </p>
 
 <ul>
-	<li style="text-align:start"><span style="color:rgb(255, 255, 255)">Inhibition - is a concept of suppressing notifications for certain alerts if certain other alerts are already firing.</span></li>
+	<li style="text-align:start"><span style="color:rgb(255, 255, 255)"><a href="https://prometheus.io/docs/alerting/alertmanager/#inhibition" target="_blank">Inhibition</a> - is a concept of suppressing notifications for certain alerts if certain other alerts are already firing.</span></li>
 </ul>
 
 <p style="text-align:start"> </p>
 
 <ul>
-	<li style="text-align:start">Grouping - categorizes alerts of similar nature into a single notification.</li>
+	<li style="text-align:start">
+<a href="https://prometheus.io/docs/alerting/alertmanager/#grouping" target="_blank">Grouping</a> - categorizes alerts of similar nature into a single notification.</li>
 </ul>
 
 <p style="text-align:start"> </p>
@@ -250,108 +258,20 @@
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 337px; top: 127px;" data-block-id="c31729eec6512169a74ec6afa91c79be"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 148%;">
 <p><span style="font-size:0.5em">a brief Prometheus construct review</span></p>
-</div></div></section><section data-id="f0998656fe82a441355b12cd09f78df5"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 106px; top: 28px; height: auto;" data-block-id="062a8885f133ab515ef7ec4c4dbf0f14"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
-<h2>Resources</h2>
-</div></div>
-<div class="sl-block" data-block-type="text" style="width: 1075px; left: 125px; top: 152px; height: auto;" data-block-id="ce798a06c9cd2dc44c45f81491097f57"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
-<p style="text-align:left">IRC: <a href="https://webchat.freenode.net/?channels=#prometheus" target="_blank">#prometheus</a> on <a href="http://freenode.net/" target="_blank">irc.freenode.net</a> (for the easiest start, <a href="https://riot.im/app/#/room/#freenode_#prometheus:matrix.org" target="_blank">join via Riot</a>)</p>
-
-<p style="text-align:left"> </p>
-
-<p style="text-align:left">Mailing lists:</p>
-
+</div></div></section><section data-id="3c87ec80ef68551fb9baff45f47e1524"><div class="sl-block" data-block-type="text" style="height: auto; width: 841px; left: 217px; top: 224px;" data-block-id="4cdbf9b501b4d1d076e81da8a76ba195"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
 <ul>
-	<li style="text-align:left">
-<a href="https://groups.google.com/forum/#!forum/prometheus-users" target="_blank">prometheus-users</a> – for discussions around Prometheus usage and community support</li>
-	<li style="text-align:left">
-<a href="https://groups.google.com/forum/#!forum/prometheus-developers" target="_blank">prometheus-developers</a> – for discussions around Prometheus development</li>
+	<li style="text-align:start"><span style="color:rgb(255, 255, 255)"><a href="https://prometheus.io/docs/alerting/alertmanager/#inhibition" target="_blank">Inhibition</a> - is a concept of suppressing notifications for certain alerts if certain other alerts are already firing.</span></li>
 </ul>
 
-<p style="text-align:left"> </p>
+<p style="text-align:start"> </p>
 
-<p style="text-align:left"><a href="https://twitter.com/PrometheusIO" target="_blank">@PrometheusIO</a></p>
-
-<p style="text-align:left"> </p>
-
-<p style="text-align:left"> </p>
-
-<p style="text-align:left"><a href="http://github.com/prometheus" target="_blank">Prometheus repositories</a> to file bugs and features requests</p>
+<p>Do you simply want to have very long notification repeat rates (effectively only notifying "once" for every alert)? Then you'll want to set the "repeat_rate" option to something high in your route (see <a href="https://www.google.com/url?q=https%3A%2F%2Fprometheus.io%2Fdocs%2Falerting%2Fconfiguration%2F%23route-route&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEolA5fveJAVlmi3Afld7XV_QFThA" target="_blank">https://prometheus.io/docs/alerting/configuration/#route-route</a>).</p>
 </div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="c6de87f925dfbc5963eca787d01819e2">
-    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left; font-size: 80%;">
-        <p>
-            <a href="http://twitter.com/lcalcote" target="_blank">
-                <span style="color:#D3D3D3">@lcalcote</span>
-            </a>
-        </p>
-    </div>
-</div>
-<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="b1052ff38b737f012648cc3cb773b682">
-    <a class="sl-block-content" style="z-index: 14;" href="http://twitter.com/lcalcote" target="_blank">
-        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
-    </a>
-</div>
-<div class="sl-block" data-block-type="shape" data-block-id="1a723504a2884d7bfc70981e463ad458" style="min-width: 4px; min-height: 4px; width: 88px; height: 57px; left: 18px; top: 318px;"><div class="sl-block-content" data-shape-type="symbol-mail" data-shape-fill-color="rgb(204, 204, 204)" data-shape-stretch="true" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 4 32 24"><g class="shape-element" fill="rgb(204, 204, 204)"><path d="M15.996 15.457l16.004-7.539v-3.918h-32v3.906zM16.004 19.879l-16.004-7.559v15.68h32v-15.656z"></path></g></svg></div></div>
-<div class="sl-block" data-block-type="shape" data-block-id="00ab5ff9fabd7c5afdfcd870a347959d" style="min-width: 4px; min-height: 4px; width: 86px; height: 86px; left: 16px; top: 452px;"><div class="sl-block-content" data-shape-type="symbol-twitter" data-shape-fill-color="rgb(204, 204, 204)" data-shape-stretch="true" style="z-index: 16;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 3 32 26"><g class="shape-element" fill="rgb(204, 204, 204)"><path d="M32 6.076c-1.177 0.522-2.443 0.875-3.771 1.034 1.355-0.813 2.396-2.099 2.887-3.632-1.269 0.752-2.674 1.299-4.169 1.593-1.198-1.276-2.904-2.073-4.792-2.073-3.626 0-6.565 2.939-6.565 6.565 0 0.515 0.058 1.016 0.17 1.496-5.456-0.274-10.294-2.888-13.532-6.86-0.565 0.97-0.889 2.097-0.889 3.301 0 2.278 1.159 4.287 2.921 5.465-1.076-0.034-2.088-0.329-2.974-0.821-0.001 0.027-0.001 0.055-0.001 0.083 0 3.181 2.263 5.834 5.266 6.437-0.551 0.15-1.131 0.23-1.73 0.23-0.423 0-0.834-0.041-1.235-0.118 0.835 2.608 3.26 4.506 6.133 4.559-2.247 1.761-5.078 2.81-8.154 2.81-0.53 0-1.052-0.031-1.566-0.092 2.905 1.863 6.356 2.95 10.064 2.95 12.076 0 18.679-10.004 18.679-18.68 0-0.285-0.006-0.568-0.019-0.849 1.283-0.926 2.396-2.082 3.276-3.398z"></path></g></svg></div></div>
-<div class="sl-block" data-block-type="text" data-block-id="067f677c9f5bae1d5e32274cf74dbdc4" style="height: auto; min-width: 30px; min-height: 30px; width: 80px; left: 22px; top: 87px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; color: rgb(204, 204, 204); font-size: 391%;">
-<p>#</p>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 234px; top: 72px; height: auto;" data-block-id="6fb27a3ee5433ad12ad7041242197afe"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>\ˈnō-mən-ˌklā-chər</h2>
 </div></div>
-<div class="sl-block" data-block-type="image" data-block-id="be563f8676c04f152d5dbedc7d794e8d" style="min-width: 30px; min-height: 30px; width: 79px; height: 79px; left: 16px; top: 594px;"><div class="sl-block-content" style="z-index: 18;"><img style="" data-natural-width="512" data-natural-height="512" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3630065/github.png"></div></div></section><section data-id="3f1b5550410ffab72a89593c19347b38"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 35px; height: auto;" data-block-id="bf1ded1e6002b0b4efe1f5c622e187ec"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
-<h2>Notification Integrations</h2>
-</div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="b047f8bf9eeeccbd1b39b54bb7f1b705">
-    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;">
-        <p>
-            <a href="http://twitter.com/lcalcote" target="_blank">
-                <span style="color:#D3D3D3">@lcalcote</span>
-            </a>
-        </p>
-    </div>
-</div>
-<div class="sl-block" data-block-type="image" style="width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="55f550c6cf02b21a385a118851bf4222">
-    <a class="sl-block-content" style="z-index: 13;" href="http://twitter.com/lcalcote" target="_blank">
-        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
-    </a>
-</div>
-<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 188px; height: 188px; left: 654px; top: 461px;" data-block-id="640fda5a3a8933fdc23684e281a3c244"><div class="sl-block-content" style="z-index: 14;"><img data-natural-width="512" data-natural-height="512" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3201482/slack-2014.png"></div></div>
-<div class="sl-block" data-block-type="image" data-block-id="4eb35aa299740e23b045f2ddd866f014" style="min-width: 30px; min-height: 30px; width: 181px; height: 181px; left: 240px; top: 460px;"><div class="sl-block-content" style="z-index: 15;"><img data-natural-width="512" data-natural-height="512" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629881/Glf2BSxx.png"></div></div>
-<div class="sl-block" data-block-type="image" data-block-id="65f1ca9f006932cdc469f6410328eb24" style="min-width: 30px; min-height: 30px; width: 181px; height: 181px; left: 1087px; top: 464px;"><div class="sl-block-content" style="z-index: 16;"><img data-natural-width="300" data-natural-height="300" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629884/icon-pd-slate-1024-300x300.png"></div></div>
-<div class="sl-block" data-block-type="image" data-block-id="6ef8c5a5f408fe45b4ff7d80324c9ef4" style="min-width: 30px; min-height: 30px; width: 226px; height: 188px; left: 428px; top: 460px;"><div class="sl-block-content" style="z-index: 17;"><img data-natural-width="360" data-natural-height="300" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629885/vo-logo-graphic.svg"></div></div>
-<div class="sl-block" data-block-type="image" data-block-id="d01c426e00275640087be4feab365a19" style="min-width: 30px; min-height: 30px; width: 188px; height: 188px; left: 31px; top: 453px;"><div class="sl-block-content" style="z-index: 18;"><img data-natural-width="873" data-natural-height="875" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629920/opsgenie.png"></div></div>
-<div class="sl-block" data-block-type="image" data-block-id="ab083b7e62184108081ba4154377ce75" style="min-width: 30px; min-height: 30px; width: 312px; height: 223px; left: 302px; top: 187px;"><div class="sl-block-content" style="z-index: 19;"><img data-natural-width="591" data-natural-height="422" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629931/email-icon-vector-msg.png"></div></div>
-<div class="sl-block" data-block-type="image" data-block-id="be4039170732b86588e4b3b84543f16b" style="min-width: 30px; min-height: 30px; width: 309px; height: 309px; left: 731px; top: 134px;"><div class="sl-block-content" style="z-index: 20;"><img data-natural-width="480" data-natural-height="480" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629932/webhook1600.png"></div></div>
-<div class="sl-block" data-block-type="image" data-block-id="190bb8c44e5eeee25ab9bd3325888c27" style="min-width: 30px; min-height: 30px; width: 184px; height: 184px; left: 868px; top: 464px;"><div class="sl-block-content" style="z-index: 22;"><img style="" data-natural-width="599" data-natural-height="598" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629943/pushover.png"></div></div></section><section data-background-size="cover" data-id="b781338982a3ed3c8bbdd8e90b52ca5c">
-<div class="sl-block" data-block-type="text" style="height: auto; width: 1280px; left: 36px; top: 302px;" data-block-id="c32ff1213f0d8970920503e3872ef047"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
-<ul>
-	<li>Setup and <a href="https://prometheus.io/docs/alerting/configuration" target="_blank">configure</a> the Alertmanager</li>
-	<li>Configure Prometheus to talk to the Alertmanager with the -alertmanager.url flag</li>
-	<li>Create <a href="https://prometheus.io/docs/alerting/rules" target="_blank">alerting rules</a> in Prometheus</li>
-</ul>
-</div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="3ffc846b7691fdf51344b5f430156bec">
-    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;">
-        <p>
-            <a href="http://twitter.com/lcalcote" target="_blank">
-                <span style="color:#D3D3D3">@lcalcote</span>
-            </a>
-        </p>
-    </div>
-</div>
-<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="b1618f89e2c3f1b5e9415c629f8c9269">
-    <a class="sl-block-content" style="z-index: 13;" href="http://twitter.com/lcalcote" target="_blank">
-        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
-    </a>
-</div>
-<div class="sl-block" data-block-type="text" data-block-id="c1c53f94c8c6a239d95c2c0e69bf2a84" style="height: auto; min-width: 30px; min-height: 30px; width: 1070px; left: 130px; top: 98px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
-<h1><span style="color:rgb(255, 255, 255)">Alert and Notification Setup</span></h1>
-</div></div></section><section data-id="0b18df134e60298f85504c2bc4b880fb"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 86px; top: 82px; height: auto;" data-block-id="4d3dc549c4ddeb071753d4b8e9b30f45"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Sending alert notifications to multiple destinations</h2>
-</div></div>
-<div class="sl-block" data-block-type="text" style="width: 1075px; left: 102px; top: 342px; height: auto;" data-block-id="ed0a485f5a02dbc7344cc31a86ecd44e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
-<ul>
-	<li>Use a receiver that goes to both destinations.</li>
-	<li>Use continue to advance to next receiver.</li>
-</ul>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 337px; top: 127px;" data-block-id="4d4e60b099aa6e5baaa6d4e03c96166e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 148%;">
+<p><span style="font-size:0.5em">a brief Prometheus construct review</span></p>
 </div></div></section><section data-id="7469332868779de286d1566a690599b1">
 
 
@@ -423,12 +343,12 @@
 
 
 
-<div class="sl-block" data-block-type="shape" style="width: 154px; height: 46px; left: 340px; top: 581px;" data-block-id="b9ff515b8e0b6b2c658d36ecf701e372"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(181, 193, 206)" data-shape-stretch="true" style="z-index: 14;" data-shape-stroke-color="#000000" data-shape-stroke-width="2"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 154 46"><defs><clippath id="shape-mask-51-1490412158179"><rect width="154" height="46"></rect></clippath></defs><rect width="154" height="46" clip-path="url(#shape-mask-51-1490412158179)" class="shape-element" fill="rgb(181, 193, 206)" stroke="#000000" stroke-width="4"></rect></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 154px; height: 46px; left: 340px; top: 581px;" data-block-id="b9ff515b8e0b6b2c658d36ecf701e372"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(181, 193, 206)" data-shape-stretch="true" style="z-index: 14;" data-shape-stroke-color="#000000" data-shape-stroke-width="2"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 154 46"><defs><clippath id="shape-mask-1-1490495533374"><rect width="154" height="46"></rect></clippath></defs><rect width="154" height="46" clip-path="url(#shape-mask-1-1490495533374)" class="shape-element" fill="rgb(181, 193, 206)" stroke="#000000" stroke-width="4"></rect></svg></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 142px; left: 345px; top: 593px;" data-block-id="a6aa0dc1b54cae6d73ccfc167f8d659c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; font-size: 55%;" dir="ui">
 <p><span style="font-size:0.9em">Inhibitor</span></p>
 </div></div>
 
-<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 335px; height: 274px; left: 607px; top: 137px;" data-block-id="035fcf77c03c2b39b48f999e0b006dfd"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 12;" data-shape-stroke-color="#eeeeee" data-shape-stroke-width="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 335 274"><defs><clippath id="shape-mask-50-1490412158164"><rect width="335" height="274"></rect></clippath></defs><rect width="335" height="274" clip-path="url(#shape-mask-50-1490412158164)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#eeeeee" stroke-width="6"></rect></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 335px; height: 274px; left: 607px; top: 137px;" data-block-id="035fcf77c03c2b39b48f999e0b006dfd"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 12;" data-shape-stroke-color="#eeeeee" data-shape-stroke-width="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 335 274"><defs><clippath id="shape-mask-2-1490495533379"><rect width="335" height="274"></rect></clippath></defs><rect width="335" height="274" clip-path="url(#shape-mask-2-1490495533379)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#eeeeee" stroke-width="6"></rect></svg></div></div>
 
 
 <div class="sl-block" data-block-type="text" style="height: auto; width: 111px; left: -24px; top: 291px;" data-block-id="a2df8958001cb9371b52a7fd3c32363b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; font-size: 68%;">
@@ -440,7 +360,7 @@
 
 
 
-<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 1023px; height: 180px; left: 248px; top: 528px;" data-block-id="aa4da62ff4ac0a7d2312e371b05b253e"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 10;" data-shape-stroke-color="#000000" data-shape-stroke-width="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 1023 180"><defs><clippath id="shape-mask-49-1490412158151"><rect width="1023" height="180"></rect></clippath></defs><rect width="1023" height="180" clip-path="url(#shape-mask-49-1490412158151)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#000000" stroke-width="6"></rect></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 1023px; height: 180px; left: 248px; top: 528px;" data-block-id="aa4da62ff4ac0a7d2312e371b05b253e"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 10;" data-shape-stroke-color="#000000" data-shape-stroke-width="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 1023 180"><defs><clippath id="shape-mask-3-1490495533384"><rect width="1023" height="180"></rect></clippath></defs><rect width="1023" height="180" clip-path="url(#shape-mask-3-1490495533384)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#000000" stroke-width="6"></rect></svg></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 186px; left: 760px; top: 571px;" data-block-id="7eb482625fe7c4ddf2bc658c4c2c08af"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 26; font-size: 52%;">
 <p>de-duplication</p>
 </div></div>
@@ -465,13 +385,13 @@
 
 
 
-<div class="sl-block" data-block-type="shape" style="width: 130px; height: 46px; left: 559px; top: 581px;" data-block-id="9617d061372b98d161adc2dfbfac1842"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(181, 193, 206)" data-shape-stretch="true" style="z-index: 22;" data-shape-stroke-color="#000000" data-shape-stroke-width="2"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 130 46"><defs><clippath id="shape-mask-52-1490412158214"><rect width="130" height="46"></rect></clippath></defs><rect width="130" height="46" clip-path="url(#shape-mask-52-1490412158214)" class="shape-element" fill="rgb(181, 193, 206)" stroke="#000000" stroke-width="4"></rect></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 130px; height: 46px; left: 559px; top: 581px;" data-block-id="9617d061372b98d161adc2dfbfac1842"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(181, 193, 206)" data-shape-stretch="true" style="z-index: 22;" data-shape-stroke-color="#000000" data-shape-stroke-width="2"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 130 46"><defs><clippath id="shape-mask-4-1490495533396"><rect width="130" height="46"></rect></clippath></defs><rect width="130" height="46" clip-path="url(#shape-mask-4-1490495533396)" class="shape-element" fill="rgb(181, 193, 206)" stroke="#000000" stroke-width="4"></rect></svg></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 142px; left: 556px; top: 593px;" data-block-id="d03d3b1796802f125cd26f2ce99aa218"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 23; font-size: 55%;" dir="ui">
 <p><span style="font-size:0.9em">Silencer</span></p>
 </div></div>
 
 
-<div class="sl-block" data-block-type="shape" style="width: 151px; height: 70px; left: 794px; top: 546px;" data-block-id="5ded4ad276cb455495c35cea703c74c9"><div class="sl-block-style" style="z-index: 24; transform: rotate(180deg);"><div class="sl-block-content" data-shape-type="triangle-left" data-shape-fill-color="rgb(204, 204, 204)" data-shape-stretch="true" style="z-index: 24;" data-shape-stroke-color="#000000" data-shape-stroke-width="1"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 151 70"><defs><clippath id="shape-mask-53-1490412158231"><polygon points="0,35 151,0 151,70"></polygon></clippath></defs><polygon points="0,35 151,0 151,70" clip-path="url(#shape-mask-53-1490412158231)" class="shape-element" fill="rgb(204, 204, 204)" stroke="#000000" stroke-width="2"></polygon></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 151px; height: 70px; left: 794px; top: 546px;" data-block-id="5ded4ad276cb455495c35cea703c74c9"><div class="sl-block-style" style="z-index: 24; transform: rotate(180deg);"><div class="sl-block-content" data-shape-type="triangle-left" data-shape-fill-color="rgb(204, 204, 204)" data-shape-stretch="true" style="z-index: 24;" data-shape-stroke-color="#000000" data-shape-stroke-width="1"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 151 70"><defs><clippath id="shape-mask-5-1490495533401"><polygon points="0,35 151,0 151,70"></polygon></clippath></defs><polygon points="0,35 151,0 151,70" clip-path="url(#shape-mask-5-1490495533401)" class="shape-element" fill="rgb(204, 204, 204)" stroke="#000000" stroke-width="2"></polygon></svg></div></div></div>
 <div class="sl-block" data-block-type="shape" data-block-id="ceff490b3df1ff6226151dc301fbf963" style="min-width: 4px; min-height: 4px; width: 68px; height: 65px; left: 704px; top: 572px;"><div class="sl-block-style" style="z-index: 25; transform: rotate(270deg);"><div class="sl-block-content" data-shape-type="symbol-fork" data-shape-fill-color="rgb(204, 204, 204)" data-shape-stretch="true" style="z-index: 25;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 28 32"><g class="shape-element" fill="rgb(204, 204, 204)"><path d="M20 0v3.875c0 1.602-0.625 3.109-1.754 4.238l-11.316 11.254c-1.789 1.785-2.774 4.129-2.883 6.633h-4.047l6 6 6-6h-3.957c0.105-1.438 0.684-2.773 1.711-3.805l11.316-11.25c1.891-1.89 2.93-4.398 2.93-7.070v-3.875h-4zM23.953 26c-0.109-2.504-1.098-4.848-2.887-6.641l-2.23-2.215-2.836 2.821 2.242 2.23c1.031 1.027 1.609 2.367 1.715 3.805h-3.957l6 6 6-6h-4.047z"></path></g></svg></div></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 287px; left: 631px; top: 290px;" data-block-id="e677725820e78f833adf7430e0f9aa2b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 27; font-size: 54%;">
 <table>
@@ -485,7 +405,7 @@
 <div class="sl-block" data-block-type="shape" data-block-id="b2c9348b85611d53dcbeb8cc446aa2c7" style="min-width: 4px; min-height: 4px; width: 335px; height: 52px; left: 607px; top: 356px;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(238, 238, 238)" data-shape-stretch="true" style="z-index: 13;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 335 52"><rect width="335" height="52" class="shape-element" fill="rgb(238, 238, 238)"></rect></svg></div></div>
 <div class="sl-block" data-block-type="shape" data-block-id="366c3dd031a960697746049e859ece4e" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 705px; top: 146px;"><div class="sl-block-content" data-shape-type="symbol-cog" data-shape-fill-color="rgb(238, 238, 238)" data-shape-stretch="true" style="z-index: 28;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 32 32"><g class="shape-element" fill="rgb(238, 238, 238)"><path d="M32 17.969v-4l-4.781-1.992c-0.133-0.375-0.273-0.738-0.445-1.094l1.93-4.805-2.829-2.828-4.762 1.961c-0.363-0.176-0.734-0.324-1.117-0.461l-2.027-4.75h-4l-1.977 4.734c-0.398 0.141-0.781 0.289-1.16 0.469l-4.754-1.91-2.828 2.828 1.938 4.711c-0.188 0.387-0.34 0.781-0.485 1.188l-4.703 2.011v4l4.707 1.961c0.145 0.406 0.301 0.801 0.488 1.188l-1.902 4.742 2.828 2.828 4.723-1.945c0.379 0.18 0.766 0.324 1.164 0.461l2.023 4.734h4l1.98-4.758c0.379-0.141 0.754-0.289 1.113-0.461l4.797 1.922 2.828-2.828-1.969-4.773c0.168-0.359 0.305-0.723 0.438-1.094l4.782-2.039zM15.969 22c-3.312 0-6-2.688-6-6s2.688-6 6-6 6 2.688 6 6-2.688 6-6 6z"></path></g></svg></div></div>
 <div class="sl-block" data-block-type="shape" data-block-id="42224ffec81792b32cc46ef46c0035eb" style="min-width: 4px; min-height: 4px; width: 67px; height: 300px; left: 139px; top: 164px;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(238, 238, 238)" data-shape-stretch="true" style="z-index: 29;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 67 300"><rect width="67" height="300" class="shape-element" fill="rgb(238, 238, 238)"></rect></svg></div></div>
-<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 181px; height: 184px; left: 313px; top: 123px;" data-block-id="6ebb3b51c8ef52887d123894ced9bc01"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 31;" data-shape-stroke-color="#eeeeee" data-shape-stroke-width="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 181 184"><defs><clippath id="shape-mask-54-1490412158285"><rect width="181" height="184"></rect></clippath></defs><rect width="181" height="184" clip-path="url(#shape-mask-54-1490412158285)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#eeeeee" stroke-width="6"></rect></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 181px; height: 184px; left: 313px; top: 123px;" data-block-id="6ebb3b51c8ef52887d123894ced9bc01"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 31;" data-shape-stroke-color="#eeeeee" data-shape-stroke-width="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 181 184"><defs><clippath id="shape-mask-6-1490495533424"><rect width="181" height="184"></rect></clippath></defs><rect width="181" height="184" clip-path="url(#shape-mask-6-1490495533424)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#eeeeee" stroke-width="6"></rect></svg></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 148px; left: 335px; top: 267px;" data-block-id="984d0dcd88bce4a80a9caa8df17c8a08"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 33; font-size: 55%;">
 <p><span style="color:#696969">Alert Provider</span></p>
 </div></div>
@@ -495,7 +415,7 @@
 <div class="sl-block" data-block-type="text" style="height: auto; width: 111px; left: -3px; top: 520px;" data-block-id="002ded3d9161db2c2c355c847b5a351f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 36; font-size: 68%;">
 <p>UI</p>
 </div></div>
-<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 181px; height: 184px; left: 314px; top: 318px;" data-block-id="a2ca76f88376acd88912477036453e25"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 37;" data-shape-stroke-color="#eeeeee" data-shape-stroke-width="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 181 184"><defs><clippath id="shape-mask-55-1490412158328"><rect width="181" height="184"></rect></clippath></defs><rect width="181" height="184" clip-path="url(#shape-mask-55-1490412158328)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#eeeeee" stroke-width="6"></rect></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 181px; height: 184px; left: 314px; top: 318px;" data-block-id="a2ca76f88376acd88912477036453e25"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 37;" data-shape-stroke-color="#eeeeee" data-shape-stroke-width="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 181 184"><defs><clippath id="shape-mask-7-1490495533439"><rect width="181" height="184"></rect></clippath></defs><rect width="181" height="184" clip-path="url(#shape-mask-7-1490495533439)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#eeeeee" stroke-width="6"></rect></svg></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 148px; left: 336px; top: 462px;" data-block-id="999d656b01583403e565a90fb2228311"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 39; font-size: 55%;">
 <p><span style="color:#696969">Silence Provider</span></p>
 </div></div>
@@ -510,7 +430,7 @@
 <div class="sl-block" data-block-type="text" style="height: auto; width: 186px; left: 762px; top: 653px;" data-block-id="7e1b34eeefa8aa764ea8c30e3e577a34"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 46; font-size: 52%;">
 <p>de-duplication</p>
 </div></div>
-<div class="sl-block" data-block-type="shape" style="width: 151px; height: 70px; left: 796px; top: 628px;" data-block-id="0455d96b9036ee62131c33ab4c84a757"><div class="sl-block-style" style="z-index: 45; transform: rotate(180deg);"><div class="sl-block-content" data-shape-type="triangle-left" data-shape-fill-color="rgb(204, 204, 204)" data-shape-stretch="true" style="z-index: 45;" data-shape-stroke-color="#000000" data-shape-stroke-width="1"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 151 70"><defs><clippath id="shape-mask-56-1490412158362"><polygon points="0,35 151,0 151,70"></polygon></clippath></defs><polygon points="0,35 151,0 151,70" clip-path="url(#shape-mask-56-1490412158362)" class="shape-element" fill="rgb(204, 204, 204)" stroke="#000000" stroke-width="2"></polygon></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 151px; height: 70px; left: 796px; top: 628px;" data-block-id="0455d96b9036ee62131c33ab4c84a757"><div class="sl-block-style" style="z-index: 45; transform: rotate(180deg);"><div class="sl-block-content" data-shape-type="triangle-left" data-shape-fill-color="rgb(204, 204, 204)" data-shape-stretch="true" style="z-index: 45;" data-shape-stroke-color="#000000" data-shape-stroke-width="1"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 151 70"><defs><clippath id="shape-mask-8-1490495533456"><polygon points="0,35 151,0 151,70"></polygon></clippath></defs><polygon points="0,35 151,0 151,70" clip-path="url(#shape-mask-8-1490495533456)" class="shape-element" fill="rgb(204, 204, 204)" stroke="#000000" stroke-width="2"></polygon></svg></div></div></div>
 <div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 503px; top: 226px;" data-block-id="af700b7ed38176deed6c54689414d209"><div class="sl-block-content" data-line-x1="-134" data-line-y1="100" data-line-x2="-37" data-line-y2="100" data-line-color="#eeeeee" data-line-start-type="none" data-line-end-type="arrow" style="z-index: 47;" data-line-style="dashed" data-line-width="6px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="97" height="1" viewbox="-134 100 97 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-134" y1="100" x2="-46" y2="100"></line><line stroke="#eeeeee" stroke-width="6" stroke-dasharray="13.166666666666668 13.166666666666668" x1="-134" y1="100" x2="-46" y2="100"></line><polygon fill="#eeeeee" transform="translate(-46,100) rotate(90)" points="0,-9 9,9 -9,9"></polygon></svg></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 111px; left: 489px; top: 177px;" data-block-id="e96048a5199d0f37eb204ced8097852f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 48; font-size: 68%;">
 <p>subscribe</p>
@@ -527,7 +447,7 @@
 <p><strong>notification pipeline</strong></p>
 </div></div></div>
 <div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 180px; height: 52px; left: 184px; top: 592px;" data-block-id="04e652b84567e4531d20cc8b9ead8435"><div class="sl-block-style" style="z-index: 11; transform: rotate(270deg);"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(0, 0, 0)" data-shape-stretch="true" style="z-index: 11;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 180 52"><rect width="180" height="52" class="shape-element" fill="rgb(0, 0, 0)"></rect></svg></div></div></div>
-<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 181px; height: 184px; left: 985px; top: 226px;" data-block-id="8d76a284f202abe2ee2b343928d5244c"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 55;" data-shape-stroke-color="#eeeeee" data-shape-stroke-width="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 181 184"><defs><clippath id="shape-mask-57-1490412158394"><rect width="181" height="184"></rect></clippath></defs><rect width="181" height="184" clip-path="url(#shape-mask-57-1490412158394)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#eeeeee" stroke-width="6"></rect></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 181px; height: 184px; left: 985px; top: 226px;" data-block-id="8d76a284f202abe2ee2b343928d5244c"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 55;" data-shape-stroke-color="#eeeeee" data-shape-stroke-width="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 181 184"><defs><clippath id="shape-mask-9-1490495533479"><rect width="181" height="184"></rect></clippath></defs><rect width="181" height="184" clip-path="url(#shape-mask-9-1490495533479)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#eeeeee" stroke-width="6"></rect></svg></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 148px; left: 1002px; top: 370px;" data-block-id="a71789bd9b2a8d4c7813e7fc9b2b7be0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 57; font-size: 55%;">
 <p><span style="color:#696969">Notify Provider</span></p>
 </div></div>
@@ -542,12 +462,12 @@
 	</tbody>
 </table>
 </div></div>
-<div class="sl-block" data-block-type="shape" style="width: 130px; height: 46px; left: 1014px; top: 557px;" data-block-id="cf2061144d02310d04d67455f93cb568"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(181, 193, 206)" data-shape-stretch="true" style="z-index: 60;" data-shape-stroke-color="#000000" data-shape-stroke-width="2"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 130 46"><defs><clippath id="shape-mask-58-1490412158417"><rect width="130" height="46"></rect></clippath></defs><rect width="130" height="46" clip-path="url(#shape-mask-58-1490412158417)" class="shape-element" fill="rgb(181, 193, 206)" stroke="#000000" stroke-width="4"></rect></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 130px; height: 46px; left: 1014px; top: 557px;" data-block-id="cf2061144d02310d04d67455f93cb568"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(181, 193, 206)" data-shape-stretch="true" style="z-index: 60;" data-shape-stroke-color="#000000" data-shape-stroke-width="2"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 130 46"><defs><clippath id="shape-mask-10-1490495533491"><rect width="130" height="46"></rect></clippath></defs><rect width="130" height="46" clip-path="url(#shape-mask-10-1490495533491)" class="shape-element" fill="rgb(181, 193, 206)" stroke="#000000" stroke-width="4"></rect></svg></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 130px; left: 1014px; top: 569px;" data-block-id="a37980c8e6a5760c4594b7c7780fc58d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 61; font-size: 55%;" dir="ui">
 <p><span style="font-size:0.9em">Retry</span></p>
 </div></div>
 <div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 955px; top: 580px;" data-block-id="70d8c32346c8cae9b9877ed198c466be"><div class="sl-block-content" data-line-x1="73" data-line-y1="407" data-line-x2="126" data-line-y2="407" data-line-color="#cccccc" data-line-start-type="none" data-line-end-type="arrow" style="z-index: 62;" data-line-style="solid" data-line-width="6px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="53" height="1" viewbox="73 407 53 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="73" y1="407" x2="117" y2="407"></line><line stroke="#cccccc" stroke-width="6" x1="73" y1="407" x2="117" y2="407"></line><polygon fill="#cccccc" transform="translate(117,407) rotate(90)" points="0,-9 9,9 -9,9"></polygon></svg></div></div>
-<div class="sl-block" data-block-type="shape" style="width: 130px; height: 46px; left: 1014px; top: 640px;" data-block-id="84e04d8783e968bff7667b4db677457d"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(181, 193, 206)" data-shape-stretch="true" style="z-index: 63;" data-shape-stroke-color="#000000" data-shape-stroke-width="2"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 130 46"><defs><clippath id="shape-mask-59-1490412158426"><rect width="130" height="46"></rect></clippath></defs><rect width="130" height="46" clip-path="url(#shape-mask-59-1490412158426)" class="shape-element" fill="rgb(181, 193, 206)" stroke="#000000" stroke-width="4"></rect></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 130px; height: 46px; left: 1014px; top: 640px;" data-block-id="84e04d8783e968bff7667b4db677457d"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(181, 193, 206)" data-shape-stretch="true" style="z-index: 63;" data-shape-stroke-color="#000000" data-shape-stroke-width="2"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 130 46"><defs><clippath id="shape-mask-11-1490495533498"><rect width="130" height="46"></rect></clippath></defs><rect width="130" height="46" clip-path="url(#shape-mask-11-1490495533498)" class="shape-element" fill="rgb(181, 193, 206)" stroke="#000000" stroke-width="4"></rect></svg></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 130px; left: 1014px; top: 652px;" data-block-id="bf85f1d2d828f8faa3e7252c3b3e1db3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 64; font-size: 55%;" dir="ui">
 <p><span style="font-size:0.9em">Retry</span></p>
 </div></div>
@@ -556,12 +476,101 @@
 <div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 61px; height: 61px; left: 1198px; top: 633px;" data-block-id="6f3d84f996952cb659f6c8f91072fb27"><div class="sl-block-style" style="z-index: 67; transform: rotate(360deg);"><div class="sl-block-content" style="z-index: 67;"><img data-natural-width="480" data-natural-height="480" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629932/webhook1600.png"></div></div></div>
 <div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 1143px; top: 581px;" data-block-id="a64811a9b8d2b9ee09336b108417adbf"><div class="sl-block-content" data-line-x1="73" data-line-y1="407" data-line-x2="126" data-line-y2="407" data-line-color="#cccccc" data-line-start-type="none" data-line-end-type="arrow" style="z-index: 68;" data-line-style="solid" data-line-width="6px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="53" height="1" viewbox="73 407 53 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="73" y1="407" x2="117" y2="407"></line><line stroke="#cccccc" stroke-width="6" x1="73" y1="407" x2="117" y2="407"></line><polygon fill="#cccccc" transform="translate(117,407) rotate(90)" points="0,-9 9,9 -9,9"></polygon></svg></div></div>
 <div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 1144px; top: 664px;" data-block-id="ee790b5c272ab9d0798403c0c12eb8be"><div class="sl-block-content" data-line-x1="73" data-line-y1="407" data-line-x2="126" data-line-y2="407" data-line-color="#cccccc" data-line-start-type="none" data-line-end-type="arrow" style="z-index: 69;" data-line-style="solid" data-line-width="6px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="53" height="1" viewbox="73 407 53 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="73" y1="407" x2="117" y2="407"></line><line stroke="#cccccc" stroke-width="6" x1="73" y1="407" x2="117" y2="407"></line><polygon fill="#cccccc" transform="translate(117,407) rotate(90)" points="0,-9 9,9 -9,9"></polygon></svg></div></div>
-<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 897px; top: 432px;" data-block-id="c4003acaf0165ee8967129c0bae5370b"><div class="sl-block-content" data-line-x1="355" data-line-y1="276" data-line-x2="238" data-line-y2="390" data-line-color="#eeeeee" data-line-start-type="none" data-line-end-type="arrow" style="z-index: 70;" data-line-style="dashed" data-line-width="6px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="117" height="114" viewbox="238 276 117 114"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="355" y1="276" x2="244" y2="384"></line><line stroke="#eeeeee" stroke-width="6" stroke-dasharray="14.535544068074376 14.535544068074376" x1="355" y1="276" x2="244" y2="384"></line><polygon fill="#eeeeee" transform="translate(244,384) rotate(225.744)" points="0,-9 9,9 -9,9"></polygon></svg></div></div></section></section><section class="stack" data-id="109802b9de0e6a08cd21681803a8011c"><section data-id="a0b434edb0d05eb5d57f5414d18245aa" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3630378/o-HISTORY-STUDENT-OLD-facebook.jpg" data-background-color="rgb(169,133,90)"></section><section data-background-size="cover" data-id="e9f3fe3a00fe29adbf774cc00df297df">
-<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 1217px; height: 741px; left: 32px; top: 19px;" data-block-id="5c306d61d3c06d12298c216e9bf855f9"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1245" data-natural-height="758" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629393/prometheus-alertmanager-no-history.png"></div></div></section><section data-background-size="cover" data-id="46a19a0a88865062e382a7d2e10ffce1">
-<div class="sl-block" data-block-type="text" style="height: auto; width: 974px; left: 178px; top: 100px;" data-block-id="5b3a55a80d5bd0e5f8fc78e6284275f1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 897px; top: 432px;" data-block-id="c4003acaf0165ee8967129c0bae5370b"><div class="sl-block-content" data-line-x1="355" data-line-y1="276" data-line-x2="238" data-line-y2="390" data-line-color="#eeeeee" data-line-start-type="none" data-line-end-type="arrow" style="z-index: 70;" data-line-style="dashed" data-line-width="6px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="117" height="114" viewbox="238 276 117 114"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="355" y1="276" x2="244" y2="384"></line><line stroke="#eeeeee" stroke-width="6" stroke-dasharray="14.535544068074376 14.535544068074376" x1="355" y1="276" x2="244" y2="384"></line><polygon fill="#eeeeee" transform="translate(244,384) rotate(225.744)" points="0,-9 9,9 -9,9"></polygon></svg></div></div></section><section data-id="b0e9ee90e4b693baacee3dfd68000982"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 102px; top: 194px; height: auto;" data-block-id="1af55b7ee7b3dbfa4490768ee0943d49"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Alerts</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 1075px; left: -127px; top: -16px; height: auto;" data-block-id="4bc82115432b7b33f3cae1a39262a98d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li><span><span style="color:rgb(230, 82, 44)">ALERT</span><span style="color:rgb(89, 89, 89)"> &lt;alert name&gt;</span><br>
+	<span style="color:rgb(89, 89, 89)">  </span><span style="color:rgb(230, 82, 44)">IF</span><span style="color:rgb(89, 89, 89)"> &lt;PromQL vector expression&gt;</span><br>
+	<span style="color:rgb(89, 89, 89)"> </span><span style="color:rgb(230, 82, 44)"> FOR</span><span style="color:rgb(89, 89, 89)"> &lt;duration&gt;</span><br>
+	<span style="color:rgb(89, 89, 89)">  </span><span style="color:rgb(230, 82, 44)">LABELS</span><span style="color:rgb(89, 89, 89)"> { ... }</span><br>
+	<span style="color:rgb(89, 89, 89)">  </span><span style="color:rgb(230, 82, 44)">ANNOTATIONS</span><span style="color:rgb(89, 89, 89)"> { ... }</span></span></li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="code" data-block-id="50e63a0fe3af759507a84948ac2e5df2" style="min-width: 30px; min-height: 30px; width: 500px; height: 300px; left: 60px; top: 276px;"><div class="sl-block-content" style="z-index: 12;"><pre class="less"><code>ALERT &lt;alert name&gt;
+   IF &lt;PromQL vector expression&gt;
+   FOR &lt;duration&gt;
+   LABELS { ... }
+   ANNOTATIONS { ... }</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="a4ce5f7e5537e38789452da69cd12cdd" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 209px; top: 595px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p>Prometheus doesn't believe in "magic".</p>
+
+<p> </p>
+
+<p>Alerting and graphing are unified using the same language. If you can graph it, you can alert on it.</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 616px; top: 419px;" data-block-id="fc71784f0bc4483e94df512acbe10f1b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p>Correlation</p>
+</div></div></section><section data-background-size="cover" data-id="b781338982a3ed3c8bbdd8e90b52ca5c">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 1280px; left: 36px; top: 302px;" data-block-id="c32ff1213f0d8970920503e3872ef047"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li>Setup and <a href="https://prometheus.io/docs/alerting/configuration" target="_blank">configure</a> the Alertmanager</li>
+	<li>Configure Prometheus to talk to the Alertmanager with the -alertmanager.url flag</li>
+	<li>Create <a href="https://prometheus.io/docs/alerting/rules" target="_blank">alerting rules</a> in Prometheus</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="3ffc846b7691fdf51344b5f430156bec">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;">
+        <p>
+            <a href="http://twitter.com/lcalcote" target="_blank">
+                <span style="color:#D3D3D3">@lcalcote</span>
+            </a>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="b1618f89e2c3f1b5e9415c629f8c9269">
+    <a class="sl-block-content" style="z-index: 13;" href="http://twitter.com/lcalcote" target="_blank">
+        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
+    </a>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="c1c53f94c8c6a239d95c2c0e69bf2a84" style="height: auto; min-width: 30px; min-height: 30px; width: 1070px; left: 130px; top: 98px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<h1><span style="color:rgb(255, 255, 255)">Alert and Notification Setup</span></h1>
+</div></div></section><section data-id="3f1b5550410ffab72a89593c19347b38"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 35px; height: auto;" data-block-id="bf1ded1e6002b0b4efe1f5c622e187ec"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>Notification Integrations</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="b047f8bf9eeeccbd1b39b54bb7f1b705">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;">
+        <p>
+            <a href="http://twitter.com/lcalcote" target="_blank">
+                <span style="color:#D3D3D3">@lcalcote</span>
+            </a>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="55f550c6cf02b21a385a118851bf4222">
+    <a class="sl-block-content" style="z-index: 13;" href="http://twitter.com/lcalcote" target="_blank">
+        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
+    </a>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 188px; height: 188px; left: 536px; top: 516px;" data-block-id="640fda5a3a8933fdc23684e281a3c244"><div class="sl-block-content" style="z-index: 14;"><img data-natural-width="512" data-natural-height="512" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3201482/slack-2014.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="4eb35aa299740e23b045f2ddd866f014" style="min-width: 30px; min-height: 30px; width: 181px; height: 181px; left: 193px; top: 476px;"><div class="sl-block-content" style="z-index: 15;"><img data-natural-width="512" data-natural-height="512" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629881/Glf2BSxx.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="65f1ca9f006932cdc469f6410328eb24" style="min-width: 30px; min-height: 30px; width: 181px; height: 181px; left: 910px; top: 476px;"><div class="sl-block-content" style="z-index: 16;"><img data-natural-width="300" data-natural-height="300" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629884/icon-pd-slate-1024-300x300.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="6ef8c5a5f408fe45b4ff7d80324c9ef4" style="min-width: 30px; min-height: 30px; width: 226px; height: 188px; left: 1023px; top: 230px;"><div class="sl-block-content" style="z-index: 17;"><img data-natural-width="360" data-natural-height="300" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629885/vo-logo-graphic.svg"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="d01c426e00275640087be4feab365a19" style="min-width: 30px; min-height: 30px; width: 188px; height: 188px; left: 52px; top: 230px;"><div class="sl-block-content" style="z-index: 18;"><img data-natural-width="873" data-natural-height="875" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629920/opsgenie.png"></div></div>
+
+
+<div class="sl-block" data-block-type="image" data-block-id="190bb8c44e5eeee25ab9bd3325888c27" style="min-width: 30px; min-height: 30px; width: 184px; height: 184px; left: 548px; top: 140px;"><div class="sl-block-content" style="z-index: 20;"><img style="" data-natural-width="599" data-natural-height="598" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629943/pushover.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="a5c09c6fae709cbc558225ffacbfc4b3" style="min-width: 30px; min-height: 30px; width: 188px; height: 188px; left: 709px; top: 282px;"><div class="sl-block-content" style="z-index: 21;"><img data-natural-width="480" data-natural-height="480" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3632245/webhook-white.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="c5875e415310cd43f9ea0588cf6959c7" style="min-width: 30px; min-height: 30px; width: 202px; height: 144px; left: 334px; top: 304px;"><div class="sl-block-content" style="z-index: 22;"><img data-natural-width="591" data-natural-height="422" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3632249/email-icon-vector-white.png"></div></div></section><section data-id="0b18df134e60298f85504c2bc4b880fb"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 86px; top: 82px; height: auto;" data-block-id="4d3dc549c4ddeb071753d4b8e9b30f45"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Sending alert notifications to multiple destinations</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 1075px; left: 102px; top: 342px; height: auto;" data-block-id="ed0a485f5a02dbc7344cc31a86ecd44e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li>Use a <a href="https://prometheus.io/docs/alerting/configuration/#receiver" target="_blank">receiver</a> that goes to both destinations.</li>
+	<li>Use <a href="https://prometheus.io/docs/alerting/configuration/#route" target="_blank">continue</a> to advance to next receiver.</li>
+</ul>
+</div></div></section></section><section class="stack" data-id="109802b9de0e6a08cd21681803a8011c"><section data-id="a0b434edb0d05eb5d57f5414d18245aa" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3630378/o-HISTORY-STUDENT-OLD-facebook.jpg" data-background-color="rgb(169,133,90)"></section><section data-background-size="cover" data-id="e9f3fe3a00fe29adbf774cc00df297df">
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 1217px; height: 741px; left: 32px; top: 19px;" data-block-id="5c306d61d3c06d12298c216e9bf855f9"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="1245" data-natural-height="758" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629393/prometheus-alertmanager-no-history.png"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="3e5cdd7e2966d532bf868e1875b3311e" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 371px; top: 785px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p>UI is currently in AngularJS.</p>
+
+<p>Proposal to move to either Elm or ReactJS.</p>
+</div></div></section><section data-background-size="cover" data-id="46a19a0a88865062e382a7d2e10ffce1">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 686px; left: 298px; top: 34px;" data-block-id="5b3a55a80d5bd0e5f8fc78e6284275f1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(68, 68, 68);">
 <p style="text-align:left"><strong>Story:</strong></p>
 
-<p style="text-align:left">As an Operator, I would like to not only see a list of firing alerts, but also a list of all transpired alerts, so that I may have additional context as the thresholding behavior for a given defined alert.</p>
+<p style="text-align:left">As an Operator, I would like to not only see a list of firing alerts, <em>but also</em> a list of all transpired alerts, so that I may have additional context as the thresholding behavior for a given defined alert.</p>
 
 <p style="text-align:left"> </p>
 
@@ -581,61 +590,6 @@
 </ol>
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="2336c5375dc91ed5b22a76cb98d3c3b1">
-    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;">
-        <p>
-            <a href="http://twitter.com/lcalcote" target="_blank">
-                <span style="color:#D3D3D3">@lcalcote</span>
-            </a>
-        </p>
-    </div>
-</div>
-<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="b4406525444a7fa65740b70ee0978f58">
-    <a class="sl-block-content" style="z-index: 13;" href="http://twitter.com/lcalcote" target="_blank">
-        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
-    </a>
-</div></section></section><section class="stack" data-id="1b7183644ae867496bcf0124cefeb946"><section data-id="39c52ae9ee3f8044b4186bb572a6275f" data-background-size="cover" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3630403/Legacy-code.jpg" data-background-color="rgb(30,41,30)"></section><section data-id="251db6001ab9caa29449fd677e17d028">
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="9aacb6be1f43b4d2ab5ddc856a7fc46c">
-    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;">
-        <p>
-            <a href="http://twitter.com/lcalcote" target="_blank">
-                <span style="color:#D3D3D3">@lcalcote</span>
-            </a>
-        </p>
-    </div>
-</div>
-<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="f79f6c8a9140985c29e679e7e61efe65">
-    <a class="sl-block-content" style="z-index: 12;" href="http://twitter.com/lcalcote" target="_blank">
-        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
-    </a>
-</div>
-<div class="sl-block" data-block-type="text" data-block-id="e8562fce6f45a77273c9b0612979e5c0" style="height: auto; min-width: 30px; min-height: 30px; width: 796px; left: 242px; top: 24px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
-<h1>Environment Setup</h1>
-</div></div>
-<div class="sl-block" data-block-type="code" data-block-id="345bf27f0d19a2a8722bd4c2406443b2" style="min-width: 30px; min-height: 30px; width: 622px; height: 30px; left: 329px; top: 157px;"><div class="sl-block-content" style="z-index: 14;"><pre class="less"><code> $ git clone https://github.com/prometheus/alertmanager.git</code></pre></div></div>
-<div class="sl-block" data-block-type="code" data-block-id="2e0f45af8ead166bb6261eef3caf3e79" style="min-width: 30px; min-height: 30px; width: 500px; height: 30px; left: 390px; top: 599px;"><div class="sl-block-content" style="z-index: 15;"><pre class="less"><code>$ go get -u github.com/jteeuwen/go-bindata/...</code></pre></div></div>
-<div class="sl-block" data-block-type="text" data-block-id="e0714b100f5aef3ea94d9f694773dab4" style="height: auto; min-width: 30px; min-height: 30px; width: 854px; left: 213px; top: 366px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
-<p>Given that our user story includes making front-end changes to AlertManager, ensure that you install a small utility to generate Go code from any file. In this case, the Prometheus project uses the utility for embedding static web files (HTML, CSS, AngularJS, etc.) into the alert manager binary.</p>
-</div></div></section><section data-background-size="cover" data-id="756f446522970aaa5178ff39fae2deb3">
-<div class="sl-block" data-block-type="text" style="height: auto; width: 1280px; left: 8px; top: 568px;" data-block-id="de878bbecb76a32a1d3d9784376ffd02"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
-<p>copy go-bindata into any directory on your PATH</p>
-</div></div>
-<div class="sl-block" data-block-type="code" data-block-id="9d246d37df9f5298bcc2b042e2de460c" style="min-width: 30px; min-height: 30px; width: 950px; height: 76px; left: 170px; top: 322px;"><div class="sl-block-content" style="z-index: 12;"><pre><code>$ go get github.com/jteeuwen/go-bindata
-$ cd $GOPATH/src/github.com/jteeuwen/go-bindata/go-bindata
-$ go build</code></pre></div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="4833fc2aa78369b3452107fab2ca1936">
     <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left; font-size: 80%;">
         <p>
             <a href="http://twitter.com/lcalcote" target="_blank">
@@ -644,72 +598,57 @@ $ go build</code></pre></div></div>
         </p>
     </div>
 </div>
-<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="b0deb0887fdc7c3206baa9d5e85b3980">
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="b4406525444a7fa65740b70ee0978f58">
     <a class="sl-block-content" style="z-index: 14;" href="http://twitter.com/lcalcote" target="_blank">
         <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
     </a>
 </div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 1280px; left: 26px; top: 128px;" data-block-id="e7c89287b512b358b95964a40e1347aa"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
-<p>uses the utility for embedding static web files (HTML, CSS, AngularJS, etc.) into the alert manager binary. </p>
-</div></div></section><section data-id="703368e4c9e17162fb3450d8de211e72"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 24px; height: auto;" data-block-id="92710442109e5e034ec6a31394895654"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
-<h1>Notification Integration</h1>
-</div></div>
-<div class="sl-block" data-block-type="text" data-block-id="a662fcde8ed1f7ea7c8c561da0291023" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 340px; top: 133px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
-<p>Next (optionally) create an alert notification receiver. Of the supported AlertManager receivers, let’s opt for integrating Slack.</p>
-</div></div>
-<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 592px; height: 181px; left: 688px; top: 395px;" data-block-id="c1d62cee2424efe7092726455e3b851e"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="726" data-natural-height="222" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629392/Slack-Incoming-Webhook-for-Prometheus-AlertManager.png"></div></div>
-<div class="sl-block" data-block-type="code" data-block-id="87f4952318471c0b0ac02a1f40afed21" style="min-width: 30px; min-height: 30px; width: 594px; height: 301px; left: 43px; top: 354px;"><div class="sl-block-content" style="z-index: 14;"><pre class="less"><code>route:
-  group_by: [cluster]
-  # If an alert isn't caught by a route, send it slack.
-  receiver: slack_general
-routes:
-  # Send severity=slack alerts to slack.
-  - match:
-    severity: slack
-    receiver: slack_generalreceivers:
-- name: slack_general
-  slack_configs:
-    - api_url: '&lt;your-web-url-here&gt;'
-    channel: '#&lt;your-channel-name-here&gt;'
-    send_resolved: true</code></pre></div></div></section><section data-id="34055ec94f86a1f0a91be2b3104bb61b"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 102px; top: 194px; height: auto;" data-block-id="9fe7726dea3591f0bf0f85bc668af230"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
-<h2>Build, Run, Test</h2>
-</div></div>
-<div class="sl-block" data-block-type="text" style="width: 1075px; left: 102px; top: 268px; height: auto;" data-block-id="4723ad1dd688f784953f82435b5441d7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<div class="sl-block" data-block-type="shape" data-block-id="9518062684691d81f7d76ac21657c1ea" style="min-width: 4px; min-height: 4px; width: 725px; height: 703px; left: 279px; top: 9px;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 229, 153)" data-shape-stretch="true" style="z-index: 11;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 725 703"><rect width="725" height="703" class="shape-element" fill="rgb(255, 229, 153)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="254684a7665efaf7f5ab404abb25410a" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 342px; top: 732px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p><em>Our user story does not call for changes to the Prometheus server itself. So, we only need to interact with this component as a pre-compiled binary.</em></p>
+</div></div></section><section data-id="bffb55fe4bfe409d96607ae893c9afd3"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 10px; height: auto;" data-block-id="a770f8e9af9055b3b7d9b31c8abf954a"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;"><h2>Title Text</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 99px; height: auto;" data-block-id="9d5379fb1ac57346fc663eeba3410021"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
 <ul>
-	<li>verify you have a functional development environment by building and running the project:</li>
+	<li>Follow the <a href="https://prometheus.io/docs/introduction/getting_started/" target="_blank">getting started instructions</a> to download, configure and run the Prometheus server. Be sure to create and run the <a href="https://prometheus.io/docs/introduction/getting_started/#starting-up-some-sample-targets" target="_blank">random sample targets</a> and point it at your soon-to-be AlertManager:</li>
 </ul>
 </div></div>
-<div class="sl-block" data-block-type="code" data-block-id="111015d915ef3cd45d90a5532bc957e8" style="min-width: 30px; min-height: 30px; width: 1075px; height: 74px; left: 103px; top: 473px;"><div class="sl-block-content" style="z-index: 13;"><pre class="less"><code>$ make assets                                      #invokes go-bindata to inject static web files
-$ go build                                         #compiles go code
-$ ./alertmanager -config.file=notification.yml     #runs alertmanager with the specified configuration</code></pre></div></div></section><section data-id="f79c3e830fcb458fa084bbce7e3759cb">
+<div class="sl-block" data-block-type="code" data-block-id="127833a6e643bb9e59bc378838401fb2" style="min-width: 30px; min-height: 30px; width: 883px; height: 39px; left: 199px; top: 262px;"><div class="sl-block-content" style="z-index: 12;"><pre class="less"><code>$ ./prometheus -config.file=prometheus.yml -alertmanager.url=http://localhost:9093</code></pre></div></div>
+<div class="sl-block" data-block-type="code" data-block-id="4ce994fadb92f279c6f7ad7a2619bfe3" style="min-width: 30px; min-height: 30px; width: 798px; height: 180px; left: 284px; top: 543px;"><div class="sl-block-content" style="z-index: 13;"><pre class="less"><code>ALERT instance_down
+IF up == 0
+FOR 5s
+LABELS {severity="page"}
+ANNOTATIONS {
+   DESCRIPTION="{{$labels.instance}} of job {{$labels.job}}
+             has been down for more than 5 seconds.",
+   SUMMARY="Instance {{$labels.instance}} down"}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="width: 1075px; left: 109px; top: 360px; height: auto;" data-block-id="55c2111d0380b8446cf4128abbe8f457"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<ul>
+	<li>We’ll want to ensure that one or more easily triggered alert rules are defined. Here’s a simple alert rule that will fire when any given target is unreachable for longer than 5 seconds:</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 1075px; left: 284px; top: 504px; height: auto;" data-block-id="b06281448333f29976cc295d9a8d7831"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<pre>alert.rules</pre>
+</div></div></section><section data-id="1d4e42c70aaf4239e83de353ff70e26c"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 56px; height: auto;" data-block-id="a2a24a0e668542333b74c4b69d08f641"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Random Sample Targets</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 883px; height: 219px; left: 199px; top: 167px;" data-block-id="fcf372d2b375c18cddad5a63cbeb33f7"><div class="sl-block-content" style="z-index: 12;"><pre class="less"><code># Fetch the client library code and compile example.
+git clone https://github.com/prometheus/client_golang.git
+cd client_golang/examples/random
+go get -d
+go build
 
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="6a67199381f0a31118db8da7e434a93b">
-    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 80%;">
-        <p>
-            <a href="http://twitter.com/lcalcote" target="_blank">
-                <span style="color:#D3D3D3">@lcalcote</span>
-            </a>
-        </p>
-    </div>
-</div>
-<div class="sl-block" data-block-type="image" style="width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="a48e5a556da88c58ee4d38fe1f99f3e6">
-    <a class="sl-block-content" style="z-index: 11;" href="http://twitter.com/lcalcote" target="_blank">
-        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
-    </a>
-</div>
-<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 837px; height: 588px; left: 193px; top: 72px;" data-block-id="bf2eae31904c9123360adf6b0079ffbe"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="696" data-natural-height="489" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629390/prometheus-slack-integration.jpeg"></div></div></section><section data-id="603bbb2ed9bb2b919723f02e638935b9">
+# Start 3 example targets in separate terminals:
+./random -listen-address=:8080
+./random -listen-address=:8081
+./random -listen-address=:8082</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 798px; height: 180px; left: 262px; top: 504px;" data-block-id="dc0fc216fa5203c8cdb5ac2ac3da1b5c"><div class="sl-block-content" style="z-index: 13;"><pre class="less"><code>...
+# Load and evaluate rules in this file every 'evaluation_interval' seconds.
+rule_files:
+ - "alert.rules"
+...</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="width: 1075px; left: 289px; top: 458px; height: auto;" data-block-id="d52f0ffb5e916b40a48928af6a09199a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<pre>prometheus.yml</pre>
+</div></div></section><section data-id="603bbb2ed9bb2b919723f02e638935b9">
 
 
 
@@ -746,6 +685,207 @@ rule_files:
 ...</code></pre></div></div>
 <div class="sl-block" data-block-type="text" data-block-id="ddada1a201c788fb33d4de8b6262280f" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 320px; top: 125px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
 <p>prometheus.yml</p>
+</div></div></section></section><section class="stack" data-id="1b7183644ae867496bcf0124cefeb946"><section data-id="39c52ae9ee3f8044b4186bb572a6275f" data-background-size="cover" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3630403/Legacy-code.jpg" data-background-color="rgb(30,41,30)"></section><section data-id="251db6001ab9caa29449fd677e17d028">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="9aacb6be1f43b4d2ab5ddc856a7fc46c">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 80%;">
+        <p>
+            <a href="http://twitter.com/lcalcote" target="_blank">
+                <span style="color:#D3D3D3">@lcalcote</span>
+            </a>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="f79f6c8a9140985c29e679e7e61efe65">
+    <a class="sl-block-content" style="z-index: 11;" href="http://twitter.com/lcalcote" target="_blank">
+        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
+    </a>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="e8562fce6f45a77273c9b0612979e5c0" style="height: auto; min-width: 30px; min-height: 30px; width: 796px; left: 242px; top: 24px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<h1>Environment Setup</h1>
+</div></div>
+<div class="sl-block" data-block-type="code" data-block-id="345bf27f0d19a2a8722bd4c2406443b2" style="min-width: 30px; min-height: 30px; width: 622px; height: 30px; left: 329px; top: 234px;"><div class="sl-block-content" style="z-index: 13;"><pre class="less"><code> $ git clone https://github.com/prometheus/alertmanager.git</code></pre></div></div>
+<div class="sl-block" data-block-type="code" data-block-id="2e0f45af8ead166bb6261eef3caf3e79" style="min-width: 30px; min-height: 30px; width: 500px; height: 30px; left: 390px; top: 599px;"><div class="sl-block-content" style="z-index: 14;"><pre class="less"><code>$ go get -u github.com/jteeuwen/go-bindata/...</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="e0714b100f5aef3ea94d9f694773dab4" style="height: auto; min-width: 30px; min-height: 30px; width: 854px; left: 213px; top: 381px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p>Given that our user story includes making front-end changes to AlertManager, ensure that you install a small utility to generate Go code from any file. In this case, the Prometheus project uses the utility for embedding static web files (HTML, CSS, AngularJS, etc.) into the alert manager binary.</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 854px; left: 213px; top: 177px;" data-block-id="e4eae07f90be24db9bdd069b75630b78"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;">
+<p>Clone AlertManager repo</p>
+</div></div></section><section data-background-size="cover" data-id="756f446522970aaa5178ff39fae2deb3">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 1280px; left: 8px; top: 568px;" data-block-id="de878bbecb76a32a1d3d9784376ffd02"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<p>copy go-bindata into any directory on your PATH</p>
+</div></div>
+<div class="sl-block" data-block-type="code" data-block-id="9d246d37df9f5298bcc2b042e2de460c" style="min-width: 30px; min-height: 30px; width: 950px; height: 76px; left: 170px; top: 322px;"><div class="sl-block-content" style="z-index: 12;"><pre><code>$ go get github.com/jteeuwen/go-bindata
+$ cd $GOPATH/src/github.com/jteeuwen/go-bindata/go-bindata
+$ go build</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="4833fc2aa78369b3452107fab2ca1936">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left; font-size: 80%;">
+        <p>
+            <a href="http://twitter.com/lcalcote" target="_blank">
+                <span style="color:#D3D3D3">@lcalcote</span>
+            </a>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="b0deb0887fdc7c3206baa9d5e85b3980">
+    <a class="sl-block-content" style="z-index: 14;" href="http://twitter.com/lcalcote" target="_blank">
+        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
+    </a>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 1280px; left: 26px; top: 128px;" data-block-id="e7c89287b512b358b95964a40e1347aa"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p>uses the utility for embedding static web files (HTML, CSS, AngularJS, etc.) into the alert manager binary. </p>
+</div></div></section><section data-id="703368e4c9e17162fb3450d8de211e72"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 24px; height: auto;" data-block-id="92710442109e5e034ec6a31394895654"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Notification Integration</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="a662fcde8ed1f7ea7c8c561da0291023" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 341px; top: 159px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>create an alert notification receiver.</p>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 592px; height: 181px; left: 664px; top: 288px;" data-block-id="c1d62cee2424efe7092726455e3b851e"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="726" data-natural-height="222" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629392/Slack-Incoming-Webhook-for-Prometheus-AlertManager.png"></div></div>
+<div class="sl-block" data-block-type="code" data-block-id="87f4952318471c0b0ac02a1f40afed21" style="min-width: 30px; min-height: 30px; width: 594px; height: 301px; left: 43px; top: 245px;"><div class="sl-block-content" style="z-index: 14;"><pre class="less"><code>route:
+  group_by: [cluster]
+  # If an alert isn't caught by a route, send it slack.
+  receiver: slack_general
+routes:
+  # Send severity=slack alerts to slack.
+  - match:
+    severity: slack
+    receiver: slack_generalreceivers:
+- name: slack_general
+  slack_configs:
+    - api_url: '&lt;your-web-url-here&gt;'
+    channel: '#&lt;your-channel-name-here&gt;'
+    send_resolved: true</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 341px; top: 588px;" data-block-id="7ff35aa782959f3d2da7de6b0357a6cf"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p><span style="color:rgb(255, 255, 255)">Of the supported AlertManager receivers, let’s opt for integrating Slack.</span></p>
+</div></div></section><section data-id="34055ec94f86a1f0a91be2b3104bb61b"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 94px; top: 35px; height: auto;" data-block-id="9fe7726dea3591f0bf0f85bc668af230"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Build, Run, Test</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 1075px; left: 102px; top: 268px; height: auto;" data-block-id="4723ad1dd688f784953f82435b5441d7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>verify you have a functional development environment by building and running the project:</p>
+</div></div>
+<div class="sl-block" data-block-type="code" data-block-id="111015d915ef3cd45d90a5532bc957e8" style="min-width: 30px; min-height: 30px; width: 1075px; height: 74px; left: 103px; top: 410px;"><div class="sl-block-content" style="z-index: 13;"><pre class="less"><code>$ make assets                                      #invokes go-bindata to inject static web files
+$ go build                                         #compiles go code
+$ ./alertmanager -config.file=notification.yml     #runs alertmanager with the specified configuration</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="b882fe14c7ac0df6e4ccda2947789939">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; text-align: left; font-size: 80%; color: rgb(218, 78, 49);">
+        <p>
+            <a href="http://twitter.com/lcalcote" target="_blank">
+                <span style="color:#D3D3D3">@lcalcote</span>
+            </a>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="55ea19127c69876ccc94df69b250854e">
+    <a class="sl-block-content" style="z-index: 15;" href="http://twitter.com/lcalcote" target="_blank">
+        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
+    </a>
+</div></section><section data-id="f79c3e830fcb458fa084bbce7e3759cb">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="6a67199381f0a31118db8da7e434a93b">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;">
+        <p>
+            <a href="http://twitter.com/lcalcote" target="_blank">
+                <span style="color:#D3D3D3">@lcalcote</span>
+            </a>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="a48e5a556da88c58ee4d38fe1f99f3e6">
+    <a class="sl-block-content" style="z-index: 12;" href="http://twitter.com/lcalcote" target="_blank">
+        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
+    </a>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 592px; height: 416px; left: 0px; top: 104px;" data-block-id="bf2eae31904c9123360adf6b0079ffbe"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="696" data-natural-height="489" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629390/prometheus-slack-integration.jpeg"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="641deadce0583fab49b69a898d8a65d4" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 640px; top: 32px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<h3>Verify</h3>
+
+<p>If you choose to setup a Slack channel, you should now see new alerts firing as and when your random targets go up and down.</p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="aa8de796cda102882ffde98afbe12c54" style="min-width: 30px; min-height: 30px; width: 802px; height: 488px; left: 400px; top: 224px;"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="1245" data-natural-height="758" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3632351/prometheus-alertmanager-2.png"></div></div></section><section data-id="185f40e115da8bf8b42c41b73cd73cb6">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="d4d63cba9e378fb1f4a6015716e3bc30">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;">
+        <p>
+            <a href="http://twitter.com/lcalcote" target="_blank">
+                <span style="color:#D3D3D3">@lcalcote</span>
+            </a>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="9ff2410b225bc8c6058741b103564837">
+    <a class="sl-block-content" style="z-index: 12;" href="http://twitter.com/lcalcote" target="_blank">
+        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
+    </a>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 1120px; left: 80px; top: 66px;" data-block-id="4a053b239b11740b3f7262eae161684c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui">
+<pre><span style="font-size:2.0em;">/api.go</span></pre>
+<p>All UI functionality should be addressable via API. Let’s register a <a href="https://github.com/leecalcote/alertmanager/blob/master/api.go#L93" target="_blank">new /history API endpoint</a>:</p>
+</div></div>
+<div class="sl-block" data-block-type="code" data-block-id="45970f49b9864638ebc611ffd02fe692" style="min-width: 30px; min-height: 30px; width: 680px; height: 46px; left: 333px; top: 200px;"><div class="sl-block-content" style="z-index: 14;"><pre class="less"><code>r.Get("/history", ihf("history", api.listAllAlerts))</code></pre></div></div>
+<div class="sl-block" data-block-type="code" data-block-id="73b11119403c907984eeaa21207ee4d8" style="min-width: 30px; min-height: 30px; width: 753px; height: 74px; left: 276px; top: 489px;"><div class="sl-block-content" style="z-index: 15;"><pre class="less"><code>func (api *API) listAllAlerts(w http.ResponseWriter, r *http.Request) {
+	alerts := api.alerts.GetAll()
+	defer alerts.Close()
+
+	var (
+		err error
+		res []*types.Alert
+	)
+	for a := range alerts.Next() {
+		if err = alerts.Err(); err != nil {
+			break
+		}
+		res = append(res, a)
+	}
+
+	if err != nil {
+		respondError(w, apiError{
+			typ: errorInternal,
+			err: err,
+		}, nil)
+		return
+	}
+	respond(w, types.Alerts(res...))
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="49c23f44ec88a263501e3506c3517c8b" style="height: auto; min-width: 30px; min-height: 30px; width: 1120px; left: 80px; top: 346px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p><span style="color:rgb(255, 255, 255)">With our /api/v1/history endpoint a newly addressable API endpoint, we’ll need to build a function to handle requests made to it. The </span><a href="https://github.com/leecalcote/alertmanager/blob/master/api.go#L185-L209" target="_blank">api.listAllAlerts</a><span style="color:rgb(255, 255, 255)"> function will handle inbound HTTP requests made to the new endpoint.</span></p>
 </div></div></section><section data-id="d4e4c9e7808e341667e5226e9b6a8211">
 
 
@@ -760,7 +900,7 @@ rule_files:
 
 
 
-<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="45140d5fc5cc1ec5ca6116b6ff00217b">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1164px; top: 713px;" data-block-id="45140d5fc5cc1ec5ca6116b6ff00217b">
     <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 80%;">
         <p>
             <a href="http://twitter.com/lcalcote" target="_blank">
@@ -769,13 +909,65 @@ rule_files:
         </p>
     </div>
 </div>
-<div class="sl-block" data-block-type="image" style="width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="72e99036ab6d54ae1da5fd10774ba6e2">
+<div class="sl-block" data-block-type="image" style="width: 32px; height: 32px; left: 1126px; top: 713px;" data-block-id="72e99036ab6d54ae1da5fd10774ba6e2">
     <a class="sl-block-content" style="z-index: 11;" href="http://twitter.com/lcalcote" target="_blank">
         <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
     </a>
 </div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 360px; top: 122px;" data-block-id="672310964f8c5db1f1ef72750dc99db0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
-<h3>Finally, we’ll need a page in which to view the transpired alerts. So, create a new file, <a href="https://github.com/leecalcote/alertmanager/blob/master/ui/app/partials/history.html" target="_blank">history.html</a>, under /ui/app/partials. History.html will simply format the display a tabular recordset. A new recordset will be retrieved from our data provider.</h3>
+<div class="sl-block" data-block-type="text" data-block-id="44f92d11b5d3e56942289ad8b054302a" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 340px; top: 0px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<h2>/ui/app/js/app.js</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" data-block-id="1fd98a5c7d0a790bcbd3b40a02520c1a" style="min-width: 30px; min-height: 30px; width: 568px; height: 131px; left: 1px; top: 174px;"><div class="sl-block-content" style="z-index: 13;"><pre class="less"><code>angular.module('am.controllers').controller('NavCtrl',
+  function($scope, $location) {
+    $scope.items = [{
+      name: 'History',
+      url: 'history'
+    },</code></pre></div></div>
+
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 511px; height: 222px; left: 29px; top: 433px;" data-block-id="470d5af159a22eec8c3f8004265268f8"><div class="sl-block-content" style="z-index: 14;"><pre class="less"><code>angular.module('am.services').factory('History',
+  function($resource) {
+    return $resource('', {}, {
+      'query': {
+      method: 'GET',
+      url: 'api/v1/history'
+      }
+    });
+  }
+);</code></pre></div></div>
+
+<div class="sl-block" data-block-type="text" data-block-id="0340bd5ee6023f6de831586d78272303" style="height: auto; min-width: 30px; min-height: 30px; width: 569px; left: 0px; top: 114px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p> NavCtrl for the <a href="https://github.com/leecalcote/alertmanager/blob/master/ui/app/js/app.js#L144-L149" target="_blank">History menu item</a>:</p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="0e444aae8a84bf4f3dc598a54764ce7e" style="height: auto; min-width: 30px; min-height: 30px; width: 559px; left: 1px; top: 383px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;">
+<p>as well as a <a href="https://github.com/leecalcote/alertmanager/blob/master/ui/app/js/app.js#L121-L130" target="_blank">new History service</a>:</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 609px; height: 251px; left: 650px; top: 451px;" data-block-id="d23ed370ea12b26cb08df572b16c6ee2"><div class="sl-block-content" style="z-index: 18;"><pre class="less"><code>angular.module('am.controllers').controller('HistoryCtrl',
+  function($scope, History) {
+    $scope.refresh = function () {
+      History.query({},
+        function(data) {
+          $scope.groups = data.data;
+          console.log($scope.groups);
+        }, function(data) {
+              console.log(data.data);
+        })
+    }
+    $scope.refresh();  } );</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="3e28cb6f4d23219f42f1f017029527fc" style="height: auto; min-width: 30px; min-height: 30px; width: 609px; left: 650px; top: 401px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19;">
+<p>and a <a href="https://github.com/leecalcote/alertmanager/blob/master/ui/app/js/app.js#L166-L184" target="_blank">new History controller</a>:</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 550px; height: 224px; left: 665px; top: 164px;" data-block-id="2e62af2a35ddc31e2a02b10e92fd8f29"><div class="sl-block-content" style="z-index: 20;"><pre class="less"><code>angular.module('am.directives').directive('history',
+ function() {
+   return {
+     restrict: 'E',
+     scope: {
+     alert: '=',
+     group: '='
+   },
+   templateUrl: 'app/partials/history.html'
+   };  }  );</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 640px; top: 114px;" data-block-id="ff54864f345a4ac8de8500fe8079c915"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 21;">
+<p>Insert a <a href="https://github.com/leecalcote/alertmanager/blob/master/ui/app/js/app.js#L22-L33" target="_blank">new History directive</a>:</p>
 </div></div></section><section data-id="107ff7807d857513b60095e458325165">
 
 
@@ -804,7 +996,7 @@ rule_files:
         <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
     </a>
 </div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 360px; top: 122px;" data-block-id="cad1b1aee87dfdcf0d24a3d2da7f627e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 280px; top: 58px;" data-block-id="cad1b1aee87dfdcf0d24a3d2da7f627e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
 <h3>/provider</h3>
 
 <p>With API endpoint and front-end changes in place, let’s turn our attention to the backend for collecting the right recordset from our data provider:</p>
@@ -814,7 +1006,10 @@ rule_files:
 	<li>Add a <a href="https://github.com/leecalcote/alertmanager/blob/master/provider/sqlite/sqlite.go#L179-L248" target="_blank">new AlertProvider and SQL query</a> to /provider/sqlite/sqlite.go</li>
 	<li>Add a <a href="https://github.com/leecalcote/alertmanager/blob/master/provider/boltmem/boltmem.go#L150-L191" target="_blank">new AlertIterator and AlertProvider</a> to /provider/boltmem/boltmem.go</li>
 </ol>
-</div></div></section><section data-id="185f40e115da8bf8b42c41b73cd73cb6">
+</div></div></section><section data-id="ed3ea47143bfa556829e6097d6c5443d"><div class="sl-block" data-block-type="image" data-block-id="b0a07469f085f6064cb67b73b40ce546" style="min-width: 30px; min-height: 30px; width: 1155px; height: 703px; left: 80px; top: 183px;"><div class="sl-block-content" style="z-index: 10;"><img data-natural-width="1245" data-natural-height="758" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3630397/Prometheus-AlertManager-with-History-View.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 1051px; left: 132px; top: 27px;" data-block-id="92bb81ef2e098929d2ea14bb7af1acbb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p>Finally, we’ll need a page in which to view the transpired alerts. So, create a new file, <a href="https://github.com/leecalcote/alertmanager/blob/master/ui/app/partials/history.html" target="_blank">history.html</a>, under /ui/app/partials. History.html will simply format the display a tabular recordset. A new recordset will be retrieved from our data provider.</p>
+</div></div></section><section data-id="873f826d15e5bf92a76d8f5498567c31">
 
 
 
@@ -828,8 +1023,8 @@ rule_files:
 
 
 
-<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="d4d63cba9e378fb1f4a6015716e3bc30">
-    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="2c3f757a8a02376ffb52362b65feb260">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 80%;">
         <p>
             <a href="http://twitter.com/lcalcote" target="_blank">
                 <span style="color:#D3D3D3">@lcalcote</span>
@@ -837,20 +1032,89 @@ rule_files:
         </p>
     </div>
 </div>
-<div class="sl-block" data-block-type="image" style="width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="9ff2410b225bc8c6058741b103564837">
-    <a class="sl-block-content" style="z-index: 12;" href="http://twitter.com/lcalcote" target="_blank">
+<div class="sl-block" data-block-type="image" style="width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="d8bfc13a9b1b5b2d0f746f88cf93d582">
+    <a class="sl-block-content" style="z-index: 11;" href="http://twitter.com/lcalcote" target="_blank">
         <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
     </a>
 </div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 360px; top: 123px;" data-block-id="4a053b239b11740b3f7262eae161684c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui">
-<h3>/api.go</h3>
+<div class="sl-block" data-block-type="text" data-block-id="975a067aeffba42b845f75f170b7cede" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 29px; top: 162px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<h2 style="text-align:start">Summary</h2>
 
-<p>All UI functionality should be addressable via API. Let’s register a <a href="https://github.com/leecalcote/alertmanager/blob/master/api.go#L93" target="_blank">new /history API endpoint</a>:<br>
- </p>
-
-<p>With our /api/v1/history endpoint a newly addressable API endpoint, we’ll need to build a function to handle requests made to it. The <a href="https://github.com/leecalcote/alertmanager/blob/master/api.go#L185-L209" target="_blank">api.listAllAlerts</a> function will handle inbound HTTP requests made to the new endpoint.</p>
+<p>While the AlertManager is not intended to provide a history (the roadmap calls for a form of logging that other tools can hook into), this example enhancement provides a view of transient history — that of the period that the SQlite database holds. The example enhancement is not intended to be a full-blown historical record.</p>
 </div></div>
-<div class="sl-block" data-block-type="code" data-block-id="45970f49b9864638ebc611ffd02fe692" style="min-width: 30px; min-height: 30px; width: 680px; height: 46px; left: 333px; top: 305px;"><div class="sl-block-content" style="z-index: 14;"><pre class="less"><code>r.Get("/history", ihf("history", api.listAllAlerts))</code></pre></div></div></section><section data-id="ed3ea47143bfa556829e6097d6c5443d"><div class="sl-block" data-block-type="image" data-block-id="b0a07469f085f6064cb67b73b40ce546" style="min-width: 30px; min-height: 30px; width: 1155px; height: 703px; left: 88px; top: 38px;"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="1245" data-natural-height="758" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3630397/Prometheus-AlertManager-with-History-View.png"></div></div></section></section><section data-id="5a9f04d92cba36b46929cf502ffa8fe0" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3317603/Lee-Calcote---All-Things-Open-dark.jpg"><div class="sl-block" data-block-type="text" style="width: 430px; left: 524px; top: 0px; height: auto;" data-block-id="24c3dd4fb4be18fa7c88211d932dd714">
+<div class="sl-block" data-block-type="text" style="width: 461px; left: 753px; top: 132px; height: auto;" data-block-id="5ddefb459dd009d8b08b787029b0d00b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 14;">
+<h2>Reference</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 1075px; left: 480px; top: 262px; height: auto;" data-block-id="bfc92572960c2c3eda3f31dca067db3c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<ul>
+	<li><a href="https://github.com/leecalcote/alertmanager" target="_blank">Alert History fork</a></li>
+	<li><a href="http://blog.gingergeek.com/2016/06/contributing-to-prometheus-an-open-source-tutorial/" target="_blank">Alert History tutorial</a></li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 185px; height: 185px; left: 667px; top: 397px;" data-block-id="3e0d107b11736d4d6fc30d3a1eb1f0c2"><div class="sl-block-content" style="z-index: 16;"><img data-natural-width="512" data-natural-height="512" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3633350/github-prom-color.png"></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 171px; height: 171px; left: 667px; top: 197px;" data-block-id="024f5e45db68d61f963e3978a59127a1"><div class="sl-block-content" style="z-index: 17;"><img data-natural-width="512" data-natural-height="512" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3633404/rss-blog.png"></div></div></section><section data-id="7159781daa8264ee71b2ed16c0159710"><div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="3efc3c27f2cbcd1bd87cb67da0e58e5f">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; text-align: left; font-size: 80%;">
+        <p>
+            <a href="http://twitter.com/lcalcote" target="_blank">
+                <span style="color:#D3D3D3">@lcalcote</span>
+            </a>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="a7d32932f0a212053849739c77402e66">
+    <a class="sl-block-content" style="z-index: 17;" href="http://twitter.com/lcalcote" target="_blank">
+        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
+    </a>
+</div></section><section data-id="f0998656fe82a441355b12cd09f78df5" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629114/prometheus.svg" data-background-size="contain"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 106px; top: 28px; height: auto;" data-block-id="062a8885f133ab515ef7ec4c4dbf0f14"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;">
+<h2>Resources</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 1075px; left: 125px; top: 152px; height: auto;" data-block-id="ce798a06c9cd2dc44c45f81491097f57"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui">
+<p style="text-align:left">IRC: <a href="https://webchat.freenode.net/?channels=#prometheus" target="_blank">#prometheus</a> on <a href="http://freenode.net/" target="_blank">irc.freenode.net</a> </p>
+
+<p style="text-align:left"> </p>
+
+<p style="text-align:left">Mailing lists:</p>
+
+<ul>
+	<li style="text-align:left">
+<a href="https://groups.google.com/forum/#!forum/prometheus-users" target="_blank">prometheus-users</a> – discussing Prometheus usage and community support</li>
+	<li style="text-align:left">
+<a href="https://groups.google.com/forum/#!forum/prometheus-developers" target="_blank">prometheus-developers</a> – contributing to Prometheus development</li>
+</ul>
+
+<p style="text-align:left"> </p>
+
+<p style="text-align:left"> </p>
+
+<p style="text-align:left"><a href="https://twitter.com/PrometheusIO" target="_blank">@PrometheusIO</a></p>
+
+<p style="text-align:left"> </p>
+
+<p style="text-align:left"> </p>
+
+<p style="text-align:left"><a href="http://github.com/prometheus" target="_blank">Prometheus repositories</a> to file bugs and features requests</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 1158px; top: 688px;" data-block-id="c6de87f925dfbc5963eca787d01819e2">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; text-align: left; font-size: 80%;">
+        <p>
+            <a href="http://twitter.com/lcalcote" target="_blank">
+                <span style="color:#D3D3D3">@lcalcote</span>
+            </a>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 32px; height: 32px; left: 1120px; top: 688px;" data-block-id="b1052ff38b737f012648cc3cb773b682">
+    <a class="sl-block-content" style="z-index: 15;" href="http://twitter.com/lcalcote" target="_blank">
+        <img style="" data-natural-width="256" data-natural-height="256" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png">
+    </a>
+</div>
+<div class="sl-block" data-block-type="shape" data-block-id="1a723504a2884d7bfc70981e463ad458" style="min-width: 4px; min-height: 4px; width: 88px; height: 57px; left: 18px; top: 318px;"><div class="sl-block-content" data-shape-type="symbol-mail" data-shape-fill-color="rgb(218, 78, 49)" data-shape-stretch="true" style="z-index: 16;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 4 32 24"><g class="shape-element" fill="rgb(218, 78, 49)"><path d="M15.996 15.457l16.004-7.539v-3.918h-32v3.906zM16.004 19.879l-16.004-7.559v15.68h32v-15.656z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="shape" data-block-id="00ab5ff9fabd7c5afdfcd870a347959d" style="min-width: 4px; min-height: 4px; width: 86px; height: 86px; left: 16px; top: 452px;"><div class="sl-block-content" data-shape-type="symbol-twitter" data-shape-fill-color="rgb(218, 78, 49)" data-shape-stretch="true" style="z-index: 17;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 3 32 26"><g class="shape-element" fill="rgb(218, 78, 49)"><path d="M32 6.076c-1.177 0.522-2.443 0.875-3.771 1.034 1.355-0.813 2.396-2.099 2.887-3.632-1.269 0.752-2.674 1.299-4.169 1.593-1.198-1.276-2.904-2.073-4.792-2.073-3.626 0-6.565 2.939-6.565 6.565 0 0.515 0.058 1.016 0.17 1.496-5.456-0.274-10.294-2.888-13.532-6.86-0.565 0.97-0.889 2.097-0.889 3.301 0 2.278 1.159 4.287 2.921 5.465-1.076-0.034-2.088-0.329-2.974-0.821-0.001 0.027-0.001 0.055-0.001 0.083 0 3.181 2.263 5.834 5.266 6.437-0.551 0.15-1.131 0.23-1.73 0.23-0.423 0-0.834-0.041-1.235-0.118 0.835 2.608 3.26 4.506 6.133 4.559-2.247 1.761-5.078 2.81-8.154 2.81-0.53 0-1.052-0.031-1.566-0.092 2.905 1.863 6.356 2.95 10.064 2.95 12.076 0 18.679-10.004 18.679-18.68 0-0.285-0.006-0.568-0.019-0.849 1.283-0.926 2.396-2.082 3.276-3.398z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="067f677c9f5bae1d5e32274cf74dbdc4" style="height: auto; min-width: 30px; min-height: 30px; width: 80px; left: 22px; top: 87px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18; color: rgb(218, 78, 49); font-size: 391%;">
+<p>#</p>
+</div></div>
+<div class="sl-block" data-block-type="shape" data-block-id="46c409cb4c8b813bcc3f80becf723047" style="min-width: 4px; min-height: 4px; width: 1280px; height: 720px; left: 0px; top: 0px;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0.34)" data-shape-stretch="true" style="z-index: 11;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 1280 720"><rect width="1280" height="720" class="shape-element" fill="rgba(0, 0, 0, 0.34)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="c6b0589a9d5f988fda2b768ecde0a553" style="min-width: 30px; min-height: 30px; width: 88px; height: 88px; left: 15px; top: 589px;"><div class="sl-block-content" style="z-index: 19;"><img data-natural-width="512" data-natural-height="512" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3633378/github-prom-color.png"></div></div></section></section><section data-id="5a9f04d92cba36b46929cf502ffa8fe0" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3317603/Lee-Calcote---All-Things-Open-dark.jpg"><div class="sl-block" data-block-type="text" style="width: 430px; left: 524px; top: 0px; height: auto;" data-block-id="24c3dd4fb4be18fa7c88211d932dd714">
     <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: right; z-index: 10;">
         <h2>
             <strong>Lee Calcote</strong>
@@ -950,7 +1214,7 @@ rule_files:
 
 		
 <script>
-	var SLConfig = {"current_user":{"id":398879,"username":"leecalcote","name":"Lee Calcote","description":"Clouds, containers, infrastructure, applications and their management.","thumbnail_url":"https://www.gravatar.com/avatar/7f693327ef8998ebc0198321594840b0?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":236391,"present_controls":false,"present_upsizing":false,"present_pointer":false,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":true,"speaker_layout":null,"phone_number":null,"phone_country_code":null},"email":"leecalcote@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":940317,"slug":"understanding-and-extending-prometheus-alertmanager","title":"Understanding and Extending Prometheus AlertManager","description":"Presented at CloudNativeCon+KubeCon EU 2017.  The AlertManager component handles alerts sent by client applications such as the Prometheus server, carefully de-duplicating, correlating, and routing their notifications to their appropriate receiver (e.g. email, webhook, etc.). Let’s gain better familiarity with the process by augmenting Prometheus’ AlertManager with a new “history” view.","width":1280,"height":720,"visibility":"all","published_at":"2017-03-19T19:32:05.561Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/4deb9e0568a40295896a34e70bbd1b45/thumb.jpg","view_count":4,"user":{"id":398879,"username":"leecalcote","name":"Lee Calcote","description":"Clouds, containers, infrastructure, applications and their management.","thumbnail_url":"https://www.gravatar.com/avatar/7f693327ef8998ebc0198321594840b0?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":236391,"present_controls":false,"present_upsizing":false,"present_pointer":false,"present_notes":true}},"background_transition":"zoom","transition":"default","theme_id":null,"theme_font":"merriweather","theme_color":"blue-yellow","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":false,"rtl":false,"version":2,"collaborative":false,"deck_user_editor_limit":1,"data_updated_at":1490412194815,"font_typekit":null,"font_google":null,"access_token":"Kh5tqcHe8zNmswdrda44MzQR1AAr","notes":{"0e36398a563d8ad099bc72694689dbe7":"trackability, traceability, Rate Limiting of services in hybrid cloud setup","44c2bbe95e2f8e45892c998e02074dbb":"Ingress is a declarative API\nDecouples your routing rules from your application","d445562cac1dae7af1725718932d6e05":"Therefore, when you work with cloud-native applications and distributed systems, your load balancer takes on other role(s):\n- a reverse proxy to provide caching and increased security as it becomes the go-between for external clients.\n- an API gateway by providing protocol translation (e.g. REST to AMQP).\n- handle security (i.e. running a web application firewall).\n- take on application management tasks such as rate limiting and HTTP/2 support.\nGiven their clearly expanded capabilities beyond that of balancing traffic, load balancers can be more broadly referred to as Application Delivery Controllers (ADCs).\n\nSix basic:\n- Dynamic L4 redirection, load balancing and failover\n- Dynamic L7 redirection, load balancing and failover\n- Centralized management that includes role-based administrator access for ADC instances/services\n- Global load balancing\n- SSL offloading/termination\n- Protocol optimization (including TCP, HTTP and/or application-specific optimizations)\n\nAdvanced:\n- Web application firewall\n- IPv6 to IPv4 gateway functions\n- Content caching\n- Distributed-denial-of-service protection","c451b7d7139c01fe4fc3528b4139ae97":"You can make use of the different service types that Kubernetes makes available for you when creating a new service in order to achieve what you want.\n\nExternalName creates a CNAME","ed9e789baf2843a792128b9c7c79470f":"Secret will be placed into a temporary filesystem on the node needing the secret.","062ea566b05e901ee28df3d314483bb9":"Running on GCP\nHazelcast as an in-memory data grid\nVert.x is event driven and non blocking toolkit for building reactive apps on the JVM.\nSockJS as a websocket framework.\n\nOnly scaled up, not out.\n\nPerformance went downhill after about 10 active users. Clearly, something needed to be done.","007c24af641b6b88b415bcaaade15938":"Low-latency for the right user experience\nMaya objects\n4k video - large data files","2ad1a84912f2712c1736cfaa4e4ae682":"I suspect many of you reacted to the bloat-a-lith image with a shudder. So, we have a great sense of when something is too big, but do we know when it's too small?","13711e6fa2771b063f96cb7e0e57e59d":"supports simple TCP/UDP forwarding and round-robin and Docker-links-based service IP:PORT mapping.","c5414a0eb6f2d47a1abf36553a387e93":"An Ingress is a collection of rules that allow inbound connections to reach the cluster services. It can be configured to give services externally-reachable urls, load balance traffic, terminate SSL, offer name based virtual hosting etc. Users request ingress by POSTing the Ingress resource to the API server.\nIn order for the Ingress resource to work, the cluster must have an Ingress controller running. The Ingress controller is responsible for fulfilling the Ingress dynamically by watching the ApiServer’s /ingresses endpoint.","b276ab95f69ac152945e7c0c765f093f":"Multiple host names","b7359377240b89220bdc6dd8c50b720d":"Silences are configured in the web interface of the Alertmanager.\nInhibitions are configured through the Alertmanager's configuration file.\nGrouping of alerts, timing for the grouped notifications, and the receivers of those notifications are configured by a routing tree in the configuration file."}}};
+	var SLConfig = {"current_user":{"id":398879,"username":"leecalcote","name":"Lee Calcote","description":"Clouds, containers, infrastructure, applications and their management.","thumbnail_url":"https://www.gravatar.com/avatar/7f693327ef8998ebc0198321594840b0?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":236391,"present_controls":false,"present_upsizing":false,"present_pointer":false,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":true,"speaker_layout":null,"phone_number":null,"phone_country_code":null},"email":"leecalcote@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":940317,"slug":"understanding-and-extending-prometheus-alertmanager","title":"Understanding and Extending Prometheus AlertManager","description":"Presented at CloudNativeCon+KubeCon EU 2017.  The AlertManager component handles alerts sent by client applications such as the Prometheus server, carefully de-duplicating, correlating, and routing their notifications to their appropriate receiver (e.g. email, webhook, etc.). Let’s gain better familiarity with the process by augmenting Prometheus’ AlertManager with a new “history” view.","width":1280,"height":720,"visibility":"all","published_at":"2017-03-19T19:32:05.561Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/4deb9e0568a40295896a34e70bbd1b45/thumb.jpg","view_count":5,"user":{"id":398879,"username":"leecalcote","name":"Lee Calcote","description":"Clouds, containers, infrastructure, applications and their management.","thumbnail_url":"https://www.gravatar.com/avatar/7f693327ef8998ebc0198321594840b0?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":236391,"present_controls":false,"present_upsizing":false,"present_pointer":false,"present_notes":true}},"background_transition":"zoom","transition":"default","theme_id":null,"theme_font":"merriweather","theme_color":"blue-yellow","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":false,"rtl":false,"version":2,"collaborative":false,"deck_user_editor_limit":1,"data_updated_at":1490544451483,"font_typekit":null,"font_google":null,"access_token":"Kh5tqcHe8zNmswdrda44MzQR1AAr","notes":{"0e36398a563d8ad099bc72694689dbe7":"trackability, traceability, Rate Limiting of services in hybrid cloud setup","44c2bbe95e2f8e45892c998e02074dbb":"Ingress is a declarative API\nDecouples your routing rules from your application","d445562cac1dae7af1725718932d6e05":"Therefore, when you work with cloud-native applications and distributed systems, your load balancer takes on other role(s):\n- a reverse proxy to provide caching and increased security as it becomes the go-between for external clients.\n- an API gateway by providing protocol translation (e.g. REST to AMQP).\n- handle security (i.e. running a web application firewall).\n- take on application management tasks such as rate limiting and HTTP/2 support.\nGiven their clearly expanded capabilities beyond that of balancing traffic, load balancers can be more broadly referred to as Application Delivery Controllers (ADCs).\n\nSix basic:\n- Dynamic L4 redirection, load balancing and failover\n- Dynamic L7 redirection, load balancing and failover\n- Centralized management that includes role-based administrator access for ADC instances/services\n- Global load balancing\n- SSL offloading/termination\n- Protocol optimization (including TCP, HTTP and/or application-specific optimizations)\n\nAdvanced:\n- Web application firewall\n- IPv6 to IPv4 gateway functions\n- Content caching\n- Distributed-denial-of-service protection","c451b7d7139c01fe4fc3528b4139ae97":"You can make use of the different service types that Kubernetes makes available for you when creating a new service in order to achieve what you want.\n\nExternalName creates a CNAME","ed9e789baf2843a792128b9c7c79470f":"Secret will be placed into a temporary filesystem on the node needing the secret.","062ea566b05e901ee28df3d314483bb9":"Running on GCP\nHazelcast as an in-memory data grid\nVert.x is event driven and non blocking toolkit for building reactive apps on the JVM.\nSockJS as a websocket framework.\n\nOnly scaled up, not out.\n\nPerformance went downhill after about 10 active users. Clearly, something needed to be done.","007c24af641b6b88b415bcaaade15938":"Low-latency for the right user experience\nMaya objects\n4k video - large data files","2ad1a84912f2712c1736cfaa4e4ae682":"I suspect many of you reacted to the bloat-a-lith image with a shudder. So, we have a great sense of when something is too big, but do we know when it's too small?","13711e6fa2771b063f96cb7e0e57e59d":"supports simple TCP/UDP forwarding and round-robin and Docker-links-based service IP:PORT mapping.","c5414a0eb6f2d47a1abf36553a387e93":"An Ingress is a collection of rules that allow inbound connections to reach the cluster services. It can be configured to give services externally-reachable urls, load balance traffic, terminate SSL, offer name based virtual hosting etc. Users request ingress by POSTing the Ingress resource to the API server.\nIn order for the Ingress resource to work, the cluster must have an Ingress controller running. The Ingress controller is responsible for fulfilling the Ingress dynamically by watching the ApiServer’s /ingresses endpoint.","b276ab95f69ac152945e7c0c765f093f":"Multiple host names","b7359377240b89220bdc6dd8c50b720d":"Silences are configured in the web interface of the Alertmanager.\nInhibitions are configured through the Alertmanager's configuration file.\nGrouping of alerts, timing for the grouped notifications, and the receivers of those notifications are configured by a routing tree in the configuration file.","d4e4c9e7808e341667e5226e9b6a8211":"Start by adding an item within"}}};
 </script>
 
 		<script>
