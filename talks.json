@@ -11,12 +11,13 @@
        {
            "eventName": "CloudNativeCon + KubeCon EU 2017 (1)",
            "eventURL": "https://cloudnativeeu2017.sched.com/event/9Td7?iframe=no",
-           "deckURL": "http://calcotestudios.com/kubecon-alertmanager"
+           "deckURL": "http://calcotestudios.com/kubecon-alertmanager",
+	   "videoURL": "https://youtu.be/f2EQCds0mSA"
        },
        {
            "eventName": "CloudNativeCon + KubeCon EU 2017 (2)",
            "eventURL": "https://cloudnativeeu2017.sched.com/event/9Tc3?iframe=no",
-           "deckURL": ""
+           "deckURL": "https://speakerdeck.com/leecalcote/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities"
        },
        {
            "eventName": "O'Reilly: Load-Balancing in the Cloud using Nginx & Kubernetes",
