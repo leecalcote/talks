@@ -5,6 +5,11 @@
            "eventURL": "https://conferences.oreilly.com/velocity/vl-ca/public/schedule/speaker/226795",
            "deckURL": "",
            "date": 20
+       },
+       {
+           "eventName": "OSCON 2017",
+           "eventURL": "https://conferences.oreilly.com/oscon/oscon-tx/public/schedule/speaker/226795",
+           "deckURL": ""
        }
    ],
       "previousTalk": [
