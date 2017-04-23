@@ -17,7 +17,7 @@
            "eventName": "CloudNativeCon + KubeCon EU 2017 (1)",
            "eventURL": "https://cloudnativeeu2017.sched.com/event/9Td7?iframe=no",
            "deckURL": "http://calcotestudios.com/kubecon-alertmanager",
-	   "videoURL": "https://youtu.be/f2EQCds0mSA"
+	       "videoURL": "https://youtu.be/f2EQCds0mSA"
        },
        {
            "eventName": "CloudNativeCon + KubeCon EU 2017 (2)",
@@ -66,7 +66,7 @@
            "eventName": "SolarWinds Tech Summit 2017 (2)",
            "eventURL": "https://www.solarwindsmeetup.com/event/techsummit-conference-2016/",
            "deckURL": "http://calcotestudios.com/techsummit-over-under",
-           "date": 60
+           "linkURL": "https://opennetworkingusergroup.com/the-hybrid-evolution-of-it/"
        },
        {
            "eventName": "SolarWinds Tech Summit 2017 (3)",
