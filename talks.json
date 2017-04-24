@@ -1,6 +1,12 @@
 {
    "upcomingTalk": [
        {
+           "eventName": "DevOpsDays Austin 2017",
+           "eventURL": "http://www.devopsdaysaustin.com",
+           "deckURL": "",
+           "date": 20
+       },
+       {
            "eventName": "Velocity 2017",
            "eventURL": "https://conferences.oreilly.com/velocity/vl-ca/public/schedule/speaker/226795",
            "deckURL": "",
