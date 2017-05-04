@@ -2,8 +2,8 @@
    "upcomingTalk": [
        {
            "eventName": "DevOpsDays Austin 2017",
-           "eventURL": "http://www.devopsdaysaustin.com",
-           "deckURL": "https://devopsdaysaustin2017.sched.com/event/AOSY/user-group-microservices-and-containers-austin-unik-unikernel-compiler-and-runtime",
+           "eventURL": "https://devopsdaysaustin2017.sched.com/event/AOSY/user-group-microservices-and-containers-austin-unik-unikernel-compiler-and-runtime",
+           "deckURL": "",
            "date": 20
        },
        {
