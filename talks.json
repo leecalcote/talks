@@ -1,12 +1,6 @@
 {
    "upcomingTalk": [
        {
-           "eventName": "DevOpsDays Austin 2017",
-           "eventURL": "https://devopsdaysaustin2017.sched.com/event/AOSY/user-group-microservices-and-containers-austin-unik-unikernel-compiler-and-runtime",
-           "deckURL": "http://calcotestudios.com/devopsdaysaustin-unik",
-           "date": 20
-       },
-       {
            "eventName": "Velocity 2017",
            "eventURL": "https://conferences.oreilly.com/velocity/vl-ca/public/schedule/speaker/226795",
            "deckURL": "",
@@ -19,6 +13,11 @@
        }
    ],
       "previousTalk": [
+       {
+           "eventName": "DevOpsDays Austin 2017",
+           "eventURL": "https://devopsdaysaustin2017.sched.com/event/AOSY/user-group-microservices-and-containers-austin-unik-unikernel-compiler-and-runtime",
+           "deckURL": "http://calcotestudios.com/devopsdaysaustin-unik"
+       },
        {
            "eventName": "CloudNativeCon + KubeCon EU 2017 (1)",
            "eventURL": "https://cloudnativeeu2017.sched.com/event/9Td7?iframe=no",
