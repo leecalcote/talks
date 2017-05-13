@@ -5,14 +5,14 @@
            "eventURL": "https://conferences.oreilly.com/velocity/vl-ca/public/schedule/speaker/226795",
            "deckURL": "",
            "date": 20
-       },
+       }
+   ],
+      "previousTalk": [
        {
            "eventName": "OSCON 2017",
            "eventURL": "https://conferences.oreilly.com/oscon/oscon-tx/public/schedule/speaker/226795",
            "deckURL": "http://calcotestudios.com/oscon-2017-over-under"
-       }
-   ],
-      "previousTalk": [
+       },
        {
            "eventName": "DevOpsDays Austin 2017",
            "eventURL": "https://devopsdaysaustin2017.sched.com/event/AOSY/user-group-microservices-and-containers-austin-unik-unikernel-compiler-and-runtime",
