@@ -2241,7 +2241,13 @@ n.classList.contains("stack")===!1&&t++}return t}function zt(){var e=Pt(),t=Mt()
 			if( window.hljs ) hljs.initHighlightingOnLoad();
 
 		</script>
-
+<script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
 		
 
 	</body>
