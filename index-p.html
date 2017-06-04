@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xsl:version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <head>
+	  <title>Lee Calcote's Talks</title>
+	  <meta http-equiv="Cache-control" content="public">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="http://calcotestudios.com/favicon.ico" />
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2969471-1', 'auto');
+    ga('send', 'pageview');
+    
+    </script>
+    <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>   
+      <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {
+        var talks = [];
+            //$("#driver").click(function(){
+               $.getJSON('talks.json', function(talks) {
+                $.each(talks.upcomingTalk, function(i,t) {
+                  var temp = '<li><a href="'+ t.eventURL + '">' + t.eventName + '</a>';
+                  //$('#upcoming').append('<li><a href="'+ t.eventURL + '">' + t.eventName + '</a>');
+                  if (t.deckURL)
+                    temp += ' | <a class="deck" href="'+t.deckURL+'">deck</a>';
+                  
+                  if (t.videoURL)
+                    temp += ' | <a class="deck" href="'+t.videoURL+'">video</a>';
+                  
+                  if (t.linkURL) {
+                    temp += '<ul><li>';
+                  
+                    for (l in t.linkURL) {
+                      if(l==0)
+                        temp += '<a class="deck" href="'+t.linkURL[l]+'">article</a>';
+                      if(t.linkURL.length && (t.linkURL.length != t.linkURL.length - l)) {
+                          temp += ', '
+                          temp += '<a class="deck" href="'+t.linkURL[l]+'">article</a> ';
+                          //alert("l:"+l+", t.linkURL.len:"+t.linkURL.length+", t.linkURL:"+t.linkURL);
+                        }
+                    }
+
+                    temp += '</li></ul>';
+                    }
+
+                  // $('#upcoming').append(' | <a href="'+t.deckURL+'">deck</a></li>');
+                  // $('#upcoming').append('</li>');
+                  // $('#upcominfg').append('<li>Date: ' + t.date+ '</li>');
+                  
+                  $('#upcoming').append(temp);
+                  //$(talks).appendTo("#upcoming ul");
+               });
+                $.each(talks.previousTalk, function(j,t) {
+                  var temp = '<li><a href="'+ t.eventURL + '">' + t.eventName + '</a>';
+                  
+                  if (t.deckURL)
+                    temp += ' | <a class="deck" href="'+t.deckURL+'">deck</a>';
+                  
+                  if (t.videoURL)
+                    temp += ' | <a class="deck" href="'+t.videoURL+'">video</a>';
+                  
+                  if (t.linkURL) {
+                    temp += '<ul><li>';
+                  
+                    for (l in t.linkURL) {
+                      if(l==0)
+                        temp += '<a class="deck" href="'+t.linkURL[l]+'">article</a>';
+                      if(t.linkURL.length && (t.linkURL.length != t.linkURL.length - l)) {
+                          temp += ', '
+                          temp += '<a class="deck" href="'+t.linkURL[l]+'">article</a> ';
+                          //alert("l:"+l+", t.linkURL.len:"+t.linkURL.length+", t.linkURL:"+t.linkURL);
+                        }
+                    }
+
+                    temp += '</li></ul>';
+                    }
+
+                  temp += '</li>';
+                  //$('#previous').append('<li><a href="'+ t.eventURL + '">' + t.eventName + '</a> | <a href="'+t.deckURL+'">deck</a></li>');
+                  //$('#previous').append('<li>Date: ' + t.date+ '</li>');
+                  $('#previous').append(temp);
+                  //$(talks).appendTo("#previous ul");
+               });
+                
+            });      
+         });
+      </script>
+   </head>
+   <body>
+     <div class="talks">
+       <h3><a href="http://blog.gingergeek.com/speaking">Talks</a></h3>
+       <ul id = "upcoming"><li style="margin-left:-1em;list-style-type:none;"><b><i>Upcoming</i></b></li></ul>
+       <ul id = "previous"><li style="margin-left:-1em;list-style-type:none;"><b><i>Previous</i></b></li></ul>
+     
+     <div style="float:left;">        
+       <h3><a href="http://blog.gingergeek.com/about">Publications</a></h3>
+        <ul style="white-space: nowrap;">
+         	<li class="matrix"><a href="http://blog.gingergeek.com/speaking/">Speaking</a></li>
+         	<li class="matrix"><a href="http://blog.gingergeek.com/podcasts/">Podcasts</a></li>
+         	<li class="nw"><a href="http://www.networkworld.com/author/Lee-Calcote/">Network World</a></li>
+         	<li class="tns"><a href="http://thenewstack.io/author/lee-calcote/">The New Stack</a></li>
+          <li class="oreilly"><a href="http://www.oreilly.com/pub/au/7371">O'Reilly webcasts</a> and <a href="https://www.oreilly.com/people/7f693-lee-calcote">posts</a></li>
+         	<li class="cisco"><a href="http://blogs.cisco.com/author/LeeCalcote/" rel="nofollow">Cisco blog</a></li>
+         	<li class="seagate"><a href="http://blog.seagate.com/?s=Lee%20Calcote&amp;search_by=author" rel="nofollow">Seagate blog</a></li>
+         	<li class="gg"><a href="http://blog.gingergeek.com/" rel="nofollow">Ginger Geek blog</a></li>
+        </ul>
+     </div>
+     <div style="float:left;">
+       <h3><a href="http://blog.gingergeek.com/about">Contact</h3>
+        <ul style="white-space: nowrap;">
+         <li class="email"><a href="mailto:leecalcote@gmail.com">Email</a></li>
+         <li class="twitter"><a href="http://www.twitter.com/lcalcote" target="_blank" rel="nofollow">Twitter</a></li>
+         <li class="li"><a title="Join my LinkedIn network" href="http://www.linkedin.com/in/leecalcote" target="_blank" rel="nofollow">LinkedIn</a></li>
+         <li class="github"><a href="https://github.com/leecalcote" target="_blank" rel="nofollow">Github</a></li>
+         <li class="gg"><a href="http://blog.gingergeek.com/" rel="nofollow">Blog</a></li>
+       </ul>
+      </div>
+      <a href="/img/Lee Calcote - Tech Summit.jpg"></a>
+      </div>
+   </body>
+</html>
