@@ -22,7 +22,7 @@
            "eventName": "CloudNativeCon + KubeCon EU 2017 (1)",
            "eventURL": "https://cloudnativeeu2017.sched.com/event/9Td7?iframe=no",
            "deckURL": "http://calcotestudios.com/kubecon-alertmanager",
-	   "videoURL": "https://youtu.be/jpb6fLQOgn4"
+	       "videoURL": "https://youtu.be/jpb6fLQOgn4"
        },
        {
            "eventName": "CloudNativeCon + KubeCon EU 2017 (2)",
@@ -59,7 +59,7 @@
            "eventURL": "http://techfieldday.com/event/tfd13/",
            "deckURL": "",
            "videoURL": "https://www.youtube.com/watch?v=fUHfcVhTle0",
-           "date": 70
+           "linkURL": ["http://www.cioapplications.com/cxoinsights/the-hybrid-evolution-of-it-nid-556.html"]
        },
        {
            "eventName": "SolarWinds Tech Summit 2017 (1)",
