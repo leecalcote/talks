@@ -87,9 +87,16 @@
                 
             });      
          });
+        </script>
+        <script>
+          function loadBackground() {
+          alert("Image is loaded");
+          // document.body.style.backgroundImage = "url('img/Lee Calcote - CloudNativeDay.jpg')";
+        }
       </script>
    </head>
-   <body>
+   <body id="body">
+     <img style="visibility: hidden;" src="img/Lee Calcote - CloudNativeDay.jpg" onload="loadBackground()" id="myimg" >
      <div class="talks">
        <h3><a href="http://blog.gingergeek.com/speaking">Talks</a></h3>
        <ul id = "upcoming"><li style="margin-left:-1em;list-style-type:none;"><b><i>Upcoming</i></b></li></ul>
