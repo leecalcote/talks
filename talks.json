@@ -93,12 +93,11 @@
            "eventURL": "https://cnkc16.sched.com/event/8akw/bof-growing-a-community-leveraging-meetups-to-educate-grow-and-facilitate-conversation-lee-calcote-twistlock?iframe=yes&w=100%&sidebar=yes&bg=no#",
            "date": 60
        },
-           {
+       {
            "eventName": "KubeCon + CloudNativeCon + PrometheusDay 2016 (2)",
            "eventURL": "https://cnd2016.sched.org/event/7zcc",
            "videoURL": "https://www.youtube.com/watch?v=7V8Ds_Yw93M",
-           "linkURL": "http://thenewstack.io/cloudnative-day-pancake-podcast-containers-at-scale/",
-           "date": 60
+           "linkURL": ["http://thenewstack.io/cloudnative-day-pancake-podcast-containers-at-scale/"]
        },
        {
            "eventName": "All Things Open 2016",
