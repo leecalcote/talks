@@ -9,6 +9,18 @@
    ],
       "previousTalk": [
        {
+           "eventName": "ServerlessConf 2017 Virtual Panel",
+           "eventURL": "https://conferences.oreilly.com/oscon/oscon-tx/public/schedule/speaker/226795",
+           "videoURL": "https://youtu.be/7OPYapnBOzA",
+           "linkURL": ["http://blog.gingergeek.com/2017/06/virtual-panel-serverlessconf-2017-discussion/"]
+       },
+       {
+           "eventName": "DockerCon 2017 Virtual Panel",
+           "eventURL": "https://2017.dockercon.com",
+           "videoURL": "https://www.youtube.com/watch?v=LAE2kVRRUAE&t=25s",
+           "linkURL": ["https://2017.dockercon.com/visit-austin/", "http://blog.gingergeek.com/2017/04/virtual-panel-dockercon-2017-debriefing/"]
+       },
+       {
            "eventName": "OSCON 2017",
            "eventURL": "https://conferences.oreilly.com/oscon/oscon-tx/public/schedule/speaker/226795",
            "deckURL": "http://calcotestudios.com/oscon-2017-over-under"
