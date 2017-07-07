@@ -2,7 +2,6 @@
    "upcomingTalk": [
        {
            "eventName": "-",
-           "linkURL": []
        }
    ],
       "previousTalk": [
@@ -11,7 +10,8 @@
            "eventURL": "https://conferences.oreilly.com/velocity/vl-ca/public/schedule/speaker/226795",
            "deckURL": "http://calcotestudios.com/velocity17-over-under",
            "linkURL": ["https://www.oreilly.com/ideas/understanding-container-networking"]
-       }{
+       },
+       {
            "eventName": "ServerlessConf 2017 Virtual Panel",
            "eventURL": "https://austin.serverlessconf.io",
            "videoURL": "https://youtu.be/7OPYapnBOzA",
