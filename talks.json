@@ -1,30 +1,22 @@
 {
    "upcomingTalk": [
-       {
-           "eventName": "UT Austin - CS378-Virtualization",
+        {
+        "eventName": "SDxE",
+        "eventURL": "https://tmt.knect365.com/sdxe/"
+        },
+        {
+           "eventName": "UT Austin – CS378: Virtualization",
            "eventURL": "http://www.cs.utexas.edu/~vijay/cs378-f17/schedule.htm"
        }
    ],
       "previousTalk": [
-       {
-           "eventName": "Velocity 2017",
-           "eventURL": "https://conferences.oreilly.com/velocity/vl-ca/public/schedule/speaker/226795",
-           "deckURL": "http://calcotestudios.com/velocity17-over-under",
-           "linkURL": ["https://www.oreilly.com/ideas/understanding-container-networking"]
-       },
-       {
-           "eventName": "ServerlessConf 2017 Virtual Panel",
-           "eventURL": "https://austin.serverlessconf.io",
-           "videoURL": "https://youtu.be/7OPYapnBOzA",
-           "linkURL": ["http://blog.gingergeek.com/2017/06/virtual-panel-serverlessconf-2017-discussion/"]
-       },
-       {
-           "eventName": "DockerCon 2017 Virtual Panel",
-           "eventURL": "https://2017.dockercon.com",
-           "videoURL": "https://www.youtube.com/watch?v=LAE2kVRRUAE&t=25s",
-           "linkURL": ["https://2017.dockercon.com/visit-austin/", "http://blog.gingergeek.com/2017/04/virtual-panel-dockercon-2017-debriefing/"]
-       },
-       {
+        {
+            "eventName": "Velocity 2017",
+            "eventURL": "https://conferences.oreilly.com/velocity/vl-ca/public/schedule/speaker/226795",
+            "deckURL": "http://calcotestudios.com/velocity17-over-under",
+            "linkURL": ["https://www.oreilly.com/ideas/understanding-container-networking"]
+        },
+        {
            "eventName": "OSCON 2017",
            "eventURL": "https://conferences.oreilly.com/oscon/oscon-tx/public/schedule/speaker/226795",
            "deckURL": "http://calcotestudios.com/oscon-2017-over-under"
