@@ -1,13 +1,29 @@
 {
    "upcomingTalk": [
        {
+           "eventName": "UT Austin - CS378-Virtualization",
+           "eventURL": "http://www.cs.utexas.edu/~vijay/cs378-f17/schedule.htm"
+       }
+   ],
+      "previousTalk": [
+       {
            "eventName": "Velocity 2017",
            "eventURL": "https://conferences.oreilly.com/velocity/vl-ca/public/schedule/speaker/226795",
            "deckURL": "http://calcotestudios.com/velocity17-over-under",
            "linkURL": ["https://www.oreilly.com/ideas/understanding-container-networking"]
-       }
-   ],
-      "previousTalk": [
+       },
+       {
+           "eventName": "ServerlessConf 2017 Virtual Panel",
+           "eventURL": "https://austin.serverlessconf.io",
+           "videoURL": "https://youtu.be/7OPYapnBOzA",
+           "linkURL": ["http://blog.gingergeek.com/2017/06/virtual-panel-serverlessconf-2017-discussion/"]
+       },
+       {
+           "eventName": "DockerCon 2017 Virtual Panel",
+           "eventURL": "https://2017.dockercon.com",
+           "videoURL": "https://www.youtube.com/watch?v=LAE2kVRRUAE&t=25s",
+           "linkURL": ["https://2017.dockercon.com/visit-austin/", "http://blog.gingergeek.com/2017/04/virtual-panel-dockercon-2017-debriefing/"]
+       },
        {
            "eventName": "OSCON 2017",
            "eventURL": "https://conferences.oreilly.com/oscon/oscon-tx/public/schedule/speaker/226795",
@@ -85,13 +101,19 @@
            "deckURL": "http://calcotestudios.com/alldaydevops2016",
            "videoURL": "https://www.youtube.com/embed/wae7TR2aJmQ",
            "eventURL": "http://www.alldaydevops.com/speakers/lee-calcote/",
-           "date": 60
+           "linkURL": ["http://www.alldaydevops.com/blog/characterizing-and-contrasting-containiner-orchestrators"]
        },
        {
-           "eventName": "KubeCon + CloudNativeCon + PrometheusDay 2016",
+           "eventName": "KubeCon + CloudNativeCon + PrometheusDay 2016 (1)",
            "deckURL": "http://calcotestudios.com/kubecon-bof",
            "eventURL": "https://cnkc16.sched.com/event/8akw/bof-growing-a-community-leveraging-meetups-to-educate-grow-and-facilitate-conversation-lee-calcote-twistlock?iframe=yes&w=100%&sidebar=yes&bg=no#",
            "date": 60
+       },
+       {
+           "eventName": "KubeCon + CloudNativeCon + PrometheusDay 2016 (2)",
+           "eventURL": "https://cnd2016.sched.org/event/7zcc",
+           "videoURL": "https://www.youtube.com/watch?v=7V8Ds_Yw93M",
+           "linkURL": ["http://thenewstack.io/cloudnative-day-pancake-podcast-containers-at-scale/"]
        },
        {
            "eventName": "All Things Open 2016",
@@ -99,8 +121,13 @@
            "eventURL": "https://allthingsopen.org/speakers/lee-calcote/"
        },
        {
-           "eventName": "Container Days Austin 2016",
+           "eventName": "Container Days Austin 2016 (1)",
            "eventURL": "https://containerdaysaustin2016.sched.org/event/e0a54bd9e2499f7cff74ed126c643b22?iframe=no&w=i:100;&sidebar=yes&bg=no",
+           "videoURL": "https://youtu.be/m5g_LI7P3f4"
+       },
+       {
+           "eventName": "Container Days Austin 2016 (2)",
+           "eventURL": "https://containerdaysaustin2016.sched.com/event/e0a54bd9e2499f7cff74ed126c643b22?iframe=no&w=i:100;&sidebar=yes&bg=no",
            "videoURL": "https://youtu.be/m5g_LI7P3f4"
        },
        {
@@ -113,7 +140,7 @@
            "eventURL": "https://www.nginx.com/nginxconf/speakers/list/#572b5ef476280471db0000c0",
            "deckURL": "http://calcotestudios.com/nginx16",
            "videoURL": "https://youtu.be/RCTLqO8kAPg",
-	   "linkURL": ["https://www.nginx.com/blog/powering-microservices-sockets-using-nginx-kubernetes/"]
+	       "linkURL": ["https://www.nginx.com/blog/powering-microservices-sockets-using-nginx-kubernetes/"]
        },
        {
            "eventName": "LinuxCon + ContainerCon + CloudNativeDay 2016",

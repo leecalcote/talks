@@ -87,9 +87,14 @@
                 
             });      
          });
+        </script>
+        <script>
+          function loadBackground() {
+          document.body.style.backgroundImage = "url('img/Lee Calcote - CloudNativeDay.jpg')";
+        }
       </script>
    </head>
-   <body>
+   <body id="body">
      <div class="talks">
        <h3><a href="http://blog.gingergeek.com/speaking">Talks</a></h3>
        <ul id = "upcoming"><li style="margin-left:-1em;list-style-type:none;"><b><i>Upcoming</i></b></li></ul>
@@ -120,5 +125,7 @@
       </div>
       <a href="/img/Lee Calcote - Tech Summit.jpg"></a>
       </div>
+      <img style="visibility: hidden;" height="0px" src="img/Lee Calcote - CloudNativeDay.jpg" onload="loadBackground()">
+
    </body>
 </html>
