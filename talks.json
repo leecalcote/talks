@@ -93,7 +93,7 @@
            "deckURL": "http://calcotestudios.com/alldaydevops2016",
            "videoURL": "https://www.youtube.com/embed/wae7TR2aJmQ",
            "eventURL": "http://www.alldaydevops.com/speakers/lee-calcote/",
-           "linkURL": ["http://www.alldaydevops.com/blog/characterizing-and-contrasting-containiner-orchestrators"]
+           "linkURL": ["http://www.alldaydevops.com/blog/characterizing-and-contrasting-containiner-orchestrators","https://devops.com/characterizing-and-contrasting-container-orchestrators/"]
        },
        {
            "eventName": "KubeCon + CloudNativeCon + PrometheusDay 2016 (1)",
