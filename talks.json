@@ -1,15 +1,19 @@
 {
    "upcomingTalk": [
         {
-        "eventName": "SDxE - Software-Defined Enterprise Conference",
-        "eventURL": "https://tmt.knect365.com/sdxe/speakers/lee-calcote"
+        "eventName": "UT Austin – CS378: Virtualization",
+        "eventURL": "http://www.cs.utexas.edu/~vijay/cs378-f17/schedule.htm"
         },
         {
-           "eventName": "UT Austin – CS378: Virtualization",
-           "eventURL": "http://www.cs.utexas.edu/~vijay/cs378-f17/schedule.htm"
-       }
+           "eventName": "Innovate Summit 2017",
+           "eventURL": "http://innovate.solarwinds.io"
+        }
    ],
       "previousTalk": [
+        {
+            "eventName": "SDxE - Software-Defined Enterprise Conference",
+            "eventURL": "https://tmt.knect365.com/sdxe/speakers/lee-calcote"
+        },
         {
             "eventName": "Velocity 2017",
             "eventURL": "https://conferences.oreilly.com/velocity/vl-ca/public/schedule/speaker/226795",
