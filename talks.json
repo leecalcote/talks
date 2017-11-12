@@ -1,6 +1,10 @@
 {
    "upcomingTalk": [
         {
+        "eventName": "O'Reilly: Istio + Nginx",
+        "eventURL": "#"
+        },
+	{
            "eventName": "Innovate Summit 2017",
            "eventURL": "http://innovate.solarwinds.io"
         }
