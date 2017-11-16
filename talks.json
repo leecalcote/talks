@@ -1,6 +1,10 @@
 {
    "upcomingTalk": [
         {
+        "eventName": "Container World 2018",
+        "eventURL": "#"
+        },
+	{
         "eventName": "O'Reilly: Istio + Nginx",
         "eventURL": "#"
         },
