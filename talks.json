@@ -1,19 +1,30 @@
 {
-   "upcomingTalk": [
-        {
-            "eventName": "Container World 2018",
-            "eventURL": "#"
-        },
-	{
-            "eventName": "O'Reilly: Istio + Nginx",
-            "eventURL": "#"
-        }
+    "upcomingTalk": [
+     {
+         "eventName": "SCALE 16x",
+         "eventURL": "http://www.socallinuxexpo.org/scale/16x/"
+     },
+     {
+         "eventName": "Container World 2018",
+         "eventURL": "https://tmt.knect365.com/container-world/"
+     },
+     {
+         "eventName": "O'Reilly: Istio + Nginx",
+         "eventURL": "#"
+     }
    ],
       "previousTalk": [
+        {
+            "eventName": "Innovate Summit 2017 (1)",
+            "eventURL": "http://innovate.solarwinds.io",
+            "deckURL": "slides-innovate-summit-2017-prometheus-long-term-storage.html",
+            "linkURL": ["https://www.zive.cz/clanky/pozvanka-na-konferenci-innovate-summit-innovation-goes-social-at-solarwinds-innovate-summit-2017/sc-3-a-190647/default.aspx"]
+        },
 	    {
-           "eventName": "Innovate Summit 2017",
+           "eventName": "Innovate Summit 2017 (2)",
            "eventURL": "http://innovate.solarwinds.io",
-           "deckURL": "http://calcotestudios.com/talks/slides-innovate-summit-2017-state-of-serverless-the-cncf.html"
+           "deckURL": "/slides-innovate-summit-2017-state-of-serverless-the-cncf.html",
+           "linkURL": ["https://www.zive.cz/clanky/pozvanka-na-konferenci-innovate-summit-innovation-goes-social-at-solarwinds-innovate-summit-2017/sc-3-a-190647/default.aspx"]
         },
         {
             "eventName": "UT Austin – CS378: Virtualization",
