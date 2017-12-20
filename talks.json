@@ -1,22 +1,23 @@
 {
    "upcomingTalk": [
         {
-        "eventName": "Container World 2018",
-        "eventURL": "#"
+            "eventName": "Container World 2018",
+            "eventURL": "#"
         },
 	{
-        "eventName": "O'Reilly: Istio + Nginx",
-        "eventURL": "#"
-        },
-	{
-           "eventName": "Innovate Summit 2017",
-           "eventURL": "http://innovate.solarwinds.io"
+            "eventName": "O'Reilly: Istio + Nginx",
+            "eventURL": "#"
         }
    ],
       "previousTalk": [
+	    {
+           "eventName": "Innovate Summit 2017",
+           "eventURL": "http://innovate.solarwinds.io",
+           "deckURL": "http://calcotestudios.com/talks/slides-innovate-summit-2017-state-of-serverless-the-cncf.html"
+        },
         {
-        "eventName": "UT Austin – CS378: Virtualization",
-        "eventURL": "http://www.cs.utexas.edu/~vijay/cs378-f17/schedule.htm"
+            "eventName": "UT Austin – CS378: Virtualization",
+            "eventURL": "http://www.cs.utexas.edu/~vijay/cs378-f17/schedule.htm"
         },
         {
             "eventName": "SDxE - Software-Defined Enterprise Conference",
