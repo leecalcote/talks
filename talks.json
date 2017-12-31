@@ -17,13 +17,14 @@
         {
             "eventName": "Innovate Summit 2017",
             "eventURL": "http://innovate.solarwinds.io",
-            "deckURL": "/slides-innovate-summit-2017-state-of-serverless-the-cncf.html",
+            "deckURL": "slides-innovate-summit-2017-state-of-serverless-the-cncf.html",
             "linkURL": ["https://www.zive.cz/clanky/pozvanka-na-konferenci-innovate-summit-innovation-goes-social-at-solarwinds-innovate-summit-2017/sc-3-a-190647/default.aspx"]
         },
 	    {
            "eventName": "KubeCon + CloudNativeCon NA 2017 Meetup",
            "eventURL": "https://www.meetup.com/Microservices-and-Containers-Austin/events/245513825/",
-           "deckURL": "slides-innovate-summit-2017-prometheus-long-term-storage.html"
+           "deckURL": "slides-prometheus-alertmanager-long-term-storage.html",
+           "videoURL":"https://www.facebook.com/austintechlive/videos/1726207290757734/"
         },
         {
             "eventName": "UT Austin – CS378: Virtualization",
