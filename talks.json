@@ -15,16 +15,15 @@
    ],
       "previousTalk": [
         {
-            "eventName": "Innovate Summit 2017 (1)",
+            "eventName": "Innovate Summit 2017",
             "eventURL": "http://innovate.solarwinds.io",
-            "deckURL": "slides-innovate-summit-2017-prometheus-long-term-storage.html",
+            "deckURL": "/slides-innovate-summit-2017-state-of-serverless-the-cncf.html",
             "linkURL": ["https://www.zive.cz/clanky/pozvanka-na-konferenci-innovate-summit-innovation-goes-social-at-solarwinds-innovate-summit-2017/sc-3-a-190647/default.aspx"]
         },
 	    {
-           "eventName": "Innovate Summit 2017 (2)",
-           "eventURL": "http://innovate.solarwinds.io",
-           "deckURL": "/slides-innovate-summit-2017-state-of-serverless-the-cncf.html",
-           "linkURL": ["https://www.zive.cz/clanky/pozvanka-na-konferenci-innovate-summit-innovation-goes-social-at-solarwinds-innovate-summit-2017/sc-3-a-190647/default.aspx"]
+           "eventName": "KubeCon + CloudNativeCon NA 2017 Meetup",
+           "eventURL": "https://www.meetup.com/Microservices-and-Containers-Austin/events/245513825/",
+           "deckURL": "slides-innovate-summit-2017-prometheus-long-term-storage.html"
         },
         {
             "eventName": "UT Austin – CS378: Virtualization",
