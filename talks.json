@@ -2,15 +2,15 @@
     "upcomingTalk": [
      {
          "eventName": "SCALE 16x",
-         "eventURL": "http://www.socallinuxexpo.org/scale/16x/"
+         "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote"
      },
      {
          "eventName": "Container World 2018",
-         "eventURL": "https://tmt.knect365.com/container-world/"
+         "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote"
      },
      {
-         "eventName": "O'Reilly: Istio + Nginx",
-         "eventURL": "#"
+         "eventName": "O'Reilly: Istio & nginMesh",
+         "eventURL": "http://www.oreilly.com/pub/e/3926"
      }
    ],
       "previousTalk": [
