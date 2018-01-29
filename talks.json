@@ -1,5 +1,9 @@
 {
     "upcomingTalk": [
+    {
+        "eventName": "InnoTech San Antonio",
+        "eventURL": "http://www.innotechconferences.com/sanantonio/"
+    },
      {
          "eventName": "SCALE 16x",
          "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote"
