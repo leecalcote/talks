@@ -14,7 +14,8 @@
      },
      {
          "eventName": "O'Reilly: Istio & nginMesh",
-         "eventURL": "http://www.oreilly.com/pub/e/3926"
+         "eventURL": "http://www.oreilly.com/pub/e/3926",
+         "deckURL": "http://calcotestudios.com/talks/slides-istio-the-extensible-service-mesh-nginmesh.html"
      }
    ],
       "previousTalk": [
