@@ -10,15 +10,16 @@
      },
      {
          "eventName": "Container World 2018",
-         "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote"
-     },
-     {
-         "eventName": "O'Reilly: Istio & nginMesh",
-         "eventURL": "http://www.oreilly.com/pub/e/3926",
-         "deckURL": "http://calcotestudios.com/talks/slides-istio-the-extensible-service-mesh-nginmesh.html"
+         "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
+         "deckURL": "http://calcotestudios.com/slides-container-world-2018-istio-the-extensible-service-mesh-observability-at-layer-5.html"
      }
    ],
       "previousTalk": [
+        {
+            "eventName": "O'Reilly: Istio & nginMesh",
+            "eventURL": "http://www.oreilly.com/pub/e/3926",
+            "deckURL": "http://calcotestudios.com/talks/slides-istio-the-extensible-service-mesh-nginmesh.html"
+        },
         {
             "eventName": "Innovate Summit 2017",
             "eventURL": "http://innovate.solarwinds.io",
