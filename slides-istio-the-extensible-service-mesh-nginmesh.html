@@ -2425,7 +2425,13 @@ var n=t.getAttribute(e);n&&n.indexOf(r)===-1&&t.setAttribute(e,n+(/\?/.test(n)?"
 			if( window.hljs ) hljs.initHighlightingOnLoad();
 		</script>
 
-		
+<script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
 
 	</body>
 </html>
