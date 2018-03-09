@@ -12,7 +12,7 @@
      {
         "eventName": "SCALE 16x (2)",
         "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote",
-        "deckURL": "",
+        "deckURL": "/talks/slides-scale-16x-using-prometheus-remote-storage-adapters.html",
         "videoURL": "https://www.youtube.com/watch?v=03QBrg-qzZE"
     }
    ],
