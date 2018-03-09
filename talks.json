@@ -7,12 +7,13 @@
      {
          "eventName": "SCALE 16x (1)",
          "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote",
-         "deckURL": "#"
+         "deckURL": ""
      },
      {
         "eventName": "SCALE 16x (2)",
         "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote",
-        "deckURL": "#"
+        "deckURL": "",
+        "videoURL": "https://www.youtube.com/watch?v=03QBrg-qzZE"
     }
    ],
       "previousTalk": [
