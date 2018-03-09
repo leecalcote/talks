@@ -7,7 +7,7 @@
      {
          "eventName": "SCALE 16x (1)",
          "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote",
-         "deckURL": ""
+         "deckURL": "/talks/slides-scale-16x-istio-service-meshes-and-why-you-might-want-one.html"
      },
      {
         "eventName": "SCALE 16x (2)",
