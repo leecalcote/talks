@@ -5,16 +5,26 @@
         "eventURL": "http://www.innotechconferences.com/sanantonio/"
     },
      {
-         "eventName": "SCALE 16x",
-         "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote"
+         "eventName": "SCALE 16x (1)",
+         "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote",
+         "deckURL": "#"
      },
      {
-         "eventName": "Container World 2018",
-         "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
-         "deckURL": "http://calcotestudios.com/talks/slides-container-world-2018-istio-the-extensible-service-mesh-observability-at-layer-5.html"
-     }
+        "eventName": "SCALE 16x (2)",
+        "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote",
+        "deckURL": "#"
+    }
    ],
       "previousTalk": [
+        {
+            "eventName": "Container World 2018 (1)",
+            "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
+            "deckURL": "http://calcotestudios.com/talks/slides-container-world-2018-istio-the-extensible-service-mesh-observability-at-layer-5.html"
+        },
+        {
+            "eventName": "Container World 2018 (2)",
+            "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote#orchestration_panel-understanding-which-container-orchestration-solution-is-for-you"
+        },
         {
             "eventName": "O'Reilly: Istio & nginMesh",
             "eventURL": "http://www.oreilly.com/pub/e/3926",
