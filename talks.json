@@ -5,6 +5,10 @@
         "eventURL": "https://innotechsanantonio2018.sched.com/event/E6AO/what-does-it-mean-to-be-cloud-native-from-containers-to-functions?iframe=yes&w=750&sidebar=no&bg=no#"
     },
     {
+        "eventName": "Containers and Microservices Summit",
+        "eventURL": "https://summits.brighttalk.com/summit/4057-the-containers-and-microservices-summit/"
+    },
+    {
         "eventName": "DockerCon 18",
         "eventURL": "http://2018.dockercon.com"
     }
