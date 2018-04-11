@@ -1,8 +1,12 @@
 {
     "upcomingTalk": [
     {
-        "eventName": "InnoTech San Antonio",
+        "eventName": "InnoTech San Antonio (1)",
         "eventURL": "https://innotechsanantonio2018.sched.com/event/E6AO/what-does-it-mean-to-be-cloud-native-from-containers-to-functions?iframe=yes&w=750&sidebar=no&bg=no#"
+    },
+    {
+        "eventName": "InnoTech San Antonio (2)",
+        "eventURL": "https://innotechsanantonio2018.sched.com/event/Dqgh/the-future-of-collaboration-and-cloud-architecture?iframe=no&w=750&sidebar=yes&bg=no"
     },
     {
         "eventName": "Containers and Microservices Summit",
