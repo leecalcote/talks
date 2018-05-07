@@ -44,7 +44,8 @@
             "eventName": "O'Reilly: Istio & nginMesh",
             "eventURL": "http://www.oreilly.com/pub/e/3926",
             "deckURL": "http://calcotestudios.com/talks/slides-istio-the-extensible-service-mesh-nginmesh.html",
-            "videoURL": "https://www.nginx.com/resources/webinars/istio-the-extensible-service-mesh/"
+            "videoURL": "https://www.nginx.com/resources/webinars/istio-the-extensible-service-mesh/",
+            "linkURL": "https://www.oreilly.com/ideas/how-to-customize-an-istio-service-mesh"
         },
         {
             "eventName": "Innovate Summit 2017",
