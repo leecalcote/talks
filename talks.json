@@ -18,7 +18,7 @@
         {
             "eventName": "Containers and Microservices Summit",
             "eventURL": "https://www.brighttalk.com/webinar/service-meshes-microservices-networking-at-layer-5/",
-            "deckURL":"slides-the-containers-and-microservices-summit-2018-layer-5-networking-with-service-meshes.html"
+            "deckURL": "slides-the-containers-and-microservices-summit-2018-layer-5-networking-with-service-meshes.html"
         },
         {
             "eventName": "SCALE 16x (1)",
@@ -45,7 +45,7 @@
             "eventURL": "http://www.oreilly.com/pub/e/3926",
             "deckURL": "http://calcotestudios.com/talks/slides-istio-the-extensible-service-mesh-nginmesh.html",
             "videoURL": "https://www.nginx.com/resources/webinars/istio-the-extensible-service-mesh/",
-            "linkURL": "https://www.oreilly.com/ideas/how-to-customize-an-istio-service-mesh"
+            "linkURL": ["https://www.oreilly.com/ideas/how-to-customize-an-istio-service-mesh"]
         },
         {
             "eventName": "Innovate Summit 2017",
