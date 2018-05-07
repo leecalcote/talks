@@ -1,25 +1,25 @@
 {
     "upcomingTalk": [
     {
-        "eventName": "InnoTech San Antonio (1)",
-        "eventURL": "https://innotechsanantonio2018.sched.com/event/E6AO/what-does-it-mean-to-be-cloud-native-from-containers-to-functions?iframe=yes&w=750&sidebar=no&bg=no#",
-        "deckURL": "http://calcotestudios.com/talks/slides-innotech-san-antonio-2018-what-it-means-to-be-cloud-native.html"
-    },
-    {
-        "eventName": "InnoTech San Antonio (2)",
-        "eventURL": "https://innotechsanantonio2018.sched.com/event/Dqgh/the-future-of-collaboration-and-cloud-architecture?iframe=no&w=750&sidebar=yes&bg=no"
-    },
-    {
-        "eventName": "Containers and Microservices Summit",
-        "eventURL": "https://www.brighttalk.com/webinar/service-meshes-microservices-networking-at-layer-5/",
-        "deckURL":"slides-the-containers-and-microservices-summit-2018-layer-5-networking-with-service-meshes.html"
-    },
-    {
         "eventName": "DockerCon 18",
         "eventURL": "https://dockercon18.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=187485"
     }
    ],
       "previousTalk": [
+        {
+            "eventName": "InnoTech San Antonio (1)",
+            "eventURL": "https://innotechsanantonio2018.sched.com/event/E6AO/what-does-it-mean-to-be-cloud-native-from-containers-to-functions?iframe=yes&w=750&sidebar=no&bg=no#",
+            "deckURL": "http://calcotestudios.com/talks/slides-innotech-san-antonio-2018-what-it-means-to-be-cloud-native.html"
+        },
+        {
+            "eventName": "InnoTech San Antonio (2)",
+            "eventURL": "https://innotechsanantonio2018.sched.com/event/Dqgh/the-future-of-collaboration-and-cloud-architecture?iframe=no&w=750&sidebar=yes&bg=no"
+        },
+        {
+            "eventName": "Containers and Microservices Summit",
+            "eventURL": "https://www.brighttalk.com/webinar/service-meshes-microservices-networking-at-layer-5/",
+            "deckURL":"slides-the-containers-and-microservices-summit-2018-layer-5-networking-with-service-meshes.html"
+        },
         {
             "eventName": "SCALE 16x (1)",
             "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote",
