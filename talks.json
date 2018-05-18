@@ -7,6 +7,11 @@
    ],
       "previousTalk": [
         {
+            "eventName": "KubeCon EU",
+            "eventURL": "https://events.linuxfoundation.org/kubecon-eu-2018/",
+            "videoURL": "https://www.youtube.com/watch?v=-PifIpjtACM"
+        },
+        {
             "eventName": "InnoTech San Antonio (1)",
             "eventURL": "https://innotechsanantonio2018.sched.com/event/E6AO/what-does-it-mean-to-be-cloud-native-from-containers-to-functions?iframe=yes&w=750&sidebar=no&bg=no#",
             "deckURL": "http://calcotestudios.com/talks/slides-innotech-san-antonio-2018-what-it-means-to-be-cloud-native.html"
