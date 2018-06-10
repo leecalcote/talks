@@ -3,7 +3,15 @@
     {
         "eventName": "DockerCon 18",
         "eventURL": "https://dockercon18.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=187485"
-    }
+    },
+    {
+        "eventName": "Beyond Containers: Going Cloud Native with Serverless Architectures",
+        "eventURL": "https://www.brighttalk.com/webinar/beyond-containers-going-cloud-native-with-serverless-architectures/"
+    },
+    {
+        "eventName": "How to Modernize Your IT Infrastructure & Secure Your Applications",
+        "eventURL": "https://www.brighttalk.com/webinar/how-to-modernize-your-it-infrastructure-secure-your-applications/"
+    },
    ],
       "previousTalk": [
         {
