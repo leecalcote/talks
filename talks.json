@@ -2,7 +2,8 @@
     "upcomingTalk": [
     {
         "eventName": "DockerCon 18",
-        "eventURL": "https://dockercon18.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=187485"
+        "eventURL": "https://dockercon18.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=187485",
+	"deckURL": "http://calcotestudios.com/talks/slides-dockercon-18-using-istio.html"
     },
     {
         "eventName": "Beyond Containers: Going Cloud Native with Serverless Architectures",
