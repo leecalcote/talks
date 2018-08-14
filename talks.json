@@ -5,17 +5,21 @@
         "eventURL": "https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/70506"
     },
     {
-        "eventName": "Oracle Get Function'l with Kubernetes",
-        "eventURL": "http://cloudnative.dyn.com/Get-Functionl-w-Kubernetes_17Jul2018.html"
-    },
-    {
-        "eventName": "DockerCon 18", 
-        "eventURL": "https://dockercon18.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=187485",
-        "deckURL": "http://layer5.io",
-        "linkURL": ["https://twitter.com/lcalcote/status/1007666854561603584"]
+        "eventName": "InnoTech Austin",
+        "eventURL": "http://www.innotechconferences.com/austin/"
     }
    ],
       "previousTalk": [
+        {
+            "eventName": "Oracle Get Function'l with Kubernetes",
+            "eventURL": "http://cloudnative.dyn.com/Get-Functionl-w-Kubernetes_17Jul2018.html"
+        },
+        {
+            "eventName": "DockerCon 18", 
+            "eventURL": "https://dockercon18.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=187485",
+            "deckURL": "http://layer5.io",
+            "linkURL": ["https://twitter.com/lcalcote/status/1007666854561603584"]
+        },
         {
             "eventName": "Beyond Containers: Going Cloud Native with Serverless Architectures",
             "eventURL": "https://www.brighttalk.com/webinar/beyond-containers-going-cloud-native-with-serverless-architectures/"
