@@ -23,6 +23,12 @@
               font-family: sans-serif;
               text-decoration: none;
           }
+          a.404 {
+            
+            font-family: sans-serif;
+            text-decoration: none;
+            text-color: red;
+          }
           a:hover {
             text-decoration: underline;
           }
