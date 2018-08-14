@@ -23,10 +23,10 @@
               font-family: sans-serif;
               text-decoration: none;
           }
-          a.404 {
+          a.notfound {
             font-family: sans-serif;
-            text-decoration: none;
-            text-color: auto;
+            text-decoration: underline;
+            color: auto;
           }
           a:hover {
             text-decoration: underline;
