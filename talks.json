@@ -7,6 +7,10 @@
     {
         "eventName": "InnoTech Austin",
         "eventURL": "http://www.innotechconferences.com/austin/"
+    },
+    {
+        "eventName": "DockerCon EU",
+        "eventURL": "https://europe-2018.dockercon.com"
     }
    ],
       "previousTalk": [
