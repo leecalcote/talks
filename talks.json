@@ -45,7 +45,7 @@
         {
             "eventName": "InnoTech San Antonio (1)",
             "eventURL": "https://innotechsanantonio2018.sched.com/event/E6AO/what-does-it-mean-to-be-cloud-native-from-containers-to-functions?iframe=yes&w=750&sidebar=no&bg=no#",
-            "deckURL": "http://calcotestudios.com/talks/slides-innotech-san-antonio-2018-what-it-means-to-be-cloud-native.html"
+            "deckURL": "https://calcotestudios.com/talks/decks/slides-innotech-san-antonio-2018-what-it-means-to-be-cloud-native.html"
         },
         {
             "eventName": "InnoTech San Antonio (2)",
@@ -54,23 +54,23 @@
         {
             "eventName": "Containers and Microservices Summit",
             "eventURL": "https://www.brighttalk.com/webinar/service-meshes-microservices-networking-at-layer-5/",
-            "deckURL": "slides-the-containers-and-microservices-summit-2018-layer-5-networking-with-service-meshes.html"
+            "deckURL": "/talks/decks/slides-the-containers-and-microservices-summit-2018-layer-5-networking-with-service-meshes.html"
         },
         {
             "eventName": "SCALE 16x (1)",
             "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote",
-            "deckURL": "talks/slides-scale-16x-istio-service-meshes-and-why-you-might-want-one.html"
+            "deckURL": "/talks/decks/slides-scale-16x-istio-service-meshes-and-why-you-might-want-one.html"
         },
         {
             "eventName": "SCALE 16x (2)",
             "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote",
-            "deckURL": "/talks/slides-scale-16x-using-prometheus-remote-storage-adapters.html",
+            "deckURL": "/talks/decks/slides-scale-16x-using-prometheus-remote-storage-adapters.html",
             "videoURL": "https://www.youtube.com/watch?v=03QBrg-qzZE"
         },
         {
             "eventName": "Container World 2018 (1)",
             "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
-            "deckURL": "http://calcotestudios.com/talks/slides-container-world-2018-istio-the-extensible-service-mesh-observability-at-layer-5.html"
+            "deckURL": "https://calcotestudios.com/talks/decks/slides-container-world-2018-istio-the-extensible-service-mesh-observability-at-layer-5.html"
         },
         {
             "eventName": "Container World 2018 (2)",
@@ -79,7 +79,7 @@
         {
             "eventName": "O'Reilly: Istio & nginMesh",
             "eventURL": "http://www.oreilly.com/pub/e/3926",
-            "deckURL": "http://calcotestudios.com/talks/slides-istio-the-extensible-service-mesh-nginmesh.html",
+            "deckURL": "https://calcotestudios.com/talks/decks/slides-istio-the-extensible-service-mesh-nginmesh.html",
             "videoURL": "https://www.nginx.com/resources/webinars/istio-the-extensible-service-mesh/",
             "linkURL": ["https://www.oreilly.com/ideas/how-to-customize-an-istio-service-mesh"]
         },
@@ -107,23 +107,23 @@
         {
             "eventName": "Velocity 2017",
             "eventURL": "https://conferences.oreilly.com/velocity/vl-ca/public/schedule/speaker/226795",
-            "deckURL": "http://calcotestudios.com/velocity17-over-under",
+            "deckURL": "https://calcotestudios.com/velocity17-over-under",
             "linkURL": ["https://www.oreilly.com/ideas/understanding-container-networking"]
         },
         {
            "eventName": "OSCON 2017",
            "eventURL": "https://conferences.oreilly.com/oscon/oscon-tx/public/schedule/speaker/226795",
-           "deckURL": "http://calcotestudios.com/oscon-2017-over-under"
+           "deckURL": "https://calcotestudios.com/oscon-2017-over-under"
        },
        {
            "eventName": "DevOpsDays Austin 2017",
            "eventURL": "https://devopsdaysaustin2017.sched.com/event/AOSY/user-group-microservices-and-containers-austin-unik-unikernel-compiler-and-runtime",
-           "deckURL": "http://calcotestudios.com/devopsdaysaustin-unik"
+           "deckURL": "https://calcotestudios.com/devopsdaysaustin-unik"
        },
        {
            "eventName": "CloudNativeCon + KubeCon EU 2017 (1)",
            "eventURL": "https://cloudnativeeu2017.sched.com/event/9Td7?iframe=no",
-           "deckURL": "http://calcotestudios.com/kubecon-alertmanager",
+           "deckURL": "https://calcotestudios.com/kubecon-alertmanager",
 	       "videoURL": "https://youtu.be/jpb6fLQOgn4"
        },
        {
@@ -134,14 +134,14 @@
        {
            "eventName": "O'Reilly: Load-Balancing in the Cloud using Nginx & Kubernetes",
            "eventURL": "http://www.oreilly.com/pub/e/3864",
-           "deckURL": "http://calcotestudios.com/oreilly-nginx",
+           "deckURL": "https://calcotestudios.com/oreilly-nginx",
            "videoURL": "http://event.on24.com/wcc/r/1365124/9B42DB5C2199DE63215D138E7255CC85",
            "linkURL": ["https://www.oreilly.com/learning/developer-defined-application-delivery","http://www.linuxinsider.com/story/84376.html"]
        }, 
         {
            "eventName": "SCALE 15x (1)",
            "eventURL": "http://www.socallinuxexpo.org/scale/15x/presentations/over-under-container-networking",
-           "deckURL": "http://calcotestudios.com/scale15-over-under",
+           "deckURL": "https://calcotestudios.com/scale15-over-under",
            "videoURL": "https://www.youtube.com/watch?v=l9KN6SUAqKY&t=5h17m8s"
        },
        {  
@@ -153,7 +153,7 @@
         {
            "eventName": "Container World 2017",
            "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
-           "deckURL": "http://calcotestudios.com/cw2017",
+           "deckURL": "https://calcotestudios.com/cw2017",
            "linkURL": ["http://derekweeks.ulitzer.com/node/4157718"],
            "tweetURL": ["https://twitter.com/CloudEntTech/status/834527944236290052"]
        },
@@ -167,32 +167,32 @@
        {
            "eventName": "SolarWinds Tech Summit 2017 (1)",
            "eventURL": "https://www.solarwindsmeetup.com/event/techsummit-conference-2016/",
-           "deckURL": "http://calcotestudios.com/techsummit-feto",
+           "deckURL": "https://calcotestudios.com/techsummit-feto",
            "linkURL": ["http://www.eprofil.cz/2017/02/03/klicova-temata-brnenske-konference-techsummit-spolecnosti-solarwinds/"]
        },
        {
            "eventName": "SolarWinds Tech Summit 2017 (2)",
            "eventURL": "https://www.solarwindsmeetup.com/event/techsummit-conference-2016/",
-           "deckURL": "http://calcotestudios.com/techsummit-over-under",
+           "deckURL": "https://calcotestudios.com/techsummit-over-under",
            "linkURL": ["https://opennetworkingusergroup.com/the-hybrid-evolution-of-it/"]
        },
        {
            "eventName": "SolarWinds Tech Summit 2017 (3)",
            "eventURL": "https://www.solarwindsmeetup.com/event/techsummit-conference-2016/",
-           "deckURL": "http://calcotestudios.com/techsummit-ccco",
+           "deckURL": "https://calcotestudios.com/techsummit-ccco",
            "videoURL": "https://www.youtube.com/watch?v=y81hEEkXOsE",
            "date": 70
        },
        {
            "eventName": "All Day DevOps 2016",
-           "deckURL": "http://calcotestudios.com/alldaydevops2016",
+           "deckURL": "https://calcotestudios.com/alldaydevops2016",
            "videoURL": "https://www.youtube.com/embed/wae7TR2aJmQ",
            "eventURL": "http://www.alldaydevops.com/speakers/lee-calcote/",
            "linkURL": ["http://www.alldaydevops.com/blog/characterizing-and-contrasting-containiner-orchestrators","https://devops.com/characterizing-and-contrasting-container-orchestrators/"]
        },
        {
            "eventName": "KubeCon + CloudNativeCon + PrometheusDay 2016 (1)",
-           "deckURL": "http://calcotestudios.com/kubecon-bof",
+           "deckURL": "https://calcotestudios.com/kubecon-bof",
            "eventURL": "https://cnkc16.sched.com/event/8akw/bof-growing-a-community-leveraging-meetups-to-educate-grow-and-facilitate-conversation-lee-calcote-twistlock?iframe=yes&w=100%&sidebar=yes&bg=no#",
            "date": 60
        },
@@ -204,7 +204,7 @@
        },
        {
            "eventName": "All Things Open 2016",
-           "deckURL": "http://calcotestudios.com/ato2016",
+           "deckURL": "https://calcotestudios.com/ato2016",
            "eventURL": "https://allthingsopen.org/speakers/lee-calcote/"
        },
        {
@@ -219,25 +219,25 @@
        },
        {
            "eventName": "ContainerizeThis 2016",
-           "deckURL": "http://calcotestudios.com/feto",
+           "deckURL": "https://calcotestudios.com/feto",
            "eventURL": "https://containerizethis2016a.sched.org/event/8G9N/presentation-from-engines-to-orchestrators"
        },
        {
            "eventName": "Nginx Conf 2016",
            "eventURL": "https://www.nginx.com/nginxconf/speakers/list/#572b5ef476280471db0000c0",
-           "deckURL": "http://calcotestudios.com/nginx16",
+           "deckURL": "https://calcotestudios.com/nginx16",
            "videoURL": "https://youtu.be/RCTLqO8kAPg",
 	       "linkURL": ["https://www.nginx.com/blog/powering-microservices-sockets-using-nginx-kubernetes/"]
        },
        {
            "eventName": "LinuxCon + ContainerCon + CloudNativeDay 2016",
            "eventURL": "https://lcccna2016.sched.org/speaker/leecalcote?iframe=yes&w=&sidebar=yes&bg=no",
-           "deckURL": "http://calcotestudios.com/ccka"
+           "deckURL": "https://calcotestudios.com/ccka"
        },
        {
            "eventName": "Rackspace Tech Talk 2016",
            "eventURL": "#",
-           "deckURL": "http://calcotestudios.com/over-under"
+           "deckURL": "https://calcotestudios.com/over-under"
        },
         {
            "eventName": "Container Summit Austin 2016",
@@ -248,18 +248,18 @@
        {
            "eventName": "DockerCon 2016 Recap",
            "eventURL": "https://www.meetup.com/Docker-Austin/events/231029121/",
-           "deckURL": "http://calcotestudios.com/dockercon-2016-recap",
+           "deckURL": "https://calcotestudios.com/dockercon-2016-recap",
            "videoURL": "https://www.youtube.com/watch?v=-x-YfwTRZ98"
         },
        {
            "eventName": "DevOps Days Austin 2016",
-           "deckURL": "http://calcotestudios.com/scol",
+           "deckURL": "https://calcotestudios.com/scol",
            "eventURL": "https://devopsdaysaustin2016.sched.com/event/6lSm"
         },
         {
            "eventName": "OpenStack Summit 2016",
            "eventURL": "http://blog.rackspace.com/container-day-rackspace-cantina-openstack-summit/",
-           "deckURL": "http://calcotestudios.com/ccco",
+           "deckURL": "https://calcotestudios.com/ccco",
            "videoURL": "https://youtu.be/ygEjpvnimm8"
         },
         {
@@ -270,7 +270,7 @@
         {
            "eventName": "DockerCon EU 2015 Recap",
            "eventURL": "https://www.meetup.com/Docker-Austin/events/226656862/",
-           "deckURL": "http://calcotestudios.com/dockercon-recap",
+           "deckURL": "https://calcotestudios.com/dockercon-recap",
            "videoURL": ""
         },
         {
