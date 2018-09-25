@@ -13,6 +13,10 @@
         "eventURL": "https://europe-2018.dockercon.com"
     },
     {
+        "eventName": "GOTO Berlin 2018",
+        "eventURL": "https://gotober.com/2018/workshops/130"
+    },
+    {
         "eventName": "KubeCon NA 2018",
         "eventURL": "https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/"
     }
