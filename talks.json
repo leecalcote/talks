@@ -11,7 +11,12 @@
     {
         "eventName": "DockerCon EU",
         "eventURL": "https://europe-2018.dockercon.com"
+    },
+    {
+        "eventName": "KubeCon NA 2018",
+        "eventURL": "https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/"
     }
+    
    ],
       "previousTalk": [
         {
