@@ -1,3 +1,3 @@
 function loadBackground() {
-    document.body.style.backgroundImage = "url('/img/Lee Calcote - CloudNativeDay.jpg')";
+    document.body.style.backgroundImage = "url('talks/img/Lee Calcote - CloudNativeDay.jpg')";
 }
