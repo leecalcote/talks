@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var talks = [];
         //$("#driver").click(function(){
-           $.getJSON('/talks.json', function(talks) {
+           $.getJSON('talks.json', function(talks) {
             $.each(talks.upcomingTalk, function(i,t) {
               var temp = '<li><a href="'+ t.eventURL + '">' + t.eventName + '</a>';
               //$('#upcoming').append('<li><a href="'+ t.eventURL + '">' + t.eventName + '</a>');
