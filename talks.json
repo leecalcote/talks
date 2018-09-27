@@ -33,7 +33,8 @@
       "previousTalk": [
         {
             "eventName": "Oracle Get Function'l with Kubernetes",
-            "eventURL": "http://cloudnative.dyn.com/Get-Functionl-w-Kubernetes_17Jul2018.html"
+            "eventURL": "http://cloudnative.dyn.com/Get-Functionl-w-Kubernetes_17Jul2018.html",
+            "videoURL": "https://www.youtube.com/watch?v=Wcn4Ji__DCA&index=2&t=17s&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
         },
         {
             "eventName": "DockerCon 18", 
