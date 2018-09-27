@@ -5,8 +5,16 @@
         "eventURL": "https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/70506"
     },
     {
-        "eventName": "InnoTech Austin",
-        "eventURL": "http://www.innotechconferences.com/austin/"
+        "eventName": "InnoTech Austin (1)",
+        "eventURL": "https://innotechaustin2018.sched.com/event/G1Ow/decoupling-devops-with-service-meshes?iframe=no"
+    },
+    {
+        "eventName": "InnoTech Austin (2)",
+        "eventURL": "https://innotechaustin2018.sched.com/event/G1Ox/establishing-an-open-source-program-office"
+    },
+    {
+        "eventName": "DeveloperWeek Austin 2018",
+        "eventURL": "https://developerweekaustin2018.sched.com/event/GmKq/pro-talk-linux-containers-101-from-zero-to-hero?iframe=yes&w=100%&sidebar=yes&bg=no"
     },
     {
         "eventName": "DockerCon EU",
