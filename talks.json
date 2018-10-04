@@ -10,7 +10,8 @@
     },
     {
         "eventName": "InnoTech Austin (2)",
-        "eventURL": "https://innotechaustin2018.sched.com/event/G1Ox/establishing-an-open-source-program-office"
+        "eventURL": "https://innotechaustin2018.sched.com/event/G1Ox/establishing-an-open-source-program-office",
+        "deckURL": "/talks/slides-innotech-austin-2018-establishing-an-open-source-office.html"
     },
     {
         "eventName": "DeveloperWeek Austin 2018",
