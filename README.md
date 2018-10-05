@@ -1,4 +1,4 @@
-A repository of [talks](http://calcotestudios.com/talks) by [Lee Calcote](http://blog.gingergeek.com/about).
+A repository of [talks](http://calcotestudios.com/talks) by [Lee Calcote](https://gingergeek.com/about).
 
 
 
