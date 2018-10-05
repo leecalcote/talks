@@ -28,7 +28,7 @@ GEM
     github-pages (43)
       RedCloth (= 4.2.9)
       github-pages-health-check (= 0.6.0)
-      jekyll (= 2.4.0)
+      jekyll ~> 3.6.3
       jekyll-coffeescript (= 1.0.1)
       jekyll-feed (= 0.3.1)
       jekyll-gist (= 1.4.0)
