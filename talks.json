@@ -99,7 +99,13 @@
             "linkURL": ["https://www.oreilly.com/ideas/how-to-customize-an-istio-service-mesh"]
         },
         {
-            "eventName": "Innovate Summit 2017",
+            "eventName": "Innovate Summit 2017 (1)",
+            "eventURL": "http://innovate.solarwinds.io",
+            "deckURL": "/talks/decks/slides-innovate-summit-2017-prometheus-long-term-storage.html",
+            "linkURL": ["https://www.zive.cz/clanky/pozvanka-na-konferenci-innovate-summit-innovation-goes-social-at-solarwinds-innovate-summit-2017/sc-3-a-190647/default.aspx"]
+        },
+        {
+            "eventName": "Innovate Summit 2017 (2)",
             "eventURL": "http://innovate.solarwinds.io",
             "deckURL": "/talks/decks/slides-innovate-summit-2017-state-of-serverless-the-cncf.html",
             "linkURL": ["https://www.zive.cz/clanky/pozvanka-na-konferenci-innovate-summit-innovation-goes-social-at-solarwinds-innovate-summit-2017/sc-3-a-190647/default.aspx"]
@@ -107,7 +113,7 @@
 	    {
            "eventName": "KubeCon + CloudNativeCon NA 2017 Meetup",
            "eventURL": "https://www.meetup.com/Microservices-and-Containers-Austin/events/245513825/",
-           "deckURL": "/talks/decks/slides-prometheus-alertmanager-long-term-storage.html",
+           "deckURL": "/talks/decks/slides-kubecon-na-2017-prometheus-alertmanager-long-term-storage",
            "videoURL":"https://www.facebook.com/austintechlive/videos/1726207290757734/"
         },
         {
@@ -138,7 +144,7 @@
        {
            "eventName": "CloudNativeCon + KubeCon EU 2017 (1)",
            "eventURL": "https://cloudnativeeu2017.sched.com/event/9Td7?iframe=no",
-           "deckURL": "https://calcotestudios.com/kubecon-alertmanager",
+           "deckURL": "/talks/decks/slides-kubecon-eu-2017-understanding-and-extending-prometheus-alertmanager.html",
 	       "videoURL": "https://youtu.be/jpb6fLQOgn4"
        },
        {

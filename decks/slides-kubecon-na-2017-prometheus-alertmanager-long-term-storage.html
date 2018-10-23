@@ -1,59 +1,77 @@
 ---
 layout: slides
-title: "Prometheus Alert Manager and Long-term Storage"
+title: "KubeCon NA 2017: Prometheus AlertManager & Long-term Storage"
 ---
 <div class="theme-font-merriweather theme-color-blue-yellow" style="width: 100%; height: 100%;">
     <div class="reveal">
         <div class="slides">
             <section class="stack">
-                <section data-background-color="rgb(61,97,130)" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/4428435/1710_swi_innovate-summit-image_1800x1000.png">
-                    <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 1280px; left: 0px; top: 175px;">
-                        <div class="sl-block-content" style="z-index: 13; text-align: center; color: rgb(21, 189, 206);" dir="ui">
-                            <h1>
-                                <strong>Prometheus
-                                    <br/>
-                                    <s>Alert Manager &amp;</s> Long-term Storage
-                                </strong>
+                <section data-background-color="rgb(61,97,130)">
+                    <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 1280px; left: 1px; top: 51px;">
+                        <div class="sl-block-content" style="z-index: 12; text-align: center; color: rgb(255, 255, 255);" dir="ui">
+                            <h1>Prometheus
+                                <br/>
+Alert Manager &amp; Long-term Storage
                             </h1>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 409px; left: 437px; top: 517px;">
-                        <div class="sl-block-content" style="z-index: 14; text-align: center; font-size: 130%; color: rgb(218, 78, 49);">
+                    <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 409px; left: 436px; top: 449px;">
+                        <div class="sl-block-content" style="z-index: 13; text-align: center; font-size: 130%; color: rgb(218, 78, 49);">
                             <p>
-                                <span style="color:#696969">
-                                    <em>
-                                        <strong>
-                                            <span style="font-size:1.4em">Lee Calcote</span>
-                                        </strong>
-                                    </em>
-                                </span>
+                                <em>
+                                    <strong>
+                                        <span style="font-size:1.4em">Lee Calcote</span>
+                                    </strong>
+                                </em>
                             </p>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 492px; left: 394px; top: 588px;">
-                        <div class="sl-block-content" style="z-index: 15; font-size: 69%; color: rgb(195, 4, 50);">
+                    <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 492px; left: 394px; top: 533px;">
+                        <div class="sl-block-content" style="z-index: 14; font-size: 69%;">
                             <h3>
                                 <a href="http://calcotestudios.com/talks" target="_blank">calcotestudios.com/talks</a>
                             </h3>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 311px; height: 312px; left: 9px; top: 408px;">
-                        <div class="sl-block-content" style="z-index: 12;" data-inline-svg="false">
+                    <div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 419px; height: 421px; left: 9px; top: 288px;">
+                        <div class="sl-block-content" style="z-index: 11;" data-inline-svg="false">
                             <img data-natural-width="2490" data-natural-height="2500" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3629114/prometheus.svg"/>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 252px; height: 84px; left: 39px; top: 39px;">
-                        <div class="sl-block-content" style="z-index: 17;">
-                            <img data-natural-width="600" data-natural-height="200" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3166093/sw_logo_primary_RGB_300dpi.png"/>
+                    <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 356px; left: 458px; top: 594px;">
+                        <div class="sl-block-content" style="z-index: 15; text-align: center; color: rgb(255, 255, 255);" dir="ui">
+                            <p>
+                                <span style="font-size:0.7em">KubeCon + CloudNativeCon NA 2017
+                                    <br/>
+December, 4th 2017
+                                </span>
+                            </p>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 758px; left: 50px; top: 106px;">
-                        <div class="sl-block-content" style="z-index: 18; font-size: 80%; text-align: left;">
-                            <h2>
-                                <span style="color:#696969">
-                                    <strong>Innovate Summit 2017</strong>
-                                </span>
-                            </h2>
+                    <div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 435px; height: 367px; left: 837px; top: 337px;">
+                        <div class="sl-block-content" style="z-index: 16;">
+                            <img style="" data-natural-width="1601" data-natural-height="1350" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/4477223/ao-flare.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 629px; height: 70px; left: -66px; top: 23px;">
+                        <div class="sl-block-style" style="z-index: 17; transform: rotate(344deg);">
+                            <a class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 0)" data-shape-stretch="true" style="z-index: 17;" href="https://www.facebook.com/austintechlive/videos/1726207290757734/" target="_blank">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 629 70">
+                                    <rect width="629" height="70" class="shape-element" fill="rgb(255, 255, 0)"></rect>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: -69px; top: 47px;">
+                        <div class="sl-block-style" style="z-index: 18; transform: rotate(344deg);">
+                            <div class="sl-block-content" style="z-index: 18;">
+                                <p>
+                                    <a href="https://www.facebook.com/austintechlive/videos/1726207290757734/" target="_blank">
+                                        <span style="color:#000000">Watch recording </span>
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -253,6 +271,13 @@ title: "Prometheus Alert Manager and Long-term Storage"
                         </div>
                     </div>
                 </section>
+                <section>
+                    <div class="sl-block" data-block-type="iframe" style="min-width: 30px; min-height: 30px; width: 1280px; height: 720px; left: 0px; top: 0px;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="https://innovate.solarwinds.io"></iframe>
+                        </div>
+                    </div>
+                </section>
                 <section data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3640509/solarwinds_mark-logo.gif" data-background-size="contain" data-background-color="#444444">
                     <div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 360px; height: 174.76363636363635px; left: 460px; top: 232px;">
                         <div class="sl-block-content" style="z-index: 10;">
@@ -403,11 +428,11 @@ title: "Prometheus Alert Manager and Long-term Storage"
                             <svg
                                 xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 480 449">
                                 <defs>
-                                    <clipPath id="shape-mask-1-1513004263960">
+                                    <clipPath id="shape-mask-1-1512880210617">
                                         <rect width="480" height="449"></rect>
                                     </clipPath>
                                 </defs>
-                                <rect width="480" height="449" clip-path="url(#shape-mask-1-1513004263960)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#da4e31" stroke-width="6"></rect>
+                                <rect width="480" height="449" clip-path="url(#shape-mask-1-1512880210617)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#da4e31" stroke-width="6"></rect>
                             </svg>
                         </div>
                     </div>
@@ -437,11 +462,11 @@ title: "Prometheus Alert Manager and Long-term Storage"
                             <svg
                                 xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 480 449">
                                 <defs>
-                                    <clipPath id="shape-mask-2-1513004263971">
+                                    <clipPath id="shape-mask-2-1512880210625">
                                         <rect width="480" height="449"></rect>
                                     </clipPath>
                                 </defs>
-                                <rect width="480" height="449" clip-path="url(#shape-mask-2-1513004263971)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#da4e31" stroke-width="6"></rect>
+                                <rect width="480" height="449" clip-path="url(#shape-mask-2-1512880210625)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#da4e31" stroke-width="6"></rect>
                             </svg>
                         </div>
                     </div>
