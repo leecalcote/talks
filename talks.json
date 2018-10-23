@@ -6,7 +6,8 @@
     },
     {
         "eventName": "InnoTech Austin (1)",
-        "eventURL": "https://innotechaustin2018.sched.com/event/G1Ow/decoupling-devops-with-service-meshes?iframe=no"
+        "eventURL": "https://innotechaustin2018.sched.com/event/G1Ow/decoupling-devops-with-service-meshes?iframe=no",
+        "deckURL": "slides-innotech-austin-2018-decoupling-devops-with-service-meshes.html"
     },
     {
         "eventName": "InnoTech Austin (2)",
