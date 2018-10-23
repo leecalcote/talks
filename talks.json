@@ -246,7 +246,7 @@
        {
            "eventName": "Nginx Conf 2016",
            "eventURL": "https://www.nginx.com/nginxconf/speakers/list/#572b5ef476280471db0000c0",
-           "deckURL": "https://calcotestudios.com/nginx16",
+           "deckURL": "/decks/talks/nginxconf-2016-powering-microservices-sockets-using-nginx-and-kubernetes",
            "videoURL": "https://youtu.be/RCTLqO8kAPg",
 	       "linkURL": ["https://www.nginx.com/blog/powering-microservices-sockets-using-nginx-kubernetes/"]
        },

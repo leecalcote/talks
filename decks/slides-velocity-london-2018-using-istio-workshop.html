@@ -6099,10 +6099,11 @@ kubectl apply -f &lt;(istioctl kube-inject -f samples/bookinfo/kube/bookinfo.yam
                     <div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 1061px; height: 87px; left: 78px; top: 537px;">
                         <div class="sl-block-content notranslate" style="z-index: 18;" data-highlight-theme="solarized-dark">
                             <pre class="bash">
-                                <code>watch kubectl get po,svc
+                                <code>{% raw %}watch kubectl get po,svc
 kubectl describe po/ | more
 echo "http://$(kubectl get nodes -o template --template='{{range.items}}{{range.status.addresses}}{{if eq .type "InternalIP"}}{{.address}}{{end}}{{end}}{{end}}'):$(kubectl get svc istio-ingress -n istio-system -o jsonpath='{.spec.ports[0].nodePort}')/productpage"</code></pre>
-                        </div>
+{% endraw %}                        
+</div>
                     </div>
                     <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 58px; top: 483px;">
                         <div class="sl-block-content" style="z-index: 19;">
@@ -6180,7 +6181,7 @@ echo "http://$(kubectl get nodes -o template --template='{{range.items}}{{range.
                     <div class="sl-block" data-block-type="code" style="width: 1061px; height: 63px; left: 89px; top: 195px;">
                         <div class="sl-block-content notranslate" style="z-index: 17;" data-highlight-theme="solarized-dark">
                             <pre class="bash">
-                                <code>echo "http://$(kubectl get nodes -o template --template='{{range.items}}{{range.status.addresses}}{{if eq .type "InternalIP"}}{{.address}}{{end}}{{end}}{{end}}'):$(kubectl get svc istio-ingress -n istio-system -o jsonpath='{.spec.ports[0].nodePort}')/productpage"</code></pre>
+                                <code>{% raw %}echo "http://$(kubectl get nodes -o template --template='{{range.items}}{{range.status.addresses}}{{if eq .type "InternalIP"}}{{.address}}{{end}}{{end}}{{end}}'):$(kubectl get svc istio-ingress -n istio-system -o jsonpath='{.spec.ports[0].nodePort}')/productpage"{% endraw %}</code></pre>
                         </div>
                     </div>
                     <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 58px; top: 149px;">
@@ -6248,9 +6249,10 @@ kubectl exec -it &lt;a pod&gt; -c istio-proxy /bin/bash</code></pre>
                     <div class="sl-block" data-block-type="code" style="width: 1111px; height: 129px; left: 104px; top: 188px;">
                         <div class="sl-block-content notranslate" style="z-index: 14;" data-highlight-theme="solarized-dark">
                             <pre class="bash">
-                                <code># Generate load for Mixer telemetry adapter
+                                <code># Generate load for Mixer telemetry adapter{% raw %}
 docker run --rm istio/fortio load -c 1 -t 10m \
 `echo "http://$(kubectl get nodes -o template --template='{{range.items}}{{range.status.addresses}}{{if eq .type "InternalIP"}}{{.address}}{{end}}{{end}}{{end}}'):$(kubectl get svc istio-ingress -n istio-system -o jsonpath='{.spec.ports[0].nodePort}')/productpage"`</code></pre>
+{% endraw %}
                         </div>
                     </div>
                     <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 58px; top: 143px;">
