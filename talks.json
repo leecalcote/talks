@@ -14,6 +14,10 @@
         "eventURL": "https://europe-2018.dockercon.com"
     },
     {
+        "eventName": "Innovate Summit 2018",
+        "eventURL": "https://innovate.solarwinds.io"
+    },
+    {
         "eventName": "KubeCon NA 2018",
         "eventURL": "https://kccna18.sched.com/event/Gram/tutorial-using-istio-lee-calcote-girish-ranganathan-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no#"
     }
