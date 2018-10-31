@@ -2,17 +2,8 @@
     "upcomingTalk": [
     {
         "eventName": "Velocity 2018 London",
-        "eventURL": "https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/70506"
-    },
-    {
-        "eventName": "InnoTech Austin (1)",
-        "eventURL": "https://innotechaustin2018.sched.com/event/G1Ow/decoupling-devops-with-service-meshes?iframe=no",
-        "deckURL": "/talks/decks/slides-innotech-austin-2018-decoupling-devops-with-service-meshes.html"
-    },
-    {
-        "eventName": "InnoTech Austin (2)",
-        "eventURL": "https://innotechaustin2018.sched.com/event/G1Ox/establishing-an-open-source-program-office",
-        "deckURL": "/talks/decks/slides-innotech-austin-2018-establishing-an-open-source-office.html"
+        "eventURL": "https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/70506",
+        "deckURL": "/talks/decks/slides-velocity-london-2018-using-istio.html"
     },
     {
         "eventName": "DeveloperWeek Austin 2018",
@@ -23,16 +14,22 @@
         "eventURL": "https://europe-2018.dockercon.com"
     },
     {
-        "eventName": "GOTO Berlin 2018",
-        "eventURL": "https://gotober.com/2018/workshops/130"
-    },
-    {
         "eventName": "KubeCon NA 2018",
         "eventURL": "https://kccna18.sched.com/event/Gram/tutorial-using-istio-lee-calcote-girish-ranganathan-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no#"
     }
     
    ],
       "previousTalk": [
+        {
+            "eventName": "InnoTech Austin (1)",
+            "eventURL": "https://innotechaustin2018.sched.com/event/G1Ow/decoupling-devops-with-service-meshes?iframe=no",
+            "deckURL": "/talks/decks/slides-innotech-austin-2018-decoupling-devops-with-service-meshes.html"
+        },
+        {
+            "eventName": "InnoTech Austin (2)",
+            "eventURL": "https://innotechaustin2018.sched.com/event/G1Ox/establishing-an-open-source-program-office",
+            "deckURL": "/talks/decks/slides-innotech-austin-2018-establishing-an-open-source-office.html"
+        },
         {
             "eventName": "Oracle Get Function'l with Kubernetes",
             "eventURL": "http://cloudnative.dyn.com/Get-Functionl-w-Kubernetes_17Jul2018.html",
