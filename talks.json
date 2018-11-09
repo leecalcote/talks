@@ -11,6 +11,10 @@
         "deckURL": "/talks/decks/slides-developerweek-austin-2018-linux-containers-101"
     },
     {
+        "eventName": "AWS re:Invent 2018",
+        "eventURL": "https://reinvent.awsevents.com"
+    },
+    {
         "eventName": "DockerCon EU",
         "eventURL": "https://dockerconeurope18.smarteventscloud.com/connect/search.ww#loadSearch-searchPhrase=&searchType=session&tc=0&sortBy=dayTime&i(1037)=&p="
     },
