@@ -7,7 +7,8 @@
     },
     {
         "eventName": "DeveloperWeek Austin 2018",
-        "eventURL": "https://developerweekaustin2018.sched.com/event/GmKq/pro-talk-linux-containers-101-from-zero-to-hero?iframe=yes&w=100%&sidebar=yes&bg=no"
+        "eventURL": "https://developerweekaustin2018.sched.com/event/GmKq/pro-talk-linux-containers-101-from-zero-to-hero?iframe=yes&w=100%&sidebar=yes&bg=no",
+        "deckURL": "/talks/decks/slides-developerweek-austin-2018-linux-containers-101"
     },
     {
         "eventName": "DockerCon EU",
