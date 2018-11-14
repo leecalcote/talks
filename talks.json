@@ -9,7 +9,7 @@
         "eventName": "DeveloperWeek Austin 2018",
         "eventURL": "https://developerweekaustin2018.sched.com/event/GmKq/pro-talk-linux-containers-101-from-zero-to-hero?iframe=yes&w=100%&sidebar=yes&bg=no",
         "deckURL": "/talks/decks/slides-developerweek-austin-2018-linux-containers-101",
-        "linkURL": "https://containerjournal.com/2018/09/17/automation-and-orchestration-in-a-container-world/"
+        "linkURL": ["https://containerjournal.com/2018/09/17/automation-and-orchestration-in-a-container-world/"]
     },
     {
         "eventName": "UT Austin - Electrical and Computer Engineering",
