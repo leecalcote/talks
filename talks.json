@@ -13,7 +13,8 @@
     },
     {
         "eventName": "UT Austin - Electrical and Computer Engineering",
-        "eventURL": "/talks/decks/slides-ut-austin-ece-what-it-means-to-be-cloud-native.html"
+        "eventURL": "#",
+        "deckURL": "/talks/decks/slides-ut-austin-ece-what-it-means-to-be-cloud-native.html"
     },
     {
         "eventName": "AWS re:Invent 2018",
