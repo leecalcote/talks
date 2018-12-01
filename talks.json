@@ -1,22 +1,6 @@
 {
     "upcomingTalk": [
     {
-        "eventName": "Velocity 2018 London",
-        "eventURL": "https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/70506",
-        "deckURL": "/talks/decks/slides-velocity-london-2018-using-istio-workshop.html"
-    },
-    {
-        "eventName": "DeveloperWeek Austin 2018",
-        "eventURL": "https://developerweekaustin2018.sched.com/event/GmKq/pro-talk-linux-containers-101-from-zero-to-hero?iframe=yes&w=100%&sidebar=yes&bg=no",
-        "deckURL": "/talks/decks/slides-developerweek-austin-2018-linux-containers-101",
-        "linkURL": ["https://containerjournal.com/2018/09/17/automation-and-orchestration-in-a-container-world/"]
-    },
-    {
-        "eventName": "UT Austin - Electrical and Computer Engineering",
-        "eventURL": "#",
-        "deckURL": "/talks/decks/slides-ut-austin-ece-what-it-means-to-be-cloud-native.html"
-    },
-    {
         "eventName": "AWS re:Invent 2018",
         "eventURL": "https://www.brighttalk.com/webinar/ask-the-expert-a-technical-look-at-running-splunk-in-containers/"
     },
@@ -35,6 +19,22 @@
     
    ],
       "previousTalk": [
+        {
+            "eventName": "Velocity 2018 London",
+            "eventURL": "https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/70506",
+            "deckURL": "/talks/decks/slides-velocity-london-2018-using-istio-workshop.html"
+        },
+        {
+            "eventName": "DeveloperWeek Austin 2018",
+            "eventURL": "https://developerweekaustin2018.sched.com/event/GmKq/pro-talk-linux-containers-101-from-zero-to-hero?iframe=yes&w=100%&sidebar=yes&bg=no",
+            "deckURL": "/talks/decks/slides-developerweek-austin-2018-linux-containers-101",
+            "linkURL": ["https://containerjournal.com/2018/09/17/automation-and-orchestration-in-a-container-world/"]
+        },
+        {
+            "eventName": "UT Austin - Electrical and Computer Engineering",
+            "eventURL": "#",
+            "deckURL": "/talks/decks/slides-ut-austin-ece-what-it-means-to-be-cloud-native.html"
+        },
         {
             "eventName": "InnoTech Austin (1)",
             "eventURL": "https://innotechaustin2018.sched.com/event/G1Ow/decoupling-devops-with-service-meshes?iframe=no",
