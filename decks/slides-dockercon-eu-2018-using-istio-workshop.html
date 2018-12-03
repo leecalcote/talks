@@ -1,39 +1,278 @@
 ---
 layout: slides
-title: "Innovate Day 2019: Using Istio Workshop"
+title: "DockerCon EU 2018: Using Istio Workshop"
 ---
 <div class="theme-font-opensans theme-color-black-orange" style="width: 100%; height: 100%;">
     <div class="reveal">
         <div class="slides">
             <section class="stack">
-                <section data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/5557848/SolarWinds.io___the_Engineering_Experience.svg" data-background-color="rgb(234,241,241)" data-background-size="contain"></section>
-                <section data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3317460/solarwinds_mark-only.png" data-background-color="#444444">
-                    <div class="sl-block" data-block-type="text" style="height: auto; width: 322px; left: 24px; top: 463px;">
-                        <div class="sl-block-content" style="z-index: 12; text-align: center; font-size: 150%;">
+                <section data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/5507101/DCEU18_Resized_Breakout_Presentation_Template_PPT.png" data-background-size="initial" data-background-color="#ffffff">
+                    <div class="sl-block" data-block-type="text" style="width: 417px; left: 256px; top: 53px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10; color: rgb(102, 102, 102); text-align: left;">
+                            <h3>Lee Calcote</h3>
+                            <p>Head of Technology Strategy</p>
+                            <p>SolarWinds</p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 611px; top: 305px;">
+                        <div class="sl-block-content" style="z-index: 12; color: rgb(1, 138, 149);">
                             <p>
-                                <strong>Lee
-                                    <br/>
-Calcote
-                                </strong>
+                                <a href="https://calcotestudios.com/talks" target="_blank">
+                                    <span style="color:#696969">calcotestudios.com/talks</span>
+                                </a>
                             </p>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="text" style="height: auto; width: 211px; left: 79px; top: 579px;">
-                        <div class="sl-block-content" style="z-index: 13; text-align: center; font-size: 80%;">
-                            <p>Technology Strategy</p>
+                    <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 611px; top: 165px;">
+                        <div class="sl-block-content" style="z-index: 13; color: rgb(0, 117, 188); font-size: 125%;">
+                            <h1>
+                                <strong>Using Istio</strong>
+                            </h1>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 360px; height: 174.76363636363635px; left: 460px; top: 210px;">
+                    <div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 216px; height: 224px; left: 22px; top: 53px;">
+                        <div class="sl-block-content" style="z-index: 14;">
+                            <img data-natural-width="1185" data-natural-height="1227" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/4552911/Lee-Calcote-2017.jpg"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 216px; height: 216px; left: 22px; top: 360px;">
+                        <div class="sl-block-content" style="z-index: 15;">
+                            <img data-natural-width="600" data-natural-height="600" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/4434365/girish-ranganathan.jpg"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 417px; left: 256px; top: 360px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 16; color: rgb(102, 102, 102); text-align: left;">
+                            <h3>Girish Ranganathan</h3>
+                            <p>Principal Architect</p>
+                            <p>SolarWinds</p>
+                        </div>
+                    </div>
+                </section>
+                <section data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3230877/Lee_Calcote_-_CloudNativeDay.jpg">
+                    <div class="sl-block" data-block-type="text" style="width: 430px; left: 814px; top: 41px; height: auto;">
+                        <div class="sl-block-content" style="text-align: right; z-index: 11;">
+                            <h2>
+                                <a href="http://linkedin.com/in/leecalcote" target="_blank">
+                                    <span style="color:#FFFFFF">
+                                        <strong>Lee Calcote</strong>
+                                    </span>
+                                </a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 380px; left: 873px; top: 535px;">
+                        <div class="sl-block-content" style="z-index: 12; text-align: left; color: rgb(255, 255, 0);">
+                            <p>
+                                <a href="http://linkedin.com/in/leecalcote" target="_blank">
+                                    <span style="color:#FFFF00">linkedin.com/in/leecalcote</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 380px; left: 872px; top: 257px;">
+                        <div class="sl-block-content" style="z-index: 14; text-align: left; color: rgb(255, 255, 0);">
+                            <p>
+                                <a href="http://twitter.com/lcalcote" target="_blank">
+                                    <span style="color:#FFFF00">@lcalcote</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 380px; left: 872px; top: 309px;">
+                        <div class="sl-block-content" style="z-index: 17; text-align: left; color: rgb(255, 255, 0);">
+                            <p>
+                                <a href="http://gingergeek.com" target="_blank">
+                                    <span style="color:#FFFF00">gingergeek.com</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 380px; left: 873px; top: 422px;">
+                        <div class="sl-block-content" style="z-index: 18; text-align: left; color: rgb(255, 255, 0);">
+                            <p>
+                                <a href="mailto:lee@calcotestudios.com" target="_top">
+                                    <span style="color:#FFFF00">lee@calcotestudios.com</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 94.02105263157895px; height: 88px; left: 411px; top: 616px; min-width: 4px; min-height: 4px;">
+                        <a class="sl-block-content" style="z-index: 20;" href="http://www.meetup.com/Microservices-and-Containers-Austin/" target="_blank">
+                            <img style="" data-natural-width="609" data-natural-height="570" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2509985/cube.png"/>
+                        </a>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 487px; left: 757px; top: 115px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 22; text-align: right;">
+                            <p>
+                                <span style="color:#D3D3D3">
+                                    <em>clouds, containers, functions, </em>
+                                </span>
+                                <span style="color:#D3D3D3">
+                                    <em>applications,</em>&nbsp;
+                                </span>
+                                <span style="color:#D3D3D3">
+                                    <em>and their management</em>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 47px; height: 47px; left: 809px; top: 253px; min-width: 4px; min-height: 4px;">
+                        <a class="sl-block-content" style="z-index: 25;" href="http://twitter.com/lcalcote" target="_blank">
+                            <img data-natural-width="256" data-natural-height="256" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png"/>
+                        </a>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 39px; height: 39px; left: 810px; top: 309px; min-width: 4px; min-height: 4px;">
+                        <a class="sl-block-content" style="z-index: 27;" href="" target="_top">
+                            <img data-natural-width="512" data-natural-height="512" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3230924/rss_feed-light.gif"/>
+                        </a>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 42px; height: 42px; left: 810px; top: 535px; min-width: 4px; min-height: 4px;">
+                        <a class="sl-block-content" style="z-index: 29;" href="" target="_top">
+                            <img data-natural-width="413" data-natural-height="413" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3230926/linkedin-icon-light.gif"/>
+                        </a>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 39px; height: 34.32px; left: 812px; top: 427px; min-width: 4px; min-height: 4px;">
+                        <a class="sl-block-content" style="z-index: 30;" href="" target="_top">
+                            <img data-natural-width="425" data-natural-height="374" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3230937/email-light.gif"/>
+                        </a>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 74.55429497568882px; height: 92px; left: 523px; top: 104px; min-width: 4px; min-height: 4px;">
+                        <a class="sl-block-content" style="z-index: 21;" href="https://www.packtpub.com/virtualization-and-cloud/developer-defined-infrastructure-using-tectonic-and-kubernetes" target="_blank">
+                            <img data-natural-width="500" data-natural-height="617" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2874672/B05441_MockupCover_Normal_.jpg"/>
+                        </a>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 62.284444444444446px; height: 98px; left: 624px; top: 102px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 23;">
+                            <img style="" data-natural-width="572" data-natural-height="900" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935851/LeadPage_Cover_Book4_Ready_900tall.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 86px; height: 86px; left: 517px; top: 199px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 24;">
+                            <img data-natural-width="300" data-natural-height="300" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3206873/nww_logo_300x300.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 86px; height: 86px; left: 419px; top: 200px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 26;">
+                            <img data-natural-width="400" data-natural-height="400" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3206922/kxpz8kAv.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 85.17137096774194px; height: 85px; left: 518px; top: 295px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 28;">
+                            <img data-natural-width="497" data-natural-height="496" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3206924/hCyBsaWu.jpg"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 85px; height: 85px; left: 419px; top: 293px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 31;">
+                            <img data-natural-width="400" data-natural-height="400" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3206943/EMnyIlO2.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 161.74087591240877px; height: 91px; left: 540px; top: 613px; min-width: 4px; min-height: 4px;">
+                        <a class="sl-block-content" style="z-index: 13;" href="http://calcotestudios.com" target="_blank">
+                            <img data-natural-width="487" data-natural-height="274" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2874155/calcote-studios-logo.png"/>
+                        </a>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 306px; height: 48px; left: 404px; top: 389px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 15;">
+                            <img data-natural-width="960" data-natural-height="150" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3201504/Microservices_and_Containers_Austin_-_Lee_Calcote.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 292px; height: 46px; left: 411px; top: 444px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 16;">
+                            <img data-natural-width="960" data-natural-height="152" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3201506/Docker_Austin_-_Lee_Calcote.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 245px; height: 56px; left: 434px; top: 546px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 19;">
+                            <img style="" data-natural-width="1137" data-natural-height="259" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3206874/https_proxy.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="shape" style="width: 893px; height: 720px; left: 387px; top: 0px;">
+                        <div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0.31)" data-shape-stretch="true" style="z-index: 10;">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 893 720">
+                                <rect width="893" height="720" class="shape-element" fill="rgba(0, 0, 0, 0.31)"></rect>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 73px; height: 93px; left: 624px; top: 197px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 32;">
+                            <img data-natural-width="1057" data-natural-height="1350" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3782484/Docker_Captain.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 46px; height: 46px; left: 808px; top: 475px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 33;">
+                            <img data-natural-width="256" data-natural-height="256" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3640467/speaking.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 380px; left: 872px; top: 479px;">
+                        <div class="sl-block-content" style="z-index: 34; text-align: left; color: rgb(255, 255, 0);">
+                            <p>
+                                <a href="http://calcotestudios.com/talks" target="_blank">
+                                    <span style="color:#FFFF00">calcotestudios.com/talks</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 46px; height: 46px; left: 809px; top: 366px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 35;">
+                            <img data-natural-width="512" data-natural-height="512" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3630065/github.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 380px; left: 872px; top: 366px;">
+                        <div class="sl-block-content" style="z-index: 36; text-align: left; color: rgb(255, 255, 0);">
+                            <p>
+                                <a href="http://github.com/leecalcote" target="_blank">
+                                    <span style="color:#FFFF00">github.com/leecalcote</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 291px; height: 35px; left: 411px; top: 499px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 37;">
+                            <img data-natural-width="957" data-natural-height="115" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/4564956/Screen_Shot_2018-01-31_at_11.25.38_PM.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 64px; height: 96px; left: 430px; top: 96px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 38;">
+                            <img style="" data-natural-width="200" data-natural-height="300" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/5314326/The-Enterprise-Path-to-Service-Mesh-Architectures-200x300.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 104px; height: 85px; left: 609px; top: 296px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 39;">
+                            <img style="" data-natural-width="300" data-natural-height="245" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/5314328/cncf_ambassador-300x245.png"/>
+                        </div>
+                    </div>
+                </section>
+                <section data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3317460/solarwinds_mark-only.png" data-background-color="#444444">
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 322px; left: 151px; top: 464px;">
+                        <div class="sl-block-content" style="z-index: 11; text-align: center; font-size: 150%;">
+                            <p>
+                                <strong>Girish Ranganathan</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 211px; left: 206px; top: 580px;">
+                        <div class="sl-block-content" style="z-index: 12; text-align: center; font-size: 80%;">
+                            <p>Principal Architect,</p>
+                            <p>SolarWinds</p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 373px; height: 373px; left: 126px; top: 84px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 13;">
+                            <img data-natural-width="600" data-natural-height="600" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/4434365/girish-ranganathan.jpg"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 360px; height: 174.76363636363635px; left: 768px; top: 218px;">
                         <div class="sl-block-content fragment" style="z-index: 15;" data-fragment-index="0">
                             <img data-natural-width="550" data-natural-height="267" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2876044/hand-raised-volunteer-clipart-1.jpg.png"/>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 457px; left: 412px; top: 385px;">
+                    <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 457px; left: 720px; top: 393px;">
                         <div class="sl-block-content fragment" style="z-index: 16;" data-fragment-index="0">
                             <h2>Show of Hands</h2>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 457px; height: 280px; left: 412px; top: 194px;">
+                    <div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 457px; height: 280px; left: 720px; top: 202px;">
                         <div class="sl-block-content fragment" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0.29)" data-shape-stretch="true" style="z-index: 14;" data-fragment-index="0">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 457 280">
@@ -41,72 +280,12 @@ Calcote
                             </svg>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 353px; height: 542px; left: 12px; top: 113px;">
-                        <div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0.29)" data-shape-stretch="true" style="z-index: 11;">
+                    <div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 415px; height: 589px; left: 103px; top: 66px;">
+                        <div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0.29)" data-shape-stretch="true" style="z-index: 10;">
                             <svg
-                                xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 353 542">
-                                <rect width="353" height="542" class="shape-element" fill="rgba(0, 0, 0, 0.29)"></rect>
+                                xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 415 589">
+                                <rect width="415" height="589" class="shape-element" fill="rgba(0, 0, 0, 0.29)"></rect>
                             </svg>
-                        </div>
-                    </div>
-                    <div class="sl-block" data-block-type="text" style="height: auto; width: 322px; left: 927px; top: 464px;">
-                        <div class="sl-block-content" style="z-index: 18; text-align: center; font-size: 150%;">
-                            <p>
-                                <strong>Girish Ranganathan</strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="sl-block" data-block-type="text" style="height: auto; width: 211px; left: 982px; top: 580px;">
-                        <div class="sl-block-content" style="z-index: 19; text-align: center; font-size: 80%;">
-                            <p>
-                                <span style="color:rgb(255, 255, 255)">Technology Strategy</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="sl-block" data-block-type="image" style="width: 313px; height: 313px; left: 930px; top: 144px; min-width: 4px; min-height: 4px;">
-                        <div class="sl-block-content" style="z-index: 20;">
-                            <img data-natural-width="600" data-natural-height="600" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/4434365/girish-ranganathan.jpg"/>
-                        </div>
-                    </div>
-                    <div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 362px; height: 542px; left: 907px; top: 113px;">
-                        <div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0.29)" data-shape-stretch="true" style="z-index: 17;">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 362 542">
-                                <rect width="362" height="542" class="shape-element" fill="rgba(0, 0, 0, 0.29)"></rect>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 313px; height: 313px; left: 28px; top: 144px;">
-                        <div class="sl-block-content" style="z-index: 21;">
-                            <img data-natural-width="600" data-natural-height="600" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/4434364/lee-calcote.jpg"/>
-                        </div>
-                    </div>
-                </section>
-                <section data-background-color="#444444">
-                    <div class="sl-block" data-block-type="text" style="width: 628px; left: 624px; top: 280px; height: auto;">
-                        <div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);">
-                            <div class="sl-block-content" style="z-index: 10; line-height: 1.092; text-align: right; font-size: 82%; letter-spacing: -0.09999999999999998em; color: rgb(21, 189, 206);" data-has-line-height="" data-has-letter-spacing="" dir="ui">
-                                <h1 style="text-align:center">
-                                    <em>Now Available</em>
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 638px; top: 375px;">
-                        <div class="sl-block-content" style="z-index: 11;" dir="ui">
-                            <p>compliments of NGINX</p>
-                        </div>
-                    </div>
-                    <div class="sl-block" data-block-type="image" style="width: 480px; height: 720px; left: 69px; top: 0px; min-width: 4px; min-height: 4px;">
-                        <div class="sl-block-content" style="z-index: 12;">
-                            <img style="" data-natural-width="900" data-natural-height="1350" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/5318840/The-Enterprise-Path-to-Service-Mesh-Architectures_Nginx.png"/>
-                        </div>
-                    </div>
-                    <div class="sl-block" data-block-type="text" style="height: auto; width: 380px; left: 748px; top: 432px;">
-                        <div class="sl-block-content" style="z-index: 13; text-align: center;">
-                            <p>
-                                <a href="http://gingergeek.com" target="_blank">gingergeek.com</a>
-                            </p>
                         </div>
                     </div>
                 </section>
@@ -1524,12 +1703,11 @@ Calcote
                             </div>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="text" style="height: auto; width: 648px; left: 614px; top: 274px;">
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 638px; top: 295px;">
                         <div class="sl-block-content" style="z-index: 11; font-size: 144%;">
-                            <p>visit</p>
-                            <p>
-                                <a href="https://solarwinds.io/tech-summit" target="_blank">
-                                    <span style="color:#FFFF00">solarwinds.io/tech-summit</span>
+                            <p>visit 
+                                <a href="http://layer5.io" target="_blank">
+                                    <span style="color:#FFFF00">layer5.io</span>
                                 </a>
                             </p>
                         </div>
@@ -1537,6 +1715,40 @@ Calcote
                     <div class="sl-block" data-block-type="image" style="width: 609px; height: 570px; left: 7px; top: 135px; min-width: 4px; min-height: 4px;">
                         <div class="sl-block-content" style="z-index: 12;">
                             <img data-natural-width="609" data-natural-height="570" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2509985/cube.png"/>
+                        </div>
+                    </div>
+                </section>
+                <section data-background-color="#444444">
+                    <div class="sl-block" data-block-type="text" style="width: 628px; left: 624px; top: 327px; height: auto;">
+                        <div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);">
+                            <div class="sl-block-content" style="z-index: 10; line-height: 1.092; text-align: right; font-size: 82%; letter-spacing: -0.09999999999999998em;" data-has-line-height="" data-has-letter-spacing="" dir="ui">
+                                <h1 style="text-align:center">
+                                    <em>Meshery</em>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 638px; top: 521px;">
+                        <div class="sl-block-content" style="z-index: 11; font-size: 144%;">
+                            <p>visit 
+                                <a href="http://layer5.io" target="_blank">
+                                    <span style="color:#FFFF00">layer5.io</span>
+                                </a>&nbsp;for more
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 609px; height: 570px; left: 7px; top: 135px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 12;">
+                            <img data-natural-width="609" data-natural-height="570" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2509985/cube.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 628px; left: 624px; top: 144px; height: auto;">
+                        <div class="sl-block-style" style="z-index: 13; transform: rotate(360deg);">
+                            <div class="sl-block-content" style="z-index: 13; line-height: 1.092; text-align: right; font-size: 82%; letter-spacing: -0.09999999999999998em;" data-has-line-height="" data-has-letter-spacing="" dir="ui">
+                                <p style="text-align:center">
+                                    <span style="font-size:2.0em">service mesh playground</span>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -7962,75 +8174,103 @@ Retries = 3
                         </div>
                     </div>
                 </section>
-                <section data-background-color="#444444" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3317460/solarwinds_mark-only.png">
-                    <div class="sl-block" data-block-type="text" style="height: auto; width: 322px; left: 24px; top: 463px;">
-                        <div class="sl-block-content" style="z-index: 11; text-align: center; font-size: 150%;">
+                <section data-background-color="#286ac7">
+                    <div class="sl-block" data-block-type="text" style="width: 255px; left: 773px; top: 25px; height: auto;">
+                        <div class="sl-block-content" style="text-align: right; z-index: 11; font-size: 90%;">
+                            <h2>
+                                <strong>Lee Calcote</strong>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 688px; left: 32px; top: 596px;">
+                        <div class="sl-block-content" style="z-index: 12; transition-duration: 1s; transition-delay: 1s;" data-animation-type="slide-up">
+                            <h2>Thank you. Questions?</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 355px; left: 673px; top: 177px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 13; text-align: right; font-size: 90%;">
                             <p>
-                                <strong>Lee
-                                    <br/>
-Calcote
-                                </strong>
+                                <span style="color:#D3D3D3">
+                                    <em>clouds, containers, functions, </em>
+                                </span>
+                            </p>
+                            <p>
+                                <span style="color:#D3D3D3">
+                                    <em>and their management</em>
+                                </span>
                             </p>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="image" style="width: 360px; height: 174.76363636363635px; left: 460px; top: 210px; min-width: 4px; min-height: 4px;">
-                        <div class="sl-block-content fragment" style="z-index: 14;" data-fragment-index="0">
+                    <div class="sl-block" data-block-type="image" style="width: 360px; height: 174.76363636363635px; left: 760px; top: 545px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 14; transition-duration: 1s; transition-delay: 1s;" data-animation-type="slide-up">
                             <img data-natural-width="550" data-natural-height="267" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2876044/hand-raised-volunteer-clipart-1.jpg.png"/>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="text" style="height: auto; width: 457px; left: 412px; top: 385px;">
-                        <div class="sl-block-content fragment" style="z-index: 15;" data-fragment-index="0">
-                            <h2>Questions?</h2>
+                    <div class="sl-block" data-block-type="image" style="width: 226px; height: 235px; left: 1040px; top: 14px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 15;">
+                            <img data-natural-width="1185" data-natural-height="1227" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/4552911/Lee-Calcote-2017.jpg"/>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="shape" style="width: 457px; height: 280px; left: 412px; top: 194px;">
-                        <div class="sl-block-content fragment" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0.29)" data-shape-stretch="true" style="z-index: 13;" data-fragment-index="0">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 457 280">
-                                <rect width="457" height="280" class="shape-element" fill="rgba(0, 0, 0, 0.29)"></rect>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="sl-block" data-block-type="shape" style="width: 353px; height: 542px; left: 12px; top: 113px;">
-                        <div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0.29)" data-shape-stretch="true" style="z-index: 10;">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 353 542">
-                                <rect width="353" height="542" class="shape-element" fill="rgba(0, 0, 0, 0.29)"></rect>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="sl-block" data-block-type="text" style="height: auto; width: 322px; left: 927px; top: 464px;">
-                        <div class="sl-block-content" style="z-index: 17; text-align: center; font-size: 150%;">
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 142px; left: 840px; top: 365px;">
+                        <div class="sl-block-content" style="z-index: 17; text-align: left;">
                             <p>
-                                <strong>Girish Ranganathan</strong>
+                                <a href="http://twitter.com/lcalcote" target="_blank">
+                                    <span style="color:#FFFF00">@lcalcote</span>
+                                </a>
                             </p>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="image" style="width: 313px; height: 313px; left: 930px; top: 144px; min-width: 4px; min-height: 4px;">
-                        <div class="sl-block-content" style="z-index: 18;">
-                            <img data-natural-width="600" data-natural-height="600" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/4434365/girish-ranganathan.jpg"/>
-                        </div>
-                    </div>
-                    <div class="sl-block" data-block-type="shape" style="width: 362px; height: 542px; left: 907px; top: 113px;">
-                        <div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0.29)" data-shape-stretch="true" style="z-index: 16;">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 362 542">
-                                <rect width="362" height="542" class="shape-element" fill="rgba(0, 0, 0, 0.29)"></rect>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="sl-block" data-block-type="image" style="width: 313px; height: 313px; left: 28px; top: 144px; min-width: 4px; min-height: 4px;">
-                        <div class="sl-block-content" style="z-index: 19;">
-                            <img data-natural-width="600" data-natural-height="600" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/4434364/lee-calcote.jpg"/>
-                        </div>
-                    </div>
-                    <div class="sl-block" data-block-type="image" style="width: 47px; height: 47px; left: 942px; top: 587px; min-width: 4px; min-height: 4px;">
-                        <a class="sl-block-content" style="z-index: 20;" href="http://twitter.com/lcalcote" target="_blank">
+                    <div class="sl-block" data-block-type="image" style="width: 47px; height: 47px; left: 48px; top: 360px; min-width: 4px; min-height: 4px;">
+                        <a class="sl-block-content" style="z-index: 18;" href="http://twitter.com/lcalcote" target="_blank">
                             <img data-natural-width="256" data-natural-height="256" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png"/>
                         </a>
                     </div>
-                    <div class="sl-block" data-block-type="text" style="height: auto; width: 229px; left: 1005px; top: 592px;">
-                        <div class="sl-block-content" style="z-index: 22; text-align: left;" dir="ui">
+                    <div class="sl-block" data-block-type="image" style="width: 49px; height: 49px; left: 773px; top: 416px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 19;">
+                            <img data-natural-width="256" data-natural-height="256" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/3640467/speaking.png"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 380px; left: 840px; top: 422px;">
+                        <div class="sl-block-content" style="z-index: 20; text-align: left;">
+                            <p>
+                                <a href="http://calcotestudios.com/talks" target="_blank">
+                                    <span style="color:#FFFF00">calcotestudios.com/talks</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 590px; left: 111px; top: 422px;">
+                        <div class="sl-block-content" style="z-index: 21; text-align: left;">
+                            <p>
+                                <span style="font-size:1.0em">
+                                    <span style="color:#FFFF00">layer5io.slack.com</span>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" style="width: 238px; height: 238px; left: 13px; top: 25px; min-width: 4px; min-height: 4px;">
+                        <div class="sl-block-content" style="z-index: 22;">
+                            <img data-natural-width="600" data-natural-height="600" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/4434365/girish-ranganathan.jpg"/>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 419px; left: 266px; top: 34px; height: auto;">
+                        <div class="sl-block-content" style="text-align: left; z-index: 23; font-size: 90%;">
+                            <h2>
+                                <strong>Girish Ranganathan</strong>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 374px; left: 266px; top: 177px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 24; text-align: left; font-size: 90%;">
+                            <p>
+                                <span style="color:#D3D3D3">
+                                    <em>distributed systems, golang, operating at-scale,</em>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="height: auto; width: 229px; left: 111px; top: 365px;">
+                        <div class="sl-block-content" style="z-index: 25; text-align: left;" dir="ui">
                             <p>
                                 <a href="http://twitter.com/lcalcote" target="_blank">
                                     <span style="color:#FFFF00">@ingenious_G</span>
@@ -8038,18 +8278,14 @@ Calcote
                             </p>
                         </div>
                     </div>
-                    <div class="sl-block" data-block-type="image" style="width: 47px; height: 47px; left: 73px; top: 587px; min-width: 4px; min-height: 4px;">
-                        <a class="sl-block-content" style="z-index: 24;" href="http://twitter.com/lcalcote" target="_blank">
+                    <div class="sl-block" data-block-type="image" style="width: 47px; height: 47px; left: 776px; top: 360px; min-width: 4px; min-height: 4px;">
+                        <a class="sl-block-content" style="z-index: 26;" href="http://twitter.com/lcalcote" target="_blank">
                             <img data-natural-width="256" data-natural-height="256" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/2935887/twitter-dark.png"/>
                         </a>
                     </div>
-                    <div class="sl-block" data-block-type="text" style="height: auto; width: 229px; left: 136px; top: 592px;">
-                        <div class="sl-block-content" style="z-index: 25; text-align: left;" dir="ui">
-                            <p>
-                                <a href="https://twitter.com/lcalcote" target="_blank">
-                                    <span style="color:#FFFF00">@lcalcote</span>
-                                </a>
-                            </p>
+                    <div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 97px; height: 48px; left: 23px; top: 419px;">
+                        <div class="sl-block-content" style="z-index: 27;">
+                            <img style="" data-natural-width="1075" data-natural-height="533" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/398879/images/5429232/slack-gray.svg"/>
                         </div>
                     </div>
                 </section>

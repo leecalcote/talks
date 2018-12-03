@@ -6,7 +6,8 @@
     },
     {
         "eventName": "DockerCon EU",
-        "eventURL": "https://dockerconeurope18.smarteventscloud.com/connect/search.ww#loadSearch-searchPhrase=&searchType=session&tc=0&sortBy=dayTime&i(1037)=&p="
+        "eventURL": "https://dockerconeurope18.smarteventscloud.com/connect/search.ww#loadSearch-searchPhrase=&searchType=session&tc=0&sortBy=dayTime&i(1037)=&p=",
+        "deckURL": "/talks/decks/slides-dockercon-eu-2018-using-istio-workshop.html"
     },
     {
         "eventName": "Innovate Summit 2018",
