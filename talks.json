@@ -18,13 +18,13 @@
         "eventName": "KubeCon NA 2018",
         "eventURL": "https://kccna18.sched.com/event/Gram/tutorial-using-istio-lee-calcote-girish-ranganathan-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no#"
     }
-    
    ],
       "previousTalk": [
         {
             "eventName": "Velocity 2018 London",
             "eventURL": "https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/70506",
-            "deckURL": "/talks/decks/slides-velocity-london-2018-using-istio-workshop.html"
+            "deckURL": "/talks/decks/slides-velocity-london-2018-using-istio-workshop.html",
+            "videoURL": "https://www.youtube.com/watch?v=pQF_-U5Pzl4&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE&index=2&t=0s"
         },
         {
             "eventName": "DeveloperWeek Austin 2018",
