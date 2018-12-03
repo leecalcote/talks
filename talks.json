@@ -10,7 +10,8 @@
     },
     {
         "eventName": "Innovate Summit 2018",
-        "eventURL": "https://innovate.solarwinds.io"
+        "eventURL": "https://innovate.solarwinds.io",
+        "deckURL": "/talks/decks/slides-innovate-day-2019-using-istio-workshop.html"
     },
     {
         "eventName": "KubeCon NA 2018",
