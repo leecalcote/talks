@@ -15,8 +15,12 @@
         "deckURL": "/talks/decks/slides-innovate-day-2019-using-istio-workshop.html"
     },
     {
-        "eventName": "KubeCon NA 2018",
+        "eventName": "KubeCon NA 2018 (1)",
         "eventURL": "https://kccna18.sched.com/event/Gram/tutorial-using-istio-lee-calcote-girish-ranganathan-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no#"
+    },
+    {
+        "eventName": "KubeCon NA 2018 (2)",
+        "eventURL": "https://kccna18.sched.com/event/GrTN"
     }
    ],
       "previousTalk": [
