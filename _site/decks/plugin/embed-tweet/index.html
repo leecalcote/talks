@@ -1,0 +1,40 @@
+<h1 id="embed-tweet">Embed tweet</h1>
+
+<p>A plugin for <a href="https://github.com/hakimel/reveal.js">Reveal.js</a> allowing to easily embed tweets in your slides.</p>
+
+<p><a href="https://rajgoel.github.io/reveal.js-demos/embed-tweet-demo.html">Check out the live demo</a></p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Copy the files <code class="highlighter-rouge">embed-tweet.js</code> into the plugin folder of your reveal.js presentation, i.e. <code class="highlighter-rouge">plugin/embed-tweet</code>.</p>
+
+<p>Add the plugins to the dependencies in your presentation, as below.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+	<span class="na">dependencies</span><span class="p">:</span> <span class="p">[</span>
+		<span class="c1">// ... </span>
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="s1">'plugin/embed-tweet/embed-tweet.js'</span> <span class="p">},</span>
+		<span class="c1">// ... </span>
+	<span class="p">]</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<h2 id="usage">Usage</h2>
+
+<p>To embed a tweet, simply determine its URL and include the following code in your slides:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;pre&gt;&lt;code</span> <span class="na">data-trim</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tweet"</span> <span class="na">data-src=</span><span class="s">"TWEET_URL"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/code&gt;&lt;/pre&gt;</span>
+</code></pre></div></div>
+
+<h2 id="license">License</h2>
+
+<p>MIT licensed</p>
+
+<p>Copyright (C) 2017 Asvin Goel</p>
+
+
+    </body>
+</html>

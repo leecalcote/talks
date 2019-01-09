@@ -1,0 +1,259 @@
+<h1 id="anything">Anything</h1>
+
+<p>A plugin for <a href="https://github.com/hakimel/reveal.js">Reveal.js</a> allowing to add anything inside an HTML object using a JSON string and a javascript function. 
+The plugin allows you to define a class for which the content of all HTML object of this class will be modified by a given javascript function. 
+Inside the HTML object you can provide a comment containing a JSON string that will be used by function to customise the content.</p>
+
+<p><a href="https://rajgoel.github.io/reveal.js-demos/anything-demo.html">Check out the live demo</a></p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Copy the files <code class="highlighter-rouge">anything.js</code> into the plugin folder of your reveal.js presentation, i.e. <code class="highlighter-rouge">plugin/anything</code>.</p>
+
+<p>Add the plugins to the dependencies in your presentation, as below.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+	<span class="na">dependencies</span><span class="p">:</span> <span class="p">[</span>
+		<span class="c1">// ... </span>
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="s1">'plugin/anything/anything.js'</span> <span class="p">},</span>
+		<span class="c1">// ... </span>
+	<span class="p">]</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<h2 id="configuration--basic-usage">Configuration &amp; basic usage</h2>
+
+<p>The plugin can be configured by providing an <code class="highlighter-rouge">anything</code> option containing an array of <code class="highlighter-rouge">className</code>, <code class="highlighter-rouge">defaults</code>, and <code class="highlighter-rouge">f</code> within the reveal.js initialization options.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+	<span class="na">anything</span><span class="p">:</span> <span class="p">[</span> 
+	 <span class="p">{</span>
+	  <span class="na">className</span><span class="p">:</span> <span class="s2">"random"</span><span class="p">,</span> 
+	  <span class="na">defaults</span><span class="p">:</span> <span class="p">{</span><span class="na">min</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="na">max</span><span class="p">:</span> <span class="mi">9</span><span class="p">},</span> 
+	  <span class="na">initialize</span><span class="p">:</span> <span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">container</span><span class="p">,</span> <span class="nx">options</span><span class="p">){</span> 
+	    <span class="nx">container</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">trunc</span><span class="p">(</span> <span class="nx">options</span><span class="p">.</span><span class="nx">min</span> <span class="o">+</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span><span class="o">*</span><span class="p">(</span><span class="nx">options</span><span class="p">.</span><span class="nx">max</span><span class="o">-</span><span class="nx">options</span><span class="p">.</span><span class="nx">min</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="p">);</span> 
+	    <span class="p">})</span> 
+	 <span class="p">},</span>
+	 <span class="c1">// ...</span>
+	<span class="p">],</span>
+</code></pre></div></div>
+
+<p>With the above configuration the plugin searches for all HTML object with class <code class="highlighter-rouge">random</code>. 
+For each of the HTML objects it checks whether there is a JSON string within a comment inside the HTML object.
+Then, it calls the function <code class="highlighter-rouge">function(container, options)</code> where <code class="highlighter-rouge">container</code> is the HTML object and <code class="highlighter-rouge">options</code> is the JSON string.
+It is possible to specify the <code class="highlighter-rouge">defaults</code> parameter to be used if no JSON string is provided or not all values required by the function are given in the JSON string.</p>
+
+<p>The code</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>
+	Today's winning 3 digit number is : 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;&lt;/span&gt;</span>, 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;&lt;/span&gt;</span>, 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;&lt;/span&gt;</span>.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+<p>produces the output</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>
+	Today's winning 3 digit number is : 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;</span>3<span class="nt">&lt;/span&gt;</span>, 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;</span>8<span class="nt">&lt;/span&gt;</span>, 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;</span>0<span class="nt">&lt;/span&gt;</span>.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+<p>The code</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>
+	Today's roll of a die is: 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;</span><span class="c">&lt;!-- { "min": 1, "max": 6 } --&gt;</span><span class="nt">&lt;/span&gt;</span>.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+<p>produces the output</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>
+	Today's roll of a die is: 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;</span>4<span class="nt">&lt;/span&gt;</span>.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h2 id="advanced-usage">Advanced usage</h2>
+
+<p>The plugin can be used to easily integrate external javascript libraries.</p>
+
+<h3 id="chartsjs">Charts.js</h3>
+
+<p>With the plugin charts created by <a href="http://www.chartjs.org/">Chart.js v2.0</a> can easily be  included in the slides.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+	<span class="na">anything</span><span class="p">:</span> <span class="p">[</span> 
+	 <span class="p">{</span>
+		<span class="na">className</span><span class="p">:</span> <span class="s2">"chart"</span><span class="p">,</span>  
+		<span class="na">initialize</span><span class="p">:</span> <span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">container</span><span class="p">,</span> <span class="nx">options</span><span class="p">){</span> <span class="nx">container</span><span class="p">.</span><span class="nx">chart</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Chart</span><span class="p">(</span><span class="nx">container</span><span class="p">.</span><span class="nx">getContext</span><span class="p">(</span><span class="s2">"2d"</span><span class="p">),</span> <span class="nx">options</span><span class="p">);</span>  <span class="p">})</span>
+	 <span class="p">},</span>
+	 <span class="c1">// ...</span>
+	<span class="p">],</span>
+	<span class="na">dependencies</span><span class="p">:</span> <span class="p">[</span>
+		<span class="c1">// ... </span>
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="s1">'Chart.min.js'</span> <span class="p">},</span>				
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="s1">'plugin/anything/anything.js'</span> <span class="p">},</span>
+		<span class="c1">// ... </span>
+	<span class="p">]</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<p>A chart can be included in a slide by adding a <code class="highlighter-rouge">canvas</code> element and a JSON string specifying the chart options.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;canvas</span> <span class="na">class=</span><span class="s">"chart stretch"</span><span class="nt">&gt;</span>
+<span class="c">&lt;!--
+{
+ "type": "line",
+ "data": {
+  "labels": ["January"," February"," March"," April"," May"," June"," July"],
+  "datasets":[
+   {
+    "data":[" 65"," 59"," 80"," 81"," 56"," 55"," 40"],
+    "label":"My first dataset","backgroundColor":"rgba(20,220,220,.8)"
+   },
+   {
+    "data":[" 28"," 48"," 40"," 19"," 86"," 27"," 90"],
+    "label":"My second dataset","backgroundColor":"rgba(220,120,120,.8)"
+   }
+  ]
+ }, 
+ "options": { "responsive": "true" }
+}
+--&gt;</span>
+<span class="nt">&lt;/canvas&gt;</span>
+</code></pre></div></div>
+<p>Note, that the <a href="https://github.com/rajgoel/reveal.js-plugins/tree/master/chart">Chart  plugin</a> provides an easier way to use Chart.js.</p>
+
+<h3 id="function-plotjs">Function-plot.js</h3>
+
+<p>With the plugin plots of functions created by <a href="https://github.com/maurizzzio/function-plot">Function-plot.js</a> can easily be  included in the slides.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+	<span class="na">anything</span><span class="p">:</span> <span class="p">[</span> 
+	 <span class="p">{</span>
+		<span class="na">className</span><span class="p">:</span> <span class="s2">"plot"</span><span class="p">,</span>
+		<span class="na">defaults</span><span class="p">:</span> <span class="p">{</span><span class="na">width</span><span class="p">:</span><span class="mi">500</span><span class="p">,</span> <span class="na">height</span><span class="p">:</span> <span class="mi">500</span><span class="p">,</span> <span class="na">grid</span><span class="p">:</span><span class="kc">true</span><span class="p">},</span>
+		<span class="na">initialize</span><span class="p">:</span> <span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">container</span><span class="p">,</span> <span class="nx">options</span><span class="p">){</span> <span class="nx">options</span><span class="p">.</span><span class="nx">target</span> <span class="o">=</span> <span class="s2">"#"</span><span class="o">+</span><span class="nx">container</span><span class="p">.</span><span class="nx">id</span><span class="p">;</span> <span class="nx">functionPlot</span><span class="p">(</span><span class="nx">options</span><span class="p">)</span> <span class="p">})</span>
+	 <span class="p">},</span>
+	 <span class="c1">// ...</span>
+	<span class="p">],</span>
+	<span class="na">dependencies</span><span class="p">:</span> <span class="p">[</span>
+		<span class="c1">// ... </span>
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="s1">'reveal.js-plugins/function-plot/site/js/vendor/jquery-1.11.2.min.js'</span> <span class="p">},</span>				
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="s1">'reveal.js-plugins/function-plot/site/js/vendor/d3.js'</span> <span class="p">},</span>				
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="s1">'reveal.js-plugins/function-plot/site/js/function-plot.js'</span> <span class="p">},</span>				
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="s1">'plugin/anything/anything.js'</span> <span class="p">},</span>
+		<span class="c1">// ... </span>
+	<span class="p">]</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<p>A plot can be included in a slide by adding a <code class="highlighter-rouge">div</code> element and a JSON string specifying the options.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"plot"</span> <span class="na">id=</span><span class="s">"myplot1"</span> <span class="na">style=</span><span class="s">"background-color:#fff; width:800px; height:400px; margin: 0 auto;"</span><span class="nt">&gt;</span>
+<span class="c">&lt;!--
+{
+ "target":"#myplot1",
+ "height":400,
+ "width":"800",
+ "xAxis":{"domain":[-10,10]},
+ "yAxis":{"domain":[-5,5]},
+ "grid":true,
+ "data":[{"fn":"sin(x)","color":"darkred"}]
+}
+--&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p>With the above <code class="highlighter-rouge">defaults</code>, the input can be eased, e.g.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"plot"</span> <span class="na">id=</span><span class="s">"myplot2"</span> <span class="na">style=</span><span class="s">"background-color:#fff; width:500px; height:500px; margin: 0 auto;"</span><span class="nt">&gt;</span>
+<span class="c">&lt;!--
+ {
+  "xAxis": {"domain": ["-10", "10"]},
+  "yAxis": {"domain": ["0", "10"]},
+  "data": [{ "fn": "10 -x * x/10" }]
+}
+--&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<h2 id="more-advanced-usage">More advanced usage</h2>
+
+<p>The plugin allows to define functions within the JSON options.</p>
+
+<h3 id="example">Example</h3>
+
+<p>In the following example, the function <code class="highlighter-rouge">options.initialize(container)</code> is called for each element of the class <code class="highlighter-rouge">anything</code>. The function  is defined within the JSON string.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+	<span class="na">anything</span><span class="p">:</span> <span class="p">[</span> 
+	 <span class="p">{</span>
+		<span class="na">className</span><span class="p">:</span> <span class="s2">"anything"</span><span class="p">,</span>
+		<span class="na">initialize</span><span class="p">:</span> <span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">container</span><span class="p">,</span> <span class="nx">options</span><span class="p">){</span> <span class="k">if</span> <span class="p">(</span><span class="nx">options</span> <span class="o">&amp;&amp;</span> <span class="nx">options</span><span class="p">.</span><span class="nx">initialize</span><span class="p">)</span> <span class="p">{</span> <span class="nx">options</span><span class="p">.</span><span class="nx">initialize</span><span class="p">(</span><span class="nx">container</span><span class="p">)}</span> <span class="p">})</span>
+	 <span class="p">},</span>
+	 <span class="c1">// ...</span>
+	<span class="p">],</span>
+	<span class="na">dependencies</span><span class="p">:</span> <span class="p">[</span>
+		<span class="c1">// ... </span>
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="s1">'reveal.js-plugins/anything/d3/d3.v3.min.js'</span> <span class="p">},</span>				
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="s1">'reveal.js-plugins/anything/d3/topojson.v1.min.js'</span> <span class="p">},</span>				
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="s1">'plugin/anything/anything.js'</span> <span class="p">},</span>
+		<span class="c1">// ... </span>
+	<span class="p">]</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<p>The <a href="d3js.org">d3.js</a> library can now be used to draw a <a href="http://bl.ocks.org/mbostock/ba63c55dd2dbc3ab0127">globe</a> within a canvas element.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;canvas</span> <span class="na">width=</span><span class="s">500</span> <span class="na">height=</span><span class="s">500</span> <span class="na">class=</span><span class="s">"anything"</span><span class="nt">&gt;</span>
+<span class="c">&lt;!--
+{
+  "initialize": "function(container) { 
+	var width = container.width,
+	    height = container.height;
+	var radius = height / 2 - 5,
+	    scale = radius,
+	    velocity = .02;
+	var projection = d3.geo.orthographic()
+	    .translate([width / 2, height / 2])
+	    .scale(scale)
+	    .clipAngle(90);
+	var context = container.getContext('2d');
+	var path = d3.geo.path()
+	    .projection(projection)
+	    .context(context);
+
+	d3.json('reveal.js-plugins/anything/d3/world-110m.json', function(error, world) {
+	  if (error) throw error;
+	  var land = topojson.feature(world, world.objects.land);
+	  d3.timer(function(elapsed) {
+	    context.clearRect(0, 0, width, height);
+	    projection.rotate([velocity * elapsed, 0]);
+	    context.beginPath();
+	    path(land);
+	    context.fillStyle = '#fff';
+	    context.fill();
+	    context.beginPath();
+	    context.arc(width / 2, height / 2, radius, 0, 2 * Math.PI, true);
+	    context.lineWidth = 2.5;
+	    context.strokeStyle = '#fff';
+	    context.stroke();
+	  });
+	});
+	d3.select(self.frameElement).style('height', height + 'px');
+
+    }"
+}
+--&gt;</span>
+<span class="nt">&lt;/canvas&gt;</span>
+</code></pre></div></div>
+
+<h2 id="license">License</h2>
+
+<p>MIT licensed</p>
+
+<p>Copyright (C) 2016 Asvin Goel</p>
+
+
+    </body>
+</html>
