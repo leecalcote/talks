@@ -5,6 +5,10 @@
         "eventURL": "https://www.socallinuxexpo.org/scale/17x"
     },
     {
+        "eventName": "Container World 2019",
+        "eventURL": "https://tmt.knect365.com/container-world/"
+    },
+    {
         "eventName": "KubeCon NA 2018 (1)",
         "eventURL": "https://kccna18.sched.com/event/Gram/tutorial-using-istio-lee-calcote-girish-ranganathan-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no#",
         "videoURL": "https://www.youtube.com/watch?v=jlHLZqS7Vek&t=595s&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE&index=2",
