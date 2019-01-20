@@ -31,7 +31,7 @@ a:hover {
   text-decoration: underline;
 }
 a.deck { font-style: italic; font-size: .9em; }
-h2.name { display:inline-block; float:right; color:rgba(48, 48, 48, 0.384); }
+.name { display:inline-block; float:right;  color: #444; }
 div.talks {
   border-radius: 25px;
   background-color: lightgray;
@@ -56,8 +56,8 @@ div.talks {
     font-size: 1.25em;
     position: unset;
     float: unset;
-    right: 0px;
-    top: unset;
+    right: 0%;
+    top: 5%;
     padding: 0px;
     padding-right: 0px;
   }
