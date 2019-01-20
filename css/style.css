@@ -51,7 +51,9 @@ div.talks {
 }
 
 /* Mobile */
-@media only screen and (max-width: 600px) {
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
   .talks {
     font-size: 1.25em;
     position: unset;
