@@ -1,6 +1,10 @@
 {
     "upcomingTalk": [
     {
+        "eventName": "Open Source Leadership Summit",
+        "eventURL": "https://events.linuxfoundation.org/events/open-source-leadership-summit-2019/"
+    },
+    {
         "eventName": "SCALE 17x",
         "eventURL": "https://www.socallinuxexpo.org/scale/17x/presentations/establishing-open-source-program-office"
     },
