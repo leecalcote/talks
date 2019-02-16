@@ -15,19 +15,19 @@
     {
         "eventName": "Container World 2019",
         "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote"
-    },
-    {
-        "eventName": "KubeCon NA 2018 (1)",
-        "eventURL": "https://kccna18.sched.com/event/Gram/tutorial-using-istio-lee-calcote-girish-ranganathan-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no#",
-        "videoURL": "https://www.youtube.com/watch?v=jlHLZqS7Vek&t=595s&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE&index=2",
-        "deckURL": "/talks/decks/slides-kubecon-na-2018-using-istio-workshop.html"
-    },
-    {
-        "eventName": "KubeCon NA 2018 (2)",
-        "eventURL": "https://kccna18.sched.com/event/GrTN"
     }
    ],
       "previousTalk": [
+        {
+            "eventName": "KubeCon NA 2018 (1)",
+            "eventURL": "https://kccna18.sched.com/event/Gram/tutorial-using-istio-lee-calcote-girish-ranganathan-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no#",
+            "videoURL": "https://www.youtube.com/watch?v=jlHLZqS7Vek&t=595s&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE&index=2",
+            "deckURL": "/talks/decks/slides-kubecon-na-2018-using-istio-workshop.html"
+        },
+        {
+            "eventName": "KubeCon NA 2018 (2)",
+            "eventURL": "https://kccna18.sched.com/event/GrTN"
+        },
         {
             "eventName": "AWS re:Invent 2018",
             "eventURL": "https://www.brighttalk.com/webinar/ask-the-expert-a-technical-look-at-running-splunk-in-containers/"
