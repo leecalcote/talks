@@ -1,20 +1,20 @@
 {
     "upcomingTalk": [
     {
-        "eventName": "DockerCon 2019",
-        "eventURL": "https://www.docker.com/dockercon/"
+        "eventName": "SCALE 17x",
+        "eventURL": "https://www.socallinuxexpo.org/scale/17x/presentations/establishing-open-source-program-office"
     },
     {
         "eventName": "Open Source Leadership Summit",
         "eventURL": "https://osls19.sched.com/event/LG6f/establishing-an-open-source-program-office-lee-calcote-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no"
     },
     {
-        "eventName": "SCALE 17x",
-        "eventURL": "https://www.socallinuxexpo.org/scale/17x/presentations/establishing-open-source-program-office"
-    },
-    {
         "eventName": "Container World 2019",
         "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote"
+    },    
+    {
+        "eventName": "DockerCon 2019",
+        "eventURL": "https://www.docker.com/dockercon/"
     }
    ],
     "previousTalk": [
