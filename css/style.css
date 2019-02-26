@@ -10,7 +10,8 @@ li {
   font-family: sans-serif;
 }
 ul {
-  color: black;            
+  color: black;    
+  white-space: nowrap;        
 }
 h2 {
   color: black;
