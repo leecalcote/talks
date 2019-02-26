@@ -54,7 +54,7 @@ div.talks {
 @media only screen and (max-width: 600px) {
 
   .talks {
-    font-size: 1.25em;
+    font-size: 1em;
     position: relative;
     float: right;
     right: 0%;
