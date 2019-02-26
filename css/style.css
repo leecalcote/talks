@@ -45,24 +45,37 @@ div.talks {
   padding: 15px;
 }
 /* Dekstop */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 640px) {
   .talks {
     font-size: 1em;
+  }
+  .youtube-text {
+    visibility: visible; 
+  }
+  .youtube {
+    width: 30px;
+    vertical-align: text-bottom;
   }
 }
 
 /* Mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
 
   .talks {
-    font-size: 1em;
+    font-size: 1.1em;
     position: relative;
     float: right;
-    right: 0%;
+    left: 0%;
     top: 5%;
     bottom: 5%; 
     padding: 0px;
     padding-right: 0px;
+  }
+  .youtube-text {
+    display: none;
+  }
+  .youtube {
+    width: 40px;
   }
 }
 
@@ -81,4 +94,5 @@ li.medium {	list-style-image: url('https://blog.gingergeek.com/wp-content/upload
 li.aboutme {list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/aboutme.png'); }
 li.bookme {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/bookme.png'); }
 li.disqus {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/disqus.png'); }
-li.youtube {	list-style-image: url('https://youtube.com/favicon.ico'); }
+img.youtube {  content:url('/talks/img/youtube_social_icon_dark.png');
+  background-repeat: no-repeat;}
