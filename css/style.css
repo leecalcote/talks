@@ -12,7 +12,7 @@ li {
 ul {
   color: black;            
 }
-h3 {
+h2 {
   color: black;
   font-family: sans-serif;
   font-weight: bolder;
@@ -31,7 +31,7 @@ a:hover {
   text-decoration: underline;
 }
 a.deck { font-style: italic; font-size: .9em; }
-.name { display:inline-block; float:right;  color: #444; }
+div.name { width: 100%; white-space: nowrap; display:inline; text-align: left;  font-weight:normal; color: #555; font-size:.8em; }
 div.talks {
   border-radius: 25px;
   background-color: lightgray;
