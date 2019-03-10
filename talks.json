@@ -2,7 +2,8 @@
     "upcomingTalk": [
     {
         "eventName": "SCALE 17x",
-        "eventURL": "https://www.socallinuxexpo.org/scale/17x/presentations/establishing-open-source-program-office"
+        "eventURL": "https://www.socallinuxexpo.org/scale/17x/presentations/establishing-open-source-program-office",
+        "deckURL": "/talks/decks/slides-scale17x-establishing-an-open-source-program-office.html"
     },
     {
         "eventName": "Open Source Leadership Summit",
