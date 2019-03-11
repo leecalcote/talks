@@ -183,13 +183,13 @@
         "deckURL": "https://calcotestudios.com/devopsdaysaustin-unik"
     },
     {
-        "eventName": "CloudNativeCon + KubeCon EU 2017 (1)",
+        "eventName": "KubeCon EU 2017 (1)",
         "eventURL": "https://cloudnativeeu2017.sched.com/event/9Td7?iframe=no",
         "deckURL": "/talks/decks/slides-kubecon-eu-2017-understanding-and-extending-prometheus-alertmanager.html",
         "videoURL": "https://youtu.be/jpb6fLQOgn4"
     },
     {
-        "eventName": "CloudNativeCon + KubeCon EU 2017 (2)",
+        "eventName": "KubeCon EU 2017 (2)",
         "eventURL": "https://cloudnativeeu2017.sched.com/event/9Tc3?iframe=no",
         "deckURL": "https://speakerdeck.com/leecalcote/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities"
     },
@@ -227,20 +227,20 @@
         "linkURL": ["http://www.cioapplications.com/cxoinsights/the-hybrid-evolution-of-it-nid-556.html"]
     },
     {
-        "eventName": "SolarWinds Tech Summit 2017 (1)",
+        "eventName": "Tech Summit 2017 (1)",
         "eventURL": "https://www.solarwindsmeetup.com/event/techsummit-conference-2016/",
         "deckURL": "https://calcotestudios.com/techsummit-feto",
         "linkURL": ["http://www.eprofil.cz/2017/02/03/klicova-temata-brnenske-konference-techsummit-spolecnosti-solarwinds/"]
     },
     {
-        "eventName": "SolarWinds Tech Summit 2017 (2)",
+        "eventName": "Tech Summit 2017 (2)",
         "eventURL": "https://www.solarwindsmeetup.com/event/techsummit-conference-2016/",
         "deckURL": "https://calcotestudios.com/techsummit-over-under",
         "linkURL": ["https://opennetworkingusergroup.com/the-hybrid-evolution-of-it/"]
     },
     {
-        "eventName": "SolarWinds Tech Summit 2017 (3)",
-        "eventURL": "https://www.solarwindsmeetup.com/event/techsummit-conference-2016/",
+        "eventName": "Tech Summit 2017 (3)",
+        "eventURL": "https://innovate.solarwinds.io/2016",
         "deckURL": "https://calcotestudios.com/techsummit-ccco",
         "videoURL": "https://www.youtube.com/watch?v=y81hEEkXOsE",
         "date": 70
@@ -253,13 +253,13 @@
         "linkURL": ["http://www.alldaydevops.com/blog/characterizing-and-contrasting-containiner-orchestrators","https://devops.com/characterizing-and-contrasting-container-orchestrators/"]
     },
     {
-        "eventName": "KubeCon + CloudNativeCon + PrometheusDay 2016 (1)",
+        "eventName": "KubeCon NA 2016 (1)",
         "deckURL": "https://calcotestudios.com/kubecon-bof",
         "eventURL": "https://cnkc16.sched.com/event/8akw/bof-growing-a-community-leveraging-meetups-to-educate-grow-and-facilitate-conversation-lee-calcote-twistlock?iframe=yes&w=100%&sidebar=yes&bg=no#",
         "date": 60
     },
     {
-        "eventName": "KubeCon + CloudNativeCon + PrometheusDay 2016 (2)",
+        "eventName": "KubeCon NA 2016 (2)",
         "eventURL": "https://cnd2016.sched.org/event/7zcc",
         "videoURL": "https://www.youtube.com/watch?v=7V8Ds_Yw93M",
         "linkURL": ["http://thenewstack.io/cloudnative-day-pancake-podcast-containers-at-scale/"]
