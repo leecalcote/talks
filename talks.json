@@ -1,12 +1,17 @@
 {
     "upcomingTalk": [
     {
-        "eventName": "SCALE 17x",
+        "eventName": "SCaLE 17x",
         "eventURL": "https://www.socallinuxexpo.org/scale/17x/presentations/establishing-open-source-program-office",
         "deckURL": "/talks/decks/slides-scale17x-establishing-an-open-source-program-office.html"
     },
     {
-        "eventName": "Open Source Leadership Summit",
+        "eventName": "CNCF Networking: Performance Benchmarking Service Meshes",
+        "eventURL": "#",
+        "deckURL": "#"
+    },
+    {
+        "eventName": "Open Source Leadership Summit 2019",
         "eventURL": "https://osls19.sched.com/event/LG6f/establishing-an-open-source-program-office-lee-calcote-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no"
     },
     {
@@ -14,7 +19,7 @@
         "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote"
     },    
     {
-        "eventName": "InnoTech San Antonio",
+        "eventName": "InnoTech San Antonio 2019",
         "eventURL": "https://www.innotechsan.com"
     },
     {
@@ -38,7 +43,7 @@
         "eventURL": "https://www.brighttalk.com/webinar/ask-the-expert-a-technical-look-at-running-splunk-in-containers/"
     },
     {
-        "eventName": "DockerCon EU",
+        "eventName": "DockerCon EU 2018",
         "eventURL": "https://dockerconeurope18.smarteventscloud.com/connect/search.ww#loadSearch-searchPhrase=&searchType=session&tc=0&sortBy=dayTime&i(1037)=&p=",
         "deckURL": "/talks/decks/slides-dockercon-eu-2018-using-istio-workshop.html"
     },
@@ -48,7 +53,7 @@
         "deckURL": "/talks/decks/slides-innovate-day-2019-using-istio-workshop.html"
     },
     {
-        "eventName": "Velocity 2018 London",
+        "eventName": "Velocity London 2018",
         "eventURL": "https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/70506",
         "deckURL": "/talks/decks/slides-velocity-london-2018-using-istio-workshop.html",
         "videoURL": "https://www.youtube.com/watch?v=pQF_-U5Pzl4&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE&index=2&t=0s"
@@ -65,12 +70,12 @@
         "deckURL": "/talks/decks/slides-ut-austin-ece-what-it-means-to-be-cloud-native.html"
     },
     {
-        "eventName": "InnoTech Austin (1)",
+        "eventName": "InnoTech Austin 2018 (1)",
         "eventURL": "https://innotechaustin2018.sched.com/event/G1Ow/decoupling-devops-with-service-meshes?iframe=no",
         "deckURL": "/talks/decks/slides-innotech-austin-2018-decoupling-devops-with-service-meshes.html"
     },
     {
-        "eventName": "InnoTech Austin (2)",
+        "eventName": "InnoTech Austin 2018 (2) ",
         "eventURL": "https://innotechaustin2018.sched.com/event/G1Ox/establishing-an-open-source-program-office",
         "deckURL": "/talks/decks/slides-innotech-austin-2018-establishing-an-open-source-office.html"
     },
@@ -94,17 +99,17 @@
         "eventURL": "https://www.brighttalk.com/webinar/how-to-modernize-your-it-infrastructure-secure-your-applications/"
     },
     {
-        "eventName": "KubeCon EU",
+        "eventName": "KubeCon EU 2018",
         "eventURL": "https://events.linuxfoundation.org/kubecon-eu-2018/",
         "videoURL": "https://www.youtube.com/watch?v=TauqN6X1rcU&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
     },
     {
-        "eventName": "InnoTech San Antonio (1)",
+        "eventName": "InnoTech San Antonio 2018 (1)",
         "eventURL": "https://innotechsanantonio2018.sched.com/event/E6AO/what-does-it-mean-to-be-cloud-native-from-containers-to-functions?iframe=yes&w=750&sidebar=no&bg=no#",
         "deckURL": "https://calcotestudios.com/talks/decks/slides-innotech-san-antonio-2018-what-it-means-to-be-cloud-native.html"
     },
     {
-        "eventName": "InnoTech San Antonio (2)",
+        "eventName": "InnoTech San Antonio 2018 (2)",
         "eventURL": "https://innotechsanantonio2018.sched.com/event/Dqgh/the-future-of-collaboration-and-cloud-architecture?iframe=no&w=750&sidebar=yes&bg=no"
     },
     {
@@ -113,12 +118,12 @@
         "deckURL": "/talks/decks/slides-the-containers-and-microservices-summit-2018-layer-5-networking-with-service-meshes.html"
     },
     {
-        "eventName": "SCALE 16x (1)",
+        "eventName": "SCaLE 16x (1)",
         "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote",
         "deckURL": "/talks/decks/slides-scale-16x-istio-service-meshes-and-why-you-might-want-one.html"
     },
     {
-        "eventName": "SCALE 16x (2)",
+        "eventName": "SCaLE 16x (2)",
         "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote",
         "deckURL": "/talks/decks/slides-scale-16x-using-prometheus-remote-storage-adapters.html",
         "videoURL": "https://www.youtube.com/watch?v=03QBrg-qzZE"
@@ -163,7 +168,7 @@
         "deckURL": "/talks/decks/slides-introduction-to-container-networking.html"
     },
     {
-        "eventName": "SDxE - Software-Defined Enterprise Conference",
+        "eventName": "SDxE - Software-Defined Enterprise Conference 2017",
         "eventURL": "https://tmt.knect365.com/sdxe/speakers/lee-calcote"
     },
     {
@@ -201,13 +206,13 @@
         "linkURL": ["https://www.oreilly.com/learning/developer-defined-application-delivery","http://www.linuxinsider.com/story/84376.html"]
     }, 
     {
-        "eventName": "SCALE 15x (1)",
+        "eventName": "SCaLE 15x (1)",
         "eventURL": "http://www.socallinuxexpo.org/scale/15x/presentations/over-under-container-networking",
         "deckURL": "https://calcotestudios.com/talks/decks/slides-scale15x-the-over-under-on-container-networking.html",
         "videoURL": "https://www.youtube.com/watch?v=l9KN6SUAqKY&t=5h17m8s"
     },
     {  
-        "eventName": "SCALE 15x (2)",
+        "eventName": "SCaLE 15x (2)",
         "eventURL": "http://www.socallinuxexpo.org/scale/15x/presentations/unik-unikernel-compiler-and-runtime",
         "deckURL": "/talks/decks/slides-scale15x-unik-unikernel-compiler-and-runtime.html",
         "videoURL": "https://youtu.be/7PKMctKf2JQ?t=3h30m15s"
