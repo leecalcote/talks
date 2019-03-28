@@ -1,19 +1,14 @@
 {
     "upcomingTalk": [
-    {
-        "eventName": "SCaLE 17x",
-        "eventURL": "https://www.socallinuxexpo.org/scale/17x/presentations/establishing-open-source-program-office",
-        "deckURL": "/talks/decks/slides-scale17x-establishing-an-open-source-program-office.html"
-    },
+
     {
         "eventName": "CNCF Networking: Benchmarking Service Meshes",
         "eventURL": "#",
         "deckURL": "#"
     },
     {
-        "eventName": "Open Source Leadership Summit 2019",
-        "eventURL": "https://osls19.sched.com/event/LG6f/establishing-an-open-source-program-office-lee-calcote-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no",
-        "deckURL": "/talks/decks/slides-osls-2019-establishing-an-open-source-office.html"
+        "eventName": "Service Mesh Day 2019",
+        "eventURL": "https://servicemeshday.com"
     },
     {
         "eventName": "Container World 2019",
@@ -26,9 +21,23 @@
     {
         "eventName": "DockerCon 2019",
         "eventURL": "https://www.docker.com/dockercon/"
+    },
+    {
+        "eventName": "KubeCon EU 2019",
+        "eventURL": "https://kubecon.io"
     }
    ],
     "previousTalk": [
+    {
+        "eventName": "Open Source Leadership Summit 2019",
+        "eventURL": "https://osls19.sched.com/event/LG6f/establishing-an-open-source-program-office-lee-calcote-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no",
+        "deckURL": "/talks/decks/slides-osls-2019-establishing-an-open-source-office.html"
+    },
+    {
+        "eventName": "SCaLE 17x",
+        "eventURL": "https://www.socallinuxexpo.org/scale/17x/presentations/establishing-open-source-program-office",
+        "deckURL": "/talks/decks/slides-scale17x-establishing-an-open-source-program-office.html"
+    },
     {
         "eventName": "KubeCon NA 2018 (1)",
         "eventURL": "https://kccna18.sched.com/event/Gram/tutorial-using-istio-lee-calcote-girish-ranganathan-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no#",
