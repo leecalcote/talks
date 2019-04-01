@@ -8,7 +8,8 @@
     },
     {
         "eventName": "Service Mesh Day 2019",
-        "eventURL": "https://servicemeshday.com"
+        "eventURL": "https://servicemeshday.com",
+        "linkURL":["https://twitter.com/servicemeshday/status/1111789371429027840", "/talks/img/service-mesh-day-2019/Lee Calcote - Service Mesh Day 2019.jpg"]
     },
     {
         "eventName": "Container World 2019",
