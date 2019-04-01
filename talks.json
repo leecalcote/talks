@@ -43,7 +43,8 @@
         "eventName": "KubeCon NA 2018 (1)",
         "eventURL": "https://kccna18.sched.com/event/Gram/tutorial-using-istio-lee-calcote-girish-ranganathan-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no#",
         "videoURL": "https://www.youtube.com/watch?v=jlHLZqS7Vek&t=595s&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE&index=2",
-        "deckURL": "/talks/decks/slides-kubecon-na-2018-using-istio-workshop.html"
+        "deckURL": "/talks/decks/slides-kubecon-na-2018-using-istio-workshop.html",
+        "linkURL": ["https://www.cloudops.com/2019/01/cncf-ambassador-spill-takeaways-from-kubecon-cloudnativecon/"]
     },
     {
         "eventName": "KubeCon NA 2018 (2)",
