@@ -17,7 +17,8 @@
     },    
     {
         "eventName": "InnoTech San Antonio 2019",
-        "eventURL": "https://www.innotechsan.com"
+        "eventURL": "https://www.innotechsan.com",
+        "deckURL": "/talks/decks/slides-innotech-san-antonio-2019-the-enterprise-path-to-service-mesh.html"
     },
     {
         "eventName": "DockerCon 2019",
