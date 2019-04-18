@@ -3,8 +3,7 @@
 
     {
         "eventName": "CNCF Networking: Benchmarking Service Meshes",
-        "eventURL": "#",
-        "deckURL": "#"
+        "deckURL": "https://docs.google.com/presentation/d/1T0w5sXiUYtjHhmwJYF7VI-q5lgYAN46-Yn8ey0EZV-A/edit?usp=sharing"
     },
     {
         "eventName": "Service Mesh Day 2019",
@@ -17,7 +16,8 @@
     },    
     {
         "eventName": "InnoTech San Antonio 2019",
-        "eventURL": "https://innotechsanantonio2019.sched.com/event/Lmlb/the-enterprise-path-to-service-mesh-architectures?iframe=no&w=100%&sidebar=yes&bg=no"
+        "eventURL": "https://innotechsanantonio2019.sched.com/event/Lmlb/the-enterprise-path-to-service-mesh-architectures?iframe=no&w=100%&sidebar=yes&bg=no",
+        "deckURL": "/talks/decks/slides-innotech-san-antonio-2019-the-enterprise-path-to-service-mesh.html"
     },
     {
         "eventName": "DockerCon 2019",
@@ -43,7 +43,8 @@
         "eventName": "KubeCon NA 2018 (1)",
         "eventURL": "https://kccna18.sched.com/event/Gram/tutorial-using-istio-lee-calcote-girish-ranganathan-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no#",
         "videoURL": "https://www.youtube.com/watch?v=jlHLZqS7Vek&t=595s&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE&index=2",
-        "deckURL": "/talks/decks/slides-kubecon-na-2018-using-istio-workshop.html"
+        "deckURL": "/talks/decks/slides-kubecon-na-2018-using-istio-workshop.html",
+        "linkURL": ["https://www.cloudops.com/2019/01/cncf-ambassador-spill-takeaways-from-kubecon-cloudnativecon/"]
     },
     {
         "eventName": "KubeCon NA 2018 (2)",
