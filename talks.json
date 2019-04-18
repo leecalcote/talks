@@ -8,7 +8,8 @@
     },
     {
         "eventName": "Service Mesh Day 2019",
-        "eventURL": "https://servicemeshday.com"
+        "eventURL": "https://servicemeshday.com/schedule/",
+        "deckURL": "https://www.slideshare.net/leecalcote/service-meshes-but-at-what-cost?ref=https://calcotestudios.com/talks/"
     },
     {
         "eventName": "Container World 2019",
@@ -16,15 +17,15 @@
     },    
     {
         "eventName": "InnoTech San Antonio 2019",
-        "eventURL": "https://www.innotechsan.com"
+        "eventURL": "https://innotechsanantonio2019.sched.com/event/Lmlb/the-enterprise-path-to-service-mesh-architectures?iframe=no&w=100%&sidebar=yes&bg=no"
     },
     {
         "eventName": "DockerCon 2019",
-        "eventURL": "https://www.docker.com/dockercon/"
+        "eventURL": "https://dockercon19.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=309149&tclass=popup#.XJxH-TOcbjI.twitter"
     },
     {
         "eventName": "KubeCon EU 2019",
-        "eventURL": "https://kubecon.io"
+        "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no"
     }
    ],
     "previousTalk": [
