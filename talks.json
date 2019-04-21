@@ -12,7 +12,8 @@
     },
     {
         "eventName": "Container World 2019",
-        "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote"
+        "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
+        "deckURL": "/talks/decks/slides-container-world-2019-service-meshes-but-at-what-cost.html"
     },    
     {
         "eventName": "InnoTech San Antonio 2019",
