@@ -6,11 +6,6 @@
         "deckURL": "/talks/decks/slides-container-world-2019-service-meshes-but-at-what-cost.html"
     },    
     {
-        "eventName": "InnoTech San Antonio 2019",
-        "eventURL": "https://innotechsanantonio2019.sched.com/event/Lmlb/the-enterprise-path-to-service-mesh-architectures?iframe=no&w=100%&sidebar=yes&bg=no",
-        "deckURL": "/talks/decks/slides-innotech-san-antonio-2019-the-enterprise-path-to-service-mesh.html"
-    },
-    {
         "eventName": "DockerCon 2019",
         "eventURL": "https://dockercon19.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=309149&tclass=popup#.XJxH-TOcbjI.twitter"
     },
@@ -21,13 +16,18 @@
    ],
     "previousTalk": [
     {
-        "eventName": "CNCF Networking: Benchmarking Service Meshes",
-        "deckURL": "https://docs.google.com/presentation/d/1T0w5sXiUYtjHhmwJYF7VI-q5lgYAN46-Yn8ey0EZV-A/edit?usp=sharing"
+        "eventName": "InnoTech San Antonio 2019",
+        "eventURL": "https://innotechsanantonio2019.sched.com/event/Lmlb/the-enterprise-path-to-service-mesh-architectures?iframe=no&w=100%&sidebar=yes&bg=no",
+        "deckURL": "/talks/decks/slides-innotech-san-antonio-2019-the-enterprise-path-to-service-mesh.html"
     },
     {
         "eventName": "Service Mesh Day 2019",
         "eventURL": "https://servicemeshday.com/schedule/",
         "deckURL": "https://www.slideshare.net/leecalcote/service-meshes-but-at-what-cost?ref=https://calcotestudios.com/talks/"
+    },
+    {
+        "eventName": "CNCF Networking: Benchmarking Service Meshes",
+        "deckURL": "https://docs.google.com/presentation/d/1T0w5sXiUYtjHhmwJYF7VI-q5lgYAN46-Yn8ey0EZV-A/edit?usp=sharing"
     },
     {
         "eventName": "Open Source Leadership Summit 2019",
