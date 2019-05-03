@@ -11,6 +11,11 @@
         "deckURL": "/talks/decks/slides-dockercon-2019-establishing-an-open-source-office.html"
     },
     {
+        "eventName": "DockerCon 2019",
+        "eventURL": "https://dockercon19.smarteventscloud.com/connect/speakerDetail.ww?PERSON_ID=E9B84BCC58D0B32D5AD207DFC28DCD40&tclass=popup",
+        "deckURL": "/talks/decks/slides-dockercon-2019-open-source-summit-service-meshes.html"
+    },
+    {
         "eventName": "KubeCon EU 2019",
         "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no"
     }
