@@ -1,6 +1,12 @@
 {
     "upcomingTalk": [
     {
+        "eventName": "KubeCon EU 2019",
+        "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no"
+    }
+   ],
+    "previousTalk": [
+    {
         "eventName": "Container World 2019",
         "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
         "deckURL": "/talks/decks/slides-container-world-2019-service-meshes-but-at-what-cost.html"
@@ -15,12 +21,6 @@
         "eventURL": "https://dockercon19.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=309149&tclass=popup#.XJxH-TOcbjI.twitter",
         "deckURL": "/talks/decks/slides-dockercon-2019-open-source-summit-service-meshes.html"
     },
-    {
-        "eventName": "KubeCon EU 2019",
-        "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no"
-    }
-   ],
-    "previousTalk": [
     {
         "eventName": "InnoTech San Antonio 2019",
         "eventURL": "https://innotechsanantonio2019.sched.com/event/Lmlb/the-enterprise-path-to-service-mesh-architectures?iframe=no&w=100%&sidebar=yes&bg=no",
