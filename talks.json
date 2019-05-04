@@ -13,6 +13,10 @@
     {
         "eventName": "KubeCon EU 2019",
         "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no"
+    },
+    {
+        "eventName": "NGINX Conf 2019",
+        "eventURL": "https://www.nginx.com/nginxconf"
     }
    ],
     "previousTalk": [
@@ -214,7 +218,7 @@
         "deckURL": "https://speakerdeck.com/leecalcote/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities"
     },
     {
-        "eventName": "O'Reilly: Load-Balancing using Nginx & Kubernetes",
+        "eventName": "O'Reilly: Load-Balancing using NGINX & Kubernetes",
         "eventURL": "http://www.oreilly.com/pub/e/3864",
         "deckURL": "https://calcotestudios.com/oreilly-nginx",
         "videoURL": "http://event.on24.com/wcc/r/1365124/9B42DB5C2199DE63215D138E7255CC85",
@@ -300,7 +304,7 @@
         "eventURL": "https://containerizethis2016a.sched.org/event/8G9N/presentation-from-engines-to-orchestrators"
     },
     {
-        "eventName": "Nginx Conf 2016",
+        "eventName": "NGINX Conf 2016",
         "eventURL": "https://www.nginx.com/nginxconf/speakers/list/#572b5ef476280471db0000c0",
         "deckURL": "/decks/talks/nginxconf-2016-powering-microservices-sockets-using-nginx-and-kubernetes",
         "videoURL": "https://youtu.be/RCTLqO8kAPg",
