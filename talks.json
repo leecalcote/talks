@@ -33,7 +33,8 @@
     {
         "eventName": "Service Mesh Day 2019",
         "eventURL": "https://servicemeshday.com/schedule/",
-        "deckURL": "https://www.slideshare.net/leecalcote/service-meshes-but-at-what-cost?ref=https://calcotestudios.com/talks/"
+        "deckURL": "https://www.slideshare.net/leecalcote/service-meshes-but-at-what-cost?ref=https://calcotestudios.com/talks/",
+        "videoURL": "https://www.youtube.com/watch?v=CFj1O_uyhhs"
     },
     {
         "eventName": "CNCF Networking: Benchmarking Service Meshes",
