@@ -1,6 +1,10 @@
 {
     "upcomingTalk": [
     {
+        "eventName": "Cloud Native Rejekts EU 2019",
+        "eventURL": "https://cloud-native.rejekts.io"
+    },
+    {
         "eventName": "KubeCon EU 2019",
         "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no"
     },
