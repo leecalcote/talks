@@ -7,6 +7,11 @@
     {
         "eventName": "KubeCon EU 2019",
         "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no"
+    
+    },
+    {
+        "eventName": "KubeCon EU 2019 (2)",
+        "eventURL": "https://sched.co/NxQW"
     },
     {
         "eventName": "NGINX Conf 2019",
