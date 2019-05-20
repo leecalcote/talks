@@ -14,6 +14,10 @@
         "eventURL": "https://sched.co/NxQW"
     },
     {
+        "eventName": "KubeCon EU 2019 (3)",
+        "eventURL": "https://www.meetup.com/Barcelona-CNCF-Istio-Meetup/events/261434631/"
+    },
+    {
         "eventName": "NGINX Conf 2019",
         "eventURL": "https://www.nginx.com/nginxconf"
     }
