@@ -11,7 +11,9 @@
     },
     {
         "eventName": "KubeCon EU 2019 (2)",
-        "eventURL": "https://sched.co/NxQW"
+        "eventURL": "https://sched.co/NxQW",
+        "linkURL": ["https://thenewstack.io/barcelona-pancake-podcast-service-mesh-and-the-evolving-network/"],
+        "videoURL": "https://www.youtube.com/watch?v=c2v9zvBR7Ds&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
     },
     {
         "eventName": "KubeCon EU 2019 (3)",
