@@ -18,6 +18,10 @@
         "eventURL": "https://www.meetup.com/Barcelona-CNCF-Istio-Meetup/events/261434631/"
     },
     {
+        "eventName": "O'Reilly Live Online Training",
+        "eventURL": "https://www.oreilly.com/live-training/courses/introduction-to-istio/0636920282938/"
+    },
+    {
         "eventName": "NGINX Conf 2019",
         "eventURL": "https://www.nginx.com/nginxconf"
     }
