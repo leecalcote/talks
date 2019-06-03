@@ -21,7 +21,8 @@
     },
     {
         "eventName": "O'Reilly Live Online Training",
-        "eventURL": "https://www.oreilly.com/live-training/courses/introduction-to-istio/0636920282938/"
+        "eventURL": "https://www.oreilly.com/live-training/courses/introduction-to-istio/0636920282938/",
+	"deckURL": "/talks/decks/slides-oreilly-live-online-training-introduction-to-istio.html"
     },
     {
         "eventName": "NGINX Conf 2019",
