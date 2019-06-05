@@ -1,13 +1,9 @@
 {
     "upcomingTalk": [
     {
-        "eventName": "Cloud Native Rejekts EU 2019",
-        "eventURL": "https://cfp.cloud-native.rejekts.io/cloud-native-rejekts-eu-2019/speaker/GZQTEM/"
-    },
-    {
-        "eventName": "KubeCon EU 2019",
-        "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no"
-    
+        "eventName": "KubeCon EU 2019 (1)",
+        "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no",
+        "videoURL": "https://www.youtube.com/watch?v=LxP-yHrKL4M"
     },
     {
         "eventName": "KubeCon EU 2019 (2)",
@@ -17,19 +13,28 @@
     },
     {
         "eventName": "KubeCon EU 2019 (3)",
-        "eventURL": "https://www.meetup.com/Barcelona-CNCF-Istio-Meetup/events/261434631/"
+        "eventURL": "https://www.meetup.com/Barcelona-CNCF-Istio-Meetup/events/261434631/",
+        "deckURL": "slides-istio-meetup-kubecon-eu-2019-istio-at-scale-large-and-small.html"
     },
     {
         "eventName": "O'Reilly Live Online Training",
         "eventURL": "https://www.oreilly.com/live-training/courses/introduction-to-istio/0636920282938/",
-	"deckURL": "/talks/decks/slides-oreilly-live-online-training-introduction-to-istio.html"
+	    "deckURL": "/talks/decks/slides-oreilly-live-online-training-introduction-to-istio.html"
     },
     {
         "eventName": "NGINX Conf 2019",
         "eventURL": "https://www.nginx.com/nginxconf"
+    },
+    {
+        "eventName": "Thoma Bravo CTO Summit 2019"
     }
    ],
     "previousTalk": [
+    {
+        "eventName": "Cloud Native Rejekts EU 2019",
+        "eventURL": "https://cfp.cloud-native.rejekts.io/cloud-native-rejekts-eu-2019/speaker/GZQTEM/",
+        "deckURL": "/talks/decks/slides-cloud-native-rejekts-2019-evaluating-service-meshes.html"
+    },
     {
         "eventName": "Container World 2019",
         "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
