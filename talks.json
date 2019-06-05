@@ -3,7 +3,8 @@
     {
         "eventName": "KubeCon EU 2019 (1)",
         "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no",
-        "videoURL": "https://www.youtube.com/watch?v=LxP-yHrKL4M"
+        "videoURL": "https://www.youtube.com/watch?v=LxP-yHrKL4M",
+        "deckURL": "/talks/decks/slides-kubecon-eu-2019-service-meshes-at-what-cost.html"
     },
     {
         "eventName": "KubeCon EU 2019 (2)",
@@ -26,7 +27,8 @@
         "eventURL": "https://www.nginx.com/nginxconf"
     },
     {
-        "eventName": "Thoma Bravo CTO Summit 2019"
+        "eventName": "Thoma Bravo CTO Summit 2019",
+        "eventURL": "#"
     }
    ],
     "previousTalk": [
