@@ -3,7 +3,7 @@
     {
         "eventName": "KubeCon EU 2019 (1)",
         "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no",
-        "videoURL": "https://www.youtube.com/watch?v=LxP-yHrKL4M",
+        "videoURL": "https://www.youtube.com/watch?v=LxP-yHrKL4M&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE",
         "deckURL": "/talks/decks/slides-kubecon-eu-2019-service-meshes-at-what-cost.html"
     },
     {
@@ -61,11 +61,11 @@
         "eventName": "Service Mesh Day 2019",
         "eventURL": "https://servicemeshday.com/schedule/",
         "deckURL": "https://www.slideshare.net/leecalcote/service-meshes-but-at-what-cost?ref=https://calcotestudios.com/talks/",
-        "videoURL": "https://www.youtube.com/watch?v=CFj1O_uyhhs"
+        "videoURL": "https://www.youtube.com/watch?v=CFj1O_uyhhs&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
     },
     {
         "eventName": "CNCF Networking: Benchmarking Service Meshes",
-        "videoURL": "https://www.youtube.com/watch?v=2_JwCc-kLMA",
+        "videoURL": "https://www.youtube.com/watch?v=2_JwCc-kLMA&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE",
         "eventURL": "https://github.com/cncf/wg-networking",
         "deckURL": "https://www.slideshare.net/leecalcote/benchmarking-service-meshes-cncf-networking-wg-141938576"
     },
@@ -91,7 +91,11 @@
         "eventURL": "https://kccna18.sched.com/event/GrTN"
     },
     {
-        "eventName": "AWS re:Invent 2018",
+        "eventName": "AWS re:Invent 2018 (1)",
+        "eventURL": "https://www.youtube.com/watch?v=OmVQ6pNDbaY&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE&index=4&t=0s"
+    },
+    {
+        "eventName": "AWS re:Invent 2018 (2)",
         "eventURL": "https://www.brighttalk.com/webinar/ask-the-expert-a-technical-look-at-running-splunk-in-containers/"
     },
     {
@@ -178,7 +182,7 @@
         "eventName": "SCaLE 16x (2)",
         "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote",
         "deckURL": "/talks/decks/slides-scale-16x-using-prometheus-remote-storage-adapters.html",
-        "videoURL": "https://www.youtube.com/watch?v=03QBrg-qzZE"
+        "videoURL": "https://www.youtube.com/watch?v=03QBrg-qzZE&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
     },
     {
         "eventName": "Container World 2018 (1)",
@@ -243,7 +247,7 @@
         "eventName": "KubeCon EU 2017 (1)",
         "eventURL": "https://cloudnativeeu2017.sched.com/event/9Td7?iframe=no",
         "deckURL": "/talks/decks/slides-kubecon-eu-2017-understanding-and-extending-prometheus-alertmanager.html",
-        "videoURL": "https://youtu.be/jpb6fLQOgn4"
+        "videoURL": "https://youtu.be/jpb6fLQOgn4&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
     },
     {
         "eventName": "KubeCon EU 2017 (2)",
@@ -261,13 +265,13 @@
         "eventName": "SCaLE 15x (1)",
         "eventURL": "http://www.socallinuxexpo.org/scale/15x/presentations/over-under-container-networking",
         "deckURL": "https://calcotestudios.com/talks/decks/slides-scale15x-the-over-under-on-container-networking.html",
-        "videoURL": "https://www.youtube.com/watch?v=l9KN6SUAqKY&t=5h17m8s"
+        "videoURL": "https://www.youtube.com/watch?v=l9KN6SUAqKY&t=5h17m8s&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
     },
     {  
         "eventName": "SCaLE 15x (2)",
         "eventURL": "http://www.socallinuxexpo.org/scale/15x/presentations/unik-unikernel-compiler-and-runtime",
         "deckURL": "/talks/decks/slides-scale15x-unik-unikernel-compiler-and-runtime.html",
-        "videoURL": "https://youtu.be/7PKMctKf2JQ?t=3h30m15s"
+        "videoURL": "https://youtu.be/7PKMctKf2JQ?t=3h30m15s&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
     },
     {
         "eventName": "Container World 2017",
@@ -280,7 +284,7 @@
         "eventName": "Tech Field Day 13",
         "eventURL": "http://techfieldday.com/event/tfd13/",
         "deckURL": "",
-        "videoURL": "https://www.youtube.com/watch?v=fUHfcVhTle0",
+        "videoURL": "https://www.youtube.com/watch?v=fUHfcVhTle0&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE",
         "linkURL": ["http://www.cioapplications.com/cxoinsights/the-hybrid-evolution-of-it-nid-556.html"]
     },
     {
@@ -299,7 +303,7 @@
         "eventName": "Tech Summit 2017 (3)",
         "eventURL": "https://innovate.solarwinds.io/2016",
         "deckURL": "https://calcotestudios.com/techsummit-ccco",
-        "videoURL": "https://www.youtube.com/watch?v=y81hEEkXOsE",
+        "videoURL": "https://www.youtube.com/watch?v=y81hEEkXOsE&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE",
         "date": 70
     },
     {
@@ -318,7 +322,7 @@
     {
         "eventName": "KubeCon NA 2016 (2)",
         "eventURL": "https://cnd2016.sched.org/event/7zcc",
-        "videoURL": "https://www.youtube.com/watch?v=7V8Ds_Yw93M",
+        "videoURL": "https://www.youtube.com/watch?v=7V8Ds_Yw93M&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE",
         "linkURL": ["http://thenewstack.io/cloudnative-day-pancake-podcast-containers-at-scale/"]
     },
     {
@@ -329,7 +333,7 @@
     {
         "eventName": "Container Days Austin 2016",
         "eventURL": "https://containerdaysaustin2016.sched.org/event/e0a54bd9e2499f7cff74ed126c643b22?iframe=no&w=i:100;&sidebar=yes&bg=no",
-        "videoURL": "https://youtu.be/m5g_LI7P3f4"
+        "videoURL": "https://youtu.be/m5g_LI7P3f4&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
     },
     {
         "eventName": "ContainerizeThis 2016",
@@ -363,7 +367,7 @@
         "eventName": "DockerCon 2016 Recap",
         "eventURL": "https://www.meetup.com/Docker-Austin/events/231029121/",
         "deckURL": "https://calcotestudios.com/dockercon-2016-recap",
-        "videoURL": "https://www.youtube.com/watch?v=-x-YfwTRZ98"
+        "videoURL": "https://www.youtube.com/watch?v=-x-YfwTRZ98&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
     },
     {
         "eventName": "DevOps Days Austin 2016",
@@ -374,7 +378,7 @@
         "eventName": "OpenStack Summit 2016",
         "eventURL": "http://blog.rackspace.com/container-day-rackspace-cantina-openstack-summit/",
         "deckURL": "https://calcotestudios.com/ccco",
-        "videoURL": "https://youtu.be/ygEjpvnimm8"
+        "videoURL": "https://youtu.be/ygEjpvnimm8&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
     },
     {
         "eventName": "Microservices and Containers Austin",
