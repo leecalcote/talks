@@ -15,7 +15,7 @@
     {
         "eventName": "KubeCon EU 2019 (3)",
         "eventURL": "https://www.meetup.com/Barcelona-CNCF-Istio-Meetup/events/261434631/",
-        "deckURL": "slides-istio-meetup-kubecon-eu-2019-istio-at-scale-large-and-small.html"
+        "deckURL": "/talks/decks/slides-istio-meetup-kubecon-eu-2019-istio-at-scale-large-and-small.html"
     },
     {
         "eventName": "O'Reilly Live Online Training",
