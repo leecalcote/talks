@@ -27,6 +27,10 @@
         "eventURL": "https://www.nginx.com/nginxconf"
     },
     {
+        "eventName": "All Things Open 2019",
+        "eventURL": "https://allthingsopen.org"
+    },
+    {
         "eventName": "Thoma Bravo CTO Summit 2019",
         "eventURL": "#"
     }
