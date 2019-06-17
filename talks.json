@@ -1,23 +1,6 @@
 {
     "upcomingTalk": [
     {
-        "eventName": "KubeCon EU 2019 (1)",
-        "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no",
-        "videoURL": "https://www.youtube.com/watch?v=LxP-yHrKL4M&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE",
-        "deckURL": "/talks/decks/slides-kubecon-eu-2019-service-meshes-at-what-cost.html"
-    },
-    {
-        "eventName": "KubeCon EU 2019 (2)",
-        "eventURL": "https://sched.co/NxQW",
-        "linkURL": ["https://thenewstack.io/barcelona-pancake-podcast-service-mesh-and-the-evolving-network/"],
-        "videoURL": "https://www.youtube.com/watch?v=c2v9zvBR7Ds&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
-    },
-    {
-        "eventName": "KubeCon EU 2019 (3)",
-        "eventURL": "https://www.meetup.com/Barcelona-CNCF-Istio-Meetup/events/261434631/",
-        "deckURL": "/talks/decks/slides-istio-meetup-kubecon-eu-2019-istio-at-scale-large-and-small.html"
-    },
-    {
         "eventName": "O'Reilly Live Online Training",
         "eventURL": "https://www.oreilly.com/live-training/courses/introduction-to-istio/0636920282938/",
 	    "deckURL": "/talks/decks/slides-oreilly-live-online-training-introduction-to-istio.html"
@@ -36,6 +19,23 @@
     }
    ],
     "previousTalk": [
+    {
+        "eventName": "KubeCon EU 2019 (1)",
+        "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no",
+        "videoURL": "https://www.youtube.com/watch?v=LxP-yHrKL4M&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE",
+        "deckURL": "/talks/decks/slides-kubecon-eu-2019-service-meshes-at-what-cost.html"
+    },
+    {
+        "eventName": "KubeCon EU 2019 (2)",
+        "eventURL": "https://sched.co/NxQW",
+        "linkURL": ["https://thenewstack.io/barcelona-pancake-podcast-service-mesh-and-the-evolving-network/"],
+        "videoURL": "https://www.youtube.com/watch?v=c2v9zvBR7Ds&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
+    },
+    {
+        "eventName": "KubeCon EU 2019 (3)",
+        "eventURL": "https://www.meetup.com/Barcelona-CNCF-Istio-Meetup/events/261434631/",
+        "deckURL": "/talks/decks/slides-istio-meetup-kubecon-eu-2019-istio-at-scale-large-and-small.html"
+    },
     {
         "eventName": "Cloud Native Rejekts EU 2019",
         "eventURL": "https://cfp.cloud-native.rejekts.io/cloud-native-rejekts-eu-2019/speaker/GZQTEM/",
