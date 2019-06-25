@@ -10,11 +10,15 @@
         "eventURL": "https://www.nginx.com/nginxconf"
     },
     {
+        "eventName": "Lakeside HackFest 2019",
+        "eventURL": "https://www.lakeside-hackfest.com/speakers/#lee-calcote"
+    },
+    {
         "eventName": "All Things Open 2019",
         "eventURL": "https://allthingsopen.org"
     },
     {
-        "eventName": "Thoma Bravo CTO Summit 2019",
+        "eventName": "Thoma Bravo CTO Summit 2020",
         "eventURL": "#"
     }
    ],
