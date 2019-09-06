@@ -11,7 +11,8 @@
     },
     {
         "eventName": "Lakeside HackFest 2019",
-        "eventURL": "https://www.lakeside-hackfest.com/speakers/#lee-calcote"
+        "eventURL": "https://www.lakeside-hackfest.com/speakers/#lee-calcote",
+        "deckURL": "/talks/decks/slides-lakeside-hackfest-2019-adopting-a-service-mesh.html"
     },
     {
         "eventName": "Pure Storage Accelerate 2019",
