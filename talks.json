@@ -25,7 +25,15 @@
     {
         "eventName": "All Day DevOps 2019",
         "eventURL": "https://www.alldaydevops.com/addo-speakers/lee-calcote"
-    }
+    },
+    {
+        "eventName": "KubeCon NA 2019",
+        "eventURL": "https://kccncna19.sched.com/speaker/leecalcote1?iframe=no&w=100%&sidebar=yes&bg=no"
+    },
+    {
+        "eventName": "Network Service Mesh Con 2019",
+        "eventURL": "https://networkservicemesh.io/events/nsmcon2019/"
+    },
     {
         "eventName": "Thoma Bravo CTO Summit 2020",
         "eventURL": "#"
