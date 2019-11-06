@@ -1,30 +1,9 @@
 {
     "upcomingTalk": [
     {
-        "eventName": "O'Reilly Live Online Training",
-        "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920292869/",
-	    "deckURL": "/talks/decks/slides-oreilly-live-online-training-introduction-to-istio-august-2019.html"
-    },
-    {
-        "eventName": "NGINX Conf 2019",
-        "eventURL": "https://www.nginx.com/nginxconf"
-    },
-    {
-        "eventName": "Lakeside HackFest 2019",
-        "eventURL": "https://www.lakeside-hackfest.com/speakers/#lee-calcote",
-        "deckURL": "/talks/decks/slides-lakeside-hackfest-2019-adopting-a-service-mesh.html"
-    },
-    {
-        "eventName": "Pure Storage Accelerate 2019",
-        "eventURL": "https://www.purestorage.com/accelerate"
-    },
-    {
-        "eventName": "All Things Open 2019",
-        "eventURL": "https://allthingsopen.org"
-    },
-    {
         "eventName": "All Day DevOps 2019",
-        "eventURL": "https://www.alldaydevops.com/addo-speakers/lee-calcote"
+        "eventURL": "https://www.alldaydevops.com/addo-speakers/lee-calcote",
+        "deckURL": "/talks/decks/slides-all-day-devops-2019-establishing-an-open-source-office.html"
     },
     {
         "eventName": "KubeCon NA 2019",
@@ -40,6 +19,24 @@
     }
    ],
     "previousTalk": [
+    {
+        "eventName": "O'Reilly Live Online Training",
+        "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920292869/",
+        "deckURL": "/talks/decks/slides-oreilly-live-online-training-introduction-to-istio-august-2019.html"
+    },
+    {
+        "eventName": "Lakeside HackFest 2019",
+        "eventURL": "https://www.lakeside-hackfest.com/speakers/#lee-calcote",
+        "deckURL": "/talks/decks/slides-lakeside-hackfest-2019-adopting-a-service-mesh.html"
+    },
+    {
+        "eventName": "Pure Storage Accelerate 2019",
+        "eventURL": "https://www.purestorage.com/accelerate"
+    },
+    {
+        "eventName": "All Things Open 2019",
+        "eventURL": "https://allthingsopen.org/speakers/lee-calcote/"
+    },    
     {
         "eventName": "KubeCon EU 2019 (1)",
         "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no",
