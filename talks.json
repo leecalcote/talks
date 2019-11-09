@@ -4,7 +4,7 @@
         "eventName": "All Day DevOps 2019",
         "eventURL": "https://www.alldaydevops.com/addo-speakers/lee-calcote",
         "deckURL": "/talks/decks/slides-all-day-devops-2019-establishing-an-open-source-office.html",
-        "linkURL": "https://www.alldaydevops.com/blog/establishing-an-open-source-program-office"
+        "linkURL": ["https://www.alldaydevops.com/blog/establishing-an-open-source-program-office"]
     },
     {
         "eventName": "KubeCon NA 2019",
