@@ -1,18 +1,20 @@
 {
     "upcomingTalk": [
     {
-        "eventName": "All Day DevOps 2019",
-        "eventURL": "https://www.alldaydevops.com/addo-speakers/lee-calcote",
-        "deckURL": "/talks/decks/slides-all-day-devops-2019-establishing-an-open-source-office.html",
-        "linkURL": ["https://www.alldaydevops.com/blog/establishing-an-open-source-program-office"]
-    },
-    {
-        "eventName": "KubeCon NA 2019",
-        "eventURL": "https://kccncna19.sched.com/speaker/leecalcote1?iframe=no&w=100%&sidebar=yes&bg=no"
+        "eventName": "Cloud Native Austin 2019",
+        "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/266282582/"
     },
     {
         "eventName": "Network Service Mesh Con 2019",
         "eventURL": "https://networkservicemesh.io/events/nsmcon2019/"
+    },
+    {
+        "eventName": "KubeCon NA 2019",
+        "eventURL": "https://kccncna19.sched.com/speaker/leecalcote1?iframe=no&w=100%&sidebar=yes&bg=no"
+    }, 
+    {
+        "eventName": "DevOps Paradox",
+        "eventURL": "https://www.devopsparadox.com"
     },
     {
         "eventName": "Thoma Bravo CTO Summit 2020",
@@ -20,6 +22,12 @@
     }
    ],
     "previousTalk": [
+    {
+        "eventName": "All Day DevOps 2019",
+        "eventURL": "https://www.alldaydevops.com/addo-speakers/lee-calcote",
+        "deckURL": "/talks/decks/slides-all-day-devops-2019-establishing-an-open-source-office.html",
+        "linkURL": ["https://www.alldaydevops.com/blog/establishing-an-open-source-program-office"]
+    },
     {
         "eventName": "O'Reilly Live Online Training",
         "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920292869/",
