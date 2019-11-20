@@ -7,7 +7,7 @@
     {
         "eventName": "Network Service Mesh Con 2019",
         "eventURL": "https://networkservicemesh.io/events/nsmcon2019/",
-        "deckURL": "nsmcon-kubecon-na-2019-adopting-network-service-mesh-with-meshery.html"
+        "deckURL": "/talks/decks/slides-nsmcon-kubecon-na-2019-adopting-network-service-mesh-with-meshery.html"
     },
     {
         "eventName": "KubeCon NA 2019",
