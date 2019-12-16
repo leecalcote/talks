@@ -2,7 +2,8 @@
     "upcomingTalk": [
     {
         "eventName": "Cloud Native Austin 2019",
-        "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/266282582/"
+        "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/266282582/",
+        "deckURL": "/talks/decks/slides-cloud-native-austin-2019-service-meshes-why-you-need-one-and-which-one-you-need.html"
     },
     {
         "eventName": "Network Service Mesh Con 2019",
