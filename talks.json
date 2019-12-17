@@ -1,16 +1,6 @@
 {
     "upcomingTalk": [
     {
-        "eventName": "Cloud Native Austin 2019",
-        "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/266282582/",
-        "deckURL": "/talks/decks/slides-cloud-native-austin-2019-service-meshes-why-you-need-one-and-which-one-you-need.html"
-    },
-    {
-        "eventName": "Network Service Mesh Con 2019",
-        "eventURL": "https://networkservicemesh.io/events/nsmcon2019/",
-        "deckURL": "/talks/decks/slides-nsmcon-kubecon-na-2019-adopting-network-service-mesh-with-meshery.html"
-    },
-    {
         "eventName": "KubeCon NA 2019",
         "eventURL": "https://kccncna19.sched.com/speaker/leecalcote1?iframe=no&w=100%&sidebar=yes&bg=no"
     }, 
@@ -24,6 +14,16 @@
     }
    ],
     "previousTalk": [
+    {
+        "eventName": "Cloud Native Austin 2019",
+        "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/266282582/",
+        "deckURL": "/talks/decks/slides-cloud-native-austin-2019-service-meshes-why-you-need-one-and-which-one-you-need.html"
+    },
+    {
+        "eventName": "Network Service Mesh Con 2019",
+        "eventURL": "https://networkservicemesh.io/events/nsmcon2019/",
+        "deckURL": "/talks/decks/slides-nsmcon-kubecon-na-2019-adopting-network-service-mesh-with-meshery.html"
+    },
     {
         "eventName": "All Day DevOps 2019",
         "eventURL": "https://www.alldaydevops.com/addo-speakers/lee-calcote",
