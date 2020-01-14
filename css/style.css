@@ -1,61 +1,100 @@
-        	body {
-        		background-repeat: no-repeat;
-        		background-color: #000000;
-        		background-attachment: fixed;
-        		background-position: stretch;
-            font-family: sans-serif;
-            background-image: url('/talks/img/Lee Calcote - CloudNativeDay-low.jpg');
-        	}
-        	li {
-            font-family: sans-serif;
-        	}
-        	ul {
-            color: black;            
-          }
-        	h3 {
-            color: black;
-            font-family: sans-serif;
-            
-            font-weight: bolder;
-          }
-          a {
-              color: black;
-              font-family: sans-serif;
-              text-decoration: none;
-          }
-          a.notfound {
-            font-family: sans-serif;
-            text-decoration: underline;
-            color: auto;
-          }
-          a:hover {
-            text-decoration: underline;
-          }
-          a.deck { font-style: italic; font-size: .9em; }
-          div.talks {
-            border-radius: 25px;
-            background-color: lightgray;
-            position: relative;
-            top: 10%;
-            right: 5%;
-            float: right;
-            margin: auto;
-            padding: 15px;
-            padding-right: 25px;
-          }
-          li.oreilly { list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2017/03/oreilly.png'); }
-          li.cisco {  list-style-image: url('https://www.cisco.com/favicon.ico'); }
-          li.tns {    list-style-image: url('https://thenewstack.io/favicon.ico'); }
-          li.gg {     list-style-image: url('https://blog.gingergeek.com/favicon.ico'); }
-          li.nw {	    list-style-image: url('https://www.infoworld.com/www.idge.nww/favicon.ico'); }
-          li.seagate { list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/seagate.png'); }
-          li.matrix {	list-style-image: url('https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/cube-sh-small.png?resize=16%2C16'); }
-          li.email {	list-style-image: url('https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/02/email.png?resize=16%2C16'); }
-          li.twitter { list-style-image: url('https://twitter.com/favicon.ico'); }
-          li.li {	    list-style-image: url('https://www.linkedin.com/favicon.ico'); }
-          li.github {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2009/02/github.png'); }
-          li.medium {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2009/02/medium.png'); }
-          li.aboutme {list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/aboutme.png'); }
-          li.bookme {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/bookme.png'); }
-          li.disqus {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/disqus.png'); }
-          li.youtube {	list-style-image: url('https://youtube.com/favicon.ico'); }
+body {
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-attachment: fixed;
+  background-position: stretch;
+  font-family: sans-serif;
+  background-image: url('/talks/img/Lee Calcote - CloudNativeDay-low.jpg');
+}
+li {
+  font-family: sans-serif;
+}
+ul {
+  color: black;    
+      
+}
+h2 {
+  color: black;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+a {
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+a.notfound {
+  font-family: sans-serif;
+  text-decoration: underline;
+  color: auto;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.deck { font-style: italic; font-size: .9em; }
+div.name { width: 100%; white-space: nowrap; display:inline; text-align: left;  font-weight:normal; color: #555; font-size:.8em; }
+div.talks {
+  border-radius: 25px;
+  background-color: lightgray;
+  position: relative;
+  top: 10%;
+  bottom: 10%;
+  right: 5%;
+  float: right;
+  margin: auto;
+  padding: 15px;
+}
+/* Dekstop */
+@media only screen and (min-width: 640px) {
+  .talks {
+    font-size: 1em;
+  }
+  .youtube-text {
+    visibility: visible; 
+  }
+  .youtube {
+    width: 30px;
+    vertical-align: text-bottom;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 640px) {
+
+  .talks {
+    font-size: 1.1em;
+    position: relative;
+    float: right;
+    left: 0%;
+    top: 5%;
+    bottom: 5%; 
+    padding: 0px;
+    padding-right: 0px;
+  }
+  .youtube-text {
+    display: none;
+  }
+  .youtube {
+    width: 40px;
+  }
+}
+
+li.oreilly { list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2017/03/oreilly.png'); }
+li.cisco {  list-style-image: url('https://www.cisco.com/favicon.ico'); }
+li.tns {    list-style-image: url('https://thenewstack.io/favicon.ico'); }
+li.gg {     list-style-image: url('https://blog.gingergeek.com/favicon.ico'); }
+li.nw {	    list-style-image: url('https://www.infoworld.com/www.idge.nww/favicon.ico'); }
+li.seagate { list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/seagate.png'); }
+li.matrix {	list-style-image: url('https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/cube-sh-small.png?resize=16%2C16'); }
+li.email {	list-style-image: url('https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/02/email.png?resize=16%2C16'); }
+li.twitter { list-style-image: url('https://twitter.com/favicon.ico'); }
+li.li {	    list-style-image: url('https://www.linkedin.com/favicon.ico'); }
+li.github {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2009/02/github.png'); }
+li.medium {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2009/02/medium.png'); }
+li.aboutme {list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/aboutme.png'); }
+li.bookme {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/bookme.png'); }
+li.disqus {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/disqus.png'); }
+li.l5 {	list-style-image: url('https://layer5.io/favicon.ico'); }
+img.youtube {  content:url('/talks/img/youtube_social_icon_dark.png');
+
+  background-repeat: no-repeat;}
