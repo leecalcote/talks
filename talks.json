@@ -16,6 +16,12 @@
         "eventName": "Infrastructure & Ops 2020",
         "eventURL": "https://conferences.oreilly.com/infrastructure-ops/io-ca"
     }, 
+
+    {
+        "eventName": "Docker Captains 2020",
+        "eventURL": "https://www.docker.com/community/captains",
+        "deckURL": "/talks/decks/slides-docker-captains-2020-meshery-the-multi-service-mesh-manager.html"
+    }, 
     {
         "eventName": "OSCON 2020",
         "eventURL": "https://conferences.oreilly.com/oscon"
