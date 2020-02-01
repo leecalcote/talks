@@ -16,11 +16,17 @@
         "eventName": "Infrastructure & Ops 2020",
         "eventURL": "https://conferences.oreilly.com/infrastructure-ops/io-ca"
     }, 
-
     {
-        "eventName": "Docker Captains 2020",
+        "eventName": "Cloud Native Austin 2020",
+        "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/267271852/",
+        "deckURL": "/talks/decks/slides-oreilly-live-online-training-introduction-to-istio-august-2019.html",
+        "videoURL": "https://www.youtube.com/watch?v=JFtjm0kLIss"
+    },
+    {
+        "eventName": "Docker Captains Roundtable 2020",
         "eventURL": "https://www.docker.com/community/captains",
-        "deckURL": "/talks/decks/slides-docker-captains-2020-meshery-the-multi-service-mesh-manager.html"
+        "deckURL": "/talks/decks/slides-docker-captains-2020-meshery-the-multi-service-mesh-manager.html",
+        "videoURL": "https://www.youtube.com/watch?v=uMFZi5SoNR8"
     }, 
     {
         "eventName": "OSCON 2020",
@@ -30,12 +36,14 @@
     "previousTalk": [
     {
         "eventName": "KubeCon NA 2019",
-        "eventURL": "https://kccncna19.sched.com/speaker/leecalcote1?iframe=no&w=100%&sidebar=yes&bg=no"
+        "eventURL": "https://kccncna19.sched.com/speaker/leecalcote1?iframe=no&w=100%&sidebar=yes&bg=no",
+        "videoURL": "https://www.youtube.com/watch?v=XZ6TZQeNuKQ"
     },     
     {
         "eventName": "Cloud Native Austin 2019",
         "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/266282582/",
-        "deckURL": "/talks/decks/slides-cloud-native-austin-2019-service-meshes-why-you-need-one-and-which-one-you-need.html"
+        "deckURL": "/talks/decks/slides-cloud-native-austin-2019-service-meshes-why-you-need-one-and-which-one-you-need.html",
+        "videoURL": "https://www.youtube.com/watch?v=l6jwMtuZlZw"
     },
     {
         "eventName": "Network Service Mesh Con 2019",
