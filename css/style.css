@@ -94,7 +94,7 @@ li.medium {	list-style-image: url('https://blog.gingergeek.com/wp-content/upload
 li.aboutme {list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/aboutme.png'); }
 li.bookme {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/bookme.png'); }
 li.disqus {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/disqus.png'); }
-li.l5 {	list-style-image: url('https://layer5.io/favicon.ico'); }
+li.l5 {	  list-style-image: url('/talks/img/layer5-5.png'); }
 img.youtube {  content:url('/talks/img/youtube_social_icon_dark.png');
 
   background-repeat: no-repeat;}
