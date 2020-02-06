@@ -3,6 +3,11 @@
     {
         "eventName": "Thoma Bravo CTO Summit 2020",
         "eventURL": "/talks/decks/slides-thoma-bravo-engineering-summit-2020-the-enterprise-path-to-service-mesh-architectures.html"
+
+    },
+    {
+        "eventName": "Microservices, APIs and Integration - Silicon Valley",
+        "eventURL": " https://www.meetup.com/microservices-apis-integration-meetup/events/268328207/"
     },
     {
         "eventName": "KubeCon EU 2020",
