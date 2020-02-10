@@ -1,13 +1,8 @@
 {
     "upcomingTalk": [
     {
-        "eventName": "Thoma Bravo CTO Summit 2020",
-        "deckURL": "/talks/decks/slides-thoma-bravo-engineering-summit-2020-the-enterprise-path-to-service-mesh-architectures.html"
-
-    },
-    {
-        "eventName": "Microservices, APIs and Integration - Silicon Valley",
-        "eventURL": " https://www.meetup.com/microservices-apis-integration-meetup/events/268328207/"
+        "eventName": "O'Reilly Online Live Training - Introduction to Istio",
+        "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920368915/"
     },
     {
         "eventName": "KubeCon EU 2020",
@@ -22,10 +17,18 @@
         "eventURL": "https://conferences.oreilly.com/infrastructure-ops/io-ca"
     }, 
     {
-        "eventName": "Cloud Native Austin 2020",
-        "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/267271852/",
-        "deckURL": "/talks/decks/slides-cloud-native-austin-2020-introduction-to-istio.html",
-        "videoURL": "https://www.youtube.com/watch?v=JFtjm0kLIss"
+        "eventName": "OSCON 2020",
+        "eventURL": "https://conferences.oreilly.com/oscon"
+    }
+   ],
+    "previousTalk": [
+    {
+        "eventName": "Microservices, APIs and Integration - Silicon Valley",
+        "eventURL": " https://www.meetup.com/microservices-apis-integration-meetup/events/268328207/"
+    },
+    {
+        "eventName": "Thoma Bravo CTO Summit 2020",
+        "deckURL": "/talks/decks/slides-thoma-bravo-engineering-summit-2020-the-enterprise-path-to-service-mesh-architectures.html"
     },
     {
         "eventName": "Docker Captains Roundtable 2020",
@@ -34,11 +37,11 @@
         "videoURL": "https://www.youtube.com/watch?v=uMFZi5SoNR8"
     }, 
     {
-        "eventName": "OSCON 2020",
-        "eventURL": "https://conferences.oreilly.com/oscon"
-    }
-   ],
-    "previousTalk": [
+        "eventName": "Cloud Native Austin 2020",
+        "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/267271852/",
+        "deckURL": "/talks/decks/slides-cloud-native-austin-2020-introduction-to-istio.html",
+        "videoURL": "https://www.youtube.com/watch?v=JFtjm0kLIss"
+    },
     {
         "eventName": "KubeCon NA 2019",
         "eventURL": "https://kccncna19.sched.com/speaker/leecalcote1?iframe=no&w=100%&sidebar=yes&bg=no",
