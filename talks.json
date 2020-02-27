@@ -5,8 +5,12 @@
         "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920368915/"
     },
     {
-        "eventName": "KubeCon EU 2020",
+        "eventName": "KubeCon EU 2020 (1)",
         "eventURL": "https://kccnceu20.sched.com/event/Zetg/discreetly-studying-the-effects-of-individual-traffic-control-functions-lee-calcote-layer5?iframe=no&w=100%&sidebar=yes&bg=no"
+    }, 
+    {
+        "eventName": "KubeCon EU 2020 (2)",
+        "eventURL": "https://kccnceu20.sched.com/event/alkB/cncf-sig-network-intro-deep-dive-matt-klein-lyft-lee-calcote-layer5"
     }, 
     {
         "eventName": "InnoTech Dallas",
