@@ -2,7 +2,8 @@
     "upcomingTalk": [
     {
         "eventName": "O'Reilly Online Live Training - Introduction to Istio",
-        "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920368915/"
+        "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920368915/",
+        "deckURL": "/talks/decks/oreilly-online-live-training-march-2020-introduction-to-istio.html"
     },
     {
         "eventName": "KubeCon EU 2020 (1)",
