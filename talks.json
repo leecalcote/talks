@@ -6,6 +6,11 @@
         "deckURL": "/talks/decks/oreilly-online-live-training-march-2020-introduction-to-istio.html"
     },
     {
+        "eventName": "Cloud Native Austin April 2020: Meshery",
+        "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/267784090/",
+        "deckURL":"slides-cloud-native-austin-april-2020-meshery-the-service-mesh-management-plane.html"
+    },
+    {
         "eventName": "KubeCon EU 2020 (1)",
         "eventURL": "https://kccnceu20.sched.com/event/Zetg/discreetly-studying-the-effects-of-individual-traffic-control-functions-lee-calcote-layer5?iframe=no&w=100%&sidebar=yes&bg=no"
     }, 
@@ -50,9 +55,9 @@
         "videoURL": "https://www.youtube.com/watch?v=uMFZi5SoNR8"
     }, 
     {
-        "eventName": "Cloud Native Austin 2020",
+        "eventName": "Cloud Native Austin January 2020: Istio",
         "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/267271852/",
-        "deckURL": "/talks/decks/slides-cloud-native-austin-2020-introduction-to-istio.html",
+        "deckURL": "/talks/decks/slides-cloud-native-austin-january-2020-introduction-to-istio.html",
         "videoURL": "https://www.youtube.com/watch?v=JFtjm0kLIss"
     },
     {
