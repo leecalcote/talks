@@ -8,7 +8,7 @@
     {
         "eventName": "Cloud Native Austin April 2020: Meshery",
         "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/267784090/",
-        "deckURL":"slides-cloud-native-austin-april-2020-meshery-the-service-mesh-management-plane.html"
+        "deckURL":"/talks/decks/slides-cloud-native-austin-april-2020-meshery-the-service-mesh-management-plane.html"
     },
     {
         "eventName": "KubeCon EU 2020 (1)",
