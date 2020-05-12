@@ -1,14 +1,9 @@
 {
     "upcomingTalk": [
     {
-        "eventName": "O'Reilly Online Live Training - Introduction to Istio",
-        "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920368915/",
-        "deckURL": "/talks/decks/oreilly-online-live-training-march-2020-introduction-to-istio.html"
-    },
-    {
-        "eventName": "Cloud Native Austin April 2020: Meshery",
-        "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/267784090/",
-        "deckURL":"/talks/decks/slides-cloud-native-austin-april-2020-meshery-the-service-mesh-management-plane.html"
+        "eventName": "Open Source 101 at Home",
+        "eventURL": "https://opensource101.com/events/austin-2020/",
+        "deckURL": "/talks/decks/slides-open-source-101-at-home-solving-the-service-mesh-adopters-dilemma.html"
     },
     {
         "eventName": "KubeCon EU 2020 (1)",
@@ -21,10 +16,6 @@
     {
         "eventName": "InnoTech Dallas",
         "eventURL": "https://www.innotechdallas.com"
-    },
-    {
-        "eventName": "Open Source 101 Austin",
-        "eventURL": "https://opensource101.com/events/austin-2020/"
     },
     {
         "eventName": "DevOps Paradox",
@@ -40,6 +31,16 @@
     }
    ],
     "previousTalk": [
+    {
+        "eventName": "O'Reilly Online Live Training - Introduction to Istio",
+        "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920368915/",
+        "deckURL": "/talks/decks/oreilly-online-live-training-march-2020-introduction-to-istio.html"
+    },
+    {
+        "eventName": "Cloud Native Austin April 2020: Meshery",
+        "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/267784090/",
+        "deckURL":"/talks/decks/slides-cloud-native-austin-april-2020-meshery-the-service-mesh-management-plane.html"
+    },
     {
         "eventName": "Microservices, APIs and Integration - Silicon Valley",
         "eventURL": " https://www.meetup.com/microservices-apis-integration-meetup/events/268328207/"
