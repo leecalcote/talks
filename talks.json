@@ -6,6 +6,11 @@
         "deckURL": "/talks/decks/slides-open-source-101-at-home-solving-the-service-mesh-adopters-dilemma.html"
     },
     {
+        "eventName": "DockerCon 2020",
+        "eventURL": "https://docker.events.cube365.net/docker/dockercon/content/Videos/63TCCNpzDC7Xxnm8b",
+        "deckURL": "/talks/decks/slides-dockercon-2020-service-meshing-with-docker-desktop-and-webassembly.html"
+    },
+    {
         "eventName": "KubeCon EU 2020 (1)",
         "eventURL": "https://kccnceu20.sched.com/event/Zetg/discreetly-studying-the-effects-of-individual-traffic-control-functions-lee-calcote-layer5?iframe=no&w=100%&sidebar=yes&bg=no"
     }, 
