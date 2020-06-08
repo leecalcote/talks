@@ -1,14 +1,8 @@
 {
     "upcomingTalk": [
     {
-        "eventName": "Open Source 101 at Home",
-        "eventURL": "https://opensource101.com/events/austin-2020/",
-        "deckURL": "/talks/decks/slides-open-source-101-at-home-solving-the-service-mesh-adopters-dilemma.html"
-    },
-    {
-        "eventName": "DockerCon 2020",
-        "eventURL": "https://docker.events.cube365.net/docker/dockercon/content/Videos/63TCCNpzDC7Xxnm8b",
-        "deckURL": "/talks/decks/slides-dockercon-2020-service-meshing-with-docker-desktop-and-webassembly.html"
+        "eventName": "OpenShift Commons Gathering 2020",
+        "eventURL": "https://commons.openshift.org/gatherings/Community_Development_2020.html#gathering-speakers"
     },
     {
         "eventName": "KubeCon EU 2020 (1)",
@@ -36,6 +30,16 @@
     }
    ],
     "previousTalk": [
+    {
+        "eventName": "Open Source 101 at Home",
+        "eventURL": "https://opensource101.com/events/austin-2020/",
+        "deckURL": "/talks/decks/slides-open-source-101-at-home-solving-the-service-mesh-adopters-dilemma.html"
+    },
+    {
+        "eventName": "DockerCon 2020",
+        "eventURL": "https://docker.events.cube365.net/docker/dockercon/content/Videos/63TCCNpzDC7Xxnm8b",
+        "deckURL": "/talks/decks/slides-dockercon-2020-service-meshing-with-docker-desktop-and-webassembly.html"
+    },
     {
         "eventName": "O'Reilly Online Live Training - Introduction to Istio",
         "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920368915/",
