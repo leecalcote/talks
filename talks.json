@@ -6,7 +6,8 @@
     },
     {
         "eventName": "KubeCon EU 2020 (1)",
-        "eventURL": "https://kccnceu20.sched.com/event/Zetg/discreetly-studying-the-effects-of-individual-traffic-control-functions-lee-calcote-layer5?iframe=no&w=100%&sidebar=yes&bg=no"
+        "eventURL": "https://kccnceu20.sched.com/event/Zetg/discreetly-studying-the-effects-of-individual-traffic-control-functions-lee-calcote-layer5?iframe=no&w=100%&sidebar=yes&bg=no",
+        "deckURL": "/talks/decks/slides-kubecon-eu-2020-discreetly-studying-the-effects-of-individual-traffic-control-functions.html"
     }, 
     {
         "eventName": "KubeCon EU 2020 (2)",
