@@ -11,7 +11,8 @@
     }, 
     {
         "eventName": "KubeCon EU 2020 (2)",
-        "eventURL": "https://kccnceu20.sched.com/event/alkB/cncf-sig-network-intro-deep-dive-matt-klein-lyft-lee-calcote-layer5"
+        "eventURL": "https://kccnceu20.sched.com/event/alkB/cncf-sig-network-intro-deep-dive-matt-klein-lyft-lee-calcote-layer5",
+        "deckURL": "https://docs.google.com/presentation/d/12PNsNawRPuQv0HN4TKxkqYqTfKFycjJndjAa5QkYs_U/edit?usp=sharing"
     }, 
     {
         "eventName": "InnoTech Dallas",
