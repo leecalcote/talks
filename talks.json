@@ -1,6 +1,10 @@
 {
     "upcomingTalk": [
     {
+        "eventName": "Open Infrastructure Summit 2020",
+        "eventURL": "https://www.openstack.org/summit/2020/summit-schedule/events/24703/its-a-multi-mesh-world"
+    },
+    {
         "eventName": "OpenShift Commons Gathering 2020",
         "eventURL": "https://commons.openshift.org/gatherings/Community_Development_2020.html#gathering-speakers"
     },
