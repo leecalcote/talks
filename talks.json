@@ -19,6 +19,21 @@
         "deckURL": "/talks/decks/slides-oreilly-online-live-training-october-2020-introduction-to-istio.html "
     },
     {
+        "eventName": "KubeCon NA 2020 (1)",
+        "eventURL": "https://kccncna20.sched.com/event/ekEz/service-mesh-specifications-and-why-they-matter-in-your-deployment-lee-calcote-naveen-kumar-layer5",
+        "deckURL": "/talks/decks/slides-kubecon-na-2020-service-mesh-specifications-and-why-they-matter-in-your-deployment.html"
+    },
+    {
+        "eventName": "KubeCon NA 2020 (2)",
+        "eventURL": "https://kccncna20.sched.com/event/etsE/cncf-sig-network-intro-deep-dive-lee-calcote-layer5",
+        "deckURL": "/talks/decks/#"
+    },
+    {
+        "eventName": "Open Infrastructure Summit 2020",
+        "eventURL": "https://www.openstack.org/summit/2020/summit-schedule/events/24703/its-a-multi-mesh-world",
+        "deckURL": "/talks/decks/slides-open-infrastructure-summit-2020-its-a-multi-mesh-world.html"
+    },
+    {
         "eventName": "KubeCon EU 2020 (1)",
         "eventURL": "https://kccnceu20.sched.com/event/Zetg/discreetly-studying-the-effects-of-individual-traffic-control-functions-lee-calcote-layer5?iframe=no&w=100%&sidebar=yes&bg=no",
         "deckURL": "/talks/decks/slides-kubecon-eu-2020-discreetly-studying-the-effects-of-individual-traffic-control-functions.html"
