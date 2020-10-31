@@ -9,6 +9,11 @@
         "eventURL": "https://commons.openshift.org/gatherings/Community_Development_2020.html#gathering-speakers"
     },
     {
+        "eventName": "O'Reilly Online Live Training - December 2020: Introduction to Istio",
+        "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920422716/",
+        "deckURL": ""
+    },
+    {
         "eventName": "O'Reilly Online Live Training - October 2020: Introduction to Istio",
         "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920282938/",
         "deckURL": "/talks/decks/slides-oreilly-online-live-training-october-2020-introduction-to-istio.html "
