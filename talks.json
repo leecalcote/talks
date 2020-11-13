@@ -43,7 +43,7 @@
     {
         "eventName": "All Day DevOps 2020",
         "eventURL": "https://www.alldaydevops.com/addo-speakers/lee-calcote",
-        "deckURL": "/decks/slides-all-day-devops-2020-solving-the-service-mesh-adopters-dilemma.html"
+        "deckURL": "/talks/decks/slides-all-day-devops-2020-solving-the-service-mesh-adopters-dilemma.html"
     },
         {
         "eventName": "O'Reilly Online Live Training - October 2020: Introduction to Istio",
