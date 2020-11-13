@@ -1,11 +1,6 @@
 {
     "upcomingTalk": [
     {
-        "eventName": "O'Reilly Online Live Training - December 2020: Introduction to Istio",
-        "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920422716/",
-        "deckURL": ""
-    },
-    {
         "eventName": "KubeCon NA 2020 (1)",
         "eventURL": "https://kccncna20.sched.com/event/ekEz/service-mesh-specifications-and-why-they-matter-in-your-deployment-lee-calcote-naveen-kumar-layer5",
         "deckURL": "/talks/decks/slides-kubecon-na-2020-service-mesh-specifications-and-why-they-matter-in-your-deployment.html"
@@ -16,9 +11,30 @@
         "deckURL": "/talks/decks/#"
     },
     {
+        "eventName": "DevOps Paradox",
+        "eventURL": "https://www.devopsparadox.com"
+    },
+    {
+        "eventName": "O'Reilly Online Live Training - December 2020: Introduction to Istio",
+        "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920422716/",
+        "deckURL": ""
+    }
+   ],
+    "previousTalk": [
+    {
         "eventName": "Open Infrastructure Summit 2020",
         "eventURL": "https://www.openstack.org/summit/2020/summit-schedule/events/24703/its-a-multi-mesh-world",
         "deckURL": "/talks/decks/slides-open-infrastructure-summit-2020-its-a-multi-mesh-world.html"
+    },
+    {
+        "eventName": "All Day DevOps 2020",
+        "eventURL": "https://www.alldaydevops.com/addo-speakers/lee-calcote",
+        "deckURL": "/talks/decks/slides-all-day-devops-2020-solving-the-service-mesh-adopters-dilemma.html"
+    },
+    {
+        "eventName": "O'Reilly Online Live Training - October 2020: Introduction to Istio",
+        "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920282938/",
+        "deckURL": "/talks/decks/slides-oreilly-online-live-training-october-2020-introduction-to-istio.html "
     },
     {
         "eventName": "KubeCon EU 2020 (1)",
@@ -29,26 +45,6 @@
         "eventName": "KubeCon EU 2020 (2)",
         "eventURL": "https://kccnceu20.sched.com/event/alkB/cncf-sig-network-intro-deep-dive-matt-klein-lyft-lee-calcote-layer5",
         "deckURL": "https://docs.google.com/presentation/d/12PNsNawRPuQv0HN4TKxkqYqTfKFycjJndjAa5QkYs_U/edit?usp=sharing"
-    },
-    {
-        "eventName": "DevOps Paradox",
-        "eventURL": "https://www.devopsparadox.com"
-    }
-   ],
-    "previousTalk": [
-    {
-        "eventName": "Open Infrastructure Summit 2020",
-        "eventURL": "https://www.openstack.org/summit/2020/summit-schedule/events/24703/its-a-multi-mesh-world"
-    },
-    {
-        "eventName": "All Day DevOps 2020",
-        "eventURL": "https://www.alldaydevops.com/addo-speakers/lee-calcote",
-        "deckURL": "/talks/decks/slides-all-day-devops-2020-solving-the-service-mesh-adopters-dilemma.html"
-    },
-        {
-        "eventName": "O'Reilly Online Live Training - October 2020: Introduction to Istio",
-        "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920282938/",
-        "deckURL": "/talks/decks/slides-oreilly-online-live-training-october-2020-introduction-to-istio.html "
     },
     {
         "eventName": "OpenShift Commons Gathering 2020",
