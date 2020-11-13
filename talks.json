@@ -5,6 +5,12 @@
         "eventURL": "https://www.openstack.org/summit/2020/summit-schedule/events/24703/its-a-multi-mesh-world"
     },
     {
+        "eventName": "All Day DevOps 2020",
+        "eventURL": "https://www.alldaydevops.com/addo-speakers/lee-calcote",
+        "deckURL": "/decks/slides-all-day-devops-2020-solving-the-service-mesh-adopters-dilemma.html"
+    },
+    
+    {
         "eventName": "OpenShift Commons Gathering 2020",
         "eventURL": "https://commons.openshift.org/gatherings/Community_Development_2020.html#gathering-speakers"
     },
