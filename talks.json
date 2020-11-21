@@ -8,7 +8,12 @@
     {
         "eventName": "KubeCon NA 2020 (2)",
         "eventURL": "https://kccncna20.sched.com/event/etsE/cncf-sig-network-intro-deep-dive-lee-calcote-layer5",
-        "deckURL": "/talks/decks/#"
+        "deckURL": "/talks/decks/slides-kubecon-na-2020-cncf-sig-network-intro-and-deep-dive.pdf"
+    },
+    {
+        "eventName": "KubeCon NA 2020 (3)",
+        "eventURL": "https://sched.co/fMYB",
+        "deckURL": "/talks/decks/slides-kubecon-na-2020-meet-the-maintainers-service-mesh-interface-smi.pdf"
     },
     {
         "eventName": "DevOps Paradox",
