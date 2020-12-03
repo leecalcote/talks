@@ -1,5 +1,19 @@
 {
     "upcomingTalk": [
+        {
+            "eventName":"Service Mesh Fundamentals with Linkerd",
+            "eventURL":"slides-oreilly-online-live-training-december-2020-service-mesh-fundamentals-with-linkerd.html",
+            "deckURL":"slides-oreilly-online-live-training-december-2020-service-mesh-fundamentals-with-linkerd.html"
+        },
+        {
+            "eventName":"O'Reilly Online Live Training - December 2020: Advanced Istio",
+            "eventURL":"https://www.oreilly.com/live-training/courses/advanced-istio/0636920471639/",
+            "deckURL":""
+        },
+        {
+            "eventName":"O'Reilly Online Live Training - December 2020: Introduction to Istio",
+            "eventURL":"https://www.oreilly.com/live-training/courses/introduction-to-istio/0636920422716"
+        },
     {
         "eventName": "KubeCon NA 2020 (1)",
         "eventURL": "https://kccncna20.sched.com/event/ekEz/service-mesh-specifications-and-why-they-matter-in-your-deployment-lee-calcote-naveen-kumar-layer5",
