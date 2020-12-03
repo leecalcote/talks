@@ -55,6 +55,8 @@
 				backgroundTransition: "slide",
 				center: false
 			});
+			Reveal.configure({ pdfMaxPagesPerSlide: 1 });
+			Reveal.configure({ pdfSeparateFragments: false });
 		</script>
 {% if jekyll.environment == 'production' %}
     {% include ga.html %}
