@@ -1,64 +1,59 @@
 {
     "upcomingTalk": [
-        {
-            "eventName":"Service Mesh Fundamentals with Linkerd",
-            "eventURL":"slides-oreilly-online-live-training-december-2020-service-mesh-fundamentals-with-linkerd.html",
-            "deckURL":"slides-oreilly-online-live-training-december-2020-service-mesh-fundamentals-with-linkerd.html"
-        },
-        {
-            "eventName":"O'Reilly Online Live Training - December 2020: Advanced Istio",
-            "eventURL":"https://www.oreilly.com/live-training/courses/advanced-istio/0636920471639/",
-            "deckURL":""
-        },
-        {
-            "eventName":"O'Reilly Online Live Training - December 2020: Introduction to Istio",
-            "eventURL":"https://www.oreilly.com/live-training/courses/introduction-to-istio/0636920422716"
-        },
     {
-        "eventName": "KubeCon NA 2020 (1)",
-        "eventURL": "https://kccncna20.sched.com/event/ekEz/service-mesh-specifications-and-why-they-matter-in-your-deployment-lee-calcote-naveen-kumar-layer5",
-        "deckURL": "/talks/decks/slides-kubecon-na-2020-service-mesh-specifications-and-why-they-matter-in-your-deployment.html"
+        "eventName":"Service Mesh Fundamentals with Linkerd",
+        "eventURL":"slides-oreilly-online-live-training-december-2020-service-mesh-fundamentals-with-linkerd.html",
+        "deckURL":"slides-oreilly-online-live-training-december-2020-service-mesh-fundamentals-with-linkerd.html"
     },
     {
-        "eventName": "KubeCon NA 2020 (2)",
-        "eventURL": "https://kccncna20.sched.com/event/etsE/cncf-sig-network-intro-deep-dive-lee-calcote-layer5",
-        "deckURL": "/talks/decks/slides-kubecon-na-2020-cncf-sig-network-intro-and-deep-dive.pdf"
+        "eventName":"O'Reilly Online Live Training - December 2020: Introduction to Istio",
+        "eventURL":"https://www.oreilly.com/live-training/courses/introduction-to-istio/0636920422716"
     },
     {
-        "eventName": "KubeCon NA 2020 (3)",
-        "eventURL": "https://sched.co/fMYB",
-        "deckURL": "/talks/decks/slides-kubecon-na-2020-meet-the-maintainers-service-mesh-interface-smi.pdf"
+        "eventName":"O'Reilly Online Live Training - December 2020: Advanced Istio",
+        "eventURL":"https://www.oreilly.com/live-training/courses/advanced-istio/0636920471639/",
+        "deckURL":""
     },
     {
         "eventName": "DevOps Paradox",
         "eventURL": "https://www.devopsparadox.com"
-    },
-    {
-        "eventName": "O'Reilly Online Live Training - December 2020: Introduction to Istio",
-        "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920422716/",
-        "deckURL": ""
     }
    ],
     "previousTalk": [
+        {
+            "eventName": "KubeCon NA 2020 (1)",
+            "eventURL": "https://kccncna20.sched.com/event/ekEz/service-mesh-specifications-and-why-they-matter-in-your-deployment-lee-calcote-naveen-kumar-layer5",
+            "deckURL": "slides-kubecon-na-2020-service-mesh-specifications-and-why-they-matter-in-your-deployment.html"
+        },
+        {
+            "eventName": "KubeCon NA 2020 (2)",
+            "eventURL": "https://kccncna20.sched.com/event/etsE/cncf-sig-network-intro-deep-dive-lee-calcote-layer5",
+            "deckURL": "slides-kubecon-na-2020-cncf-sig-network-intro-and-deep-dive.pdf"
+        },
+        {
+            "eventName": "KubeCon NA 2020 (3)",
+            "eventURL": "https://sched.co/fMYB",
+            "deckURL": "slides-kubecon-na-2020-meet-the-maintainers-service-mesh-interface-smi.pdf"
+        },
     {
         "eventName": "Open Infrastructure Summit 2020",
         "eventURL": "https://www.openstack.org/summit/2020/summit-schedule/events/24703/its-a-multi-mesh-world",
-        "deckURL": "/talks/decks/slides-open-infrastructure-summit-2020-its-a-multi-mesh-world.html"
+        "deckURL": "slides-open-infrastructure-summit-2020-its-a-multi-mesh-world.html"
     },
     {
         "eventName": "All Day DevOps 2020",
         "eventURL": "https://www.alldaydevops.com/addo-speakers/lee-calcote",
-        "deckURL": "/talks/decks/slides-all-day-devops-2020-solving-the-service-mesh-adopters-dilemma.html"
+        "deckURL": "slides-all-day-devops-2020-solving-the-service-mesh-adopters-dilemma.html"
     },
     {
         "eventName": "O'Reilly Online Live Training - October 2020: Introduction to Istio",
         "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920282938/",
-        "deckURL": "/talks/decks/slides-oreilly-online-live-training-october-2020-introduction-to-istio.html "
+        "deckURL": "slides-oreilly-online-live-training-october-2020-introduction-to-istio.html "
     },
     {
         "eventName": "KubeCon EU 2020 (1)",
         "eventURL": "https://kccnceu20.sched.com/event/Zetg/discreetly-studying-the-effects-of-individual-traffic-control-functions-lee-calcote-layer5?iframe=no&w=100%&sidebar=yes&bg=no",
-        "deckURL": "/talks/decks/slides-kubecon-eu-2020-discreetly-studying-the-effects-of-individual-traffic-control-functions.html"
+        "deckURL": "slides-kubecon-eu-2020-discreetly-studying-the-effects-of-individual-traffic-control-functions.html"
     },
     {
         "eventName": "KubeCon EU 2020 (2)",
@@ -84,22 +79,22 @@
     {
         "eventName": "Open Source 101 at Home",
         "eventURL": "https://opensource101.com/events/austin-2020/",
-        "deckURL": "/talks/decks/slides-open-source-101-at-home-solving-the-service-mesh-adopters-dilemma.html"
+        "deckURL": "slides-open-source-101-at-home-solving-the-service-mesh-adopters-dilemma.html"
     },
     {
         "eventName": "DockerCon 2020",
         "eventURL": "https://docker.events.cube365.net/docker/dockercon/content/Videos/63TCCNpzDC7Xxnm8b",
-        "deckURL": "/talks/decks/slides-dockercon-2020-service-meshing-with-docker-desktop-and-webassembly.html"
+        "deckURL": "slides-dockercon-2020-service-meshing-with-docker-desktop-and-webassembly.html"
     },
     {
         "eventName": "O'Reilly Online Live Training - Introduction to Istio",
         "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920368915/",
-        "deckURL": "/talks/decks/oreilly-online-live-training-march-2020-introduction-to-istio.html"
+        "deckURL": "oreilly-online-live-training-march-2020-introduction-to-istio.html"
     },
     {
         "eventName": "Cloud Native Austin April 2020: Meshery",
         "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/267784090/",
-        "deckURL":"/talks/decks/slides-cloud-native-austin-april-2020-meshery-the-service-mesh-management-plane.html"
+        "deckURL":"slides-cloud-native-austin-april-2020-meshery-the-service-mesh-management-plane.html"
     },
     {
         "eventName": "Microservices, APIs and Integration - Silicon Valley",
@@ -107,18 +102,18 @@
     },
     {
         "eventName": "Thoma Bravo CTO Summit 2020",
-        "deckURL": "/talks/decks/slides-thoma-bravo-engineering-summit-2020-the-enterprise-path-to-service-mesh-architectures.html"
+        "deckURL": "slides-thoma-bravo-engineering-summit-2020-the-enterprise-path-to-service-mesh-architectures.html"
     },
     {
         "eventName": "Docker Captains Roundtable 2020",
         "eventURL": "https://www.docker.com/community/captains",
-        "deckURL": "/talks/decks/slides-docker-captains-2020-meshery-the-multi-service-mesh-manager.html",
+        "deckURL": "slides-docker-captains-2020-meshery-the-multi-service-mesh-manager.html",
         "videoURL": "https://www.youtube.com/watch?v=uMFZi5SoNR8"
     }, 
     {
         "eventName": "Cloud Native Austin January 2020: Istio",
         "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/267271852/",
-        "deckURL": "/talks/decks/slides-cloud-native-austin-january-2020-introduction-to-istio.html",
+        "deckURL": "slides-cloud-native-austin-january-2020-introduction-to-istio.html",
         "videoURL": "https://www.youtube.com/watch?v=JFtjm0kLIss"
     },
     {
@@ -129,29 +124,29 @@
     {
         "eventName": "Cloud Native Austin 2019",
         "eventURL": "https://www.meetup.com/Cloud-Native-Austin/events/266282582/",
-        "deckURL": "/talks/decks/slides-cloud-native-austin-2019-service-meshes-why-you-need-one-and-which-one-you-need.html",
+        "deckURL": "slides-cloud-native-austin-2019-service-meshes-why-you-need-one-and-which-one-you-need.html",
         "videoURL": "https://www.youtube.com/watch?v=l6jwMtuZlZw"
     },
     {
         "eventName": "Network Service Mesh Con 2019",
         "eventURL": "https://networkservicemesh.io/events/nsmcon2019/",
-        "deckURL": "/talks/decks/slides-nsmcon-kubecon-na-2019-adopting-network-service-mesh-with-meshery.html"
+        "deckURL": "slides-nsmcon-kubecon-na-2019-adopting-network-service-mesh-with-meshery.html"
     },
     {
         "eventName": "All Day DevOps 2019",
         "eventURL": "https://www.alldaydevops.com/addo-speakers/lee-calcote",
-        "deckURL": "/talks/decks/slides-all-day-devops-2019-establishing-an-open-source-office.html",
+        "deckURL": "slides-all-day-devops-2019-establishing-an-open-source-office.html",
         "linkURL": ["https://www.alldaydevops.com/blog/establishing-an-open-source-program-office"]
     },
     {
         "eventName": "O'Reilly Live Online Training",
         "eventURL": "https://learning.oreilly.com/live-training/courses/introduction-to-istio/0636920292869/",
-        "deckURL": "/talks/decks/slides-oreilly-live-online-training-introduction-to-istio-august-2019.html"
+        "deckURL": "slides-oreilly-live-online-training-introduction-to-istio-august-2019.html"
     },
     {
         "eventName": "Lakeside HackFest 2019",
         "eventURL": "https://www.lakeside-hackfest.com/speakers/#lee-calcote",
-        "deckURL": "/talks/decks/slides-lakeside-hackfest-2019-adopting-a-service-mesh.html"
+        "deckURL": "slides-lakeside-hackfest-2019-adopting-a-service-mesh.html"
     },
     {
         "eventName": "Pure Storage Accelerate 2019",
@@ -165,7 +160,7 @@
         "eventName": "KubeCon EU 2019 (1)",
         "eventURL": "https://kccnceu19.sched.com/event/MPf7/service-meshes-at-what-cost-lee-calcote-layer5-girish-ranganathan-solarwinds?iframe=no&w=100%&sidebar=yes&bg=no",
         "videoURL": "https://www.youtube.com/watch?v=LxP-yHrKL4M&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE",
-        "deckURL": "/talks/decks/slides-kubecon-eu-2019-service-meshes-at-what-cost.html"
+        "deckURL": "slides-kubecon-eu-2019-service-meshes-at-what-cost.html"
     },
     {
         "eventName": "KubeCon EU 2019 (2)",
@@ -176,32 +171,32 @@
     {
         "eventName": "KubeCon EU 2019 (3)",
         "eventURL": "https://www.meetup.com/Barcelona-CNCF-Istio-Meetup/events/261434631/",
-        "deckURL": "/talks/decks/slides-istio-meetup-kubecon-eu-2019-istio-at-scale-large-and-small.html"
+        "deckURL": "slides-istio-meetup-kubecon-eu-2019-istio-at-scale-large-and-small.html"
     },
     {
         "eventName": "Cloud Native Rejekts EU 2019",
         "eventURL": "https://cfp.cloud-native.rejekts.io/cloud-native-rejekts-eu-2019/speaker/GZQTEM/",
-        "deckURL": "/talks/decks/slides-cloud-native-rejekts-2019-evaluating-service-meshes.html"
+        "deckURL": "slides-cloud-native-rejekts-2019-evaluating-service-meshes.html"
     },
     {
         "eventName": "Container World 2019",
         "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
-        "deckURL": "/talks/decks/slides-container-world-2019-service-meshes-but-at-what-cost.html"
+        "deckURL": "slides-container-world-2019-service-meshes-but-at-what-cost.html"
     },    
     {
         "eventName": "DockerCon 2019",
         "eventURL": "https://dockercon19.smarteventscloud.com/connect/speakerDetail.ww?PERSON_ID=E9B84BCC58D0B32D5AD207DFC28DCD40&tclass=popup",
-        "deckURL": "/talks/decks/slides-dockercon-2019-establishing-an-open-source-office.html"
+        "deckURL": "slides-dockercon-2019-establishing-an-open-source-office.html"
     },
     {
         "eventName": "DockerCon 2019 Open Source Summit",
         "eventURL": "https://dockercon19.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=309149&tclass=popup#.XJxH-TOcbjI.twitter",
-        "deckURL": "/talks/decks/slides-dockercon-2019-open-source-summit-service-meshes.html"
+        "deckURL": "slides-dockercon-2019-open-source-summit-service-meshes.html"
     },
     {
         "eventName": "InnoTech San Antonio 2019",
         "eventURL": "https://innotechsanantonio2019.sched.com/event/Lmlb/the-enterprise-path-to-service-mesh-architectures?iframe=no&w=100%&sidebar=yes&bg=no",
-        "deckURL": "/talks/decks/slides-innotech-san-antonio-2019-the-enterprise-path-to-service-mesh.html"
+        "deckURL": "slides-innotech-san-antonio-2019-the-enterprise-path-to-service-mesh.html"
     },
     {
         "eventName": "Service Mesh Day 2019",
@@ -218,18 +213,18 @@
     {
         "eventName": "Open Source Leadership Summit 2019",
         "eventURL": "https://osls19.sched.com/event/LG6f/establishing-an-open-source-program-office-lee-calcote-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no",
-        "deckURL": "/talks/decks/slides-osls-2019-establishing-an-open-source-office.html"
+        "deckURL": "slides-osls-2019-establishing-an-open-source-office.html"
     },
     {
         "eventName": "SCaLE 17x",
         "eventURL": "https://www.socallinuxexpo.org/scale/17x/presentations/establishing-open-source-program-office",
-        "deckURL": "/talks/decks/slides-scale17x-establishing-an-open-source-program-office.html"
+        "deckURL": "slides-scale17x-establishing-an-open-source-program-office.html"
     },
     {
         "eventName": "KubeCon NA 2018 (1)",
         "eventURL": "https://kccna18.sched.com/event/Gram/tutorial-using-istio-lee-calcote-girish-ranganathan-solarwinds?iframe=yes&w=100%&sidebar=yes&bg=no#",
         "videoURL": "https://www.youtube.com/watch?v=jlHLZqS7Vek&t=595s&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE&index=2",
-        "deckURL": "/talks/decks/slides-kubecon-na-2018-using-istio-workshop.html",
+        "deckURL": "slides-kubecon-na-2018-using-istio-workshop.html",
         "linkURL": ["https://www.cloudops.com/2019/01/cncf-ambassador-spill-takeaways-from-kubecon-cloudnativecon/"]
     },
     {
@@ -247,39 +242,39 @@
     {
         "eventName": "DockerCon EU 2018",
         "eventURL": "https://dockerconeurope18.smarteventscloud.com/connect/search.ww#loadSearch-searchPhrase=&searchType=session&tc=0&sortBy=dayTime&i(1037)=&p=",
-        "deckURL": "/talks/decks/slides-dockercon-eu-2018-using-istio-workshop.html"
+        "deckURL": "slides-dockercon-eu-2018-using-istio-workshop.html"
     },
     {
         "eventName": "Innovate Summit 2018",
         "eventURL": "https://innovate.solarwinds.io",
-        "deckURL": "/talks/decks/slides-innovate-day-2019-using-istio-workshop.html"
+        "deckURL": "slides-innovate-day-2019-using-istio-workshop.html"
     },
     {
         "eventName": "Velocity London 2018",
         "eventURL": "https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/70506",
-        "deckURL": "/talks/decks/slides-velocity-london-2018-using-istio-workshop.html",
+        "deckURL": "slides-velocity-london-2018-using-istio-workshop.html",
         "videoURL": "https://www.youtube.com/watch?v=pQF_-U5Pzl4&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE&index=2&t=0s"
     },
     {
         "eventName": "DeveloperWeek Austin 2018",
         "eventURL": "https://developerweekaustin2018.sched.com/event/GmKq/pro-talk-linux-containers-101-from-zero-to-hero?iframe=yes&w=100%&sidebar=yes&bg=no",
-        "deckURL": "/talks/decks/slides-developerweek-austin-2018-linux-containers-101",
+        "deckURL": "slides-developerweek-austin-2018-linux-containers-101",
         "linkURL": ["https://containerjournal.com/2018/09/17/automation-and-orchestration-in-a-container-world/"]
     },
     {
         "eventName": "UT Austin - Electrical and Computer Engineering",
         "eventURL": "#",
-        "deckURL": "/talks/decks/slides-ut-austin-ece-what-it-means-to-be-cloud-native.html"
+        "deckURL": "slides-ut-austin-ece-what-it-means-to-be-cloud-native.html"
     },
     {
         "eventName": "InnoTech Austin 2018 (1)",
         "eventURL": "https://innotechaustin2018.sched.com/event/G1Ow/decoupling-devops-with-service-meshes?iframe=no",
-        "deckURL": "/talks/decks/slides-innotech-austin-2018-decoupling-devops-with-service-meshes.html"
+        "deckURL": "slides-innotech-austin-2018-decoupling-devops-with-service-meshes.html"
     },
     {
         "eventName": "InnoTech Austin 2018 (2) ",
         "eventURL": "https://innotechaustin2018.sched.com/event/G1Ox/establishing-an-open-source-program-office",
-        "deckURL": "/talks/decks/slides-innotech-austin-2018-establishing-an-open-source-office.html"
+        "deckURL": "slides-innotech-austin-2018-establishing-an-open-source-office.html"
     },
     {
         "eventName": "Oracle Get Function'l with Kubernetes",
@@ -308,7 +303,7 @@
     {
         "eventName": "InnoTech San Antonio 2018 (1)",
         "eventURL": "https://innotechsanantonio2018.sched.com/event/E6AO/what-does-it-mean-to-be-cloud-native-from-containers-to-functions?iframe=yes&w=750&sidebar=no&bg=no#",
-        "deckURL": "https://calcotestudios.com/talks/decks/slides-innotech-san-antonio-2018-what-it-means-to-be-cloud-native.html"
+        "deckURL": "https://calcotestudios.comslides-innotech-san-antonio-2018-what-it-means-to-be-cloud-native.html"
     },
     {
         "eventName": "InnoTech San Antonio 2018 (2)",
@@ -317,23 +312,23 @@
     {
         "eventName": "Containers and Microservices Summit",
         "eventURL": "https://www.brighttalk.com/webinar/service-meshes-microservices-networking-at-layer-5/",
-        "deckURL": "/talks/decks/slides-the-containers-and-microservices-summit-2018-layer-5-networking-with-service-meshes.html"
+        "deckURL": "slides-the-containers-and-microservices-summit-2018-layer-5-networking-with-service-meshes.html"
     },
     {
         "eventName": "SCaLE 16x (1)",
         "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote",
-        "deckURL": "/talks/decks/slides-scale-16x-istio-service-meshes-and-why-you-might-want-one.html"
+        "deckURL": "slides-scale-16x-istio-service-meshes-and-why-you-might-want-one.html"
     },
     {
         "eventName": "SCaLE 16x (2)",
         "eventURL": "https://www.socallinuxexpo.org/scale/16x/speakers/lee-calcote",
-        "deckURL": "/talks/decks/slides-scale-16x-using-prometheus-remote-storage-adapters.html",
+        "deckURL": "slides-scale-16x-using-prometheus-remote-storage-adapters.html",
         "videoURL": "https://www.youtube.com/watch?v=03QBrg-qzZE&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
     },
     {
         "eventName": "Container World 2018 (1)",
         "eventURL": "https://tmt.knect365.com/container-world/speakers/lee-calcote",
-        "deckURL": "https://calcotestudios.com/talks/decks/slides-container-world-2018-istio-the-extensible-service-mesh-observability-at-layer-5.html"
+        "deckURL": "https://calcotestudios.comslides-container-world-2018-istio-the-extensible-service-mesh-observability-at-layer-5.html"
     },
     {
         "eventName": "Container World 2018 (2)",
@@ -342,32 +337,32 @@
     {
         "eventName": "O'Reilly: Istio & nginMesh",
         "eventURL": "http://www.oreilly.com/pub/e/3926",
-        "deckURL": "https://calcotestudios.com/talks/decks/slides-istio-the-extensible-service-mesh-nginmesh.html",
+        "deckURL": "https://calcotestudios.comslides-istio-the-extensible-service-mesh-nginmesh.html",
         "videoURL": "https://www.nginx.com/resources/webinars/istio-the-extensible-service-mesh/",
         "linkURL": ["https://www.oreilly.com/ideas/how-to-customize-an-istio-service-mesh"]
     },
     {
         "eventName": "Innovate Summit 2017 (1)",
         "eventURL": "http://innovate.solarwinds.io",
-        "deckURL": "/talks/decks/slides-innovate-summit-2017-prometheus-long-term-storage.html",
+        "deckURL": "slides-innovate-summit-2017-prometheus-long-term-storage.html",
         "linkURL": ["https://www.zive.cz/clanky/pozvanka-na-konferenci-innovate-summit-innovation-goes-social-at-solarwinds-innovate-summit-2017/sc-3-a-190647/default.aspx"]
     },
     {
         "eventName": "Innovate Summit 2017 (2)",
         "eventURL": "http://innovate.solarwinds.io",
-        "deckURL": "/talks/decks/slides-innovate-summit-2017-state-of-serverless-the-cncf.html",
+        "deckURL": "slides-innovate-summit-2017-state-of-serverless-the-cncf.html",
         "linkURL": ["https://www.zive.cz/clanky/pozvanka-na-konferenci-innovate-summit-innovation-goes-social-at-solarwinds-innovate-summit-2017/sc-3-a-190647/default.aspx"]
     },
     {
         "eventName": "KubeCon + CloudNativeCon NA 2017 Meetup",
         "eventURL": "https://www.meetup.com/Microservices-and-Containers-Austin/events/245513825/",
-        "deckURL": "/talks/decks/slides-kubecon-na-2017-prometheus-alertmanager-long-term-storage",
+        "deckURL": "slides-kubecon-na-2017-prometheus-alertmanager-long-term-storage",
         "videoURL":"https://www.facebook.com/austintechlive/videos/1726207290757734/"
     },
     {
         "eventName": "UT Austin – CS378: Virtualization",
         "eventURL": "http://www.cs.utexas.edu/~vijay/cs378-f17/schedule.htm",
-        "deckURL": "/talks/decks/slides-introduction-to-container-networking.html"
+        "deckURL": "slides-introduction-to-container-networking.html"
     },
     {
         "eventName": "SDxE - Software-Defined Enterprise Conference 2017",
@@ -392,7 +387,7 @@
     {
         "eventName": "KubeCon EU 2017 (1)",
         "eventURL": "https://cloudnativeeu2017.sched.com/event/9Td7?iframe=no",
-        "deckURL": "/talks/decks/slides-kubecon-eu-2017-understanding-and-extending-prometheus-alertmanager.html",
+        "deckURL": "slides-kubecon-eu-2017-understanding-and-extending-prometheus-alertmanager.html",
         "videoURL": "https://youtu.be/jpb6fLQOgn4&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
     },
     {
@@ -410,13 +405,13 @@
     {
         "eventName": "SCaLE 15x (1)",
         "eventURL": "http://www.socallinuxexpo.org/scale/15x/presentations/over-under-container-networking",
-        "deckURL": "https://calcotestudios.com/talks/decks/slides-scale15x-the-over-under-on-container-networking.html",
+        "deckURL": "https://calcotestudios.comslides-scale15x-the-over-under-on-container-networking.html",
         "videoURL": "https://www.youtube.com/watch?v=l9KN6SUAqKY&t=5h17m8s&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
     },
     {  
         "eventName": "SCaLE 15x (2)",
         "eventURL": "http://www.socallinuxexpo.org/scale/15x/presentations/unik-unikernel-compiler-and-runtime",
-        "deckURL": "/talks/decks/slides-scale15x-unik-unikernel-compiler-and-runtime.html",
+        "deckURL": "slides-scale15x-unik-unikernel-compiler-and-runtime.html",
         "videoURL": "https://youtu.be/7PKMctKf2JQ?t=3h30m15s&list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE"
     },
     {

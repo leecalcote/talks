@@ -6,7 +6,7 @@ $(document).ready(function() {
               var temp = '<li><a href="'+ t.eventURL + '">' + t.eventName + '</a>';
               //$('#upcoming').append('<li><a href="'+ t.eventURL + '">' + t.eventName + '</a>');
               if (t.deckURL)
-                temp += ' | <a class="deck" href="'+t.deckURL+'">deck</a>';
+                temp += ' | <a class="deck" href="/talks/decks/'+t.deckURL+'">deck</a>';
               
               if (t.videoURL)
                 temp += ' | <a class="deck" href="'+t.videoURL+'">video</a>';
@@ -38,7 +38,7 @@ $(document).ready(function() {
               var temp = '<li><a href="'+ t.eventURL + '">' + t.eventName + '</a>';
               
               if (t.deckURL)
-                temp += ' | <a class="deck" href="'+t.deckURL+'">deck</a>';
+                temp += ' | <a class="deck" href="/talks/decks/'+t.deckURL+'">deck</a>';
               
               if (t.videoURL)
                 temp += ' | <a class="deck" href="'+t.videoURL+'">video</a>';
