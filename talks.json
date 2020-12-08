@@ -6,6 +6,10 @@
         "deckURL":"slides-oreilly-online-live-training-december-2020-service-mesh-fundamentals-with-linkerd.html"
     },
     {
+        "eventName":"Virtual Cloud Native Ambassador Day",
+        "eventURL":"https://community.cncf.io/events/details/cncf-cncf-ambassadors-presents-virtual-cloud-native-ambassador-day/"
+    },
+    {
         "eventName":"O'Reilly Online Live Training - December 2020: Introduction to Istio",
         "eventURL":"https://www.oreilly.com/live-training/courses/introduction-to-istio/0636920422716"
     },
