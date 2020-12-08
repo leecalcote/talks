@@ -7,7 +7,8 @@
     },
     {
         "eventName":"Virtual Cloud Native Ambassador Day",
-        "eventURL":"https://community.cncf.io/events/details/cncf-cncf-ambassadors-presents-virtual-cloud-native-ambassador-day/"
+        "eventURL":"https://community.cncf.io/events/details/cncf-cncf-ambassadors-presents-virtual-cloud-native-ambassador-day/",
+        "videoURL": "https://youtu.be/C_oUQT8284Q?t=5340"
     },
     {
         "eventName":"O'Reilly Online Live Training - December 2020: Introduction to Istio",
