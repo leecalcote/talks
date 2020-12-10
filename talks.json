@@ -12,7 +12,8 @@
     },
     {
         "eventName":"O'Reilly Online Live Training - December 2020: Introduction to Istio",
-        "eventURL":"https://www.oreilly.com/live-training/courses/introduction-to-istio/0636920422716"
+        "eventURL":"https://www.oreilly.com/live-training/courses/introduction-to-istio/0636920422716",
+        "deckURL":"slides-oreilly-online-live-training-december-2020-introduction-to-istio.html"
     },
     {
         "eventName":"O'Reilly Online Live Training - December 2020: Advanced Istio",
