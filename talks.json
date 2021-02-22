@@ -1,5 +1,10 @@
 {
     "upcomingTalk": [
+        {
+            "eventName":"IstioCon 2021",
+            "eventURL":"https://events.istio.io/istiocon-2021/workshops/using-istio/",
+            "deckURL":"slides-istiocon-2021-using-istio.html"
+        },
     {
         "eventName":"Service Mesh Fundamentals with Linkerd",
         "eventURL":"slides-oreilly-online-live-training-december-2020-service-mesh-fundamentals-with-linkerd.html",
