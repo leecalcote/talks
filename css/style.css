@@ -88,7 +88,7 @@ li.seagate { list-style-image: url('https://blog.gingergeek.com/wp-content/uploa
 li.matrix {	list-style-image: url('https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/cube-sh-small.png?resize=16%2C16'); }
 li.email {	list-style-image: url('https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/02/email.png?resize=16%2C16'); }
 li.twitter { list-style-image: url('https://twitter.com/favicon.ico'); }
-li.li {	    list-style-image: url('https://www.linkedin.com/favicon.ico'); }
+li.li {	    list-style-image: url('https://www.linkedin.com/favicon.ico'); width:16px; }
 li.github {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2009/02/github.png'); }
 li.medium {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2009/02/medium.png'); }
 li.aboutme {list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/aboutme.png'); }
