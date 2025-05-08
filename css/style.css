@@ -78,10 +78,16 @@ div.talks {
     width: 40px;
   }
 }
-
+li.list-style-image:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
 li.oreilly { list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2017/03/oreilly.png'); }
 li.cisco {  list-style-image: url('https://www.cisco.com/favicon.ico'); }
-li.tns {    list-style-image: url('https://thenewstack.io/favicon.ico'); }
+li.tns {    list-style-image: url('https://thenewstack.io/favicon.ico'); width: 16px; height: 16px; }
 li.gg {     list-style-image: url('https://blog.gingergeek.com/favicon.ico'); }
 li.nw {	    list-style-image: url('https://www.infoworld.com/www.idge.nww/favicon.ico'); }
 li.seagate { list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/seagate.png'); }
