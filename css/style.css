@@ -85,20 +85,21 @@ li.list-style-image:before {
   height: 16px;
   margin-right: 5px;
 }
-li.oreilly { list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2017/03/oreilly.png'); }
-li.cisco {  list-style-image: url('https://www.cisco.com/favicon.ico'); }
+li.oreilly { list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2017/03/oreilly.png'); width: 16px; height: 16px;}
+li.cisco {  list-style-image: url('https://www.cisco.com/favicon.ico'); width: 16px; height: 16px;}
 li.tns {    list-style-image: url('https://thenewstack.io/favicon.ico'); width: 16px; height: 16px; }
 li.gg {     list-style-image: url('https://blog.gingergeek.com/favicon.ico'); }
-li.nw {	    list-style-image: url('https://www.infoworld.com/www.idge.nww/favicon.ico'); }
-li.seagate { list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/seagate.png'); }
-li.matrix {	list-style-image: url('https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/cube-sh-small.png?resize=16%2C16'); }
-li.email {	list-style-image: url('https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/02/email.png?resize=16%2C16'); }
-li.twitter { list-style-image: url('https://twitter.com/favicon.ico'); }
+li.nw {	    list-style-image: url('https://www.infoworld.com/www.idge.nww/favicon.ico'); width: 16px; height: 16px; }
+li.seagate { list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/seagate.png'); width: 16px; height: 16px; }
+li.matrix {	list-style-image: url('https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/cube-sh-small.png'); width: 16px; height: 16px; }
+li.email {	list-style-image: url('https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/02/email.png'); width: 16px; height: 16px;}
+li.twitter { list-style-image: url('https://x.com/favicon.ico'); }
 li.li {	    list-style-image: url('https://www.linkedin.com/favicon.ico'); width:16px; }
-li.github {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2009/02/github.png'); }
-li.medium {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2009/02/medium.png'); }
-li.aboutme {list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/aboutme.png'); }
-li.bookme {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/bookme.png'); }
+li.github {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2009/02/github.png'); width: 16px; height: 16px;}
+li.medium {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2009/02/medium.png'); width: 16px; height: 16px;}
+li.aboutme {list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/aboutme.png'); width: 16px; height: 16px;}
+li.bookme {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/bookme.png'); width: 16px; height: 16px;}
 li.disqus {	list-style-image: url('https://blog.gingergeek.com/wp-content/uploads/2016/07/disqus.png'); }
-li.l5 {	  list-style-image: url('/talks/img/layer5-5.png'); }
+li.l5 {	  list-style-image: url('/talks/img/layer5-5.png'); width: 16px; height: 16px;}
+
 img.youtube {  content:url('/talks/img/youtube_social_icon_dark.png'); background-repeat: no-repeat;}
