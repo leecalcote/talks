@@ -4,6 +4,9 @@ site:
 	$(jekyll) serve --drafts --base=/talks --livereload
 	open http://localhost:4000/talks
 
+site-no-incremental:
+	bundle install; $(jekyll) serve --drafts --livereload --config _config.yml
+
 # With Jekyll Manager interface
 site-admin:
 	ADMIN=on $(jekyll) serve --drafts --base=/talks
