@@ -1,0 +1,164 @@
+---
+layout: null
+permalink: /tasks-vault-sync.html
+comments: false
+sharing: false
+footer: true
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tasks Vault Sync</title>
+  <meta name="description" content="Tasks Vault Sync helps Lee organize the day by keeping email and calendar events in one place.">
+  <link rel="stylesheet" href="/talks/css/style.css">
+  <style>
+    :root {
+      --navy: #1f5283;
+      --navy-deep: #163a5c;
+      --sky: #286cac;
+      --card: #f4f6f8;
+      --ink: #1a1a1a;
+      --muted: #4a5560;
+    }
+
+    * { box-sizing: border-box; }
+
+    body.tvs-page {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      color: var(--ink);
+      background-color: #0e2438;
+      background-image:
+        linear-gradient(160deg, rgba(15, 36, 56, 0.82), rgba(31, 82, 131, 0.72)),
+        url("/talks/img/Lee Calcote - CloudNativeDay.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    .tvs-wrap {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.25rem 3rem;
+    }
+
+    .tvs-card {
+      width: min(640px, 100%);
+      background: var(--card);
+      border-radius: 20px;
+      padding: 2rem 2rem 1.75rem;
+      text-align: center;
+      box-shadow:
+        -10px 0 13px -7px var(--navy),
+        10px 0 13px -7px var(--navy),
+        5px 5px 30px 20px color-mix(in srgb, var(--sky) 70%, transparent);
+    }
+
+    .tvs-brand {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.85rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.35rem;
+    }
+
+    .tvs-brand img {
+      width: 50px;
+      height: 50px;
+      display: block;
+      object-fit: contain;
+    }
+
+    .tvs-card h1 {
+      margin: 0;
+      font-size: clamp(1.6rem, 4vw, 2.15rem);
+      line-height: 1.2;
+      color: var(--navy-deep);
+    }
+
+    .tvs-slug {
+      margin: 0.35rem 0 0;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--muted);
+      letter-spacing: 0.02em;
+    }
+
+    .tvs-copy {
+      margin: 1.35rem 0 0;
+      text-align: left;
+    }
+
+    .tvs-copy p {
+      margin: 0 0 1rem;
+      line-height: 1.55;
+      color: #2c333a;
+    }
+
+    .tvs-copy h2 {
+      margin: 1.25rem 0 0.65rem;
+      font-size: 1.1rem;
+      font-weight: 650;
+      color: var(--navy);
+    }
+
+    .tvs-cta {
+      display: inline-block;
+      margin-top: 0.35rem;
+      padding: 0.7rem 1.25rem;
+      border-radius: 999px;
+      background: var(--navy);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 6px 16px rgba(31, 82, 131, 0.35);
+    }
+
+    .tvs-cta:hover,
+    .tvs-cta:focus-visible {
+      background: var(--sky);
+      outline: 2px solid #fff;
+      outline-offset: 2px;
+    }
+
+    @media (max-width: 480px) {
+      .tvs-card { padding: 1.4rem 1.15rem 1.3rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body class="tvs-page">
+  <main class="tvs-wrap">
+    <section class="tvs-card" aria-labelledby="tvs-title">
+      <div class="tvs-brand">
+        <img src="tasks-sync-vault.png" width="50" height="50" alt="">
+        <h1 id="tvs-title">Tasks Vault Sync</h1>
+      </div>
+      <p class="tvs-slug">(tasks-vault-sync)</p>
+
+      <div class="tvs-copy">
+        <p>Welcome to the Tasks Vault Sync application.</p>
+        <p>
+          This simple app helps Lee keep email and calendar events in sync
+          so the day stays organized instead of scattered across inboxes.
+        </p>
+        <h2>Ready when you are</h2>
+        <p>Start using the application at your leisure.</p>
+        <p>
+          <a class="tvs-cta" href="#start">Open Tasks Vault Sync</a>
+        </p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
